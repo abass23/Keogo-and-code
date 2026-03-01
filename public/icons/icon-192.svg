@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192">
+  <rect width="192" height="192" rx="42.24" fill="#09090b"/>
+  <rect x="61.44" y="61.44" width="69.12" height="69.12"
+        rx="8.2944" fill="none" stroke="#22d3ee" stroke-width="4.1472"/>
+  <line x1="49.152" y1="78.72" x2="61.44" y2="78.72" stroke="#22d3ee" stroke-width="3.84" stroke-linecap="round"/>
+  <line x1="130.56" y1="78.72" x2="142.848" y2="78.72" stroke="#22d3ee" stroke-width="3.84" stroke-linecap="round"/>
+  <line x1="78.72" y1="49.152" x2="78.72" y2="61.44" stroke="#22d3ee" stroke-width="3.84" stroke-linecap="round"/>
+  <line x1="78.72" y1="130.56" x2="78.72" y2="142.848" stroke="#22d3ee" stroke-width="3.84" stroke-linecap="round"/>
+  <line x1="49.152" y1="96" x2="61.44" y2="96" stroke="#22d3ee" stroke-width="3.84" stroke-linecap="round"/>
+  <line x1="130.56" y1="96" x2="142.848" y2="96" stroke="#22d3ee" stroke-width="3.84" stroke-linecap="round"/>
+  <line x1="96" y1="49.152" x2="96" y2="61.44" stroke="#22d3ee" stroke-width="3.84" stroke-linecap="round"/>
+  <line x1="96" y1="130.56" x2="96" y2="142.848" stroke="#22d3ee" stroke-width="3.84" stroke-linecap="round"/>
+  <line x1="49.152" y1="113.28" x2="61.44" y2="113.28" stroke="#22d3ee" stroke-width="3.84" stroke-linecap="round"/>
+  <line x1="130.56" y1="113.28" x2="142.848" y2="113.28" stroke="#22d3ee" stroke-width="3.84" stroke-linecap="round"/>
+  <line x1="113.28" y1="49.152" x2="113.28" y2="61.44" stroke="#22d3ee" stroke-width="3.84" stroke-linecap="round"/>
+  <line x1="113.28" y1="130.56" x2="113.28" y2="142.848" stroke="#22d3ee" stroke-width="3.84" stroke-linecap="round"/>
+  <circle cx="78.72" cy="78.72" r="1.7280000000000002" fill="#22d3ee" opacity="0.5"/>
+  <circle cx="96" cy="78.72" r="1.7280000000000002" fill="#22d3ee" opacity="0.5"/>
+  <circle cx="113.28" cy="78.72" r="1.7280000000000002" fill="#22d3ee" opacity="0.5"/>
+  <circle cx="78.72" cy="96" r="1.7280000000000002" fill="#22d3ee" opacity="0.5"/>
+  <circle cx="96" cy="96" r="1.7280000000000002" fill="#22d3ee" opacity="0.5"/>
+  <circle cx="113.28" cy="96" r="1.7280000000000002" fill="#22d3ee" opacity="0.5"/>
+  <circle cx="78.72" cy="113.28" r="1.7280000000000002" fill="#22d3ee" opacity="0.5"/>
+  <circle cx="96" cy="113.28" r="1.7280000000000002" fill="#22d3ee" opacity="0.5"/>
+  <circle cx="113.28" cy="113.28" r="1.7280000000000002" fill="#22d3ee" opacity="0.5"/>
+  <text x="96" y="139.008" text-anchor="middle"
+        font-family="monospace" font-size="21.504" font-weight="bold"
+        fill="#22d3ee" opacity="0.9">K&amp;C</text>
+</svg>

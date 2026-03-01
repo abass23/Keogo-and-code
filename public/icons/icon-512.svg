@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112.64" fill="#09090b"/>
+  <rect x="163.83999999999997" y="163.83999999999997" width="184.32000000000002" height="184.32000000000002"
+        rx="22.1184" fill="none" stroke="#22d3ee" stroke-width="11.0592"/>
+  <line x1="131.07199999999997" y1="209.92" x2="163.83999999999997" y2="209.92" stroke="#22d3ee" stroke-width="10.240000000000002" stroke-linecap="round"/>
+  <line x1="348.15999999999997" y1="209.92" x2="380.928" y2="209.92" stroke="#22d3ee" stroke-width="10.240000000000002" stroke-linecap="round"/>
+  <line x1="209.92" y1="131.07199999999997" x2="209.92" y2="163.83999999999997" stroke="#22d3ee" stroke-width="10.240000000000002" stroke-linecap="round"/>
+  <line x1="209.92" y1="348.15999999999997" x2="209.92" y2="380.928" stroke="#22d3ee" stroke-width="10.240000000000002" stroke-linecap="round"/>
+  <line x1="131.07199999999997" y1="256" x2="163.83999999999997" y2="256" stroke="#22d3ee" stroke-width="10.240000000000002" stroke-linecap="round"/>
+  <line x1="348.15999999999997" y1="256" x2="380.928" y2="256" stroke="#22d3ee" stroke-width="10.240000000000002" stroke-linecap="round"/>
+  <line x1="256" y1="131.07199999999997" x2="256" y2="163.83999999999997" stroke="#22d3ee" stroke-width="10.240000000000002" stroke-linecap="round"/>
+  <line x1="256" y1="348.15999999999997" x2="256" y2="380.928" stroke="#22d3ee" stroke-width="10.240000000000002" stroke-linecap="round"/>
+  <line x1="131.07199999999997" y1="302.08" x2="163.83999999999997" y2="302.08" stroke="#22d3ee" stroke-width="10.240000000000002" stroke-linecap="round"/>
+  <line x1="348.15999999999997" y1="302.08" x2="380.928" y2="302.08" stroke="#22d3ee" stroke-width="10.240000000000002" stroke-linecap="round"/>
+  <line x1="302.08" y1="131.07199999999997" x2="302.08" y2="163.83999999999997" stroke="#22d3ee" stroke-width="10.240000000000002" stroke-linecap="round"/>
+  <line x1="302.08" y1="348.15999999999997" x2="302.08" y2="380.928" stroke="#22d3ee" stroke-width="10.240000000000002" stroke-linecap="round"/>
+  <circle cx="209.92" cy="209.92" r="4.6080000000000005" fill="#22d3ee" opacity="0.5"/>
+  <circle cx="256" cy="209.92" r="4.6080000000000005" fill="#22d3ee" opacity="0.5"/>
+  <circle cx="302.08" cy="209.92" r="4.6080000000000005" fill="#22d3ee" opacity="0.5"/>
+  <circle cx="209.92" cy="256" r="4.6080000000000005" fill="#22d3ee" opacity="0.5"/>
+  <circle cx="256" cy="256" r="4.6080000000000005" fill="#22d3ee" opacity="0.5"/>
+  <circle cx="302.08" cy="256" r="4.6080000000000005" fill="#22d3ee" opacity="0.5"/>
+  <circle cx="209.92" cy="302.08" r="4.6080000000000005" fill="#22d3ee" opacity="0.5"/>
+  <circle cx="256" cy="302.08" r="4.6080000000000005" fill="#22d3ee" opacity="0.5"/>
+  <circle cx="302.08" cy="302.08" r="4.6080000000000005" fill="#22d3ee" opacity="0.5"/>
+  <text x="256" y="370.688" text-anchor="middle"
+        font-family="monospace" font-size="57.34400000000001" font-weight="bold"
+        fill="#22d3ee" opacity="0.9">K&amp;C</text>
+</svg>

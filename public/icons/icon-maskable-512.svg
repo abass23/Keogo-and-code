@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="92.16" fill="#09090b"/>
+  <rect x="175.36" y="175.36" width="161.28" height="161.28"
+        rx="19.3536" fill="none" stroke="#22d3ee" stroke-width="9.6768"/>
+  <line x1="146.68800000000002" y1="215.68" x2="175.36" y2="215.68" stroke="#22d3ee" stroke-width="8.959999999999999" stroke-linecap="round"/>
+  <line x1="336.64" y1="215.68" x2="365.312" y2="215.68" stroke="#22d3ee" stroke-width="8.959999999999999" stroke-linecap="round"/>
+  <line x1="215.68" y1="146.68800000000002" x2="215.68" y2="175.36" stroke="#22d3ee" stroke-width="8.959999999999999" stroke-linecap="round"/>
+  <line x1="215.68" y1="336.64" x2="215.68" y2="365.312" stroke="#22d3ee" stroke-width="8.959999999999999" stroke-linecap="round"/>
+  <line x1="146.68800000000002" y1="256" x2="175.36" y2="256" stroke="#22d3ee" stroke-width="8.959999999999999" stroke-linecap="round"/>
+  <line x1="336.64" y1="256" x2="365.312" y2="256" stroke="#22d3ee" stroke-width="8.959999999999999" stroke-linecap="round"/>
+  <line x1="256" y1="146.68800000000002" x2="256" y2="175.36" stroke="#22d3ee" stroke-width="8.959999999999999" stroke-linecap="round"/>
+  <line x1="256" y1="336.64" x2="256" y2="365.312" stroke="#22d3ee" stroke-width="8.959999999999999" stroke-linecap="round"/>
+  <line x1="146.68800000000002" y1="296.32000000000005" x2="175.36" y2="296.32000000000005" stroke="#22d3ee" stroke-width="8.959999999999999" stroke-linecap="round"/>
+  <line x1="336.64" y1="296.32000000000005" x2="365.312" y2="296.32000000000005" stroke="#22d3ee" stroke-width="8.959999999999999" stroke-linecap="round"/>
+  <line x1="296.32000000000005" y1="146.68800000000002" x2="296.32000000000005" y2="175.36" stroke="#22d3ee" stroke-width="8.959999999999999" stroke-linecap="round"/>
+  <line x1="296.32000000000005" y1="336.64" x2="296.32000000000005" y2="365.312" stroke="#22d3ee" stroke-width="8.959999999999999" stroke-linecap="round"/>
+  <circle cx="215.68" cy="215.68" r="4.032" fill="#22d3ee" opacity="0.5"/>
+  <circle cx="256" cy="215.68" r="4.032" fill="#22d3ee" opacity="0.5"/>
+  <circle cx="296.32000000000005" cy="215.68" r="4.032" fill="#22d3ee" opacity="0.5"/>
+  <circle cx="215.68" cy="256" r="4.032" fill="#22d3ee" opacity="0.5"/>
+  <circle cx="256" cy="256" r="4.032" fill="#22d3ee" opacity="0.5"/>
+  <circle cx="296.32000000000005" cy="256" r="4.032" fill="#22d3ee" opacity="0.5"/>
+  <circle cx="215.68" cy="296.32000000000005" r="4.032" fill="#22d3ee" opacity="0.5"/>
+  <circle cx="256" cy="296.32000000000005" r="4.032" fill="#22d3ee" opacity="0.5"/>
+  <circle cx="296.32000000000005" cy="296.32000000000005" r="4.032" fill="#22d3ee" opacity="0.5"/>
+  <text x="256" y="356.352" text-anchor="middle"
+        font-family="monospace" font-size="50.176" font-weight="bold"
+        fill="#22d3ee" opacity="0.9">K&amp;C</text>
+</svg>
