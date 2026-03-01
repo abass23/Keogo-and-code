@@ -3,9 +3,8 @@ import OpenAI from 'openai';
 import { getSystemPrompt } from '@/lib/simulatorScenarios';
 import type { ChatRequest, ChatResponse } from '@/lib/simulatorTypes';
 
-const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
-
 export async function POST(req: NextRequest) {
+  const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
   try {
     const body: ChatRequest = await req.json();
     const { scenario, history, userMessage } = body;
