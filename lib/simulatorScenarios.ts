@@ -11,7 +11,7 @@ export const SCENARIOS: Record<ScenarioId, Scenario> = {
     aiAvatar: '👔',
     accentColor: 'cyan',
     description:
-      'Practice your daily standup with a Japanese Engineering Manager. Report yesterday's progress, today's plan, and any blockers — all in Keigo.',
+      'Practice your daily standup with a Japanese Engineering Manager. Report yesterday\'s progress, today\'s plan, and any blockers - all in Keigo.',
     hint: 'Try: 「昨日は…を実装しました。今日は…をする予定です。」',
   },
   'ryokan-checkin': {
@@ -57,7 +57,7 @@ You MUST respond with a JSON object with EXACTLY these fields:
   "reply": "<your next Japanese sentence(s) as Tanaka Manager>",
   "reply_romaji": "<romaji transcription of reply>",
   "reply_english": "<English translation of reply>",
-  "grammar_feedback": "<concise feedback on the user's Japanese: particles, verb forms, politeness level — or 'Perfect! No corrections needed.' if correct>",
+  "grammar_feedback": "<concise feedback on the user's Japanese: particles, verb forms, politeness level - or 'Perfect! No corrections needed.' if correct>",
   "corrected_japanese": "<corrected version of ONLY the user's last message, or null if no correction needed>"
 }
 
@@ -77,7 +77,7 @@ You MUST respond with a JSON object with EXACTLY these fields:
   "reply": "<your next Japanese sentence(s) as Sato-san>",
   "reply_romaji": "<romaji transcription of reply>",
   "reply_english": "<English translation of reply>",
-  "grammar_feedback": "<concise feedback on the user's Japanese: particles, verb forms, politeness level — or 'Perfect! No corrections needed.' if correct>",
+  "grammar_feedback": "<concise feedback on the user's Japanese: particles, verb forms, politeness level - or 'Perfect! No corrections needed.' if correct>",
   "corrected_japanese": "<corrected version of ONLY the user's last message, or null if no correction needed>"
 }
 
