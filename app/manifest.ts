@@ -35,7 +35,6 @@ export default function manifest(): MetadataRoute.Manifest {
       {
         src: '/screenshots/dashboard.png',
         sizes: '390x844',
-        // @ts-expect-error — form_factor is valid but not yet in TS types
         form_factor: 'narrow',
       },
     ],
