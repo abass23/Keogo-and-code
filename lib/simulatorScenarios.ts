@@ -33,7 +33,7 @@ export const OPENING_LINES: Record<ScenarioId, { japanese: string; romaji: strin
   'tech-standup': {
     japanese: 'おはようございます。では、デイリースタンドアップを始めましょう。昨日の進捗を教えていただけますか？',
     romaji: 'Ohayou gozaimasu. Dewa, deiri- sutandoappu wo hajimemashou. Kinou no shinchoku wo oshiete itadakemasu ka?',
-    english: 'Good morning. Let's start the daily standup. Could you tell me about yesterday's progress?',
+    english: "Good morning. Let's start the daily standup. Could you tell me about yesterday's progress?",
   },
   'ryokan-checkin': {
     japanese: 'いらっしゃいませ！当館へようこそ。ご予約のお名前をお聞かせいただけますか？',
