@@ -1,0 +1,393 @@
+[
+  {
+    "id": "life-001",
+    "english": "Train",
+    "french": "Train",
+    "japanese": "電車",
+    "romaji": "Densha",
+    "category": "Transport",
+    "track": "life",
+    "subcategory": "train",
+    "example": {
+      "japanese": "電車で行きます。",
+      "romaji": "Densha de ikimasu.",
+      "english": "I will go by train."
+    }
+  },
+  {
+    "id": "life-002",
+    "english": "Ticket",
+    "french": "Billet / Ticket",
+    "japanese": "切符",
+    "romaji": "Kippu",
+    "category": "Transport",
+    "track": "life",
+    "subcategory": "train",
+    "example": {
+      "japanese": "切符を買います。",
+      "romaji": "Kippu wo kaimasu.",
+      "english": "I will buy a ticket."
+    }
+  },
+  {
+    "id": "life-003",
+    "english": "Transfer / Change trains",
+    "french": "Correspondance",
+    "japanese": "乗り換え",
+    "romaji": "Norikae",
+    "category": "Transport",
+    "track": "life",
+    "subcategory": "train",
+    "example": {
+      "japanese": "新宿で乗り換えてください。",
+      "romaji": "Shinjuku de norikae te kudasai.",
+      "english": "Please transfer at Shinjuku."
+    }
+  },
+  {
+    "id": "life-004",
+    "english": "Exit (station)",
+    "french": "Sortie",
+    "japanese": "出口",
+    "romaji": "Deguchi",
+    "category": "Transport",
+    "track": "life",
+    "subcategory": "navigation"
+  },
+  {
+    "id": "life-005",
+    "english": "Entrance",
+    "french": "Entrée",
+    "japanese": "入口",
+    "romaji": "Iriguchi",
+    "category": "Transport",
+    "track": "life",
+    "subcategory": "navigation"
+  },
+  {
+    "id": "life-006",
+    "english": "Where should I transfer?",
+    "french": "Où dois-je changer de train ?",
+    "japanese": "どこで乗り換えればいいですか",
+    "romaji": "Doko de norikaereba ii desu ka",
+    "category": "Transport",
+    "track": "life",
+    "subcategory": "train",
+    "notes": "Extremely useful. Say this to station staff when confused."
+  },
+  {
+    "id": "life-007",
+    "english": "Last train",
+    "french": "Dernier train",
+    "japanese": "終電",
+    "romaji": "Shuuden",
+    "category": "Transport",
+    "track": "life",
+    "subcategory": "train",
+    "example": {
+      "japanese": "終電は何時ですか？",
+      "romaji": "Shuuden wa nanji desu ka?",
+      "english": "What time is the last train?"
+    },
+    "notes": "Critical for evening outings in Japan! Missing the last train is very costly."
+  },
+  {
+    "id": "life-008",
+    "english": "IC card (transit card)",
+    "french": "Carte de transport sans contact",
+    "japanese": "ICカード",
+    "romaji": "IC kaado",
+    "category": "Transport",
+    "track": "life",
+    "subcategory": "train",
+    "notes": "SUICA or PASMO are the most common IC cards in Tokyo. Essential for travel."
+  },
+  {
+    "id": "life-009",
+    "english": "One ticket to ~ please",
+    "french": "Un billet pour ~ s'il vous plaît",
+    "japanese": "〜まで一枚ください",
+    "romaji": "~ made ichimai kudasai",
+    "category": "Transport",
+    "track": "life",
+    "subcategory": "train",
+    "example": {
+      "japanese": "新宿まで一枚ください。",
+      "romaji": "Shinjuku made ichimai kudasai.",
+      "english": "One ticket to Shinjuku please."
+    }
+  },
+  {
+    "id": "life-010",
+    "english": "Right / Left / Straight ahead",
+    "french": "Droite / Gauche / Tout droit",
+    "japanese": "右 / 左 / まっすぐ",
+    "romaji": "Migi / Hidari / Massugu",
+    "category": "Navigation",
+    "track": "life",
+    "subcategory": "navigation"
+  },
+  {
+    "id": "life-011",
+    "english": "Check-in",
+    "french": "Enregistrement / Check-in",
+    "japanese": "チェックイン",
+    "romaji": "Chekkuin",
+    "category": "Accommodation",
+    "track": "life",
+    "subcategory": "ryokan",
+    "example": {
+      "japanese": "チェックインをお願いします。",
+      "romaji": "Chekkuin wo onegai shimasu.",
+      "english": "I would like to check in."
+    }
+  },
+  {
+    "id": "life-012",
+    "english": "Check-out",
+    "french": "Départ / Check-out",
+    "japanese": "チェックアウト",
+    "romaji": "Chekkuauto",
+    "category": "Accommodation",
+    "track": "life",
+    "subcategory": "ryokan"
+  },
+  {
+    "id": "life-013",
+    "english": "Yukata (light cotton kimono for ryokan)",
+    "french": "Yukata (kimono léger pour le ryokan)",
+    "japanese": "浴衣",
+    "romaji": "Yukata",
+    "category": "Accommodation",
+    "track": "life",
+    "subcategory": "ryokan",
+    "notes": "Provided at ryokans. Wrap left side over right (right over left is for funerals)."
+  },
+  {
+    "id": "life-014",
+    "english": "Hot spring / Onsen",
+    "french": "Source chaude",
+    "japanese": "温泉",
+    "romaji": "Onsen",
+    "category": "Accommodation",
+    "track": "life",
+    "subcategory": "ryokan",
+    "example": {
+      "japanese": "温泉はどこですか？",
+      "romaji": "Onsen wa doko desu ka?",
+      "english": "Where is the hot spring?"
+    }
+  },
+  {
+    "id": "life-015",
+    "english": "Breakfast",
+    "french": "Petit-déjeuner",
+    "japanese": "朝食",
+    "romaji": "Choushoku",
+    "category": "Accommodation",
+    "track": "life",
+    "subcategory": "meals",
+    "example": {
+      "japanese": "朝食は何時からですか？",
+      "romaji": "Choushoku wa nanji kara desu ka?",
+      "english": "From what time is breakfast served?"
+    }
+  },
+  {
+    "id": "life-016",
+    "english": "Dinner",
+    "french": "Dîner",
+    "japanese": "夕食",
+    "romaji": "Yuushoku",
+    "category": "Accommodation",
+    "track": "life",
+    "subcategory": "meals"
+  },
+  {
+    "id": "life-017",
+    "english": "I have a reservation",
+    "french": "J'ai une réservation",
+    "japanese": "予約しました",
+    "romaji": "Yoyaku shimashita",
+    "category": "Accommodation",
+    "track": "life",
+    "subcategory": "ryokan",
+    "example": {
+      "japanese": "田中という名前で予約しました。",
+      "romaji": "Tanaka to iu namae de yoyaku shimashita.",
+      "english": "I have a reservation under the name Tanaka."
+    }
+  },
+  {
+    "id": "life-018",
+    "english": "Non-smoking room please",
+    "french": "Une chambre non-fumeur s'il vous plaît",
+    "japanese": "禁煙室をお願いします",
+    "romaji": "Kin-en shitsu wo onegai shimasu",
+    "category": "Accommodation",
+    "track": "life",
+    "subcategory": "ryokan"
+  },
+  {
+    "id": "life-019",
+    "english": "Can I use the Wi-Fi?",
+    "french": "Puis-je utiliser le Wi-Fi ?",
+    "japanese": "Wi-Fiは使えますか",
+    "romaji": "Wi-Fi wa tsukaemasu ka",
+    "category": "Accommodation",
+    "track": "life",
+    "subcategory": "ryokan"
+  },
+  {
+    "id": "life-020",
+    "english": "What do you recommend?",
+    "french": "Qu'est-ce que vous recommandez ?",
+    "japanese": "おすすめは何ですか",
+    "romaji": "Osusume wa nan desu ka",
+    "category": "Food",
+    "track": "life",
+    "subcategory": "restaurant",
+    "notes": "One of the most useful phrases at any restaurant. Staff love this question!"
+  },
+  {
+    "id": "life-021",
+    "english": "I have an allergy",
+    "french": "J'ai une allergie",
+    "japanese": "アレルギーがあります",
+    "romaji": "Arerugii ga arimasu",
+    "category": "Food",
+    "track": "life",
+    "subcategory": "restaurant",
+    "example": {
+      "japanese": "ピーナッツアレルギーがあります。",
+      "romaji": "Piinattsu arerugii ga arimasu.",
+      "english": "I have a peanut allergy."
+    }
+  },
+  {
+    "id": "life-022",
+    "english": "The bill / Check please",
+    "french": "L'addition s'il vous plaît",
+    "japanese": "お会計",
+    "romaji": "Okaikei",
+    "category": "Food",
+    "track": "life",
+    "subcategory": "restaurant",
+    "example": {
+      "japanese": "お会計をお願いします。",
+      "romaji": "Okaikei wo onegai shimasu.",
+      "english": "The bill please."
+    }
+  },
+  {
+    "id": "life-023",
+    "english": "Water please",
+    "french": "De l'eau s'il vous plaît",
+    "japanese": "水をください",
+    "romaji": "Mizu wo kudasai",
+    "category": "Food",
+    "track": "life",
+    "subcategory": "restaurant"
+  },
+  {
+    "id": "life-024",
+    "english": "Delicious!",
+    "french": "Délicieux !",
+    "japanese": "美味しい",
+    "romaji": "Oishii",
+    "category": "Food",
+    "track": "life",
+    "subcategory": "restaurant",
+    "notes": "A wonderful compliment to give to any chef, izakaya owner, or host."
+  },
+  {
+    "id": "life-025",
+    "english": "Let's eat! (said before a meal)",
+    "french": "Bon appétit (avant le repas)",
+    "japanese": "いただきます",
+    "romaji": "Itadakimasu",
+    "category": "Food",
+    "track": "life",
+    "subcategory": "restaurant",
+    "notes": "Always say this before eating. It expresses gratitude for the meal and those who prepared it."
+  },
+  {
+    "id": "life-026",
+    "english": "Thank you for the meal (said after eating)",
+    "french": "Merci pour ce repas (après le repas)",
+    "japanese": "ごちそうさまでした",
+    "romaji": "Gochisousama deshita",
+    "category": "Food",
+    "track": "life",
+    "subcategory": "restaurant",
+    "notes": "Say this when leaving a restaurant. Staff will love you for it."
+  },
+  {
+    "id": "life-027",
+    "english": "Is it spicy?",
+    "french": "Est-ce que c'est épicé ?",
+    "japanese": "辛いですか",
+    "romaji": "Karai desu ka",
+    "category": "Food",
+    "track": "life",
+    "subcategory": "restaurant"
+  },
+  {
+    "id": "life-028",
+    "english": "How much is it?",
+    "french": "Combien ça coûte ?",
+    "japanese": "いくらですか",
+    "romaji": "Ikura desu ka",
+    "category": "Shopping",
+    "track": "life",
+    "subcategory": "shopping"
+  },
+  {
+    "id": "life-029",
+    "english": "Do you have ~?",
+    "french": "Avez-vous ~ ?",
+    "japanese": "〜はありますか",
+    "romaji": "~ wa arimasu ka",
+    "category": "Shopping",
+    "track": "life",
+    "subcategory": "shopping",
+    "example": {
+      "japanese": "英語のメニューはありますか？",
+      "romaji": "Eigo no menyuu wa arimasu ka?",
+      "english": "Do you have an English menu?"
+    }
+  },
+  {
+    "id": "life-030",
+    "english": "Excuse me (to get attention)",
+    "french": "Excusez-moi (pour attirer l'attention)",
+    "japanese": "すみません",
+    "romaji": "Sumimasen",
+    "category": "General",
+    "track": "life",
+    "subcategory": "general",
+    "notes": "The Swiss army knife of Japanese phrases. Use to call a waiter, apologize, or get someone's attention."
+  },
+  {
+    "id": "life-031",
+    "english": "I don't understand Japanese well",
+    "french": "Je ne comprends pas bien le japonais",
+    "japanese": "日本語があまりわかりません",
+    "romaji": "Nihongo ga amari wakarimasen",
+    "category": "General",
+    "track": "life",
+    "subcategory": "general",
+    "notes": "Be honest! Japanese people will appreciate it and try to help you."
+  },
+  {
+    "id": "life-032",
+    "english": "Please speak slowly",
+    "french": "Parlez lentement s'il vous plaît",
+    "japanese": "ゆっくり話してください",
+    "romaji": "Yukkuri hanashite kudasai",
+    "category": "General",
+    "track": "life",
+    "subcategory": "general",
+    "notes": "Essential phrase! Don't be shy to ask people to slow down."
+  }
+]
