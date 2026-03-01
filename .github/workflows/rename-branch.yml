@@ -1,0 +1,33 @@
+name: Rename Default Branch to master
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rename-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Rename default branch from main to master
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Check if main branch exists
+          if ! gh api repos/${{ github.repository }}/branches/main --silent 2>/dev/null; then
+            echo "Error: 'main' branch does not exist." >&2
+            exit 1
+          fi
+
+          # Check if master branch already exists
+          if gh api repos/${{ github.repository }}/branches/master --silent 2>/dev/null; then
+            echo "Error: 'master' branch already exists." >&2
+            exit 1
+          fi
+
+          # Rename main to master (also updates the default branch if main was default)
+          gh api repos/${{ github.repository }}/branches/main/rename \
+            --method POST \
+            -f new_name=master
+          echo "Successfully renamed 'main' to 'master'."
