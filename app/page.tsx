@@ -21,7 +21,7 @@ export default function Dashboard() {
           </h1>
           <p className="text-slate-400 max-w-xl">
             Japanese tailored for embedded engineers — RTOS vocabulary, Agile Keigo, and
-            travel phrases for your September 2026 Japan trip.
+            travel phrases for your 2026 Japan trip.
           </p>
         </div>
 
