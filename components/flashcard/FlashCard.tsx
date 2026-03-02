@@ -2,6 +2,7 @@
 
 import { FlashCard as FlashCardType, Track } from "@/lib/types";
 import { Tag, Lightbulb } from "lucide-react";
+import FlashCardAudio from "./FlashCardAudio";
 
 interface FlashCardProps {
   card: FlashCardType;
@@ -67,9 +68,12 @@ export default function FlashCard({ card, isRevealed, track, onReveal }: FlashCa
               {card.japanese}
             </p>
             {/* Romaji */}
-            <p className={`text-center text-sm font-medium ${accentText} mb-5`}>
+            <p className={`text-center text-sm font-medium ${accentText} mb-3`}>
               {card.romaji}
             </p>
+
+            {/* Audio player */}
+            <FlashCardAudio japanese={card.japanese} track={track} />
 
             {/* Example sentence */}
             {card.example && (
