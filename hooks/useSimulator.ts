@@ -4,12 +4,7 @@ import { useState, useRef, useCallback } from 'react';
 import type { ScenarioId, SimulatorMessage, ChatResponse } from '@/lib/simulatorTypes';
 import { OPENING_LINES } from '@/lib/simulatorScenarios';
 
-type Status =
-  | 'idle'
-  | 'listening'
-  | 'processing'
-  | 'speaking'
-  | 'error';
+type Status = 'idle' | 'listening' | 'processing' | 'speaking' | 'error';
 
 // Minimal browser types for Web Speech API (not in TS lib by default)
 interface SpeechRecognitionEvent extends Event {
@@ -32,9 +27,24 @@ interface SpeechRecognitionInstance extends EventTarget {
 function getSpeechRecognition(): (new () => SpeechRecognitionInstance) | null {
   if (typeof window === 'undefined') return null;
   const w = window as unknown as Record<string, unknown>;
-  return (w['SpeechRecognition'] as new () => SpeechRecognitionInstance) ??
+  return (
+    (w['SpeechRecognition'] as new () => SpeechRecognitionInstance) ??
     (w['webkitSpeechRecognition'] as new () => SpeechRecognitionInstance) ??
-    null;
+    null
+  );
+}
+
+/** Pick the best available Japanese voice for the AI character. */
+function pickJapaneseVoice(): SpeechSynthesisVoice | null {
+  if (typeof window === 'undefined') return null;
+  const voices = window.speechSynthesis.getVoices();
+  const japanese = voices.filter((v) => v.lang.startsWith('ja'));
+  if (!japanese.length) return null;
+  const preferred = ['kyoko', 'o-ren', 'haruka', 'google 日本語', 'google japanese'];
+  return (
+    japanese.find((v) => preferred.some((n) => v.name.toLowerCase().includes(n))) ??
+    japanese[0]
+  );
 }
 
 export function useSimulator() {
@@ -45,11 +55,30 @@ export function useSimulator() {
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
 
   const recognitionRef = useRef<SpeechRecognitionInstance | null>(null);
-  const audioRef = useRef<HTMLAudioElement | null>(null);
   const historyRef = useRef<{ role: 'user' | 'assistant'; content: string }[]>([]);
 
-  // ── Start a scenario ─────────────────────────────────────────────────────
+  // ── TTS via free browser SpeechSynthesis ─────────────────────────────────
+  const playTTS = useCallback((text: string) => {
+    if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
+
+    window.speechSynthesis.cancel();
+    const utter = new SpeechSynthesisUtterance(text);
+    utter.lang = 'ja-JP';
+    utter.rate = 0.9;   // slightly slower → clearer for learners
+    utter.pitch = 1.1;  // slightly higher → sounds more natural / feminine
+    const voice = pickJapaneseVoice();
+    if (voice) utter.voice = voice;
+
+    utter.onstart = () => setStatus('speaking');
+    utter.onend = () => setStatus('idle');
+    utter.onerror = () => setStatus('idle');
+
+    window.speechSynthesis.speak(utter);
+  }, []);
+
+  // ── Start a scenario ──────────────────────────────────────────────────────
   const startScenario = useCallback((id: ScenarioId) => {
+    window.speechSynthesis?.cancel();
     const opening = OPENING_LINES[id];
     const firstMsg: SimulatorMessage = {
       id: crypto.randomUUID(),
@@ -68,13 +97,12 @@ export function useSimulator() {
     setTranscript('');
     setErrorMsg(null);
 
-    // Play opening TTS
     playTTS(opening.japanese);
-  }, []);
+  }, [playTTS]);
 
   const resetScenario = useCallback(() => {
     recognitionRef.current?.stop();
-    audioRef.current?.pause();
+    window.speechSynthesis?.cancel();
     historyRef.current = [];
     setScenario(null);
     setMessages([]);
@@ -83,34 +111,7 @@ export function useSimulator() {
     setErrorMsg(null);
   }, []);
 
-  // ── TTS playback ─────────────────────────────────────────────────────────
-  const playTTS = useCallback(async (text: string) => {
-    setStatus('speaking');
-    try {
-      const res = await fetch('/api/simulator/tts', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ text }),
-      });
-      if (!res.ok) throw new Error('TTS failed');
-
-      const blob = await res.blob();
-      const url = URL.createObjectURL(blob);
-
-      if (audioRef.current) {
-        audioRef.current.pause();
-        URL.revokeObjectURL(audioRef.current.src);
-      }
-      const audio = new Audio(url);
-      audioRef.current = audio;
-      audio.onended = () => setStatus('idle');
-      await audio.play();
-    } catch {
-      setStatus('idle');
-    }
-  }, []);
-
-  // ── Push-to-talk ─────────────────────────────────────────────────────────
+  // ── Push-to-talk ──────────────────────────────────────────────────────────
   const startListening = useCallback(() => {
     const SpeechRecognition = getSpeechRecognition();
     if (!SpeechRecognition) {
@@ -118,8 +119,10 @@ export function useSimulator() {
       return;
     }
 
+    window.speechSynthesis?.cancel();
     setTranscript('');
     setErrorMsg(null);
+
     const recognition = new SpeechRecognition();
     recognition.lang = 'ja-JP';
     recognition.continuous = false;
@@ -137,9 +140,7 @@ export function useSimulator() {
       setStatus('idle');
     };
 
-    recognition.onend = () => {
-      // handled by stopListening
-    };
+    recognition.onend = () => { /* handled by stopListening */ };
 
     recognitionRef.current = recognition;
     recognition.start();
@@ -157,7 +158,6 @@ export function useSimulator() {
 
     setStatus('processing');
 
-    // Add user message to UI immediately
     const userMsg: SimulatorMessage = {
       id: crypto.randomUUID(),
       role: 'user',
@@ -181,7 +181,6 @@ export function useSimulator() {
 
       const data: ChatResponse = await res.json();
 
-      // Update conversation history for context
       historyRef.current = [
         ...historyRef.current,
         { role: 'user', content: spoken },
@@ -204,7 +203,7 @@ export function useSimulator() {
       setTranscript('');
       playTTS(data.reply);
     } catch {
-      setErrorMsg('Could not reach the AI. Check your API key in .env.local.');
+      setErrorMsg('Could not reach the AI. Check your GOOGLE_GENERATIVE_AI_API_KEY in .env.local.');
       setStatus('error');
     }
   }, [transcript, scenario, playTTS]);
