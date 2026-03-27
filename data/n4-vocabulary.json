@@ -1,0 +1,632 @@
+[
+  {
+    "id": "n4-001",
+    "kanji": "技術",
+    "hiragana": "ぎじゅつ",
+    "romaji": "Gijutsu",
+    "meaning_en": "Technology / Technique / Skill",
+    "meaning_fr": "Technologie / Technique / Compétence",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "core",
+    "subdomain": "work-tech",
+    "example_sentences": [
+      {
+        "jp": "この技術は最新です。",
+        "reading": "Kono gijutsu wa saishin desu.",
+        "en": "This technology is the latest.",
+        "fr": "Cette technologie est la plus récente."
+      }
+    ],
+    "tags": ["technology", "work"]
+  },
+  {
+    "id": "n4-002",
+    "kanji": "開発",
+    "hiragana": "かいはつ",
+    "romaji": "Kaihatsu",
+    "meaning_en": "Development",
+    "meaning_fr": "Développement",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "core",
+    "subdomain": "work-tech",
+    "example_sentences": [
+      {
+        "jp": "新しいソフトウェアを開発しています。",
+        "reading": "Atarashii sofutouea wo kaihatsu shite imasu.",
+        "en": "We are developing new software.",
+        "fr": "Nous développons un nouveau logiciel."
+      }
+    ],
+    "tags": ["work", "software", "process"]
+  },
+  {
+    "id": "n4-003",
+    "kanji": "設計",
+    "hiragana": "せっけい",
+    "romaji": "Sekkei",
+    "meaning_en": "Design / Engineering design",
+    "meaning_fr": "Conception / Design",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "core",
+    "subdomain": "work-tech",
+    "example_sentences": [
+      {
+        "jp": "システムの設計を担当します。",
+        "reading": "Shisutemu no sekkei wo tantou shimasu.",
+        "en": "I am in charge of the system design.",
+        "fr": "Je suis responsable de la conception du système."
+      }
+    ],
+    "tags": ["work", "engineering", "process"]
+  },
+  {
+    "id": "n4-004",
+    "kanji": "製品",
+    "hiragana": "せいひん",
+    "romaji": "Seihin",
+    "meaning_en": "Product",
+    "meaning_fr": "Produit",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "core",
+    "subdomain": "business",
+    "example_sentences": [
+      {
+        "jp": "新しい製品を発表しました。",
+        "reading": "Atarashii seihin wo happyou shimashita.",
+        "en": "We announced a new product.",
+        "fr": "Nous avons annoncé un nouveau produit."
+      }
+    ],
+    "tags": ["business", "product"]
+  },
+  {
+    "id": "n4-005",
+    "kanji": "品質",
+    "hiragana": "ひんしつ",
+    "romaji": "Hinshitsu",
+    "meaning_en": "Quality",
+    "meaning_fr": "Qualité",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "core",
+    "subdomain": "work-tech",
+    "example_sentences": [
+      {
+        "jp": "品質を確保することが大切です。",
+        "reading": "Hinshitsu wo kakuho suru koto ga taisetsu desu.",
+        "en": "It is important to ensure quality.",
+        "fr": "Il est important d'assurer la qualité."
+      }
+    ],
+    "tags": ["work", "quality"]
+  },
+  {
+    "id": "n4-006",
+    "kanji": "管理",
+    "hiragana": "かんり",
+    "romaji": "Kanri",
+    "meaning_en": "Management / Administration",
+    "meaning_fr": "Gestion / Administration",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "core",
+    "subdomain": "work-tech",
+    "example_sentences": [
+      {
+        "jp": "プロジェクト管理を担当しています。",
+        "reading": "Purojekuto kanri wo tantou shite imasu.",
+        "en": "I am in charge of project management.",
+        "fr": "Je suis responsable de la gestion de projet."
+      }
+    ],
+    "tags": ["work", "management"]
+  },
+  {
+    "id": "n4-007",
+    "kanji": "経験",
+    "hiragana": "けいけん",
+    "romaji": "Keiken",
+    "meaning_en": "Experience",
+    "meaning_fr": "Expérience",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "core",
+    "subdomain": "career",
+    "example_sentences": [
+      {
+        "jp": "五年の開発経験があります。",
+        "reading": "Gonen no kaihatsu keiken ga arimasu.",
+        "en": "I have five years of development experience.",
+        "fr": "J'ai cinq ans d'expérience en développement."
+      }
+    ],
+    "tags": ["career", "skills"]
+  },
+  {
+    "id": "n4-008",
+    "kanji": "能力",
+    "hiragana": "のうりょく",
+    "romaji": "Nouryoku",
+    "meaning_en": "Ability / Capability",
+    "meaning_fr": "Capacité / Aptitude",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "core",
+    "subdomain": "career",
+    "example_sentences": [
+      {
+        "jp": "日本語の能力を高めたいです。",
+        "reading": "Nihongo no nouryoku wo takametai desu.",
+        "en": "I want to improve my Japanese ability.",
+        "fr": "Je veux améliorer ma capacité en japonais."
+      }
+    ],
+    "tags": ["skills", "career"]
+  },
+  {
+    "id": "n4-009",
+    "kanji": "目標",
+    "hiragana": "もくひょう",
+    "romaji": "Mokuhyou",
+    "meaning_en": "Goal / Target",
+    "meaning_fr": "Objectif / Cible",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "core",
+    "subdomain": "work-tech",
+    "example_sentences": [
+      {
+        "jp": "今月の目標を達成しました。",
+        "reading": "Kongetsu no mokuhyou wo tassei shimashita.",
+        "en": "I achieved this month's goal.",
+        "fr": "J'ai atteint l'objectif de ce mois."
+      }
+    ],
+    "tags": ["work", "goal"]
+  },
+  {
+    "id": "n4-010",
+    "kanji": "問題",
+    "hiragana": "もんだい",
+    "romaji": "Mondai",
+    "meaning_en": "Problem / Issue",
+    "meaning_fr": "Problème",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "core",
+    "subdomain": "work-tech",
+    "example_sentences": [
+      {
+        "jp": "問題が見つかりました。",
+        "reading": "Mondai ga mitsukari mashita.",
+        "en": "A problem was found.",
+        "fr": "Un problème a été trouvé."
+      }
+    ],
+    "tags": ["work", "debugging"]
+  },
+  {
+    "id": "n4-011",
+    "kanji": "解決",
+    "hiragana": "かいけつ",
+    "romaji": "Kaiketsu",
+    "meaning_en": "Solution / Resolution",
+    "meaning_fr": "Solution / Résolution",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "core",
+    "subdomain": "work-tech",
+    "example_sentences": [
+      {
+        "jp": "問題を解決しました。",
+        "reading": "Mondai wo kaiketsu shimashita.",
+        "en": "I solved the problem.",
+        "fr": "J'ai résolu le problème."
+      }
+    ],
+    "tags": ["work", "debugging"]
+  },
+  {
+    "id": "n4-012",
+    "kanji": "確認",
+    "hiragana": "かくにん",
+    "romaji": "Kakunin",
+    "meaning_en": "Confirmation / Check",
+    "meaning_fr": "Confirmation / Vérification",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "core",
+    "subdomain": "work-tech",
+    "example_sentences": [
+      {
+        "jp": "仕様書を確認してください。",
+        "reading": "Shiyousho wo kakunin shite kudasai.",
+        "en": "Please check the specification document.",
+        "fr": "Veuillez vérifier le document de spécification."
+      }
+    ],
+    "tags": ["work", "process"]
+  },
+  {
+    "id": "n4-013",
+    "kanji": "報告",
+    "hiragana": "ほうこく",
+    "romaji": "Houkoku",
+    "meaning_en": "Report",
+    "meaning_fr": "Rapport / Compte-rendu",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "core",
+    "subdomain": "work-communication",
+    "example_sentences": [
+      {
+        "jp": "進捗を報告します。",
+        "reading": "Shinchoku wo houkoku shimasu.",
+        "en": "I will report the progress.",
+        "fr": "Je vais faire un compte-rendu de l'avancement."
+      }
+    ],
+    "tags": ["work", "communication", "hourenso"]
+  },
+  {
+    "id": "n4-014",
+    "kanji": "連絡",
+    "hiragana": "れんらく",
+    "romaji": "Renraku",
+    "meaning_en": "Contact / Communication",
+    "meaning_fr": "Contact / Communication",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "core",
+    "subdomain": "work-communication",
+    "example_sentences": [
+      {
+        "jp": "何かあれば連絡してください。",
+        "reading": "Nanika areba renraku shite kudasai.",
+        "en": "Please contact me if anything comes up.",
+        "fr": "Contactez-moi si quelque chose se présente."
+      }
+    ],
+    "tags": ["work", "communication", "hourenso"]
+  },
+  {
+    "id": "n4-015",
+    "kanji": "相談",
+    "hiragana": "そうだん",
+    "romaji": "Soudan",
+    "meaning_en": "Consultation / Discussion",
+    "meaning_fr": "Consultation / Concertation",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "core",
+    "subdomain": "work-communication",
+    "example_sentences": [
+      {
+        "jp": "先輩に相談しました。",
+        "reading": "Senpai ni soudan shimashita.",
+        "en": "I consulted my senior colleague.",
+        "fr": "J'ai consulté mon collègue senior."
+      }
+    ],
+    "tags": ["work", "communication", "hourenso"]
+  },
+  {
+    "id": "n4-016",
+    "kanji": "会議",
+    "hiragana": "かいぎ",
+    "romaji": "Kaigi",
+    "meaning_en": "Meeting",
+    "meaning_fr": "Réunion",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "core",
+    "subdomain": "work-communication",
+    "example_sentences": [
+      {
+        "jp": "午後三時に会議があります。",
+        "reading": "Gogo sanji ni kaigi ga arimasu.",
+        "en": "There is a meeting at 3 PM.",
+        "fr": "Il y a une réunion à 15 heures."
+      }
+    ],
+    "tags": ["work", "meeting"]
+  },
+  {
+    "id": "n4-017",
+    "kanji": "説明",
+    "hiragana": "せつめい",
+    "romaji": "Setsumei",
+    "meaning_en": "Explanation",
+    "meaning_fr": "Explication",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "core",
+    "subdomain": "work-communication",
+    "example_sentences": [
+      {
+        "jp": "仕様について説明します。",
+        "reading": "Shiyou ni tsuite setsumei shimasu.",
+        "en": "I will explain the specifications.",
+        "fr": "Je vais expliquer les spécifications."
+      }
+    ],
+    "tags": ["work", "communication"]
+  },
+  {
+    "id": "n4-018",
+    "kanji": "理解",
+    "hiragana": "りかい",
+    "romaji": "Rikai",
+    "meaning_en": "Understanding / Comprehension",
+    "meaning_fr": "Compréhension",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "core",
+    "subdomain": "work-communication",
+    "example_sentences": [
+      {
+        "jp": "ご理解いただきありがとうございます。",
+        "reading": "Go-rikai itadaki arigatou gozaimasu.",
+        "en": "Thank you for your understanding.",
+        "fr": "Merci pour votre compréhension."
+      }
+    ],
+    "tags": ["work", "communication"]
+  },
+  {
+    "id": "n4-019",
+    "kanji": "準備",
+    "hiragana": "じゅんび",
+    "romaji": "Junbi",
+    "meaning_en": "Preparation",
+    "meaning_fr": "Préparation",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "core",
+    "subdomain": "work-tech",
+    "example_sentences": [
+      {
+        "jp": "発表の準備をしています。",
+        "reading": "Happyou no junbi wo shite imasu.",
+        "en": "I am preparing for the presentation.",
+        "fr": "Je me prépare pour la présentation."
+      }
+    ],
+    "tags": ["work", "process"]
+  },
+  {
+    "id": "n4-020",
+    "kanji": "提案",
+    "hiragana": "ていあん",
+    "romaji": "Teian",
+    "meaning_en": "Proposal / Suggestion",
+    "meaning_fr": "Proposition / Suggestion",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "core",
+    "subdomain": "work-communication",
+    "example_sentences": [
+      {
+        "jp": "改善の提案があります。",
+        "reading": "Kaizen no teian ga arimasu.",
+        "en": "I have a suggestion for improvement.",
+        "fr": "J'ai une suggestion d'amélioration."
+      }
+    ],
+    "tags": ["work", "communication"]
+  },
+  {
+    "id": "n4-021",
+    "kanji": "注意",
+    "hiragana": "ちゅうい",
+    "romaji": "Chuui",
+    "meaning_en": "Caution / Attention / Warning",
+    "meaning_fr": "Attention / Avertissement",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "core",
+    "subdomain": "work-tech",
+    "example_sentences": [
+      {
+        "jp": "このバグに注意してください。",
+        "reading": "Kono bagu ni chuui shite kudasai.",
+        "en": "Please pay attention to this bug.",
+        "fr": "Faites attention à ce bug."
+      }
+    ],
+    "tags": ["work", "safety"]
+  },
+  {
+    "id": "n4-022",
+    "kanji": "必要",
+    "hiragana": "ひつよう",
+    "romaji": "Hitsuyou",
+    "meaning_en": "Necessary / Required",
+    "meaning_fr": "Nécessaire / Requis",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "core",
+    "subdomain": "work-tech",
+    "example_sentences": [
+      {
+        "jp": "テストが必要です。",
+        "reading": "Tesuto ga hitsuyou desu.",
+        "en": "Testing is necessary.",
+        "fr": "Des tests sont nécessaires."
+      }
+    ],
+    "tags": ["work", "process"]
+  },
+  {
+    "id": "n4-023",
+    "kanji": "重要",
+    "hiragana": "じゅうよう",
+    "romaji": "Juuyou",
+    "meaning_en": "Important / Critical",
+    "meaning_fr": "Important / Crucial",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "core",
+    "subdomain": "work-tech",
+    "example_sentences": [
+      {
+        "jp": "これは重要な機能です。",
+        "reading": "Kore wa juuyou na kinou desu.",
+        "en": "This is an important feature.",
+        "fr": "C'est une fonctionnalité importante."
+      }
+    ],
+    "tags": ["work", "priority"]
+  },
+  {
+    "id": "n4-024",
+    "kanji": "一般",
+    "hiragana": "いっぱん",
+    "romaji": "Ippan",
+    "meaning_en": "General / Common",
+    "meaning_fr": "Général / Commun",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "core",
+    "subdomain": "general",
+    "example_sentences": [
+      {
+        "jp": "一般的な方法を使います。",
+        "reading": "Ippanteki na houhou wo tsukaimasu.",
+        "en": "We use a general method.",
+        "fr": "Nous utilisons une méthode générale."
+      }
+    ],
+    "tags": ["general"]
+  },
+  {
+    "id": "n4-025",
+    "kanji": "特別",
+    "hiragana": "とくべつ",
+    "romaji": "Tokubetsu",
+    "meaning_en": "Special / Particular",
+    "meaning_fr": "Spécial / Particulier",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "core",
+    "subdomain": "general",
+    "example_sentences": [
+      {
+        "jp": "特別な設定が必要です。",
+        "reading": "Tokubetsu na settei ga hitsuyou desu.",
+        "en": "Special configuration is required.",
+        "fr": "Une configuration spéciale est nécessaire."
+      }
+    ],
+    "tags": ["general"]
+  },
+  {
+    "id": "n4-026",
+    "kanji": "自動",
+    "hiragana": "じどう",
+    "romaji": "Jidou",
+    "meaning_en": "Automatic",
+    "meaning_fr": "Automatique",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "core",
+    "subdomain": "work-tech",
+    "example_sentences": [
+      {
+        "jp": "自動テストを実行します。",
+        "reading": "Jidou tesuto wo jikkou shimasu.",
+        "en": "We will run automated tests.",
+        "fr": "Nous allons exécuter des tests automatisés."
+      }
+    ],
+    "tags": ["technology", "automation"]
+  },
+  {
+    "id": "n4-027",
+    "kanji": "電気",
+    "hiragana": "でんき",
+    "romaji": "Denki",
+    "meaning_en": "Electricity / Electric",
+    "meaning_fr": "Électricité / Électrique",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "core",
+    "subdomain": "work-tech",
+    "example_sentences": [
+      {
+        "jp": "電気系統を確認してください。",
+        "reading": "Denki keitou wo kakunin shite kudasai.",
+        "en": "Please check the electrical system.",
+        "fr": "Veuillez vérifier le système électrique."
+      }
+    ],
+    "tags": ["engineering", "hardware"]
+  },
+  {
+    "id": "n4-028",
+    "kanji": "機械",
+    "hiragana": "きかい",
+    "romaji": "Kikai",
+    "meaning_en": "Machine / Machinery",
+    "meaning_fr": "Machine / Mécanique",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "core",
+    "subdomain": "work-tech",
+    "example_sentences": [
+      {
+        "jp": "この機械は正常に動いています。",
+        "reading": "Kono kikai wa shoujo ni ugoite imasu.",
+        "en": "This machine is operating normally.",
+        "fr": "Cette machine fonctionne normalement."
+      }
+    ],
+    "tags": ["engineering", "hardware"]
+  },
+  {
+    "id": "n4-029",
+    "kanji": "安全",
+    "hiragana": "あんぜん",
+    "romaji": "Anzen",
+    "meaning_en": "Safety / Safe",
+    "meaning_fr": "Sécurité / Sûr",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "core",
+    "subdomain": "work-tech",
+    "example_sentences": [
+      {
+        "jp": "安全を最優先にしてください。",
+        "reading": "Anzen wo saiyuusen ni shite kudasai.",
+        "en": "Please prioritize safety above all.",
+        "fr": "Veuillez prioriser la sécurité avant tout."
+      }
+    ],
+    "tags": ["safety", "engineering"]
+  },
+  {
+    "id": "n4-030",
+    "kanji": "効率",
+    "hiragana": "こうりつ",
+    "romaji": "Kouritsu",
+    "meaning_en": "Efficiency",
+    "meaning_fr": "Efficacité",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "core",
+    "subdomain": "work-tech",
+    "example_sentences": [
+      {
+        "jp": "効率を改善する方法を考えています。",
+        "reading": "Kouritsu wo kaizen suru houhou wo kangaete imasu.",
+        "en": "I am thinking of ways to improve efficiency.",
+        "fr": "Je réfléchis à des moyens d'améliorer l'efficacité."
+      }
+    ],
+    "tags": ["work", "optimization"]
+  }
+]

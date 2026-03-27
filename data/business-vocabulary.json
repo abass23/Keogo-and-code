@@ -1,0 +1,422 @@
+[
+  {
+    "id": "biz-001",
+    "kanji": "お疲れ様です",
+    "hiragana": "おつかれさまです",
+    "romaji": "otsukaresama desu",
+    "meaning_en": "Thank you for your hard work (greeting used during or after work)",
+    "meaning_fr": "Merci pour votre travail (salutation utilisée pendant ou après le travail)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "daily",
+    "example_sentences": [
+      {
+        "jp": "お疲れ様です。今日のミーティングはいかがでしたか？",
+        "reading": "おつかれさまです。きょうのみーてぃんぐはいかがでしたか？",
+        "en": "Good work today. How was the meeting?",
+        "fr": "Bon travail aujourd'hui. Comment s'est passée la réunion ?"
+      }
+    ],
+    "tags": ["keigo", "daily", "greeting"]
+  },
+  {
+    "id": "biz-002",
+    "kanji": "よろしくお願いします",
+    "hiragana": "よろしくおねがいします",
+    "romaji": "yoroshiku onegaishimasu",
+    "meaning_en": "Please treat me well / I'm counting on you / Best regards",
+    "meaning_fr": "Je vous en prie / Je compte sur vous / Cordialement",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "business",
+    "subdomain": "daily",
+    "example_sentences": [
+      {
+        "jp": "はじめまして、アバシー・バリーと申します。よろしくお願いします。",
+        "reading": "はじめまして、あばしー・ばりーともうします。よろしくおねがいします。",
+        "en": "Nice to meet you, my name is Abassy Barry. I'm looking forward to working with you.",
+        "fr": "Enchanté, je m'appelle Abassy Barry. Je vous en prie."
+      }
+    ],
+    "tags": ["keigo", "introduction", "essential"]
+  },
+  {
+    "id": "biz-003",
+    "kanji": "お世話になっております",
+    "hiragana": "おせわになっております",
+    "romaji": "osewa ni natte orimasu",
+    "meaning_en": "Thank you for your continued support (formal email/phone opener)",
+    "meaning_fr": "Merci pour votre soutien continu (ouverture formelle d'email/téléphone)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "email",
+    "example_sentences": [
+      {
+        "jp": "いつもお世話になっております。組込みエンジニアのバリーです。",
+        "reading": "いつもおせわになっております。くみこみえんじにあのばりーです。",
+        "en": "Thank you for your continued support. This is Barry, embedded engineer.",
+        "fr": "Merci pour votre soutien continu. Ici Barry, ingénieur embarqué."
+      }
+    ],
+    "tags": ["keigo", "email", "formal"]
+  },
+  {
+    "id": "biz-004",
+    "kanji": "ご確認ください",
+    "hiragana": "ごかくにんください",
+    "romaji": "go kakunin kudasai",
+    "meaning_en": "Please confirm / Please check",
+    "meaning_fr": "Veuillez confirmer / Veuillez vérifier",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "email",
+    "example_sentences": [
+      {
+        "jp": "添付のドキュメントをご確認ください。",
+        "reading": "てんぷのどきゅめんとをごかくにんください。",
+        "en": "Please check the attached document.",
+        "fr": "Veuillez vérifier le document ci-joint."
+      }
+    ],
+    "tags": ["keigo", "email", "request"]
+  },
+  {
+    "id": "biz-005",
+    "kanji": "承知しました",
+    "hiragana": "しょうちしました",
+    "romaji": "shouchi shimashita",
+    "meaning_en": "Understood / I will do so (formal acknowledgement)",
+    "meaning_fr": "Compris / Je m'en occupe (accusé de réception formel)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "daily",
+    "example_sentences": [
+      {
+        "jp": "明日の9時にミーティングですね。承知しました。",
+        "reading": "あしたのくじにみーてぃんぐですね。しょうちしました。",
+        "en": "The meeting is at 9 tomorrow. Understood.",
+        "fr": "La réunion est à 9h demain. Compris."
+      }
+    ],
+    "tags": ["keigo", "acknowledgement", "essential"]
+  },
+  {
+    "id": "biz-006",
+    "kanji": "失礼します",
+    "hiragana": "しつれいします",
+    "romaji": "shitsurei shimasu",
+    "meaning_en": "Excuse me / Goodbye (when leaving a room or ending a call)",
+    "meaning_fr": "Excusez-moi / Au revoir (en quittant une pièce ou en raccrochant)",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "business",
+    "subdomain": "daily",
+    "example_sentences": [
+      {
+        "jp": "では、失礼します。お先に失礼します。",
+        "reading": "では、しつれいします。おさきにしつれいします。",
+        "en": "Well then, excuse me. I'll be heading out first.",
+        "fr": "Bien, excusez-moi. Je pars en premier."
+      }
+    ],
+    "tags": ["keigo", "daily", "leaving"]
+  },
+  {
+    "id": "biz-007",
+    "kanji": "申し訳ございません",
+    "hiragana": "もうしわけございません",
+    "romaji": "moushiwake gozaimasen",
+    "meaning_en": "I sincerely apologize (very formal apology)",
+    "meaning_fr": "Je vous présente mes sincères excuses (excuse très formelle)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "daily",
+    "example_sentences": [
+      {
+        "jp": "ご迷惑をおかけして、申し訳ございません。",
+        "reading": "ごめいわくをおかけして、もうしわけございません。",
+        "en": "I sincerely apologize for the inconvenience.",
+        "fr": "Je vous présente mes sincères excuses pour le dérangement."
+      }
+    ],
+    "tags": ["keigo", "apology", "formal"]
+  },
+  {
+    "id": "biz-008",
+    "kanji": "志望動機",
+    "hiragana": "しぼうどうき",
+    "romaji": "shibou douki",
+    "meaning_en": "Motivation for applying / Reason for application",
+    "meaning_fr": "Motivation de candidature / Raison de la candidature",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "interview",
+    "example_sentences": [
+      {
+        "jp": "志望動機を教えてください。",
+        "reading": "しぼうどうきをおしえてください。",
+        "en": "Please tell me your motivation for applying.",
+        "fr": "Veuillez me dire votre motivation de candidature."
+      }
+    ],
+    "tags": ["interview", "essential"]
+  },
+  {
+    "id": "biz-009",
+    "kanji": "自己紹介",
+    "hiragana": "じこしょうかい",
+    "romaji": "jiko shoukai",
+    "meaning_en": "Self-introduction",
+    "meaning_fr": "Auto-présentation",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "interview",
+    "example_sentences": [
+      {
+        "jp": "では、自己紹介をお願いします。",
+        "reading": "では、じこしょうかいをおねがいします。",
+        "en": "Please give us your self-introduction.",
+        "fr": "Veuillez nous donner votre auto-présentation."
+      }
+    ],
+    "tags": ["interview", "essential"]
+  },
+  {
+    "id": "biz-010",
+    "kanji": "長所",
+    "hiragana": "ちょうしょ",
+    "romaji": "chousho",
+    "meaning_en": "Strengths / Strong points",
+    "meaning_fr": "Points forts / Atouts",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "interview",
+    "example_sentences": [
+      {
+        "jp": "あなたの長所は何ですか？",
+        "reading": "あなたのちょうしょはなんですか？",
+        "en": "What are your strengths?",
+        "fr": "Quels sont vos points forts ?"
+      }
+    ],
+    "tags": ["interview"]
+  },
+  {
+    "id": "biz-011",
+    "kanji": "短所",
+    "hiragana": "たんしょ",
+    "romaji": "tansho",
+    "meaning_en": "Weaknesses / Weak points",
+    "meaning_fr": "Points faibles / Faiblesses",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "interview",
+    "example_sentences": [
+      {
+        "jp": "短所を改善するために何をしていますか？",
+        "reading": "たんしょをかいぜんするためになにをしていますか？",
+        "en": "What are you doing to improve your weaknesses?",
+        "fr": "Que faites-vous pour améliorer vos points faibles ?"
+      }
+    ],
+    "tags": ["interview"]
+  },
+  {
+    "id": "biz-012",
+    "kanji": "御社",
+    "hiragana": "おんしゃ",
+    "romaji": "onsha",
+    "meaning_en": "Your company (honorific, used in spoken interviews)",
+    "meaning_fr": "Votre entreprise (honorifique, utilisé dans les entretiens oraux)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "interview",
+    "example_sentences": [
+      {
+        "jp": "御社の自動車システム部門で働きたいと思っています。",
+        "reading": "おんしゃのじどうしゃしすてむぶもんではたらきたいとおもっています。",
+        "en": "I would like to work in your company's automotive systems division.",
+        "fr": "Je souhaite travailler dans le département systèmes automobiles de votre entreprise."
+      }
+    ],
+    "tags": ["interview", "keigo"]
+  },
+  {
+    "id": "biz-013",
+    "kanji": "転職",
+    "hiragana": "てんしょく",
+    "romaji": "tenshoku",
+    "meaning_en": "Job change / Career change",
+    "meaning_fr": "Changement de poste / Reconversion professionnelle",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "interview",
+    "example_sentences": [
+      {
+        "jp": "転職の理由を教えていただけますか？",
+        "reading": "てんしょくのりゆうをおしえていただけますか？",
+        "en": "Could you tell me your reason for changing jobs?",
+        "fr": "Pourriez-vous me dire votre raison de changer d'emploi ?"
+      }
+    ],
+    "tags": ["interview"]
+  },
+  {
+    "id": "biz-014",
+    "kanji": "報連相",
+    "hiragana": "ほうれんそう",
+    "romaji": "hourensou",
+    "meaning_en": "Report-Contact-Consult (essential Japanese workplace communication rule)",
+    "meaning_fr": "Rapport-Contact-Consultation (règle de communication essentielle au travail)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "daily",
+    "example_sentences": [
+      {
+        "jp": "日本の職場では報連相が非常に重要です。",
+        "reading": "にほんのしょくばではほうれんそうがひじょうにじゅうようです。",
+        "en": "In Japanese workplaces, report-contact-consult is extremely important.",
+        "fr": "Dans les entreprises japonaises, rapport-contact-consultation est extrêmement important."
+      }
+    ],
+    "tags": ["workplace", "essential", "culture"]
+  },
+  {
+    "id": "biz-015",
+    "kanji": "議事録",
+    "hiragana": "ぎじろく",
+    "romaji": "gijiroku",
+    "meaning_en": "Meeting minutes",
+    "meaning_fr": "Compte-rendu de réunion",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "meeting",
+    "example_sentences": [
+      {
+        "jp": "会議の議事録を作成しました。確認してください。",
+        "reading": "かいぎのぎじろくをさくせいしました。かくにんしてください。",
+        "en": "I created the meeting minutes. Please check them.",
+        "fr": "J'ai rédigé le compte-rendu de la réunion. Veuillez le vérifier."
+      }
+    ],
+    "tags": ["meeting", "documentation"]
+  },
+  {
+    "id": "biz-016",
+    "kanji": "スプリント",
+    "hiragana": "すぷりんと",
+    "romaji": "supurinto",
+    "meaning_en": "Sprint (Agile/Scrum)",
+    "meaning_fr": "Sprint (Agile/Scrum)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "agile",
+    "example_sentences": [
+      {
+        "jp": "今週のスプリントレビューは金曜日の午後です。",
+        "reading": "こんしゅうのすぷりんとれびゅーはきんようびのごごです。",
+        "en": "This week's sprint review is Friday afternoon.",
+        "fr": "La revue de sprint de cette semaine est vendredi après-midi."
+      }
+    ],
+    "tags": ["agile", "scrum"]
+  },
+  {
+    "id": "biz-017",
+    "kanji": "バックログ",
+    "hiragana": "ばっくろぐ",
+    "romaji": "bakkurogu",
+    "meaning_en": "Backlog (Agile/Scrum)",
+    "meaning_fr": "Backlog (Agile/Scrum)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "agile",
+    "example_sentences": [
+      {
+        "jp": "バックログの優先度を確認しましょう。",
+        "reading": "ばっくろぐのゆうせんどをかくにんしましょう。",
+        "en": "Let's check the backlog priority.",
+        "fr": "Vérifions la priorité du backlog."
+      }
+    ],
+    "tags": ["agile", "scrum"]
+  },
+  {
+    "id": "biz-018",
+    "kanji": "デイリースタンドアップ",
+    "hiragana": "でいりーすたんどあっぷ",
+    "romaji": "deirī sutandoappu",
+    "meaning_en": "Daily standup meeting",
+    "meaning_fr": "Réunion quotidienne debout",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "agile",
+    "example_sentences": [
+      {
+        "jp": "毎朝9時にデイリースタンドアップがあります。",
+        "reading": "まいあさくじにでいりーすたんどあっぷがあります。",
+        "en": "We have a daily standup every morning at 9.",
+        "fr": "Nous avons un daily standup tous les matins à 9h."
+      }
+    ],
+    "tags": ["agile", "meeting"]
+  },
+  {
+    "id": "biz-019",
+    "kanji": "ご無沙汰しております",
+    "hiragana": "ごぶさたしております",
+    "romaji": "gobusata shite orimasu",
+    "meaning_en": "It's been a while (formal, used after a long absence)",
+    "meaning_fr": "Cela fait longtemps (formel, utilisé après une longue absence)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "email",
+    "example_sentences": [
+      {
+        "jp": "ご無沙汰しております。その後、お変わりありませんでしょうか。",
+        "reading": "ごぶさたしております。そのご、おかわりありませんでしょうか。",
+        "en": "It's been a while. I hope you've been well.",
+        "fr": "Cela fait longtemps. J'espère que vous allez bien."
+      }
+    ],
+    "tags": ["email", "keigo", "formal"]
+  },
+  {
+    "id": "biz-020",
+    "kanji": "入社",
+    "hiragana": "にゅうしゃ",
+    "romaji": "nyuusha",
+    "meaning_en": "Joining a company / Starting employment",
+    "meaning_fr": "Intégration dans une entreprise / Prise de poste",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "interview",
+    "example_sentences": [
+      {
+        "jp": "入社後はどのような仕事をしたいですか？",
+        "reading": "にゅうしゃごはどのようなしごとをしたいですか？",
+        "en": "What kind of work would you like to do after joining?",
+        "fr": "Quel type de travail souhaitez-vous faire après votre intégration ?"
+      }
+    ],
+    "tags": ["interview"]
+  }
+]

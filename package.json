@@ -6,26 +6,51 @@
     "dev": "next dev",
     "build": "next build --webpack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "db:migrate": "supabase db push",
+    "db:seed": "npx tsx scripts/seed.ts",
+    "cap:sync": "npx cap sync",
+    "cap:android": "npx cap open android",
+    "cap:ios": "npx cap open ios"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@capacitor/core": "^7.0.0",
     "@ducanh2912/next-pwa": "^10.2.9",
-    "@google/generative-ai": "^0.24.1",
+    "@supabase/ssr": "^0.6.1",
+    "@supabase/supabase-js": "^2.49.4",
+    "@tanstack/react-query": "^5.74.4",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "idb": "^8.0.3",
     "lucide-react": "^0.575.0",
     "next": "16.1.6",
-    "openai": "^6.25.0",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "tailwind-merge": "^3.2.0",
+    "zustand": "^5.0.3"
   },
   "devDependencies": {
+    "@capacitor/cli": "^7.0.0",
     "@tailwindcss/postcss": "^4",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^4.3.4",
+    "@vitest/coverage-v8": "^3.1.1",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
+    "jsdom": "^26.1.0",
     "pwa-asset-generator": "^8.1.2",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "tsx": "^4.19.3",
+    "typescript": "^5",
+    "vitest": "^3.1.1"
   }
 }

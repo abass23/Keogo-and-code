@@ -1,412 +1,674 @@
 [
   {
     "id": "tech-001",
-    "english": "Real-time operating system",
-    "french": "Système d'exploitation temps réel",
-    "japanese": "リアルタイムOS",
+    "kanji": "リアルタイムOS",
+    "hiragana": "りあるたいむOS",
     "romaji": "Riaru-taimu OS",
-    "category": "RTOS",
-    "track": "tech",
-    "subcategory": "concepts",
-    "example": {
-      "japanese": "このシステムはリアルタイムOSを使っています。",
-      "romaji": "Kono shisutemu wa riaru-taimu OS wo tsukatte imasu.",
-      "english": "This system uses a real-time OS."
-    },
-    "notes": "Essential term for embedded system interviews at companies like Honda or JAXA."
+    "meaning_en": "Real-time operating system",
+    "meaning_fr": "Système d'exploitation temps réel",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "concepts",
+    "example_sentences": [
+      {
+        "jp": "このシステムはリアルタイムOSを使っています。",
+        "reading": "Kono shisutemu wa riaru-taimu OS wo tsukatte imasu.",
+        "en": "This system uses a real-time OS.",
+        "fr": "Ce système utilise un système d'exploitation temps réel."
+      }
+    ],
+    "tags": []
   },
   {
     "id": "tech-002",
-    "english": "Thread",
-    "french": "Fil d'exécution",
-    "japanese": "スレッド",
+    "kanji": "スレッド",
+    "hiragana": "すれっど",
     "romaji": "Sureddo",
-    "category": "RTOS",
-    "track": "tech",
-    "subcategory": "concepts",
-    "example": {
-      "japanese": "スレッドを作成します。",
-      "romaji": "Sureddo wo sakusei shimasu.",
-      "english": "I will create a thread."
-    }
+    "meaning_en": "Thread",
+    "meaning_fr": "Fil d'exécution",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "concepts",
+    "example_sentences": [
+      {
+        "jp": "スレッドを作成します。",
+        "reading": "Sureddo wo sakusei shimasu.",
+        "en": "I will create a thread.",
+        "fr": "Je vais créer un fil d'exécution."
+      }
+    ],
+    "tags": []
   },
   {
     "id": "tech-003",
-    "english": "Interrupt",
-    "french": "Interruption",
-    "japanese": "割り込み",
+    "kanji": "割り込み",
+    "hiragana": "わりこみ",
     "romaji": "Warikomi",
-    "category": "RTOS",
-    "track": "tech",
-    "subcategory": "concepts",
-    "example": {
-      "japanese": "割り込みハンドラが起動されました。",
-      "romaji": "Warikomi handoraa ga kidou saremashita.",
-      "english": "The interrupt handler was triggered."
-    },
-    "notes": "Critical concept in embedded systems. Can also be written as 割込み."
+    "meaning_en": "Interrupt",
+    "meaning_fr": "Interruption",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "concepts",
+    "example_sentences": [
+      {
+        "jp": "割り込みハンドラが起動されました。",
+        "reading": "Warikomi handoraa ga kidou saremashita.",
+        "en": "The interrupt handler was triggered.",
+        "fr": "Le gestionnaire d'interruption a été déclenché."
+      }
+    ],
+    "tags": []
   },
   {
     "id": "tech-004",
-    "english": "Deadlock",
-    "french": "Interblocage",
-    "japanese": "デッドロック",
+    "kanji": "デッドロック",
+    "hiragana": "でっどろっく",
     "romaji": "Deddorokku",
-    "category": "RTOS",
-    "track": "tech",
-    "subcategory": "concepts",
-    "example": {
-      "japanese": "デッドロックが発生する可能性があります。",
-      "romaji": "Deddorokku ga hassei suru kanousei ga arimasu.",
-      "english": "There is a possibility of a deadlock occurring."
-    }
+    "meaning_en": "Deadlock",
+    "meaning_fr": "Interblocage",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "concepts",
+    "example_sentences": [
+      {
+        "jp": "デッドロックが発生する可能性があります。",
+        "reading": "Deddorokku ga hassei suru kanousei ga arimasu.",
+        "en": "There is a possibility of a deadlock occurring.",
+        "fr": "Il y a une possibilité qu'un interblocage se produise."
+      }
+    ],
+    "tags": []
   },
   {
     "id": "tech-005",
-    "english": "Semaphore",
-    "french": "Sémaphore",
-    "japanese": "セマフォ",
+    "kanji": "セマフォ",
+    "hiragana": "せまふぉ",
     "romaji": "Semafoa",
-    "category": "RTOS",
-    "track": "tech",
-    "subcategory": "concepts",
-    "example": {
-      "japanese": "セマフォで排他制御をします。",
-      "romaji": "Semafoa de haita seigyo wo shimasu.",
-      "english": "We use a semaphore for mutual exclusion."
-    }
+    "meaning_en": "Semaphore",
+    "meaning_fr": "Sémaphore",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "concepts",
+    "example_sentences": [
+      {
+        "jp": "セマフォで排他制御をします。",
+        "reading": "Semafoa de haita seigyo wo shimasu.",
+        "en": "We use a semaphore for mutual exclusion.",
+        "fr": "Nous utilisons un sémaphore pour l'exclusion mutuelle."
+      }
+    ],
+    "tags": []
   },
   {
     "id": "tech-006",
-    "english": "Mutex (Mutual Exclusion)",
-    "french": "Verrou d'exclusion mutuelle",
-    "japanese": "ミューテックス",
+    "kanji": "ミューテックス",
+    "hiragana": "みゅーてっくす",
     "romaji": "Myutekkusu",
-    "category": "RTOS",
-    "track": "tech",
-    "subcategory": "concepts",
-    "example": {
-      "japanese": "ミューテックスをロックしてください。",
-      "romaji": "Myutekkusu wo rokku shite kudasai.",
-      "english": "Please lock the mutex."
-    }
+    "meaning_en": "Mutex (Mutual Exclusion)",
+    "meaning_fr": "Verrou d'exclusion mutuelle",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "concepts",
+    "example_sentences": [
+      {
+        "jp": "ミューテックスをロックしてください。",
+        "reading": "Myutekkusu wo rokku shite kudasai.",
+        "en": "Please lock the mutex.",
+        "fr": "Veuillez verrouiller le mutex."
+      }
+    ],
+    "tags": []
   },
   {
     "id": "tech-007",
-    "english": "Task scheduling",
-    "french": "Ordonnancement des tâches",
-    "japanese": "タスクスケジューリング",
+    "kanji": "タスクスケジューリング",
+    "hiragana": "たすくすけじゅーりんぐ",
     "romaji": "Tasuku sukejuuringu",
-    "category": "RTOS",
-    "track": "tech",
-    "subcategory": "concepts"
+    "meaning_en": "Task scheduling",
+    "meaning_fr": "Ordonnancement des tâches",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "concepts",
+    "example_sentences": [
+      {
+        "jp": "タスクスケジューリングのアルゴリズムを選択します。",
+        "reading": "Tasuku sukejuuringu no arugorizumu wo sentaku shimasu.",
+        "en": "We select the task scheduling algorithm.",
+        "fr": "Nous sélectionnons l'algorithme d'ordonnancement des tâches."
+      }
+    ],
+    "tags": []
   },
   {
     "id": "tech-008",
-    "english": "Firmware",
-    "french": "Microprogramme / Firmware",
-    "japanese": "ファームウェア",
+    "kanji": "ファームウェア",
+    "hiragana": "ふぁーむうぇあ",
     "romaji": "Faamuuea",
-    "category": "Embedded",
-    "track": "tech",
-    "subcategory": "concepts",
-    "example": {
-      "japanese": "ファームウェアをアップデートしてください。",
-      "romaji": "Faamuuea wo appudeto shite kudasai.",
-      "english": "Please update the firmware."
-    }
+    "meaning_en": "Firmware",
+    "meaning_fr": "Microprogramme / Firmware",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "concepts",
+    "example_sentences": [
+      {
+        "jp": "ファームウェアをアップデートしてください。",
+        "reading": "Faamuuea wo appudeto shite kudasai.",
+        "en": "Please update the firmware.",
+        "fr": "Veuillez mettre à jour le microprogramme."
+      }
+    ],
+    "tags": []
   },
   {
     "id": "tech-009",
-    "english": "Embedded system",
-    "french": "Système embarqué",
-    "japanese": "組み込みシステム",
+    "kanji": "組み込みシステム",
+    "hiragana": "くみこみしすてむ",
     "romaji": "Kumikomi shisutemu",
-    "category": "Embedded",
-    "track": "tech",
-    "subcategory": "concepts",
-    "notes": "Your specialty! This term will come up in every technical interview."
+    "meaning_en": "Embedded system",
+    "meaning_fr": "Système embarqué",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "concepts",
+    "example_sentences": [
+      {
+        "jp": "組み込みシステムの開発を担当しています。",
+        "reading": "Kumikomi shisutemu no kaihatsu wo tantou shite imasu.",
+        "en": "I am in charge of embedded system development.",
+        "fr": "Je suis responsable du développement de systèmes embarqués."
+      }
+    ],
+    "tags": []
   },
   {
     "id": "tech-010",
-    "english": "Microcontroller",
-    "french": "Microcontrôleur",
-    "japanese": "マイコン",
+    "kanji": "マイコン",
+    "hiragana": "まいこん",
     "romaji": "Maikon",
-    "category": "Embedded",
-    "track": "tech",
-    "subcategory": "concepts",
-    "example": {
-      "japanese": "このマイコンはARMコアを使っています。",
-      "romaji": "Kono maikon wa ARM koa wo tsukatte imasu.",
-      "english": "This microcontroller uses an ARM core."
-    }
+    "meaning_en": "Microcontroller",
+    "meaning_fr": "Microcontrôleur",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "concepts",
+    "example_sentences": [
+      {
+        "jp": "このマイコンはARMコアを使っています。",
+        "reading": "Kono maikon wa ARM koa wo tsukatte imasu.",
+        "en": "This microcontroller uses an ARM core.",
+        "fr": "Ce microcontrôleur utilise un cœur ARM."
+      }
+    ],
+    "tags": []
   },
   {
     "id": "tech-011",
-    "english": "Memory leak",
-    "french": "Fuite mémoire",
-    "japanese": "メモリリーク",
+    "kanji": "メモリリーク",
+    "hiragana": "めもりりーく",
     "romaji": "Memori riiku",
-    "category": "Embedded",
-    "track": "tech",
-    "subcategory": "debugging"
+    "meaning_en": "Memory leak",
+    "meaning_fr": "Fuite mémoire",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "debugging",
+    "example_sentences": [
+      {
+        "jp": "メモリリークを検出しました。",
+        "reading": "Memori riiku wo kenshutsu shimashita.",
+        "en": "A memory leak was detected.",
+        "fr": "Une fuite mémoire a été détectée."
+      }
+    ],
+    "tags": []
   },
   {
     "id": "tech-012",
-    "english": "Debug",
-    "french": "Débogage",
-    "japanese": "デバッグ",
+    "kanji": "デバッグ",
+    "hiragana": "でばっぐ",
     "romaji": "Debaggu",
-    "category": "Embedded",
-    "track": "tech",
-    "subcategory": "debugging",
-    "example": {
-      "japanese": "今デバッグ中です。",
-      "romaji": "Ima debaggu-chuu desu.",
-      "english": "I am currently debugging."
-    }
+    "meaning_en": "Debug",
+    "meaning_fr": "Débogage",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "embedded",
+    "subdomain": "debugging",
+    "example_sentences": [
+      {
+        "jp": "今デバッグ中です。",
+        "reading": "Ima debaggu-chuu desu.",
+        "en": "I am currently debugging.",
+        "fr": "Je suis en train de déboguer."
+      }
+    ],
+    "tags": []
   },
   {
     "id": "tech-013",
-    "english": "Code review",
-    "french": "Revue de code",
-    "japanese": "コードレビュー",
+    "kanji": "コードレビュー",
+    "hiragana": "こーどれびゅー",
     "romaji": "Koodo rebyuu",
-    "category": "Agile",
-    "track": "tech",
-    "subcategory": "agile"
+    "meaning_en": "Code review",
+    "meaning_fr": "Revue de code",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "agile",
+    "example_sentences": [
+      {
+        "jp": "コードレビューをお願いします。",
+        "reading": "Koodo rebyuu wo onegai shimasu.",
+        "en": "Please do a code review.",
+        "fr": "Veuillez effectuer une revue de code."
+      }
+    ],
+    "tags": []
   },
   {
     "id": "tech-014",
-    "english": "Daily Scrum / Daily Standup",
-    "french": "Mêlée quotidienne",
-    "japanese": "デイリースクラム",
+    "kanji": "デイリースクラム",
+    "hiragana": "でいりーすくらむ",
     "romaji": "Deirii sukuramu",
-    "category": "Agile",
-    "track": "tech",
-    "subcategory": "agile",
-    "example": {
-      "japanese": "毎朝デイリースクラムがあります。",
-      "romaji": "Maiasa deirii sukuramu ga arimasu.",
-      "english": "We have a Daily Scrum every morning."
-    }
+    "meaning_en": "Daily Scrum / Daily Standup",
+    "meaning_fr": "Mêlée quotidienne",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "agile",
+    "example_sentences": [
+      {
+        "jp": "毎朝デイリースクラムがあります。",
+        "reading": "Maiasa deirii sukuramu ga arimasu.",
+        "en": "We have a Daily Scrum every morning.",
+        "fr": "Nous avons une mêlée quotidienne chaque matin."
+      }
+    ],
+    "tags": []
   },
   {
     "id": "tech-015",
-    "english": "Sprint",
-    "french": "Sprint",
-    "japanese": "スプリント",
+    "kanji": "スプリント",
+    "hiragana": "すぷりんと",
     "romaji": "Supurinto",
-    "category": "Agile",
-    "track": "tech",
-    "subcategory": "agile",
-    "example": {
-      "japanese": "今スプリント三週目です。",
-      "romaji": "Ima supurinto san-shuume desu.",
-      "english": "We are in the third week of the sprint."
-    }
+    "meaning_en": "Sprint",
+    "meaning_fr": "Sprint",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "agile",
+    "example_sentences": [
+      {
+        "jp": "今スプリント三週目です。",
+        "reading": "Ima supurinto san-shuume desu.",
+        "en": "We are in the third week of the sprint.",
+        "fr": "Nous sommes dans la troisième semaine du sprint."
+      }
+    ],
+    "tags": []
   },
   {
     "id": "tech-016",
-    "english": "Backlog",
-    "french": "Carnet de produit",
-    "japanese": "バックログ",
+    "kanji": "バックログ",
+    "hiragana": "ばっくろぐ",
     "romaji": "Bakkurogu",
-    "category": "Agile",
-    "track": "tech",
-    "subcategory": "agile"
+    "meaning_en": "Backlog",
+    "meaning_fr": "Carnet de produit",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "agile",
+    "example_sentences": [
+      {
+        "jp": "バックログを整理しましょう。",
+        "reading": "Bakkurogu wo seiri shimashou.",
+        "en": "Let's organize the backlog.",
+        "fr": "Organisons le carnet de produit."
+      }
+    ],
+    "tags": []
   },
   {
     "id": "tech-017",
-    "english": "Velocity",
-    "french": "Vélocité",
-    "japanese": "ベロシティ",
+    "kanji": "ベロシティ",
+    "hiragana": "べろしてぃ",
     "romaji": "Beroshiti",
-    "category": "Agile",
-    "track": "tech",
-    "subcategory": "agile"
+    "meaning_en": "Velocity",
+    "meaning_fr": "Vélocité",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "agile",
+    "example_sentences": [
+      {
+        "jp": "今スプリントのベロシティを計算します。",
+        "reading": "Ima supurinto no beroshiti wo keisan shimasu.",
+        "en": "We will calculate the velocity for this sprint.",
+        "fr": "Nous allons calculer la vélocité pour ce sprint."
+      }
+    ],
+    "tags": []
   },
   {
     "id": "tech-018",
-    "english": "Retrospective",
-    "french": "Rétrospective",
-    "japanese": "レトロスペクティブ",
+    "kanji": "レトロスペクティブ",
+    "hiragana": "れとろすぺくてぃーぶ",
     "romaji": "Retorospekutiibu",
-    "category": "Agile",
-    "track": "tech",
-    "subcategory": "agile",
-    "example": {
-      "japanese": "スプリントの後でレトロスペクティブをやります。",
-      "romaji": "Supurinto no ato de retorospekutiibu wo yarimasu.",
-      "english": "We will do a retrospective after the sprint."
-    }
+    "meaning_en": "Retrospective",
+    "meaning_fr": "Rétrospective",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "agile",
+    "example_sentences": [
+      {
+        "jp": "スプリントの後でレトロスペクティブをやります。",
+        "reading": "Supurinto no ato de retorospekutiibu wo yarimasu.",
+        "en": "We will do a retrospective after the sprint.",
+        "fr": "Nous ferons une rétrospective après le sprint."
+      }
+    ],
+    "tags": []
   },
   {
     "id": "tech-019",
-    "english": "Pull Request",
-    "french": "Demande de fusion",
-    "japanese": "プルリクエスト",
+    "kanji": "プルリクエスト",
+    "hiragana": "ぷるりくえすと",
     "romaji": "Pururikuesuto",
-    "category": "Agile",
-    "track": "tech",
-    "subcategory": "agile",
-    "example": {
-      "japanese": "プルリクエストを確認してください。",
-      "romaji": "Pururikuesuto wo kakunin shite kudasai.",
-      "english": "Please review the pull request."
-    }
+    "meaning_en": "Pull Request",
+    "meaning_fr": "Demande de fusion",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "agile",
+    "example_sentences": [
+      {
+        "jp": "プルリクエストを確認してください。",
+        "reading": "Pururikuesuto wo kakunin shite kudasai.",
+        "en": "Please review the pull request.",
+        "fr": "Veuillez vérifier la demande de fusion."
+      }
+    ],
+    "tags": []
   },
   {
     "id": "tech-020",
-    "english": "Good work / Thank you for your hard work",
-    "french": "Bonne journée / Merci pour votre travail",
-    "japanese": "お疲れ様です",
+    "kanji": "お疲れ様です",
+    "hiragana": "おつかれさまです",
     "romaji": "Otsukaresama desu",
-    "category": "Keigo",
-    "track": "tech",
-    "subcategory": "keigo-greetings",
-    "notes": "Say this when greeting colleagues or at the end of a meeting. Essential in Japanese workplaces."
+    "meaning_en": "Good work / Thank you for your hard work",
+    "meaning_fr": "Bonne journée / Merci pour votre travail",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "keigo-greetings",
+    "example_sentences": [
+      {
+        "jp": "お疲れ様です。今日はありがとうございました。",
+        "reading": "Otsukaresama desu. Kyou wa arigatou gozaimashita.",
+        "en": "Good work. Thank you for today.",
+        "fr": "Merci pour votre travail. Merci pour aujourd'hui."
+      }
+    ],
+    "tags": []
   },
   {
     "id": "tech-021",
-    "english": "Best regards / Please take care of this",
-    "french": "Cordialement / Je vous en prie",
-    "japanese": "よろしくお願いします",
+    "kanji": "よろしくお願いします",
+    "hiragana": "よろしくおねがいします",
     "romaji": "Yoroshiku onegai shimasu",
-    "category": "Keigo",
-    "track": "tech",
-    "subcategory": "keigo-greetings",
-    "notes": "The most versatile Japanese phrase. Use at the start of meetings, emails, after introductions."
+    "meaning_en": "Best regards / Please take care of this",
+    "meaning_fr": "Cordialement / Je vous en prie / Je vous demande votre bienveillance",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "keigo-greetings",
+    "example_sentences": [
+      {
+        "jp": "今後ともよろしくお願いします。",
+        "reading": "Kongo tomo yoroshiku onegai shimasu.",
+        "en": "I look forward to working with you.",
+        "fr": "Je compte sur votre bienveillance à l'avenir également."
+      }
+    ],
+    "tags": []
   },
   {
     "id": "tech-022",
-    "english": "Please confirm / Please check",
-    "french": "Veuillez confirmer",
-    "japanese": "ご確認ください",
+    "kanji": "ご確認ください",
+    "hiragana": "ごかくにんください",
     "romaji": "Go-kakunin kudasai",
-    "category": "Keigo",
-    "track": "tech",
-    "subcategory": "keigo-requests",
-    "example": {
-      "japanese": "資料をご確認ください。",
-      "romaji": "Shiryou wo go-kakunin kudasai.",
-      "english": "Please review the document."
-    }
+    "meaning_en": "Please confirm / Please check",
+    "meaning_fr": "Veuillez confirmer / Veuillez vérifier",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "keigo-requests",
+    "example_sentences": [
+      {
+        "jp": "資料をご確認ください。",
+        "reading": "Shiryou wo go-kakunin kudasai.",
+        "en": "Please review the document.",
+        "fr": "Veuillez vérifier le document."
+      }
+    ],
+    "tags": []
   },
   {
     "id": "tech-023",
-    "english": "Do you have any questions?",
-    "french": "Avez-vous des questions ?",
-    "japanese": "ご質問はありますか",
+    "kanji": "ご質問はありますか",
+    "hiragana": "ごしつもんはありますか",
     "romaji": "Go-shitsumon wa arimasu ka",
-    "category": "Keigo",
-    "track": "tech",
-    "subcategory": "keigo-meeting",
-    "notes": "Use at the end of your presentation or after explaining something."
+    "meaning_en": "Do you have any questions?",
+    "meaning_fr": "Avez-vous des questions ?",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "keigo-meeting",
+    "example_sentences": [
+      {
+        "jp": "発表の後でご質問はありますか？",
+        "reading": "Happyou no ato de go-shitsumon wa arimasu ka?",
+        "en": "Do you have any questions after the presentation?",
+        "fr": "Avez-vous des questions après la présentation ?"
+      }
+    ],
+    "tags": []
   },
   {
     "id": "tech-024",
-    "english": "I will report / Here is my update",
-    "french": "Je vais faire un compte-rendu",
-    "japanese": "報告いたします",
+    "kanji": "報告いたします",
+    "hiragana": "ほうこくいたします",
     "romaji": "Houkoku itashimasu",
-    "category": "Keigo",
-    "track": "tech",
-    "subcategory": "keigo-meeting",
-    "example": {
-      "japanese": "進捗について報告いたします。",
-      "romaji": "Shinchoku ni tsuite houkoku itashimasu.",
-      "english": "I will report on the progress."
-    }
+    "meaning_en": "I will report / Here is my update",
+    "meaning_fr": "Je vais faire un compte-rendu",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "keigo-meeting",
+    "example_sentences": [
+      {
+        "jp": "進捗について報告いたします。",
+        "reading": "Shinchoku ni tsuite houkoku itashimasu.",
+        "en": "I will report on the progress.",
+        "fr": "Je vais faire un compte-rendu sur l'avancement."
+      }
+    ],
+    "tags": []
   },
   {
     "id": "tech-025",
-    "english": "I will confirm / Let me check",
-    "french": "Je vais confirmer",
-    "japanese": "確認します",
+    "kanji": "確認します",
+    "hiragana": "かくにんします",
     "romaji": "Kakunin shimasu",
-    "category": "Keigo",
-    "track": "tech",
-    "subcategory": "keigo-meeting"
+    "meaning_en": "I will confirm / Let me check",
+    "meaning_fr": "Je vais confirmer / Je vais vérifier",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "keigo-meeting",
+    "example_sentences": [
+      {
+        "jp": "内容を確認します。少々お待ちください。",
+        "reading": "Naiyou wo kakunin shimasu. Shoushou omachi kudasai.",
+        "en": "I will confirm the content. Please wait a moment.",
+        "fr": "Je vais vérifier le contenu. Veuillez patienter un instant."
+      }
+    ],
+    "tags": []
   },
   {
     "id": "tech-026",
-    "english": "Thank you for pointing that out",
-    "french": "Merci de votre remarque",
-    "japanese": "ご指摘ありがとうございます",
+    "kanji": "ご指摘ありがとうございます",
+    "hiragana": "ごしてきありがとうございます",
     "romaji": "Go-shiteki arigatou gozaimasu",
-    "category": "Keigo",
-    "track": "tech",
-    "subcategory": "keigo-meeting",
-    "notes": "Perfect response when receiving feedback during code review."
+    "meaning_en": "Thank you for pointing that out",
+    "meaning_fr": "Merci de votre remarque",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "keigo-meeting",
+    "example_sentences": [
+      {
+        "jp": "ご指摘ありがとうございます。修正いたします。",
+        "reading": "Go-shiteki arigatou gozaimasu. Shuusei itashimasu.",
+        "en": "Thank you for pointing that out. I will fix it.",
+        "fr": "Merci de votre remarque. Je vais le corriger."
+      }
+    ],
+    "tags": []
   },
   {
     "id": "tech-027",
-    "english": "I will share the progress",
-    "french": "Je vais partager l'avancement",
-    "japanese": "進捗を共有します",
+    "kanji": "進捗を共有します",
+    "hiragana": "しんちょくをきょうゆうします",
     "romaji": "Shinchoku wo kyouyuu shimasu",
-    "category": "Keigo",
-    "track": "tech",
-    "subcategory": "keigo-meeting",
-    "example": {
-      "japanese": "本日の進捗を共有します。",
-      "romaji": "Honjitsu no shinchoku wo kyouyuu shimasu.",
-      "english": "I will share today's progress."
-    }
+    "meaning_en": "I will share the progress",
+    "meaning_fr": "Je vais partager l'avancement",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "keigo-meeting",
+    "example_sentences": [
+      {
+        "jp": "本日の進捗を共有します。",
+        "reading": "Honjitsu no shinchoku wo kyouyuu shimasu.",
+        "en": "I will share today's progress.",
+        "fr": "Je vais partager l'avancement d'aujourd'hui."
+      }
+    ],
+    "tags": []
   },
   {
     "id": "tech-028",
-    "english": "A problem has occurred",
-    "french": "Un problème est survenu",
-    "japanese": "問題が発生しました",
+    "kanji": "問題が発生しました",
+    "hiragana": "もんだいがはっせいしました",
     "romaji": "Mondai ga hassei shimashita",
-    "category": "Keigo",
-    "track": "tech",
-    "subcategory": "keigo-meeting",
-    "notes": "Critical phrase — use with caution and always follow up with a solution proposal."
+    "meaning_en": "A problem has occurred",
+    "meaning_fr": "Un problème est survenu",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "keigo-meeting",
+    "example_sentences": [
+      {
+        "jp": "システムに問題が発生しました。対応中です。",
+        "reading": "Shisutemu ni mondai ga hassei shimashita. Taiou-chuu desu.",
+        "en": "A problem has occurred in the system. We are handling it.",
+        "fr": "Un problème est survenu dans le système. Nous le traitons."
+      }
+    ],
+    "tags": []
   },
   {
     "id": "tech-029",
-    "english": "Currently handling it / In progress",
-    "french": "En cours de traitement",
-    "japanese": "対応中です",
+    "kanji": "対応中です",
+    "hiragana": "たいおうちゅうです",
     "romaji": "Taiou-chuu desu",
-    "category": "Keigo",
-    "track": "tech",
-    "subcategory": "keigo-meeting"
+    "meaning_en": "Currently handling it / In progress",
+    "meaning_fr": "En cours de traitement",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "keigo-meeting",
+    "example_sentences": [
+      {
+        "jp": "バグは確認済みで、現在対応中です。",
+        "reading": "Bagu wa kakunin-zumi de, genzai taiou-chuu desu.",
+        "en": "The bug has been identified and is currently being handled.",
+        "fr": "Le bug a été identifié et est en cours de traitement."
+      }
+    ],
+    "tags": []
   },
   {
     "id": "tech-030",
-    "english": "Could you please confirm?",
-    "french": "Pourriez-vous confirmer ?",
-    "japanese": "ご確認いただけますか",
+    "kanji": "ご確認いただけますか",
+    "hiragana": "ごかくにんいただけますか",
     "romaji": "Go-kakunin itadakemasu ka",
-    "category": "Keigo",
-    "track": "tech",
-    "subcategory": "keigo-requests",
-    "notes": "More polite than ご確認ください. Use with senior engineers or managers."
+    "meaning_en": "Could you please confirm?",
+    "meaning_fr": "Pourriez-vous confirmer ?",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "keigo-requests",
+    "example_sentences": [
+      {
+        "jp": "修正した仕様書をご確認いただけますか？",
+        "reading": "Shuusei shita shiyousho wo go-kakunin itadakemasu ka?",
+        "en": "Could you please confirm the revised specification document?",
+        "fr": "Pourriez-vous confirmer le document de spécification révisé ?"
+      }
+    ],
+    "tags": []
   },
   {
     "id": "tech-031",
-    "english": "I understand / Understood",
-    "french": "Je comprends / Compris",
-    "japanese": "かしこまりました",
+    "kanji": "かしこまりました",
+    "hiragana": "かしこまりました",
     "romaji": "Kashikomarimashita",
-    "category": "Keigo",
-    "track": "tech",
-    "subcategory": "keigo-responses",
-    "notes": "The most formal way to say 'understood'. Use with clients or executive management."
+    "meaning_en": "I understand / Understood (formal)",
+    "meaning_fr": "Je comprends / Compris (très formel)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "keigo-responses",
+    "example_sentences": [
+      {
+        "jp": "かしこまりました。すぐに対応いたします。",
+        "reading": "Kashikomarimashita. Sugu ni taiou itashimasu.",
+        "en": "Understood. I will handle it immediately.",
+        "fr": "Compris. Je vais m'en occuper immédiatement."
+      }
+    ],
+    "tags": []
   },
   {
     "id": "tech-032",
-    "english": "I have a question / May I ask?",
-    "french": "J'ai une question",
-    "japanese": "質問してもよろしいですか",
+    "kanji": "質問してもよろしいですか",
+    "hiragana": "しつもんしてもよろしいですか",
     "romaji": "Shitsumon shite mo yoroshii desu ka",
-    "category": "Keigo",
-    "track": "tech",
-    "subcategory": "keigo-requests"
+    "meaning_en": "I have a question / May I ask?",
+    "meaning_fr": "Puis-je poser une question ?",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "keigo-requests",
+    "example_sentences": [
+      {
+        "jp": "少々質問してもよろしいですか？",
+        "reading": "Shoushou shitsumon shite mo yoroshii desu ka?",
+        "en": "May I ask a quick question?",
+        "fr": "Puis-je poser une rapide question ?"
+      }
+    ],
+    "tags": []
   }
 ]

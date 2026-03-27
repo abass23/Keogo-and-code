@@ -1,0 +1,632 @@
+[
+  {
+    "id": "n5-001",
+    "kanji": "日本語",
+    "hiragana": "にほんご",
+    "romaji": "Nihongo",
+    "meaning_en": "Japanese language",
+    "meaning_fr": "Langue japonaise",
+    "audio_url": null,
+    "jlpt_level": "N5",
+    "domain": "core",
+    "subdomain": "language",
+    "example_sentences": [
+      {
+        "jp": "日本語を勉強しています。",
+        "reading": "Nihongo wo benkyou shite imasu.",
+        "en": "I am studying Japanese.",
+        "fr": "J'étudie le japonais."
+      }
+    ],
+    "tags": ["language", "study"]
+  },
+  {
+    "id": "n5-002",
+    "kanji": "日本",
+    "hiragana": "にほん",
+    "romaji": "Nihon",
+    "meaning_en": "Japan",
+    "meaning_fr": "Japon",
+    "audio_url": null,
+    "jlpt_level": "N5",
+    "domain": "core",
+    "subdomain": "place",
+    "example_sentences": [
+      {
+        "jp": "日本に住んでいます。",
+        "reading": "Nihon ni sunde imasu.",
+        "en": "I live in Japan.",
+        "fr": "Je vis au Japon."
+      }
+    ],
+    "tags": ["country", "place"]
+  },
+  {
+    "id": "n5-003",
+    "kanji": "人",
+    "hiragana": "ひと",
+    "romaji": "Hito",
+    "meaning_en": "Person / People",
+    "meaning_fr": "Personne / Gens",
+    "audio_url": null,
+    "jlpt_level": "N5",
+    "domain": "core",
+    "subdomain": "people",
+    "example_sentences": [
+      {
+        "jp": "あの人は誰ですか？",
+        "reading": "Ano hito wa dare desu ka?",
+        "en": "Who is that person?",
+        "fr": "Qui est cette personne ?"
+      }
+    ],
+    "tags": ["people"]
+  },
+  {
+    "id": "n5-004",
+    "kanji": "私",
+    "hiragana": "わたし",
+    "romaji": "Watashi",
+    "meaning_en": "I / Me",
+    "meaning_fr": "Je / Moi",
+    "audio_url": null,
+    "jlpt_level": "N5",
+    "domain": "core",
+    "subdomain": "pronouns",
+    "example_sentences": [
+      {
+        "jp": "私はエンジニアです。",
+        "reading": "Watashi wa enjinia desu.",
+        "en": "I am an engineer.",
+        "fr": "Je suis ingénieur."
+      }
+    ],
+    "tags": ["pronoun", "self"]
+  },
+  {
+    "id": "n5-005",
+    "kanji": "会社",
+    "hiragana": "かいしゃ",
+    "romaji": "Kaisha",
+    "meaning_en": "Company",
+    "meaning_fr": "Entreprise",
+    "audio_url": null,
+    "jlpt_level": "N5",
+    "domain": "core",
+    "subdomain": "work",
+    "example_sentences": [
+      {
+        "jp": "会社に行きます。",
+        "reading": "Kaisha ni ikimasu.",
+        "en": "I am going to the office.",
+        "fr": "Je vais au bureau."
+      }
+    ],
+    "tags": ["work", "business"]
+  },
+  {
+    "id": "n5-006",
+    "kanji": "仕事",
+    "hiragana": "しごと",
+    "romaji": "Shigoto",
+    "meaning_en": "Work / Job",
+    "meaning_fr": "Travail / Emploi",
+    "audio_url": null,
+    "jlpt_level": "N5",
+    "domain": "core",
+    "subdomain": "work",
+    "example_sentences": [
+      {
+        "jp": "仕事は何ですか？",
+        "reading": "Shigoto wa nan desu ka?",
+        "en": "What is your job?",
+        "fr": "Quel est votre travail ?"
+      }
+    ],
+    "tags": ["work", "career"]
+  },
+  {
+    "id": "n5-007",
+    "kanji": "電話",
+    "hiragana": "でんわ",
+    "romaji": "Denwa",
+    "meaning_en": "Telephone / Phone",
+    "meaning_fr": "Téléphone",
+    "audio_url": null,
+    "jlpt_level": "N5",
+    "domain": "core",
+    "subdomain": "communication",
+    "example_sentences": [
+      {
+        "jp": "電話してください。",
+        "reading": "Denwa shite kudasai.",
+        "en": "Please call me.",
+        "fr": "Veuillez m'appeler."
+      }
+    ],
+    "tags": ["communication", "device"]
+  },
+  {
+    "id": "n5-008",
+    "kanji": "時間",
+    "hiragana": "じかん",
+    "romaji": "Jikan",
+    "meaning_en": "Time",
+    "meaning_fr": "Temps / Heure",
+    "audio_url": null,
+    "jlpt_level": "N5",
+    "domain": "core",
+    "subdomain": "time",
+    "example_sentences": [
+      {
+        "jp": "時間がありますか？",
+        "reading": "Jikan ga arimasu ka?",
+        "en": "Do you have time?",
+        "fr": "Avez-vous du temps ?"
+      }
+    ],
+    "tags": ["time"]
+  },
+  {
+    "id": "n5-009",
+    "kanji": "今日",
+    "hiragana": "きょう",
+    "romaji": "Kyou",
+    "meaning_en": "Today",
+    "meaning_fr": "Aujourd'hui",
+    "audio_url": null,
+    "jlpt_level": "N5",
+    "domain": "core",
+    "subdomain": "time",
+    "example_sentences": [
+      {
+        "jp": "今日は何曜日ですか？",
+        "reading": "Kyou wa nan-youbi desu ka?",
+        "en": "What day of the week is today?",
+        "fr": "Quel jour sommes-nous aujourd'hui ?"
+      }
+    ],
+    "tags": ["time", "calendar"]
+  },
+  {
+    "id": "n5-010",
+    "kanji": "明日",
+    "hiragana": "あした",
+    "romaji": "Ashita",
+    "meaning_en": "Tomorrow",
+    "meaning_fr": "Demain",
+    "audio_url": null,
+    "jlpt_level": "N5",
+    "domain": "core",
+    "subdomain": "time",
+    "example_sentences": [
+      {
+        "jp": "明日また来てください。",
+        "reading": "Ashita mata kite kudasai.",
+        "en": "Please come again tomorrow.",
+        "fr": "Venez à nouveau demain, s'il vous plaît."
+      }
+    ],
+    "tags": ["time", "calendar"]
+  },
+  {
+    "id": "n5-011",
+    "kanji": "年",
+    "hiragana": "ねん",
+    "romaji": "Nen",
+    "meaning_en": "Year",
+    "meaning_fr": "An / Année",
+    "audio_url": null,
+    "jlpt_level": "N5",
+    "domain": "core",
+    "subdomain": "time",
+    "example_sentences": [
+      {
+        "jp": "今年はどんな年ですか？",
+        "reading": "Kotoshi wa donna nen desu ka?",
+        "en": "What kind of year is this year?",
+        "fr": "Quelle sorte d'année est cette année ?"
+      }
+    ],
+    "tags": ["time", "calendar"]
+  },
+  {
+    "id": "n5-012",
+    "kanji": "月",
+    "hiragana": "つき",
+    "romaji": "Tsuki",
+    "meaning_en": "Month / Moon",
+    "meaning_fr": "Mois / Lune",
+    "audio_url": null,
+    "jlpt_level": "N5",
+    "domain": "core",
+    "subdomain": "time",
+    "example_sentences": [
+      {
+        "jp": "来月日本に行きます。",
+        "reading": "Raigetsu Nihon ni ikimasu.",
+        "en": "I am going to Japan next month.",
+        "fr": "Je vais au Japon le mois prochain."
+      }
+    ],
+    "tags": ["time", "calendar"]
+  },
+  {
+    "id": "n5-013",
+    "kanji": "日",
+    "hiragana": "ひ",
+    "romaji": "Hi",
+    "meaning_en": "Day / Sun",
+    "meaning_fr": "Jour / Soleil",
+    "audio_url": null,
+    "jlpt_level": "N5",
+    "domain": "core",
+    "subdomain": "time",
+    "example_sentences": [
+      {
+        "jp": "毎日練習します。",
+        "reading": "Mainichi renshuu shimasu.",
+        "en": "I practice every day.",
+        "fr": "Je m'entraîne tous les jours."
+      }
+    ],
+    "tags": ["time", "calendar"]
+  },
+  {
+    "id": "n5-014",
+    "kanji": "大きい",
+    "hiragana": "おおきい",
+    "romaji": "Ookii",
+    "meaning_en": "Big / Large",
+    "meaning_fr": "Grand / Gros",
+    "audio_url": null,
+    "jlpt_level": "N5",
+    "domain": "core",
+    "subdomain": "adjectives",
+    "example_sentences": [
+      {
+        "jp": "あの会社は大きいです。",
+        "reading": "Ano kaisha wa ookii desu.",
+        "en": "That company is big.",
+        "fr": "Cette entreprise est grande."
+      }
+    ],
+    "tags": ["adjective", "size"]
+  },
+  {
+    "id": "n5-015",
+    "kanji": "小さい",
+    "hiragana": "ちいさい",
+    "romaji": "Chiisai",
+    "meaning_en": "Small / Little",
+    "meaning_fr": "Petit",
+    "audio_url": null,
+    "jlpt_level": "N5",
+    "domain": "core",
+    "subdomain": "adjectives",
+    "example_sentences": [
+      {
+        "jp": "小さいファイルを送ります。",
+        "reading": "Chiisai fairu wo okurimasu.",
+        "en": "I will send a small file.",
+        "fr": "Je vais envoyer un petit fichier."
+      }
+    ],
+    "tags": ["adjective", "size"]
+  },
+  {
+    "id": "n5-016",
+    "kanji": "新しい",
+    "hiragana": "あたらしい",
+    "romaji": "Atarashii",
+    "meaning_en": "New",
+    "meaning_fr": "Nouveau / Nouvelle",
+    "audio_url": null,
+    "jlpt_level": "N5",
+    "domain": "core",
+    "subdomain": "adjectives",
+    "example_sentences": [
+      {
+        "jp": "新しいパソコンを買いました。",
+        "reading": "Atarashii pasokon wo kaimashita.",
+        "en": "I bought a new computer.",
+        "fr": "J'ai acheté un nouvel ordinateur."
+      }
+    ],
+    "tags": ["adjective", "state"]
+  },
+  {
+    "id": "n5-017",
+    "kanji": "古い",
+    "hiragana": "ふるい",
+    "romaji": "Furui",
+    "meaning_en": "Old",
+    "meaning_fr": "Vieux / Ancien",
+    "audio_url": null,
+    "jlpt_level": "N5",
+    "domain": "core",
+    "subdomain": "adjectives",
+    "example_sentences": [
+      {
+        "jp": "このコードは古いです。",
+        "reading": "Kono koodo wa furui desu.",
+        "en": "This code is old.",
+        "fr": "Ce code est ancien."
+      }
+    ],
+    "tags": ["adjective", "state"]
+  },
+  {
+    "id": "n5-018",
+    "kanji": "分かる",
+    "hiragana": "わかる",
+    "romaji": "Wakaru",
+    "meaning_en": "To understand",
+    "meaning_fr": "Comprendre",
+    "audio_url": null,
+    "jlpt_level": "N5",
+    "domain": "core",
+    "subdomain": "verbs",
+    "example_sentences": [
+      {
+        "jp": "日本語が分かりますか？",
+        "reading": "Nihongo ga wakarimasu ka?",
+        "en": "Do you understand Japanese?",
+        "fr": "Comprenez-vous le japonais ?"
+      }
+    ],
+    "tags": ["verb", "comprehension"]
+  },
+  {
+    "id": "n5-019",
+    "kanji": "見る",
+    "hiragana": "みる",
+    "romaji": "Miru",
+    "meaning_en": "To see / To watch",
+    "meaning_fr": "Voir / Regarder",
+    "audio_url": null,
+    "jlpt_level": "N5",
+    "domain": "core",
+    "subdomain": "verbs",
+    "example_sentences": [
+      {
+        "jp": "画面を見てください。",
+        "reading": "Gamen wo mite kudasai.",
+        "en": "Please look at the screen.",
+        "fr": "Regardez l'écran, s'il vous plaît."
+      }
+    ],
+    "tags": ["verb", "sense"]
+  },
+  {
+    "id": "n5-020",
+    "kanji": "聞く",
+    "hiragana": "きく",
+    "romaji": "Kiku",
+    "meaning_en": "To listen / To ask",
+    "meaning_fr": "Écouter / Demander",
+    "audio_url": null,
+    "jlpt_level": "N5",
+    "domain": "core",
+    "subdomain": "verbs",
+    "example_sentences": [
+      {
+        "jp": "質問を聞いてください。",
+        "reading": "Shitsumon wo kiite kudasai.",
+        "en": "Please listen to the question.",
+        "fr": "Écoutez la question, s'il vous plaît."
+      }
+    ],
+    "tags": ["verb", "sense", "communication"]
+  },
+  {
+    "id": "n5-021",
+    "kanji": "話す",
+    "hiragana": "はなす",
+    "romaji": "Hanasu",
+    "meaning_en": "To speak / To talk",
+    "meaning_fr": "Parler",
+    "audio_url": null,
+    "jlpt_level": "N5",
+    "domain": "core",
+    "subdomain": "verbs",
+    "example_sentences": [
+      {
+        "jp": "日本語で話しましょう。",
+        "reading": "Nihongo de hanashimashou.",
+        "en": "Let's speak in Japanese.",
+        "fr": "Parlons en japonais."
+      }
+    ],
+    "tags": ["verb", "communication"]
+  },
+  {
+    "id": "n5-022",
+    "kanji": "書く",
+    "hiragana": "かく",
+    "romaji": "Kaku",
+    "meaning_en": "To write",
+    "meaning_fr": "Écrire",
+    "audio_url": null,
+    "jlpt_level": "N5",
+    "domain": "core",
+    "subdomain": "verbs",
+    "example_sentences": [
+      {
+        "jp": "レポートを書きます。",
+        "reading": "Repooto wo kakimasu.",
+        "en": "I will write a report.",
+        "fr": "Je vais écrire un rapport."
+      }
+    ],
+    "tags": ["verb", "communication"]
+  },
+  {
+    "id": "n5-023",
+    "kanji": "読む",
+    "hiragana": "よむ",
+    "romaji": "Yomu",
+    "meaning_en": "To read",
+    "meaning_fr": "Lire",
+    "audio_url": null,
+    "jlpt_level": "N5",
+    "domain": "core",
+    "subdomain": "verbs",
+    "example_sentences": [
+      {
+        "jp": "仕様書を読みました。",
+        "reading": "Shiyousho wo yomimashita.",
+        "en": "I read the specification document.",
+        "fr": "J'ai lu le document de spécification."
+      }
+    ],
+    "tags": ["verb", "communication"]
+  },
+  {
+    "id": "n5-024",
+    "kanji": "食べる",
+    "hiragana": "たべる",
+    "romaji": "Taberu",
+    "meaning_en": "To eat",
+    "meaning_fr": "Manger",
+    "audio_url": null,
+    "jlpt_level": "N5",
+    "domain": "core",
+    "subdomain": "verbs",
+    "example_sentences": [
+      {
+        "jp": "お昼に何を食べますか？",
+        "reading": "Ohiru ni nani wo tabemasu ka?",
+        "en": "What will you eat for lunch?",
+        "fr": "Que mangerez-vous pour le déjeuner ?"
+      }
+    ],
+    "tags": ["verb", "food"]
+  },
+  {
+    "id": "n5-025",
+    "kanji": "飲む",
+    "hiragana": "のむ",
+    "romaji": "Nomu",
+    "meaning_en": "To drink",
+    "meaning_fr": "Boire",
+    "audio_url": null,
+    "jlpt_level": "N5",
+    "domain": "core",
+    "subdomain": "verbs",
+    "example_sentences": [
+      {
+        "jp": "コーヒーを飲みますか？",
+        "reading": "Koohii wo nomimasu ka?",
+        "en": "Will you drink coffee?",
+        "fr": "Voulez-vous boire un café ?"
+      }
+    ],
+    "tags": ["verb", "food"]
+  },
+  {
+    "id": "n5-026",
+    "kanji": "行く",
+    "hiragana": "いく",
+    "romaji": "Iku",
+    "meaning_en": "To go",
+    "meaning_fr": "Aller",
+    "audio_url": null,
+    "jlpt_level": "N5",
+    "domain": "core",
+    "subdomain": "verbs",
+    "example_sentences": [
+      {
+        "jp": "会議室に行きます。",
+        "reading": "Kaigishitsu ni ikimasu.",
+        "en": "I am going to the meeting room.",
+        "fr": "Je vais dans la salle de réunion."
+      }
+    ],
+    "tags": ["verb", "movement"]
+  },
+  {
+    "id": "n5-027",
+    "kanji": "来る",
+    "hiragana": "くる",
+    "romaji": "Kuru",
+    "meaning_en": "To come",
+    "meaning_fr": "Venir",
+    "audio_url": null,
+    "jlpt_level": "N5",
+    "domain": "core",
+    "subdomain": "verbs",
+    "example_sentences": [
+      {
+        "jp": "明日会社に来てください。",
+        "reading": "Ashita kaisha ni kite kudasai.",
+        "en": "Please come to the office tomorrow.",
+        "fr": "Veuillez venir au bureau demain."
+      }
+    ],
+    "tags": ["verb", "movement"]
+  },
+  {
+    "id": "n5-028",
+    "kanji": "する",
+    "hiragana": "する",
+    "romaji": "Suru",
+    "meaning_en": "To do",
+    "meaning_fr": "Faire",
+    "audio_url": null,
+    "jlpt_level": "N5",
+    "domain": "core",
+    "subdomain": "verbs",
+    "example_sentences": [
+      {
+        "jp": "何をしますか？",
+        "reading": "Nani wo shimasu ka?",
+        "en": "What will you do?",
+        "fr": "Qu'allez-vous faire ?"
+      }
+    ],
+    "tags": ["verb", "action"]
+  },
+  {
+    "id": "n5-029",
+    "kanji": "ある",
+    "hiragana": "ある",
+    "romaji": "Aru",
+    "meaning_en": "To exist / To have (inanimate)",
+    "meaning_fr": "Exister / Avoir (inanimé)",
+    "audio_url": null,
+    "jlpt_level": "N5",
+    "domain": "core",
+    "subdomain": "verbs",
+    "example_sentences": [
+      {
+        "jp": "バグがあります。",
+        "reading": "Bagu ga arimasu.",
+        "en": "There is a bug.",
+        "fr": "Il y a un bug."
+      }
+    ],
+    "tags": ["verb", "existence"]
+  },
+  {
+    "id": "n5-030",
+    "kanji": "いる",
+    "hiragana": "いる",
+    "romaji": "Iru",
+    "meaning_en": "To exist / To be (animate)",
+    "meaning_fr": "Être / Se trouver (animé)",
+    "audio_url": null,
+    "jlpt_level": "N5",
+    "domain": "core",
+    "subdomain": "verbs",
+    "example_sentences": [
+      {
+        "jp": "エンジニアが三人います。",
+        "reading": "Enjinia ga sannin imasu.",
+        "en": "There are three engineers.",
+        "fr": "Il y a trois ingénieurs."
+      }
+    ],
+    "tags": ["verb", "existence"]
+  }
+]

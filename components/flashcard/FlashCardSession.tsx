@@ -1,77 +1,77 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowLeft, Trophy, RotateCcw, Home } from "lucide-react";
-import { FlashCard as FlashCardType, Track } from "@/lib/types";
+import { ArrowLeft, RotateCcw, Home, Zap } from "lucide-react";
+import type { VocabCard, Quality, DeckFilter } from "@/lib/types";
 import { useFlashcards } from "@/hooks/useFlashcards";
+import { useAppStore } from "@/stores/app-store";
+import { t } from "@/lib/i18n/strings";
 import FlashCard from "./FlashCard";
 import GradeButtons from "./GradeButtons";
 
 interface FlashCardSessionProps {
-  track: Track;
-  cards: FlashCardType[];
+  cards: VocabCard[];
+  filter?: DeckFilter;
 }
 
-const TRACK_META = {
-  tech: {
-    label: "Tech & Keigo",
-    emoji: "💻",
-    accentText: "text-cyan-400",
-    accentBg: "bg-cyan-400/10",
-    accentBorder: "border-cyan-400/30",
-  },
-  life: {
-    label: "Life & Travel",
-    emoji: "🗾",
-    accentText: "text-amber-400",
-    accentBg: "bg-amber-400/10",
-    accentBorder: "border-amber-400/30",
-  },
-};
-
-export default function FlashCardSession({ track, cards }: FlashCardSessionProps) {
-  const meta = TRACK_META[track];
+export default function FlashCardSession({ cards, filter }: FlashCardSessionProps) {
+  const locale = useAppStore((s) => s.locale);
   const {
     currentCard,
     currentIndex,
     totalInSession,
     isRevealed,
     isSessionComplete,
+    sessionXP,
+    correctCount,
     getSRSState,
     reveal,
     grade,
     restart,
-  } = useFlashcards(cards);
+    loading,
+  } = useFlashcards(cards, filter);
 
-  const progressPct =
-    totalInSession > 0 ? Math.round((currentIndex / totalInSession) * 100) : 0;
+  const progressPct = totalInSession > 0 ? Math.round((currentIndex / totalInSession) * 100) : 0;
+
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center min-h-[60vh]">
+        <div className="w-6 h-6 rounded-full border-2 border-cyan-400 border-t-transparent animate-spin" />
+      </div>
+    );
+  }
 
   if (isSessionComplete) {
+    const accuracy = totalInSession > 0 ? Math.round((correctCount / totalInSession) * 100) : 0;
     return (
       <div className="flex flex-col items-center justify-center min-h-[60vh] gap-6 px-4 text-center">
-        <div className={`w-20 h-20 rounded-2xl flex items-center justify-center text-4xl ${meta.accentBg} border ${meta.accentBorder}`}>
+        <div className="w-20 h-20 rounded-2xl flex items-center justify-center text-4xl bg-cyan-400/10 border border-cyan-400/30">
           🎉
         </div>
         <div>
-          <h2 className="text-2xl font-bold text-slate-100 mb-2">
-            Session complete!
+          <h2 className="text-2xl font-bold text-slate-100 mb-1">
+            {t('session.complete', locale)}
           </h2>
-          <p className="text-slate-400 text-sm max-w-xs">
-            You reviewed {totalInSession} card{totalInSession !== 1 ? "s" : ""}. Keep it up — consistency is the key to fluency.
+          <p className="text-slate-400 text-sm">
+            {totalInSession} {locale === 'fr' ? 'cartes' : 'cards'} · {accuracy}% {t('session.correct', locale)}
           </p>
+        </div>
+        <div className="flex items-center gap-2 bg-zinc-900 border border-zinc-700 rounded-xl px-5 py-3">
+          <Zap size={16} className="text-yellow-400" />
+          <span className="text-slate-100 font-semibold">+{sessionXP} XP</span>
         </div>
         <div className="flex gap-3 flex-wrap justify-center">
           <button
             onClick={restart}
-            className={`flex items-center gap-2 rounded-xl border px-5 py-3 text-sm font-semibold transition-colors ${meta.accentBorder} ${meta.accentText} hover:${meta.accentBg}`}
+            className="flex items-center gap-2 rounded-xl border border-cyan-500/40 px-5 py-3 text-sm font-semibold text-cyan-400 hover:bg-cyan-400/10 transition-colors"
           >
             <RotateCcw size={15} />
-            Practice again
+            {locale === 'fr' ? 'Recommencer' : 'Practice again'}
           </button>
           <Link href="/">
             <button className="flex items-center gap-2 rounded-xl border border-zinc-700 px-5 py-3 text-sm font-semibold text-slate-300 hover:bg-zinc-800 transition-colors">
               <Home size={15} />
-              Dashboard
+              {t('nav.home', locale)}
             </button>
           </Link>
         </div>
@@ -79,29 +79,32 @@ export default function FlashCardSession({ track, cards }: FlashCardSessionProps
     );
   }
 
-  if (!currentCard) return null;
+  if (totalInSession === 0) {
+    return (
+      <div className="flex flex-col items-center justify-center min-h-[60vh] gap-4 px-4 text-center">
+        <p className="text-5xl">✅</p>
+        <p className="text-slate-300">{t('session.no_due', locale)}</p>
+        <Link href="/">
+          <button className="flex items-center gap-2 rounded-xl border border-zinc-700 px-5 py-3 text-sm font-semibold text-slate-300 hover:bg-zinc-800 transition-colors">
+            <Home size={15} />
+            {t('nav.home', locale)}
+          </button>
+        </Link>
+      </div>
+    );
+  }
 
-  const currentSRS = getSRSState(currentCard.id);
+  if (!currentCard) return null;
 
   return (
     <div className="flex flex-col gap-6 px-4 py-6">
-      {/* Session header */}
+      {/* Header */}
       <div className="max-w-xl mx-auto w-full flex items-center justify-between">
-        <Link
-          href="/"
-          className="flex items-center gap-1.5 text-sm text-slate-400 hover:text-slate-200 transition-colors"
-        >
+        <Link href="/" className="flex items-center gap-1.5 text-sm text-slate-400 hover:text-slate-200 transition-colors">
           <ArrowLeft size={15} />
-          Back
+          {t('nav.home', locale)}
         </Link>
-
-        <div className="flex items-center gap-2">
-          <span className={`text-sm font-semibold ${meta.accentText}`}>
-            {meta.emoji} {meta.label}
-          </span>
-        </div>
-
-        <span className="text-sm font-mono text-slate-400">
+        <span className="text-xs font-mono text-slate-500">
           {currentIndex + 1} / {totalInSession}
         </span>
       </div>
@@ -110,26 +113,23 @@ export default function FlashCardSession({ track, cards }: FlashCardSessionProps
       <div className="max-w-xl mx-auto w-full">
         <div className="h-1 rounded-full bg-zinc-800 overflow-hidden">
           <div
-            className={`h-full rounded-full transition-all duration-500 ${
-              track === "tech" ? "bg-cyan-400" : "bg-amber-400"
-            }`}
+            className="h-full rounded-full bg-cyan-400 transition-all duration-500"
             style={{ width: `${progressPct}%` }}
           />
         </div>
       </div>
 
-      {/* Flash card */}
-      <FlashCard
-        card={currentCard}
-        isRevealed={isRevealed}
-        track={track}
-        onReveal={reveal}
-      />
+      {/* Card */}
+      <FlashCard card={currentCard} isRevealed={isRevealed} onReveal={reveal} />
 
-      {/* Grade buttons — only shown after reveal */}
+      {/* Grade buttons */}
       {isRevealed && (
         <div className="animate-card-reveal">
-          <GradeButtons onGrade={grade} currentState={currentSRS} />
+          <GradeButtons
+            onGrade={(q: Quality) => grade(q)}
+            currentState={getSRSState(currentCard.id)}
+            locale={locale}
+          />
         </div>
       )}
     </div>

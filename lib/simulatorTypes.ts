@@ -1,43 +1,33 @@
-export type ScenarioId = 'tech-standup' | 'ryokan-checkin';
+import type { ConversationMode } from './types';
+
+export type ScenarioId = ConversationMode; // 'jikoshoukai' | 'interview' | 'daily' | 'technical'
 
 export interface Scenario {
   id: ScenarioId;
-  track: 'tech' | 'life';
-  title: string;
-  subtitle: string;
-  aiName: string;
-  aiRole: string;
-  aiAvatar: string;
-  accentColor: 'cyan' | 'amber';
-  description: string;
-  hint: string;
+  title_en: string;
+  title_fr: string;
+  subtitle_en: string;
+  subtitle_fr: string;
+  description_en: string;
+  description_fr: string;
+  aiRole_en: string;
+  aiRole_fr: string;
+  accentColor: 'cyan' | 'violet' | 'amber' | 'blue';
+  icon: string;
+  hint_en: string;
+  hint_fr: string;
 }
 
 export interface SimulatorMessage {
   id: string;
   role: 'ai' | 'user';
-  /** Raw text that was recognised / sent */
   text: string;
-  /** Japanese text of the AI reply */
-  japanese?: string;
-  romaji?: string;
-  english?: string;
-  grammarFeedback?: string;
-  correctedJapanese?: string;
-  audioUrl?: string;
   timestamp: number;
+  isStreaming?: boolean;
 }
 
 export interface ChatRequest {
-  scenario: ScenarioId;
-  history: { role: 'user' | 'assistant'; content: string }[];
-  userMessage: string;
-}
-
-export interface ChatResponse {
-  reply: string;
-  reply_romaji: string;
-  reply_english: string;
-  grammar_feedback: string;
-  corrected_japanese: string | null;
+  mode: ScenarioId;
+  messages: { role: 'user' | 'assistant'; content: string }[];
+  userLevel?: string;
 }
