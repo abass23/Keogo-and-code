@@ -1,12 +1,13 @@
 'use client';
 
 import { useState, useRef, useCallback } from 'react';
-import type { ScenarioId, SimulatorMessage, ChatResponse } from '@/lib/simulatorTypes';
+import type { ScenarioId, SimulatorMessage } from '@/lib/simulatorTypes';
 import { OPENING_LINES } from '@/lib/simulatorScenarios';
+import { createClient } from '@/lib/supabase/client';
+import { useAppStore } from '@/stores/app-store';
 
 type Status = 'idle' | 'listening' | 'processing' | 'speaking' | 'error';
 
-// Minimal browser types for Web Speech API (not in TS lib by default)
 interface SpeechRecognitionEvent extends Event {
   results: SpeechRecognitionResultList;
 }
@@ -27,27 +28,20 @@ interface SpeechRecognitionInstance extends EventTarget {
 function getSpeechRecognition(): (new () => SpeechRecognitionInstance) | null {
   if (typeof window === 'undefined') return null;
   const w = window as unknown as Record<string, unknown>;
-  return (
-    (w['SpeechRecognition'] as new () => SpeechRecognitionInstance) ??
-    (w['webkitSpeechRecognition'] as new () => SpeechRecognitionInstance) ??
-    null
-  );
+  return (w['SpeechRecognition'] as never) ?? (w['webkitSpeechRecognition'] as never) ?? null;
 }
 
-/** Pick the best available Japanese voice for the AI character. */
 function pickJapaneseVoice(): SpeechSynthesisVoice | null {
   if (typeof window === 'undefined') return null;
   const voices = window.speechSynthesis.getVoices();
   const japanese = voices.filter((v) => v.lang.startsWith('ja'));
   if (!japanese.length) return null;
   const preferred = ['kyoko', 'o-ren', 'haruka', 'google 日本語', 'google japanese'];
-  return (
-    japanese.find((v) => preferred.some((n) => v.name.toLowerCase().includes(n))) ??
-    japanese[0]
-  );
+  return japanese.find((v) => preferred.some((n) => v.name.toLowerCase().includes(n))) ?? japanese[0];
 }
 
 export function useSimulator() {
+  const user = useAppStore((s) => s.user);
   const [scenario, setScenario] = useState<ScenarioId | null>(null);
   const [messages, setMessages] = useState<SimulatorMessage[]>([]);
   const [status, setStatus] = useState<Status>('idle');
@@ -57,47 +51,37 @@ export function useSimulator() {
   const recognitionRef = useRef<SpeechRecognitionInstance | null>(null);
   const historyRef = useRef<{ role: 'user' | 'assistant'; content: string }[]>([]);
 
-  // ── TTS via free browser SpeechSynthesis ─────────────────────────────────
   const playTTS = useCallback((text: string) => {
     if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
-
     window.speechSynthesis.cancel();
     const utter = new SpeechSynthesisUtterance(text);
     utter.lang = 'ja-JP';
-    utter.rate = 0.9;   // slightly slower → clearer for learners
-    utter.pitch = 1.1;  // slightly higher → sounds more natural / feminine
+    utter.rate = 0.9;
+    utter.pitch = 1.1;
     const voice = pickJapaneseVoice();
     if (voice) utter.voice = voice;
-
     utter.onstart = () => setStatus('speaking');
     utter.onend = () => setStatus('idle');
     utter.onerror = () => setStatus('idle');
-
     window.speechSynthesis.speak(utter);
   }, []);
 
-  // ── Start a scenario ──────────────────────────────────────────────────────
   const startScenario = useCallback((id: ScenarioId) => {
     window.speechSynthesis?.cancel();
     const opening = OPENING_LINES[id];
     const firstMsg: SimulatorMessage = {
       id: crypto.randomUUID(),
       role: 'ai',
-      text: opening.japanese,
-      japanese: opening.japanese,
-      romaji: opening.romaji,
-      english: opening.english,
+      text: opening,
       timestamp: Date.now(),
     };
-
-    historyRef.current = [{ role: 'assistant', content: opening.japanese }];
+    historyRef.current = [{ role: 'assistant', content: opening }];
     setScenario(id);
     setMessages([firstMsg]);
     setStatus('idle');
     setTranscript('');
     setErrorMsg(null);
-
-    playTTS(opening.japanese);
+    playTTS(opening);
   }, [playTTS]);
 
   const resetScenario = useCallback(() => {
@@ -111,14 +95,12 @@ export function useSimulator() {
     setErrorMsg(null);
   }, []);
 
-  // ── Push-to-talk ──────────────────────────────────────────────────────────
   const startListening = useCallback(() => {
     const SpeechRecognition = getSpeechRecognition();
     if (!SpeechRecognition) {
-      setErrorMsg('Speech recognition is not supported in this browser. Please use Chrome.');
+      setErrorMsg('Speech recognition not supported. Please use Chrome.');
       return;
     }
-
     window.speechSynthesis?.cancel();
     setTranscript('');
     setErrorMsg(null);
@@ -129,17 +111,13 @@ export function useSimulator() {
     recognition.interimResults = true;
 
     recognition.onresult = (e: SpeechRecognitionEvent) => {
-      const result = Array.from(e.results)
-        .map((r) => r[0].transcript)
-        .join('');
+      const result = Array.from(e.results).map((r) => r[0].transcript).join('');
       setTranscript(result);
     };
-
     recognition.onerror = (e: SpeechRecognitionErrorEvent) => {
       setErrorMsg(`Speech error: ${e.error}`);
       setStatus('idle');
     };
-
     recognition.onend = () => { /* handled by stopListening */ };
 
     recognitionRef.current = recognition;
@@ -147,66 +125,95 @@ export function useSimulator() {
     setStatus('listening');
   }, []);
 
-  const stopListening = useCallback(async () => {
-    recognitionRef.current?.stop();
-
-    const spoken = transcript.trim();
-    if (!spoken || !scenario) {
-      setStatus('idle');
-      return;
-    }
+  const sendMessage = useCallback(async (text: string) => {
+    if (!text.trim() || !scenario) return;
 
     setStatus('processing');
-
     const userMsg: SimulatorMessage = {
       id: crypto.randomUUID(),
       role: 'user',
-      text: spoken,
+      text: text.trim(),
       timestamp: Date.now(),
     };
     setMessages((prev) => [...prev, userMsg]);
 
+    // Add streaming placeholder
+    const aiMsgId = crypto.randomUUID();
+    setMessages((prev) => [...prev, { id: aiMsgId, role: 'ai', text: '', timestamp: Date.now(), isStreaming: true }]);
+
     try {
-      const res = await fetch('/api/simulator/chat', {
+      const supabase = createClient();
+      const { data: { session } } = await supabase.auth.getSession();
+      const token = session?.access_token;
+
+      const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
+      const response = await fetch(`${supabaseUrl}/functions/v1/chat`, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          ...(token ? { Authorization: `Bearer ${token}` } : {}),
+        },
         body: JSON.stringify({
-          scenario,
-          history: historyRef.current,
-          userMessage: spoken,
+          mode: scenario,
+          messages: [
+            ...historyRef.current,
+            { role: 'user', content: text.trim() },
+          ],
+          userLevel: user?.current_level ?? 'N4',
         }),
       });
 
-      if (!res.ok) throw new Error('Chat API failed');
+      if (!response.ok) throw new Error('Edge Function error');
+      if (!response.body) throw new Error('No response body');
 
-      const data: ChatResponse = await res.json();
+      const reader = response.body.getReader();
+      const decoder = new TextDecoder();
+      let fullText = '';
 
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+
+        const chunk = decoder.decode(value, { stream: true });
+        const lines = chunk.split('\n').filter((l) => l.startsWith('data: '));
+
+        for (const line of lines) {
+          const data = line.slice(6);
+          if (data === '[DONE]') break;
+          try {
+            const { text: delta } = JSON.parse(data);
+            fullText += delta;
+            setMessages((prev) =>
+              prev.map((m) => m.id === aiMsgId ? { ...m, text: fullText } : m),
+            );
+          } catch { /* skip malformed chunks */ }
+        }
+      }
+
+      // Finalize
       historyRef.current = [
         ...historyRef.current,
-        { role: 'user', content: spoken },
-        { role: 'assistant', content: data.reply },
+        { role: 'user', content: text.trim() },
+        { role: 'assistant', content: fullText },
       ];
-
-      const aiMsg: SimulatorMessage = {
-        id: crypto.randomUUID(),
-        role: 'ai',
-        text: data.reply,
-        japanese: data.reply,
-        romaji: data.reply_romaji,
-        english: data.reply_english,
-        grammarFeedback: data.grammar_feedback,
-        correctedJapanese: data.corrected_japanese ?? undefined,
-        timestamp: Date.now(),
-      };
-
-      setMessages((prev) => [...prev, aiMsg]);
+      setMessages((prev) =>
+        prev.map((m) => m.id === aiMsgId ? { ...m, text: fullText, isStreaming: false } : m),
+      );
       setTranscript('');
-      playTTS(data.reply);
-    } catch {
-      setErrorMsg('Could not reach the AI. Check your GOOGLE_GENERATIVE_AI_API_KEY in .env.local.');
+      playTTS(fullText);
+    } catch (err) {
+      setErrorMsg(`AI error: ${String(err)}. Check Supabase Edge Function and ANTHROPIC_API_KEY secret.`);
       setStatus('error');
+      setMessages((prev) => prev.filter((m) => m.id !== aiMsgId));
     }
-  }, [transcript, scenario, playTTS]);
+  }, [scenario, user, playTTS]);
+
+  const stopListening = useCallback(async () => {
+    recognitionRef.current?.stop();
+    const spoken = transcript.trim();
+    if (!spoken) { setStatus('idle'); return; }
+    await sendMessage(spoken);
+  }, [transcript, sendMessage]);
 
   return {
     scenario,
@@ -218,6 +225,7 @@ export function useSimulator() {
     resetScenario,
     startListening,
     stopListening,
+    sendMessage,
     hasSpeechSupport: getSpeechRecognition() !== null,
   };
 }

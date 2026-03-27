@@ -1,85 +1,71 @@
-import { Scenario, ScenarioId } from './simulatorTypes';
+import type { Scenario, ScenarioId } from './simulatorTypes';
 
 export const SCENARIOS: Record<ScenarioId, Scenario> = {
-  'tech-standup': {
-    id: 'tech-standup',
-    track: 'tech',
-    title: 'Agile Daily Standup',
-    subtitle: 'エンジニアリング・スタンドアップ',
-    aiName: '田中マネージャー',
-    aiRole: 'Engineering Manager',
-    aiAvatar: '👔',
+  jikoshoukai: {
+    id: 'jikoshoukai',
+    title_en: 'Self-Introduction',
+    title_fr: 'Auto-présentation',
+    subtitle_en: '自己紹介の練習',
+    subtitle_fr: 'Pratiquer la自己紹介',
+    description_en: 'Build and perfect your 2-minute 自己紹介 for Japanese job interviews. The AI guides you step by step through greeting, education, career, motivation, and closing.',
+    description_fr: 'Construisez et perfectionnez votre 自己紹介 de 2 minutes pour les entretiens d\'embauche au Japon.',
+    aiRole_en: 'Japanese Language Tutor',
+    aiRole_fr: 'Tuteur de japonais',
     accentColor: 'cyan',
-    description:
-      'Practice your daily standup with a Japanese Engineering Manager. Report yesterday\'s progress, today\'s plan, and any blockers - all in Keigo.',
-    hint: 'Try: 「昨日は…を実装しました。今日は…をする予定です。」',
+    icon: '🎯',
+    hint_en: 'Start with: 「はじめまして、{name}と申します。」',
+    hint_fr: 'Commencez par: 「はじめまして、{name}と申します。」',
   },
-  'ryokan-checkin': {
-    id: 'ryokan-checkin',
-    track: 'life',
-    title: 'Ryokan Check-in',
-    subtitle: '旅館のチェックイン',
-    aiName: '佐藤さん',
-    aiRole: 'Ryokan Front Desk',
-    aiAvatar: '🏯',
+  interview: {
+    id: 'interview',
+    title_en: 'Interview Simulator',
+    title_fr: 'Simulateur d\'entretien',
+    subtitle_en: '面接の練習',
+    subtitle_fr: 'Pratiquer l\'entretien',
+    description_en: 'Practice real Japanese interview questions with an AI interviewer from a top automotive company. Receive real-time keigo correction and scoring.',
+    description_fr: 'Pratiquez de vraies questions d\'entretien en japonais avec un recruteur IA d\'une grande entreprise automobile.',
+    aiRole_en: 'Senior Interviewer, Automotive Company',
+    aiRole_fr: 'Recruteur senior, entreprise automobile',
+    accentColor: 'violet',
+    icon: '💼',
+    hint_en: 'Answer with keigo: 「〜でございます」「〜と思っております」',
+    hint_fr: 'Répondez avec keigo: 「〜でございます」「〜と思っております」',
+  },
+  daily: {
+    id: 'daily',
+    title_en: 'Daily Conversation',
+    title_fr: 'Conversation quotidienne',
+    subtitle_en: '日常会話',
+    subtitle_fr: 'Conversation de tous les jours',
+    description_en: 'Chat with a Japanese colleague at the office — morning greetings, standup, lunch, after-work. Natural workplace Japanese.',
+    description_fr: 'Discutez avec un collègue japonais au bureau — salutations, standup, déjeuner, après le travail.',
+    aiRole_en: 'Japanese Colleague',
+    aiRole_fr: 'Collègue japonais',
     accentColor: 'amber',
-    description:
-      'Navigate checking into a traditional Japanese inn. Confirm your reservation, ask about dinner, and understand house rules.',
-    hint: 'Try: 「予約した…です。チェックインをお願いします。」',
+    icon: '☕',
+    hint_en: 'Try: 「お疲れ様です！今日のスタンドアップはどうでしたか？」',
+    hint_fr: 'Essayez: 「お疲れ様です！今日のスタンドアップはどうでしたか？」',
+  },
+  technical: {
+    id: 'technical',
+    title_en: 'Technical Discussion',
+    title_fr: 'Discussion technique',
+    subtitle_en: '技術的な話し合い',
+    subtitle_fr: 'Débat technique',
+    description_en: 'Discuss RTOS, CAN bus, debugging workflows, and embedded architectures in Japanese. Build the vocabulary you need for Japanese engineering teams.',
+    description_fr: 'Discutez de RTOS, bus CAN, flux de débogage et architectures embarquées en japonais.',
+    aiRole_en: 'Senior Embedded Engineer',
+    aiRole_fr: 'Ingénieur embarqué senior',
+    accentColor: 'blue',
+    icon: '⚙️',
+    hint_en: 'Try: 「このRTOSのタスク優先度について説明します。」',
+    hint_fr: 'Essayez: 「このRTOSのタスク優先度について説明します。」',
   },
 };
 
-export const OPENING_LINES: Record<ScenarioId, { japanese: string; romaji: string; english: string }> = {
-  'tech-standup': {
-    japanese: 'おはようございます。では、デイリースタンドアップを始めましょう。昨日の進捗を教えていただけますか？',
-    romaji: 'Ohayou gozaimasu. Dewa, deiri- sutandoappu wo hajimemashou. Kinou no shinchoku wo oshiete itadakemasu ka?',
-    english: "Good morning. Let's start the daily standup. Could you tell me about yesterday's progress?",
-  },
-  'ryokan-checkin': {
-    japanese: 'いらっしゃいませ！当館へようこそ。ご予約のお名前をお聞かせいただけますか？',
-    romaji: 'Irasshaimase! Toukan e youkoso. Go-yoyaku no onamae wo okikase itadakemasu ka?',
-    english: 'Welcome! Welcome to our inn. May I have the name on your reservation?',
-  },
+export const OPENING_LINES: Record<ScenarioId, string> = {
+  jikoshoukai: 'はじめまして！自己紹介の練習をしましょう。まず、日本語で挨拶から始めてください。例えば、「はじめまして、〇〇と申します。」のように自己紹介してみてください。',
+  interview: 'よろしくお願いします。本日は面接にお越しいただきありがとうございます。では、まず自己紹介をお願いできますか？',
+  daily: 'おはようございます！今日もよろしくお願いします。昨日のコードレビューはどうでしたか？',
+  technical: 'こんにちは！今日は組込みシステムについて日本語で話しましょう。今のプロジェクトについて教えていただけますか？',
 };
-
-export function getSystemPrompt(scenarioId: ScenarioId): string {
-  if (scenarioId === 'tech-standup') {
-    return `You are 田中マネージャー (Tanaka Manager), a Japanese Engineering Manager at an embedded systems company in Tokyo. You are conducting a morning Agile daily standup in Japanese.
-
-Rules:
-- Always speak in natural, polite Japanese (丁寧語 / keigo where appropriate).
-- Ask about: yesterday's work (昨日の作業), today's plan (今日の予定), and any blockers (問題点).
-- Keep your replies concise (2-4 sentences max).
-- After reading the user's Japanese, provide grammar correction if needed.
-
-You MUST respond with a JSON object with EXACTLY these fields:
-{
-  "reply": "<your next Japanese sentence(s) as Tanaka Manager>",
-  "reply_romaji": "<romaji transcription of reply>",
-  "reply_english": "<English translation of reply>",
-  "grammar_feedback": "<concise feedback on the user's Japanese: particles, verb forms, politeness level - or 'Perfect! No corrections needed.' if correct>",
-  "corrected_japanese": "<corrected version of ONLY the user's last message, or null if no correction needed>"
-}
-
-Do not add any text outside the JSON object.`;
-  }
-
-  return `You are 佐藤さん (Sato-san), the friendly front desk staff at a traditional Japanese ryokan (旅館) in Kyoto.
-
-Rules:
-- Speak in polite, natural Japanese suitable for a hospitality context (丁寧語).
-- Guide the guest through: confirming their reservation name, check-in time, dinner preferences (夕食), bath schedule (お風呂), and house rules (館内のルール).
-- Keep replies warm and concise (2-4 sentences).
-- After reading the user's Japanese, provide grammar correction if needed.
-
-You MUST respond with a JSON object with EXACTLY these fields:
-{
-  "reply": "<your next Japanese sentence(s) as Sato-san>",
-  "reply_romaji": "<romaji transcription of reply>",
-  "reply_english": "<English translation of reply>",
-  "grammar_feedback": "<concise feedback on the user's Japanese: particles, verb forms, politeness level - or 'Perfect! No corrections needed.' if correct>",
-  "corrected_japanese": "<corrected version of ONLY the user's last message, or null if no correction needed>"
-}
-
-Do not add any text outside the JSON object.`;
-}
