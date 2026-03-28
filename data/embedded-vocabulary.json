@@ -1,0 +1,2522 @@
+[
+  {
+    "id": "emb-001",
+    "kanji": "ヒープメモリ",
+    "hiragana": "ひーぷめもり",
+    "romaji": "Hiipu memori",
+    "meaning_en": "Heap memory",
+    "meaning_fr": "Mémoire tas",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "memory",
+    "example_sentences": [
+      {
+        "jp": "ヒープメモリの動的確保は慎重に行う必要があります。",
+        "reading": "ひーぷめもりのどうてきかくほはしんちょうにおこなうひつようがあります。",
+        "en": "Dynamic heap memory allocation must be done carefully.",
+        "fr": "L'allocation dynamique de mémoire tas doit être faite avec soin."
+      }
+    ],
+    "tags": ["memory", "rtos"]
+  },
+  {
+    "id": "emb-002",
+    "kanji": "スタックメモリ",
+    "hiragana": "すたっくめもり",
+    "romaji": "Sutakku memori",
+    "meaning_en": "Stack memory",
+    "meaning_fr": "Mémoire pile",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "memory",
+    "example_sentences": [
+      {
+        "jp": "スタックメモリが不足するとスタックオーバーフローが発生します。",
+        "reading": "すたっくめもりがふそくするとすたっくおーばーふろーがはっせいします。",
+        "en": "When stack memory is insufficient, a stack overflow occurs.",
+        "fr": "Lorsque la mémoire pile est insuffisante, un débordement de pile se produit."
+      }
+    ],
+    "tags": ["memory", "rtos"]
+  },
+  {
+    "id": "emb-003",
+    "kanji": "メモリリーク",
+    "hiragana": "めもりりーく",
+    "romaji": "Memori riiku",
+    "meaning_en": "Memory leak",
+    "meaning_fr": "Fuite mémoire",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "memory",
+    "example_sentences": [
+      {
+        "jp": "このコードにメモリリークが見つかりました。解放処理を追加してください。",
+        "reading": "このこーどにめもりりーくがみつかりました。かいほうしょりをついかしてください。",
+        "en": "A memory leak was found in this code. Please add the deallocation process.",
+        "fr": "Une fuite mémoire a été trouvée dans ce code. Veuillez ajouter le processus de libération."
+      }
+    ],
+    "tags": ["memory", "bug", "quality"]
+  },
+  {
+    "id": "emb-004",
+    "kanji": "メモリ保護",
+    "hiragana": "めもりほご",
+    "romaji": "Memori hogo",
+    "meaning_en": "Memory protection",
+    "meaning_fr": "Protection mémoire",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "memory",
+    "example_sentences": [
+      {
+        "jp": "MPUを使ってメモリ保護を有効にしています。",
+        "reading": "MPUをつかってめもりほごをゆうこうにしています。",
+        "en": "We are enabling memory protection using the MPU.",
+        "fr": "Nous activons la protection mémoire en utilisant le MPU."
+      }
+    ],
+    "tags": ["memory", "safety", "mpu"]
+  },
+  {
+    "id": "emb-005",
+    "kanji": "フラグメンテーション",
+    "hiragana": "ふらぐめんてーしょん",
+    "romaji": "Furagumentēshon",
+    "meaning_en": "Fragmentation",
+    "meaning_fr": "Fragmentation",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "memory",
+    "example_sentences": [
+      {
+        "jp": "長期間動作するとヒープのフラグメンテーションが問題になります。",
+        "reading": "ちょうきかんどうさするとひーぷのふらぐめんてーしょんがもんだいになります。",
+        "en": "Heap fragmentation becomes a problem with long-term operation.",
+        "fr": "La fragmentation du tas devient un problème lors d'un fonctionnement à long terme."
+      }
+    ],
+    "tags": ["memory", "performance"]
+  },
+  {
+    "id": "emb-006",
+    "kanji": "MMU",
+    "hiragana": "えむえむゆー",
+    "romaji": "Emu emu yuu",
+    "meaning_en": "Memory Management Unit",
+    "meaning_fr": "Unité de gestion mémoire",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "memory",
+    "example_sentences": [
+      {
+        "jp": "このプロセッサにはMMUが搭載されているので仮想メモリが使えます。",
+        "reading": "このぷろせっさにはMMUがとうさいされているのでかそうめもりがつかえます。",
+        "en": "This processor has an MMU so virtual memory can be used.",
+        "fr": "Ce processeur dispose d'un MMU, donc la mémoire virtuelle peut être utilisée."
+      }
+    ],
+    "tags": ["memory", "hardware", "architecture"]
+  },
+  {
+    "id": "emb-007",
+    "kanji": "動的メモリ確保",
+    "hiragana": "どうてきめもりかくほ",
+    "romaji": "Dōteki memori kakuho",
+    "meaning_en": "Dynamic memory allocation",
+    "meaning_fr": "Allocation dynamique de mémoire",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "memory",
+    "example_sentences": [
+      {
+        "jp": "組み込みシステムでは動的メモリ確保を避けるべきです。",
+        "reading": "くみこみしすてむではどうてきめもりかくほをさけるべきです。",
+        "en": "Dynamic memory allocation should be avoided in embedded systems.",
+        "fr": "L'allocation dynamique de mémoire doit être évitée dans les systèmes embarqués."
+      }
+    ],
+    "tags": ["memory", "rtos", "safety"]
+  },
+  {
+    "id": "emb-008",
+    "kanji": "SPI通信",
+    "hiragana": "えすぴーあいつうしん",
+    "romaji": "Esu pii ai tsūshin",
+    "meaning_en": "SPI communication",
+    "meaning_fr": "Communication SPI",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "protocols",
+    "example_sentences": [
+      {
+        "jp": "センサーとのSPI通信のクロック速度を確認してください。",
+        "reading": "せんさーとのえすぴーあいつうしんのくろっくそくどをかくにんしてください。",
+        "en": "Please check the clock speed of the SPI communication with the sensor.",
+        "fr": "Veuillez vérifier la vitesse d'horloge de la communication SPI avec le capteur."
+      }
+    ],
+    "tags": ["protocols", "hardware", "communication"]
+  },
+  {
+    "id": "emb-009",
+    "kanji": "I2C通信",
+    "hiragana": "あいつーしーつうしん",
+    "romaji": "Ai tsuu shii tsūshin",
+    "meaning_en": "I2C communication",
+    "meaning_fr": "Communication I2C",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "protocols",
+    "example_sentences": [
+      {
+        "jp": "I2C通信でスレーブアドレスが競合しています。",
+        "reading": "あいつーしーつうしんですれーぶあどれすがきょうごうしています。",
+        "en": "There is a slave address conflict on the I2C bus.",
+        "fr": "Il y a un conflit d'adresse esclave sur le bus I2C."
+      }
+    ],
+    "tags": ["protocols", "hardware", "communication"]
+  },
+  {
+    "id": "emb-010",
+    "kanji": "UART",
+    "hiragana": "ゆーあーと",
+    "romaji": "Yuu aato",
+    "meaning_en": "UART (Universal Asynchronous Receiver/Transmitter)",
+    "meaning_fr": "UART (émetteur-récepteur asynchrone universel)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "protocols",
+    "example_sentences": [
+      {
+        "jp": "UARTのボーレートを115200に設定してログを出力します。",
+        "reading": "ゆーあーとのぼーれーとを115200にせっていしてろぐをしゅつりょくします。",
+        "en": "Set the UART baud rate to 115200 to output logs.",
+        "fr": "Réglez le débit de l'UART à 115200 pour afficher les journaux."
+      }
+    ],
+    "tags": ["protocols", "debugging", "communication"]
+  },
+  {
+    "id": "emb-011",
+    "kanji": "RS-232",
+    "hiragana": "あーるえすにさんに",
+    "romaji": "Aaru esu ni san ni",
+    "meaning_en": "RS-232 serial interface",
+    "meaning_fr": "Interface série RS-232",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "embedded",
+    "subdomain": "protocols",
+    "example_sentences": [
+      {
+        "jp": "旧式の装置はRS-232インターフェースしか持っていません。",
+        "reading": "きゅうしきのそうちはあーるえすにさんにいんたーふぇーすしかもっていません。",
+        "en": "The legacy device only has an RS-232 interface.",
+        "fr": "L'appareil hérité n'a qu'une interface RS-232."
+      }
+    ],
+    "tags": ["protocols", "communication", "legacy"]
+  },
+  {
+    "id": "emb-012",
+    "kanji": "USB通信",
+    "hiragana": "ゆーえすびーつうしん",
+    "romaji": "Yuu esu bii tsūshin",
+    "meaning_en": "USB communication",
+    "meaning_fr": "Communication USB",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "embedded",
+    "subdomain": "protocols",
+    "example_sentences": [
+      {
+        "jp": "USB通信のエンドポイント設定を見直してください。",
+        "reading": "ゆーえすびーつうしんのえんどぽいんとせっていをみなおしてください。",
+        "en": "Please review the USB communication endpoint configuration.",
+        "fr": "Veuillez revoir la configuration des points de terminaison USB."
+      }
+    ],
+    "tags": ["protocols", "communication", "hardware"]
+  },
+  {
+    "id": "emb-013",
+    "kanji": "イーサネット",
+    "hiragana": "いーさねっと",
+    "romaji": "Iisanetto",
+    "meaning_en": "Ethernet",
+    "meaning_fr": "Ethernet",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "embedded",
+    "subdomain": "protocols",
+    "example_sentences": [
+      {
+        "jp": "このECUはイーサネットで車載ネットワークに接続されています。",
+        "reading": "このECUはいーさねっとでしゃさいねっとわーくにせつぞくされています。",
+        "en": "This ECU is connected to the in-vehicle network via Ethernet.",
+        "fr": "Cet ECU est connecté au réseau embarqué via Ethernet."
+      }
+    ],
+    "tags": ["protocols", "communication", "autosar"]
+  },
+  {
+    "id": "emb-014",
+    "kanji": "CANバス",
+    "hiragana": "きゃんばす",
+    "romaji": "Kyan basu",
+    "meaning_en": "CAN bus",
+    "meaning_fr": "Bus CAN",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "protocols",
+    "example_sentences": [
+      {
+        "jp": "CANバスのメッセージIDが重複していないか確認してください。",
+        "reading": "きゃんばすのめっせーじIDがちょうふくしていないかかくにんしてください。",
+        "en": "Please check that the CAN bus message IDs are not duplicated.",
+        "fr": "Veuillez vérifier que les identifiants de messages du bus CAN ne sont pas en doublon."
+      }
+    ],
+    "tags": ["protocols", "autosar", "automotive"]
+  },
+  {
+    "id": "emb-015",
+    "kanji": "クロスコンパイラ",
+    "hiragana": "くろすこんぱいら",
+    "romaji": "Kurosu konpaira",
+    "meaning_en": "Cross-compiler",
+    "meaning_fr": "Compilateur croisé",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "toolchain",
+    "example_sentences": [
+      {
+        "jp": "ARM用のクロスコンパイラをセットアップしてビルド環境を整えてください。",
+        "reading": "ARMようのくろすこんぱいらをせっとあっぷしてびるどかんきょうをととのえてください。",
+        "en": "Please set up the ARM cross-compiler and prepare the build environment.",
+        "fr": "Veuillez configurer le compilateur croisé ARM et préparer l'environnement de compilation."
+      }
+    ],
+    "tags": ["toolchain", "build", "arm"]
+  },
+  {
+    "id": "emb-016",
+    "kanji": "リンカ",
+    "hiragana": "りんか",
+    "romaji": "Rinka",
+    "meaning_en": "Linker",
+    "meaning_fr": "Éditeur de liens",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "toolchain",
+    "example_sentences": [
+      {
+        "jp": "リンカスクリプトでメモリマップを定義してください。",
+        "reading": "りんかすくりぷとでめもりまっぷをていぎしてください。",
+        "en": "Please define the memory map in the linker script.",
+        "fr": "Veuillez définir la carte mémoire dans le script de l'éditeur de liens."
+      }
+    ],
+    "tags": ["toolchain", "build", "memory"]
+  },
+  {
+    "id": "emb-017",
+    "kanji": "Makefile",
+    "hiragana": "めいくふぁいる",
+    "romaji": "Meiku fairu",
+    "meaning_en": "Makefile",
+    "meaning_fr": "Makefile",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "embedded",
+    "subdomain": "toolchain",
+    "example_sentences": [
+      {
+        "jp": "Makefileのビルドターゲットを追加してテストも自動化しましょう。",
+        "reading": "めいくふぁいるのびるどたーげっとをついかしててすともじどうかしましょう。",
+        "en": "Let's add a build target to the Makefile and also automate testing.",
+        "fr": "Ajoutons une cible de compilation au Makefile et automatisons également les tests."
+      }
+    ],
+    "tags": ["toolchain", "build", "automation"]
+  },
+  {
+    "id": "emb-018",
+    "kanji": "ビルドシステム",
+    "hiragana": "びるどしすてむ",
+    "romaji": "Birudo shisutemu",
+    "meaning_en": "Build system",
+    "meaning_fr": "Système de compilation",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "toolchain",
+    "example_sentences": [
+      {
+        "jp": "ビルドシステムをMakefileからCMakeに移行する計画があります。",
+        "reading": "びるどしすてむをめいくふぁいるからCMakeにいこうするけいかくがあります。",
+        "en": "There is a plan to migrate the build system from Makefile to CMake.",
+        "fr": "Il est prévu de migrer le système de compilation de Makefile vers CMake."
+      }
+    ],
+    "tags": ["toolchain", "build"]
+  },
+  {
+    "id": "emb-019",
+    "kanji": "CMake",
+    "hiragana": "しーめいく",
+    "romaji": "Shii meiku",
+    "meaning_en": "CMake",
+    "meaning_fr": "CMake",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "embedded",
+    "subdomain": "toolchain",
+    "example_sentences": [
+      {
+        "jp": "CMakeのツールチェーンファイルをターゲットボード向けに設定しました。",
+        "reading": "CMakeのつーるちぇーんふぁいるをたーげっとぼーどむけにせっていしました。",
+        "en": "I configured the CMake toolchain file for the target board.",
+        "fr": "J'ai configuré le fichier de chaîne d'outils CMake pour la carte cible."
+      }
+    ],
+    "tags": ["toolchain", "build"]
+  },
+  {
+    "id": "emb-020",
+    "kanji": "バイナリ",
+    "hiragana": "ばいなり",
+    "romaji": "Bainari",
+    "meaning_en": "Binary",
+    "meaning_fr": "Binaire",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "embedded",
+    "subdomain": "toolchain",
+    "example_sentences": [
+      {
+        "jp": "生成されたバイナリのサイズがフラッシュの容量を超えています。",
+        "reading": "せいせいされたばいなりのさいずがふらっしゅのようりょうをこえています。",
+        "en": "The generated binary size exceeds the flash capacity.",
+        "fr": "La taille du binaire généré dépasse la capacité du flash."
+      }
+    ],
+    "tags": ["toolchain", "memory", "build"]
+  },
+  {
+    "id": "emb-021",
+    "kanji": "GPIO",
+    "hiragana": "じーぴーあいおー",
+    "romaji": "Jii pii ai oo",
+    "meaning_en": "GPIO (General Purpose Input/Output)",
+    "meaning_fr": "GPIO (entrée/sortie à usage général)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "hardware",
+    "example_sentences": [
+      {
+        "jp": "このGPIOピンをLEDの制御に使います。プルアップ抵抗を確認してください。",
+        "reading": "このGPIOぴんをLEDのせいぎょにつかいます。ぷるあっぷていこうをかくにんしてください。",
+        "en": "We will use this GPIO pin to control the LED. Please check the pull-up resistor.",
+        "fr": "Nous utiliserons cette broche GPIO pour contrôler la LED. Veuillez vérifier la résistance de tirage vers le haut."
+      }
+    ],
+    "tags": ["hardware", "peripherals"]
+  },
+  {
+    "id": "emb-022",
+    "kanji": "ADC",
+    "hiragana": "えーでぃーしー",
+    "romaji": "Ee dii shii",
+    "meaning_en": "ADC (Analog-to-Digital Converter)",
+    "meaning_fr": "CAN (convertisseur analogique-numérique)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "hardware",
+    "example_sentences": [
+      {
+        "jp": "ADCの分解能が12ビットなので、測定精度は十分です。",
+        "reading": "ADCのぶんかいのうが12びっとなので、そくていせいどはじゅうぶんです。",
+        "en": "The ADC resolution is 12 bits, so the measurement accuracy is sufficient.",
+        "fr": "La résolution de l'ADC est de 12 bits, donc la précision de mesure est suffisante."
+      }
+    ],
+    "tags": ["hardware", "analog", "peripherals"]
+  },
+  {
+    "id": "emb-023",
+    "kanji": "DAC",
+    "hiragana": "でぃーえーしー",
+    "romaji": "Dii ee shii",
+    "meaning_en": "DAC (Digital-to-Analog Converter)",
+    "meaning_fr": "CNA (convertisseur numérique-analogique)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "hardware",
+    "example_sentences": [
+      {
+        "jp": "DACを使ってアナログ信号を出力するドライバを実装しました。",
+        "reading": "DACをつかってあなろぐしんごうをしゅつりょくするどらいばをじっそうしました。",
+        "en": "I implemented a driver to output analog signals using the DAC.",
+        "fr": "J'ai implémenté un pilote pour sortir des signaux analogiques en utilisant le DAC."
+      }
+    ],
+    "tags": ["hardware", "analog", "peripherals"]
+  },
+  {
+    "id": "emb-024",
+    "kanji": "PWM",
+    "hiragana": "ぴーだぶりゅーえむ",
+    "romaji": "Pii daburyuu emu",
+    "meaning_en": "PWM (Pulse Width Modulation)",
+    "meaning_fr": "MLI (modulation de largeur d'impulsion)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "hardware",
+    "example_sentences": [
+      {
+        "jp": "モーター制御にPWMのデューティ比を50%に設定してください。",
+        "reading": "もーたーせいぎょにPWMのでゅーてぃひを50%にせっていしてください。",
+        "en": "Please set the PWM duty cycle to 50% for motor control.",
+        "fr": "Veuillez régler le rapport cyclique PWM à 50% pour le contrôle du moteur."
+      }
+    ],
+    "tags": ["hardware", "peripherals", "motor"]
+  },
+  {
+    "id": "emb-025",
+    "kanji": "タイマー",
+    "hiragana": "たいまー",
+    "romaji": "Taimaa",
+    "meaning_en": "Timer",
+    "meaning_fr": "Minuterie / Timer",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "embedded",
+    "subdomain": "hardware",
+    "example_sentences": [
+      {
+        "jp": "タイマーの周期を1ミリ秒に設定して定期処理を実装しました。",
+        "reading": "たいまーのしゅうきを1みりびょうにせっていしててっきしょりをじっそうしました。",
+        "en": "I set the timer period to 1 millisecond and implemented periodic processing.",
+        "fr": "J'ai réglé la période du timer à 1 milliseconde et implémenté un traitement périodique."
+      }
+    ],
+    "tags": ["hardware", "rtos", "peripherals"]
+  },
+  {
+    "id": "emb-026",
+    "kanji": "ウォッチドッグタイマー",
+    "hiragana": "うぉっちどっぐたいまー",
+    "romaji": "Wocchi doggu taimaa",
+    "meaning_en": "Watchdog timer",
+    "meaning_fr": "Chien de garde (watchdog)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "hardware",
+    "example_sentences": [
+      {
+        "jp": "ウォッチドッグタイマーが作動してシステムがリセットされました。",
+        "reading": "うぉっちどっぐたいまーがさどうしてしすてむがりせっとされました。",
+        "en": "The watchdog timer triggered and the system was reset.",
+        "fr": "Le chien de garde s'est déclenché et le système a été réinitialisé."
+      }
+    ],
+    "tags": ["hardware", "safety", "rtos"]
+  },
+  {
+    "id": "emb-027",
+    "kanji": "消費電力",
+    "hiragana": "しょうひでんりょく",
+    "romaji": "Shōhi denryoku",
+    "meaning_en": "Power consumption",
+    "meaning_fr": "Consommation électrique",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "power",
+    "example_sentences": [
+      {
+        "jp": "バッテリー駆動なので消費電力を最小化する設計が必要です。",
+        "reading": "ばってりーくどうなのでしょうひでんりょくをさいしょうかするせっけいがひつようです。",
+        "en": "Since it runs on battery, a design that minimizes power consumption is needed.",
+        "fr": "Étant donné qu'il fonctionne sur batterie, une conception minimisant la consommation est nécessaire."
+      }
+    ],
+    "tags": ["power", "design", "battery"]
+  },
+  {
+    "id": "emb-028",
+    "kanji": "省電力モード",
+    "hiragana": "しょうでんりょくもーど",
+    "romaji": "Shō denryoku mōdo",
+    "meaning_en": "Low power mode",
+    "meaning_fr": "Mode basse consommation",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "power",
+    "example_sentences": [
+      {
+        "jp": "アイドル時に省電力モードへ自動移行する機能を追加しました。",
+        "reading": "あいどるじにしょうでんりょくもーどへじどういこうするきのうをついかしました。",
+        "en": "I added the function to automatically switch to low power mode when idle.",
+        "fr": "J'ai ajouté la fonction de basculement automatique en mode basse consommation lors de l'inactivité."
+      }
+    ],
+    "tags": ["power", "rtos", "battery"]
+  },
+  {
+    "id": "emb-029",
+    "kanji": "スリープモード",
+    "hiragana": "すりーぷもーど",
+    "romaji": "Suriipu mōdo",
+    "meaning_en": "Sleep mode",
+    "meaning_fr": "Mode veille",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "embedded",
+    "subdomain": "power",
+    "example_sentences": [
+      {
+        "jp": "スリープモードから復帰するトリガーを外部割り込みに設定しています。",
+        "reading": "すりーぷもーどからふっきするとりがーをがいぶわりこみにせっていしています。",
+        "en": "The trigger to wake from sleep mode is set to an external interrupt.",
+        "fr": "Le déclencheur de réveil du mode veille est réglé sur une interruption externe."
+      }
+    ],
+    "tags": ["power", "hardware", "rtos"]
+  },
+  {
+    "id": "emb-030",
+    "kanji": "電源管理",
+    "hiragana": "でんげんかんり",
+    "romaji": "Dengen kanri",
+    "meaning_en": "Power management",
+    "meaning_fr": "Gestion de l'alimentation",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "power",
+    "example_sentences": [
+      {
+        "jp": "電源管理ICのレジスタ設定をデータシートに合わせて確認してください。",
+        "reading": "でんげんかんりICのれじすたせっていをでーたしーとにあわせてかくにんしてください。",
+        "en": "Please check the power management IC register settings against the datasheet.",
+        "fr": "Veuillez vérifier les paramètres de registre du circuit de gestion d'alimentation par rapport à la fiche technique."
+      }
+    ],
+    "tags": ["power", "hardware", "design"]
+  },
+  {
+    "id": "emb-031",
+    "kanji": "コーディング規約",
+    "hiragana": "こーでぃんぐきやく",
+    "romaji": "Kōdingu kiyaku",
+    "meaning_en": "Coding standard / Coding convention",
+    "meaning_fr": "Norme de codage / Convention de codage",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "quality",
+    "example_sentences": [
+      {
+        "jp": "このプロジェクトはMISRA-CコーディングをベースとしたコーディングC規約に従っています。",
+        "reading": "このぷろじぇくとはMISRA-CこーでぃんぐをべーすとしたこーでぃんぐCきやくにしたがっています。",
+        "en": "This project follows a coding standard based on MISRA-C coding.",
+        "fr": "Ce projet suit une norme de codage basée sur le codage MISRA-C."
+      }
+    ],
+    "tags": ["quality", "safety", "misra"]
+  },
+  {
+    "id": "emb-032",
+    "kanji": "静的解析",
+    "hiragana": "せいてきかいせき",
+    "romaji": "Seiteki kaiseki",
+    "meaning_en": "Static analysis",
+    "meaning_fr": "Analyse statique",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "quality",
+    "example_sentences": [
+      {
+        "jp": "静的解析ツールで未初期化変数の警告が出ています。修正してください。",
+        "reading": "せいてきかいせきつーるでみしょきかへんすうのけいこくがでています。しゅうせいしてください。",
+        "en": "The static analysis tool is warning about uninitialized variables. Please fix them.",
+        "fr": "L'outil d'analyse statique signale des variables non initialisées. Veuillez les corriger."
+      }
+    ],
+    "tags": ["quality", "safety", "tools"]
+  },
+  {
+    "id": "emb-033",
+    "kanji": "ユニットテスト",
+    "hiragana": "ゆにっとてすと",
+    "romaji": "Yunitto tesuto",
+    "meaning_en": "Unit test",
+    "meaning_fr": "Test unitaire",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "quality",
+    "example_sentences": [
+      {
+        "jp": "新しい関数を追加したらユニットテストも一緒に書いてください。",
+        "reading": "あたらしいかんすうをついかしたらゆにっとてすともいっしょにかいてください。",
+        "en": "When you add a new function, please also write a unit test.",
+        "fr": "Lorsque vous ajoutez une nouvelle fonction, veuillez également écrire un test unitaire."
+      }
+    ],
+    "tags": ["quality", "testing"]
+  },
+  {
+    "id": "emb-034",
+    "kanji": "コードレビュー",
+    "hiragana": "こーどれびゅー",
+    "romaji": "Kōdo rebyuu",
+    "meaning_en": "Code review",
+    "meaning_fr": "Revue de code",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "quality",
+    "example_sentences": [
+      {
+        "jp": "コードレビューで指摘された箇所を修正してから再度プルリクエストを出してください。",
+        "reading": "こーどれびゅーでしてきされたかしょをしゅうせいしてからさいどぷるりくえすとをだしてください。",
+        "en": "Please fix the points raised in the code review and then submit the pull request again.",
+        "fr": "Veuillez corriger les points soulevés lors de la revue de code puis soumettre à nouveau la demande de fusion."
+      }
+    ],
+    "tags": ["quality", "process"]
+  },
+  {
+    "id": "emb-035",
+    "kanji": "カバレッジ",
+    "hiragana": "かばれっじ",
+    "romaji": "Kabarejji",
+    "meaning_en": "Code coverage",
+    "meaning_fr": "Couverture de code",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "quality",
+    "example_sentences": [
+      {
+        "jp": "MC/DCカバレッジを100%にすることが安全要件として定められています。",
+        "reading": "MC/DCかばれっじを100%にすることがあんぜんようけんとしてさだめられています。",
+        "en": "Achieving 100% MC/DC coverage is defined as a safety requirement.",
+        "fr": "Atteindre 100% de couverture MC/DC est défini comme une exigence de sécurité."
+      }
+    ],
+    "tags": ["quality", "testing", "safety"]
+  },
+  {
+    "id": "emb-036",
+    "kanji": "ブートローダー",
+    "hiragana": "ぶーとろーだー",
+    "romaji": "Buutoroodaa",
+    "meaning_en": "Bootloader",
+    "meaning_fr": "Chargeur d'amorçage",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "firmware",
+    "example_sentences": [
+      {
+        "jp": "ブートローダーがファームウェアの署名検証に失敗してシステムが起動しません。",
+        "reading": "ぶーとろーだーがふぁーむうぇあのしょめいけんしょうにしっぱいしてしすてむがきどうしません。",
+        "en": "The bootloader failed firmware signature verification and the system does not boot.",
+        "fr": "Le chargeur d'amorçage a échoué la vérification de signature du firmware et le système ne démarre pas."
+      }
+    ],
+    "tags": ["firmware", "security", "startup"]
+  },
+  {
+    "id": "emb-037",
+    "kanji": "フラッシュ書き込み",
+    "hiragana": "ふらっしゅかきこみ",
+    "romaji": "Furasshu kakikomi",
+    "meaning_en": "Flash write / Flash programming",
+    "meaning_fr": "Écriture flash / Programmation flash",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "firmware",
+    "example_sentences": [
+      {
+        "jp": "フラッシュ書き込み中は電源を絶対に切らないでください。",
+        "reading": "ふらっしゅかきこみちゅうはでんげんをぜったいにきらないでください。",
+        "en": "Never cut the power while flash writing is in progress.",
+        "fr": "Ne coupez jamais l'alimentation pendant l'écriture flash."
+      }
+    ],
+    "tags": ["firmware", "hardware", "safety"]
+  },
+  {
+    "id": "emb-038",
+    "kanji": "ファームウェア更新",
+    "hiragana": "ふぁーむうぇあこうしん",
+    "romaji": "Fāmuuea kōshin",
+    "meaning_en": "Firmware update",
+    "meaning_fr": "Mise à jour du firmware",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "firmware",
+    "example_sentences": [
+      {
+        "jp": "ファームウェア更新に失敗した場合のロールバック機能を実装する必要があります。",
+        "reading": "ふぁーむうぇあこうしんにしっぱいしたばあいのろーるばっくきのうをじっそうするひつようがあります。",
+        "en": "It is necessary to implement a rollback function for when firmware updates fail.",
+        "fr": "Il est nécessaire d'implémenter une fonction de retour arrière en cas d'échec de la mise à jour du firmware."
+      }
+    ],
+    "tags": ["firmware", "safety", "ota"]
+  },
+  {
+    "id": "emb-039",
+    "kanji": "OTAアップデート",
+    "hiragana": "おーてぃーえーあっぷでーと",
+    "romaji": "Oo tii ee appudēto",
+    "meaning_en": "OTA (Over-The-Air) update",
+    "meaning_fr": "Mise à jour OTA (par liaison radio)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "firmware",
+    "example_sentences": [
+      {
+        "jp": "OTAアップデートの通信中にパケットロスが起きても安全に再開できる設計にしています。",
+        "reading": "おーてぃーえーあっぷでーとのつうしんちゅうにぱけっとろすがおきてもあんぜんにさいかいできるせっけいにしています。",
+        "en": "The design ensures safe resumption even if packet loss occurs during OTA update communication.",
+        "fr": "La conception garantit une reprise sûre même si une perte de paquets se produit pendant la communication OTA."
+      }
+    ],
+    "tags": ["firmware", "communication", "ota"]
+  },
+  {
+    "id": "emb-040",
+    "kanji": "オシロスコープ",
+    "hiragana": "おしろすこーぷ",
+    "romaji": "Oshirosukoopu",
+    "meaning_en": "Oscilloscope",
+    "meaning_fr": "Oscilloscope",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "debugging",
+    "example_sentences": [
+      {
+        "jp": "オシロスコープでSPI信号の波形を確認してタイミングの問題を特定しました。",
+        "reading": "おしろすこーぷでSPIしんごうのはけいをかくにんしてたいみんぐのもんだいをとくていしました。",
+        "en": "I used the oscilloscope to check the SPI signal waveform and identified a timing issue.",
+        "fr": "J'ai utilisé l'oscilloscope pour vérifier la forme d'onde du signal SPI et identifié un problème de timing."
+      }
+    ],
+    "tags": ["debugging", "hardware", "tools"]
+  },
+  {
+    "id": "emb-041",
+    "kanji": "ロジックアナライザ",
+    "hiragana": "ろじっくあならいざ",
+    "romaji": "Rojikku anaraiza",
+    "meaning_en": "Logic analyzer",
+    "meaning_fr": "Analyseur logique",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "debugging",
+    "example_sentences": [
+      {
+        "jp": "ロジックアナライザでCANバスのプロトコルをデコードして原因を調べます。",
+        "reading": "ろじっくあならいざでCANばすのぷろとこるをでこーどしてげんいんをしらべます。",
+        "en": "I will decode the CAN bus protocol with the logic analyzer to investigate the cause.",
+        "fr": "Je vais décoder le protocole du bus CAN avec l'analyseur logique pour enquêter sur la cause."
+      }
+    ],
+    "tags": ["debugging", "hardware", "tools"]
+  },
+  {
+    "id": "emb-042",
+    "kanji": "JTAGデバッグ",
+    "hiragana": "じぇいたぐでばっぐ",
+    "romaji": "Jeitagu debaggu",
+    "meaning_en": "JTAG debug",
+    "meaning_fr": "Débogage JTAG",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "debugging",
+    "example_sentences": [
+      {
+        "jp": "JTAGデバッグでターゲットに接続してレジスタの値を直接確認します。",
+        "reading": "じぇいたぐでばっぐでたーげっとにせつぞくしてれじすたのあたいをちょくせつかくにんします。",
+        "en": "I will connect to the target via JTAG debug and directly check register values.",
+        "fr": "Je vais me connecter à la cible via le débogage JTAG et vérifier directement les valeurs de registre."
+      }
+    ],
+    "tags": ["debugging", "hardware", "tools"]
+  },
+  {
+    "id": "emb-043",
+    "kanji": "ブレークポイント",
+    "hiragana": "ぶれーくぽいんと",
+    "romaji": "Bureeku pointo",
+    "meaning_en": "Breakpoint",
+    "meaning_fr": "Point d'arrêt",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "embedded",
+    "subdomain": "debugging",
+    "example_sentences": [
+      {
+        "jp": "この関数の先頭にブレークポイントを設定して変数の値を確認してください。",
+        "reading": "このかんすうのせんとうにぶれーくぽいんとをせっていしてへんすうのあたいをかくにんしてください。",
+        "en": "Please set a breakpoint at the top of this function and check the variable values.",
+        "fr": "Veuillez placer un point d'arrêt au début de cette fonction et vérifier les valeurs des variables."
+      }
+    ],
+    "tags": ["debugging", "tools"]
+  },
+  {
+    "id": "emb-044",
+    "kanji": "レイテンシ",
+    "hiragana": "れいてんし",
+    "romaji": "Reitenshi",
+    "meaning_en": "Latency",
+    "meaning_fr": "Latence",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "performance",
+    "example_sentences": [
+      {
+        "jp": "この処理のレイテンシが仕様の1ミリ秒以内に収まっているか測定してください。",
+        "reading": "このしょりのれいてんしがしようの1みりびょういないにおさまっているかそくていしてください。",
+        "en": "Please measure whether the latency of this process is within the specified 1 millisecond.",
+        "fr": "Veuillez mesurer si la latence de ce traitement est dans la spécification d'1 milliseconde."
+      }
+    ],
+    "tags": ["performance", "rtos", "realtime"]
+  },
+  {
+    "id": "emb-045",
+    "kanji": "スループット",
+    "hiragana": "するーぷっと",
+    "romaji": "Suruuputто",
+    "meaning_en": "Throughput",
+    "meaning_fr": "Débit",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "performance",
+    "example_sentences": [
+      {
+        "jp": "データバッファを増やすことでスループットが改善しました。",
+        "reading": "でーたばっふぁをふやすことでするーぷっとがかいぜんしました。",
+        "en": "Throughput improved by increasing the data buffer.",
+        "fr": "Le débit s'est amélioré en augmentant le tampon de données."
+      }
+    ],
+    "tags": ["performance", "communication"]
+  },
+  {
+    "id": "emb-046",
+    "kanji": "CPU使用率",
+    "hiragana": "CPUしようりつ",
+    "romaji": "Shii pii yuu shiyōritsu",
+    "meaning_en": "CPU utilization",
+    "meaning_fr": "Taux d'utilisation du CPU",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "performance",
+    "example_sentences": [
+      {
+        "jp": "ピーク時のCPU使用率が90%を超えているので最適化が必要です。",
+        "reading": "ぴーくじのCPUしようりつが90%をこえているのでさいてきかがひつようです。",
+        "en": "CPU utilization exceeds 90% at peak so optimization is needed.",
+        "fr": "L'utilisation du CPU dépasse 90% en pointe, donc une optimisation est nécessaire."
+      }
+    ],
+    "tags": ["performance", "rtos", "optimization"]
+  },
+  {
+    "id": "emb-047",
+    "kanji": "ジッタ",
+    "hiragana": "じった",
+    "romaji": "Jitta",
+    "meaning_en": "Jitter",
+    "meaning_fr": "Gigue",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "performance",
+    "example_sentences": [
+      {
+        "jp": "タイマー割り込みのジッタが大きすぎてリアルタイム性能が保証できません。",
+        "reading": "たいまーわりこみのじったがおおきすぎてりあるたいむせいのうがほしょうできません。",
+        "en": "The jitter of the timer interrupt is too large to guarantee real-time performance.",
+        "fr": "La gigue de l'interruption timer est trop grande pour garantir les performances temps réel."
+      }
+    ],
+    "tags": ["performance", "rtos", "realtime"]
+  },
+  {
+    "id": "emb-048",
+    "kanji": "リアルタイム性能",
+    "hiragana": "りあるたいむせいのう",
+    "romaji": "Riaru taimu seinō",
+    "meaning_en": "Real-time performance",
+    "meaning_fr": "Performance temps réel",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "performance",
+    "example_sentences": [
+      {
+        "jp": "このシステムはリアルタイム性能の要件を満たしていることを証明する必要があります。",
+        "reading": "このしすてむはりあるたいむせいのうのようけんをみたしていることをしょうめいするひつようがあります。",
+        "en": "It is necessary to prove that this system meets the real-time performance requirements.",
+        "fr": "Il est nécessaire de prouver que ce système satisfait aux exigences de performance temps réel."
+      }
+    ],
+    "tags": ["performance", "rtos", "safety"]
+  },
+  {
+    "id": "emb-049",
+    "kanji": "モノリシック",
+    "hiragana": "ものりしっく",
+    "romaji": "Monoroshikku",
+    "meaning_en": "Monolithic",
+    "meaning_fr": "Monolithique",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "architecture",
+    "example_sentences": [
+      {
+        "jp": "モノリシックカーネルはシンプルですが、一部の障害が全体に影響するリスクがあります。",
+        "reading": "ものりしっくかーねるはしんぷるですが、いちぶのしょうがいがぜんたいにえいきょうするりすくがあります。",
+        "en": "A monolithic kernel is simple, but there is a risk that a partial fault affects the entire system.",
+        "fr": "Un noyau monolithique est simple, mais il y a un risque qu'une panne partielle affecte l'ensemble du système."
+      }
+    ],
+    "tags": ["architecture", "rtos", "kernel"]
+  },
+  {
+    "id": "emb-050",
+    "kanji": "マイクロカーネル",
+    "hiragana": "まいくろかーねる",
+    "romaji": "Maikuro kāneru",
+    "meaning_en": "Microkernel",
+    "meaning_fr": "Micro-noyau",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "architecture",
+    "example_sentences": [
+      {
+        "jp": "マイクロカーネルアーキテクチャではドライバはユーザー空間で動作します。",
+        "reading": "まいくろかーねるあーきてくちゃではどらいばはゆーざーくうかんでどうさします。",
+        "en": "In a microkernel architecture, drivers run in user space.",
+        "fr": "Dans une architecture micro-noyau, les pilotes s'exécutent en espace utilisateur."
+      }
+    ],
+    "tags": ["architecture", "rtos", "kernel"]
+  },
+  {
+    "id": "emb-051",
+    "kanji": "ドライバ",
+    "hiragana": "どらいば",
+    "romaji": "Doraiba",
+    "meaning_en": "Driver",
+    "meaning_fr": "Pilote",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "embedded",
+    "subdomain": "architecture",
+    "example_sentences": [
+      {
+        "jp": "このペリフェラル用のドライバを書いてHAL層に統合してください。",
+        "reading": "このぺりふぇらるようのどらいばをかいてHALそうにとうごうしてください。",
+        "en": "Please write a driver for this peripheral and integrate it into the HAL layer.",
+        "fr": "Veuillez écrire un pilote pour ce périphérique et l'intégrer dans la couche HAL."
+      }
+    ],
+    "tags": ["architecture", "hardware", "software"]
+  },
+  {
+    "id": "emb-052",
+    "kanji": "HAL",
+    "hiragana": "えいちえーえる",
+    "romaji": "Eichi ee eru",
+    "meaning_en": "HAL (Hardware Abstraction Layer)",
+    "meaning_fr": "HAL (couche d'abstraction matérielle)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "architecture",
+    "example_sentences": [
+      {
+        "jp": "HALを設計することでハードウェアが変わってもアプリケーション層への影響を最小化できます。",
+        "reading": "HALをせっけいすることでほーどうぇあがかわってもあぷりけーしょんそうへのえいきょうをさいしょうかできます。",
+        "en": "By designing the HAL, the impact on the application layer can be minimized even if the hardware changes.",
+        "fr": "En concevant le HAL, l'impact sur la couche applicative peut être minimisé même si le matériel change."
+      }
+    ],
+    "tags": ["architecture", "hardware", "abstraction"]
+  },
+  {
+    "id": "emb-053",
+    "kanji": "フォールトトレランス",
+    "hiragana": "ふぉーるととれらんす",
+    "romaji": "Fooruto toransu",
+    "meaning_en": "Fault tolerance",
+    "meaning_fr": "Tolérance aux pannes",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "safety",
+    "example_sentences": [
+      {
+        "jp": "自動車システムではフォールトトレランスを確保するために二重系が必要です。",
+        "reading": "じどうしゃしすてむではふぉーるととれらんすをかくほするためににじゅうけいがひつようです。",
+        "en": "Automotive systems require redundancy to ensure fault tolerance.",
+        "fr": "Les systèmes automobiles nécessitent une redondance pour assurer la tolérance aux pannes."
+      }
+    ],
+    "tags": ["safety", "automotive", "reliability"]
+  },
+  {
+    "id": "emb-054",
+    "kanji": "冗長性",
+    "hiragana": "じょうちょうせい",
+    "romaji": "Jōchōsei",
+    "meaning_en": "Redundancy",
+    "meaning_fr": "Redondance",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "safety",
+    "example_sentences": [
+      {
+        "jp": "センサーの冗長性を持たせることで単一点障害を防ぎます。",
+        "reading": "せんさーのじょうちょうせいをもたせることでたんいってんしょうがいをふせぎます。",
+        "en": "By having sensor redundancy, single point of failure is prevented.",
+        "fr": "En assurant la redondance des capteurs, on évite les points de défaillance uniques."
+      }
+    ],
+    "tags": ["safety", "reliability", "design"]
+  },
+  {
+    "id": "emb-055",
+    "kanji": "セーフティクリティカル",
+    "hiragana": "せーふてぃくりてぃかる",
+    "romaji": "Seefuti kuritikaru",
+    "meaning_en": "Safety-critical",
+    "meaning_fr": "Critique pour la sécurité",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "safety",
+    "example_sentences": [
+      {
+        "jp": "セーフティクリティカルなシステムにはISO 26262の要件を満たす必要があります。",
+        "reading": "せーふてぃくりてぃかるなしすてむにはISO 26262のようけんをみたすひつようがあります。",
+        "en": "Safety-critical systems must meet the requirements of ISO 26262.",
+        "fr": "Les systèmes critiques pour la sécurité doivent satisfaire aux exigences de l'ISO 26262."
+      }
+    ],
+    "tags": ["safety", "automotive", "iso26262"]
+  },
+  {
+    "id": "emb-056",
+    "kanji": "エラー処理",
+    "hiragana": "えらーしょり",
+    "romaji": "Eraa shori",
+    "meaning_en": "Error handling",
+    "meaning_fr": "Gestion des erreurs",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "safety",
+    "example_sentences": [
+      {
+        "jp": "通信エラー処理が実装されていないのでタイムアウト時の動作が未定義です。",
+        "reading": "つうしんえらーしょりがじっそうされていないのでたいむあうとじのどうさがみていぎです。",
+        "en": "Communication error handling is not implemented so the behavior on timeout is undefined.",
+        "fr": "La gestion des erreurs de communication n'est pas implémentée, donc le comportement en cas de timeout est indéfini."
+      }
+    ],
+    "tags": ["safety", "quality", "software"]
+  },
+  {
+    "id": "emb-057",
+    "kanji": "プロセッサ",
+    "hiragana": "ぷろせっさ",
+    "romaji": "Purosessa",
+    "meaning_en": "Processor",
+    "meaning_fr": "Processeur",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "embedded",
+    "subdomain": "hardware",
+    "example_sentences": [
+      {
+        "jp": "このプロセッサのコアは2つなのでデュアルコアで動作します。",
+        "reading": "このぷろせっさのこあは2つなのでゅあるこあでどうさします。",
+        "en": "This processor has 2 cores so it operates as a dual-core.",
+        "fr": "Ce processeur a 2 cœurs donc il fonctionne en double cœur."
+      }
+    ],
+    "tags": ["hardware", "architecture"]
+  },
+  {
+    "id": "emb-058",
+    "kanji": "レジスタ",
+    "hiragana": "れじすた",
+    "romaji": "Rejisuta",
+    "meaning_en": "Register",
+    "meaning_fr": "Registre",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "hardware",
+    "example_sentences": [
+      {
+        "jp": "ペリフェラルの制御レジスタに正しい値を書き込んでいるか確認してください。",
+        "reading": "ぺりふぇらるのせいぎょれじすたにただしいあたいをかきこんでいるかかくにんしてください。",
+        "en": "Please check that the correct value is being written to the peripheral control register.",
+        "fr": "Veuillez vérifier que la valeur correcte est écrite dans le registre de contrôle du périphérique."
+      }
+    ],
+    "tags": ["hardware", "peripherals"]
+  },
+  {
+    "id": "emb-059",
+    "kanji": "割り込みハンドラ",
+    "hiragana": "わりこみはんどら",
+    "romaji": "Warikomi handora",
+    "meaning_en": "Interrupt handler / ISR",
+    "meaning_fr": "Gestionnaire d'interruption / ISR",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "hardware",
+    "example_sentences": [
+      {
+        "jp": "割り込みハンドラ内では重い処理を行わず、フラグを立てるだけにしてください。",
+        "reading": "わりこみはんどらないではおもいしょりをおこなわず、ふらぐをたてるだけにしてください。",
+        "en": "Inside the interrupt handler, do not perform heavy processing; just set a flag.",
+        "fr": "Dans le gestionnaire d'interruption, n'effectuez pas de traitement lourd; levez juste un indicateur."
+      }
+    ],
+    "tags": ["hardware", "rtos", "software"]
+  },
+  {
+    "id": "emb-060",
+    "kanji": "キャッシュメモリ",
+    "hiragana": "きゃっしゅめもり",
+    "romaji": "Kyasshu memori",
+    "meaning_en": "Cache memory",
+    "meaning_fr": "Mémoire cache",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "memory",
+    "example_sentences": [
+      {
+        "jp": "キャッシュメモリの一貫性問題が原因でデータ破損が発生していました。",
+        "reading": "きゃっしゅめもりのいっかんせいもんだいがげんいんででーたはそんがはっせいしていました。",
+        "en": "Data corruption was occurring due to a cache memory coherency problem.",
+        "fr": "Une corruption de données se produisait en raison d'un problème de cohérence du cache mémoire."
+      }
+    ],
+    "tags": ["memory", "hardware", "architecture"]
+  },
+  {
+    "id": "emb-061",
+    "kanji": "DMAコントローラ",
+    "hiragana": "でぃーえむえーこんとろーら",
+    "romaji": "Dii emu ee kontorōra",
+    "meaning_en": "DMA controller",
+    "meaning_fr": "Contrôleur DMA",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "hardware",
+    "example_sentences": [
+      {
+        "jp": "DMAコントローラを使うとCPUを介さずにメモリ転送ができて効率的です。",
+        "reading": "でぃーえむえーこんとろーらをつかうとCPUをかいさずにめもりてんそうができてこうりつてきです。",
+        "en": "Using a DMA controller allows memory transfers without the CPU, which is efficient.",
+        "fr": "L'utilisation d'un contrôleur DMA permet des transferts mémoire sans le CPU, ce qui est efficace."
+      }
+    ],
+    "tags": ["hardware", "performance", "peripherals"]
+  },
+  {
+    "id": "emb-062",
+    "kanji": "スタックオーバーフロー",
+    "hiragana": "すたっくおーばーふろー",
+    "romaji": "Sutakku ōbā furō",
+    "meaning_en": "Stack overflow",
+    "meaning_fr": "Débordement de pile",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "memory",
+    "example_sentences": [
+      {
+        "jp": "再帰呼び出しが深すぎてスタックオーバーフローが発生しています。",
+        "reading": "さいきよびだしがふかすぎてすたっくおーばーふろーがはっせいしています。",
+        "en": "The recursion is too deep and a stack overflow is occurring.",
+        "fr": "La récursion est trop profonde et un débordement de pile se produit."
+      }
+    ],
+    "tags": ["memory", "bug", "rtos"]
+  },
+  {
+    "id": "emb-063",
+    "kanji": "ポインタ",
+    "hiragana": "ぽいんた",
+    "romaji": "Pointa",
+    "meaning_en": "Pointer",
+    "meaning_fr": "Pointeur",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "embedded",
+    "subdomain": "memory",
+    "example_sentences": [
+      {
+        "jp": "NULLポインタの参照外しが原因でシステムがクラッシュしています。",
+        "reading": "NULLぽいんたのさんしょうはずしがげんいんでしすてむがくらっしゅしています。",
+        "en": "The system is crashing due to a NULL pointer dereference.",
+        "fr": "Le système plante à cause d'un déréférencement de pointeur NULL."
+      }
+    ],
+    "tags": ["memory", "bug", "c-language"]
+  },
+  {
+    "id": "emb-064",
+    "kanji": "揮発性メモリ",
+    "hiragana": "きはつせいめもり",
+    "romaji": "Kihatsusei memori",
+    "meaning_en": "Volatile memory",
+    "meaning_fr": "Mémoire volatile",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "memory",
+    "example_sentences": [
+      {
+        "jp": "RAMは揮発性メモリなので電源を切るとデータが消えます。",
+        "reading": "RAMはきはつせいめもりなのででんげんをきるとでーたがきえます。",
+        "en": "RAM is volatile memory so data is lost when the power is cut.",
+        "fr": "La RAM est une mémoire volatile donc les données sont perdues quand l'alimentation est coupée."
+      }
+    ],
+    "tags": ["memory", "hardware"]
+  },
+  {
+    "id": "emb-065",
+    "kanji": "不揮発性メモリ",
+    "hiragana": "ふきはつせいめもり",
+    "romaji": "Fukilatsusei memori",
+    "meaning_en": "Non-volatile memory",
+    "meaning_fr": "Mémoire non volatile",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "memory",
+    "example_sentences": [
+      {
+        "jp": "設定値は不揮発性メモリのEEPROMに保存して電源オフ後も保持します。",
+        "reading": "せっていちはふきはつせいめもりのEEPROMにほぞんしてでんげんおふごもほじします。",
+        "en": "Configuration values are saved in non-volatile EEPROM memory and retained after power off.",
+        "fr": "Les valeurs de configuration sont sauvegardées dans l'EEPROM non volatile et conservées après la mise hors tension."
+      }
+    ],
+    "tags": ["memory", "hardware", "firmware"]
+  },
+  {
+    "id": "emb-066",
+    "kanji": "リンカスクリプト",
+    "hiragana": "りんかすくりぷと",
+    "romaji": "Rinka sukuriputo",
+    "meaning_en": "Linker script",
+    "meaning_fr": "Script de l'éditeur de liens",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "toolchain",
+    "example_sentences": [
+      {
+        "jp": "リンカスクリプトでRAMとROMのメモリ領域を正しく定義してください。",
+        "reading": "りんかすくりぷとでRAMとROMのめもりりょういきをただしくていぎしてください。",
+        "en": "Please correctly define the RAM and ROM memory regions in the linker script.",
+        "fr": "Veuillez définir correctement les régions mémoire RAM et ROM dans le script de l'éditeur de liens."
+      }
+    ],
+    "tags": ["toolchain", "memory", "build"]
+  },
+  {
+    "id": "emb-067",
+    "kanji": "コンパイラ最適化",
+    "hiragana": "こんぱいらさいてきか",
+    "romaji": "Konpaira saiteki-ka",
+    "meaning_en": "Compiler optimization",
+    "meaning_fr": "Optimisation du compilateur",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "toolchain",
+    "example_sentences": [
+      {
+        "jp": "コンパイラ最適化を有効にすると変数が最適化で削除されてデバッグが難しくなります。",
+        "reading": "こんぱいらさいてきかをゆうこうにするとへんすうがさいてきかでさくじょされてでばっぐがむずかしくなります。",
+        "en": "When compiler optimization is enabled, variables may be removed by optimization, making debugging difficult.",
+        "fr": "Lorsque l'optimisation du compilateur est activée, les variables peuvent être supprimées, rendant le débogage difficile."
+      }
+    ],
+    "tags": ["toolchain", "debugging", "performance"]
+  },
+  {
+    "id": "emb-068",
+    "kanji": "デバッグビルド",
+    "hiragana": "でばっぐびるど",
+    "romaji": "Debaggu birudo",
+    "meaning_en": "Debug build",
+    "meaning_fr": "Compilation de débogage",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "embedded",
+    "subdomain": "toolchain",
+    "example_sentences": [
+      {
+        "jp": "デバッグビルドでテストしてから本番はリリースビルドに切り替えてください。",
+        "reading": "でばっぐびるどでてすとしてからほんばんはりりーすびるどにきりかえてください。",
+        "en": "Test with the debug build and then switch to the release build for production.",
+        "fr": "Testez avec la compilation de débogage puis passez à la compilation de release pour la production."
+      }
+    ],
+    "tags": ["toolchain", "debugging", "build"]
+  },
+  {
+    "id": "emb-069",
+    "kanji": "リリースビルド",
+    "hiragana": "りりーすびるど",
+    "romaji": "Rirīsu birudo",
+    "meaning_en": "Release build",
+    "meaning_fr": "Compilation de release",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "embedded",
+    "subdomain": "toolchain",
+    "example_sentences": [
+      {
+        "jp": "リリースビルドでのみ再現するバグは最適化による副作用の可能性があります。",
+        "reading": "りりーすびるどでのみさいげんするばぐはさいてきかによるふくさようのかのうせいがあります。",
+        "en": "A bug that only reproduces in a release build may be a side effect of optimization.",
+        "fr": "Un bogue qui ne se reproduit que dans la compilation de release peut être un effet secondaire de l'optimisation."
+      }
+    ],
+    "tags": ["toolchain", "debugging", "build"]
+  },
+  {
+    "id": "emb-070",
+    "kanji": "バージョン管理",
+    "hiragana": "ばーじょんかんり",
+    "romaji": "Bājon kanri",
+    "meaning_en": "Version control",
+    "meaning_fr": "Gestion de versions",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "embedded",
+    "subdomain": "toolchain",
+    "example_sentences": [
+      {
+        "jp": "バージョン管理システムにコードをコミットしてからレビューを依頼してください。",
+        "reading": "ばーじょんかんりしすてむにこーどをこみっとしてかられびゅーをいらいしてください。",
+        "en": "Please commit the code to the version control system before requesting a review.",
+        "fr": "Veuillez committer le code dans le système de gestion de versions avant de demander une revue."
+      }
+    ],
+    "tags": ["toolchain", "process", "quality"]
+  },
+  {
+    "id": "emb-071",
+    "kanji": "継続的インテグレーション",
+    "hiragana": "けいぞくてきいんてぐれーしょん",
+    "romaji": "Keizokuteki integureshon",
+    "meaning_en": "Continuous integration (CI)",
+    "meaning_fr": "Intégration continue (CI)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "quality",
+    "example_sentences": [
+      {
+        "jp": "継続的インテグレーションのパイプラインでビルドとユニットテストが自動実行されます。",
+        "reading": "けいぞくてきいんてぐれーしょんのぱいぷらいんでびるどとゆにっとてすとがじどうじっこうされます。",
+        "en": "Builds and unit tests are automatically executed in the continuous integration pipeline.",
+        "fr": "Les compilations et les tests unitaires sont automatiquement exécutés dans le pipeline d'intégration continue."
+      }
+    ],
+    "tags": ["quality", "toolchain", "automation"]
+  },
+  {
+    "id": "emb-072",
+    "kanji": "AUTOSAR",
+    "hiragana": "おーとさー",
+    "romaji": "Ootosaa",
+    "meaning_en": "AUTOSAR (Automotive Open System Architecture)",
+    "meaning_fr": "AUTOSAR (architecture logicielle ouverte pour l'automobile)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "architecture",
+    "example_sentences": [
+      {
+        "jp": "AUTOSARのRTEを通じてソフトウェアコンポーネント間の通信を行います。",
+        "reading": "おーとさーのRTEをつうじてそふとうぇあこんぽーねんとかんのつうしんをおこないます。",
+        "en": "Communication between software components is performed via the AUTOSAR RTE.",
+        "fr": "La communication entre les composants logiciels est effectuée via l'AUTOSAR RTE."
+      }
+    ],
+    "tags": ["autosar", "automotive", "architecture"]
+  },
+  {
+    "id": "emb-073",
+    "kanji": "ECU",
+    "hiragana": "いーしーゆー",
+    "romaji": "Ii shii yuu",
+    "meaning_en": "ECU (Electronic Control Unit)",
+    "meaning_fr": "ECU (unité de contrôle électronique)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "hardware",
+    "example_sentences": [
+      {
+        "jp": "このECUはブレーキ制御を担当しており、ASILDの安全レベルが要求されています。",
+        "reading": "このECUはぶれーきせいぎょをたんとうしており、ASILDのあんぜんれべるがようきゅうされています。",
+        "en": "This ECU is responsible for brake control and ASIL-D safety level is required.",
+        "fr": "Cet ECU est responsable du contrôle des freins et un niveau de sécurité ASIL-D est requis."
+      }
+    ],
+    "tags": ["autosar", "automotive", "hardware"]
+  },
+  {
+    "id": "emb-074",
+    "kanji": "ソフトウェアコンポーネント",
+    "hiragana": "そふとうぇあこんぽーねんと",
+    "romaji": "Sofutouea konpōnento",
+    "meaning_en": "Software component (SWC)",
+    "meaning_fr": "Composant logiciel",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "architecture",
+    "example_sentences": [
+      {
+        "jp": "新しいソフトウェアコンポーネントのインターフェース定義をARXMLで作成してください。",
+        "reading": "あたらしいそふとうぇあこんぽーねんとのいんたーふぇーすていぎをARXMLでさくせいしてください。",
+        "en": "Please create the interface definition of the new software component in ARXML.",
+        "fr": "Veuillez créer la définition d'interface du nouveau composant logiciel en ARXML."
+      }
+    ],
+    "tags": ["autosar", "architecture", "software"]
+  },
+  {
+    "id": "emb-075",
+    "kanji": "タスクスケジューリング",
+    "hiragana": "たすくすけじゅーりんぐ",
+    "romaji": "Tasuku sukejuuringu",
+    "meaning_en": "Task scheduling",
+    "meaning_fr": "Ordonnancement des tâches",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "architecture",
+    "example_sentences": [
+      {
+        "jp": "タスクスケジューリングの優先度設定を見直してデッドラインを守れるようにしてください。",
+        "reading": "たすくすけじゅーりんぐのゆうせんどせっていをみなおしてでっどらいんをまもれるようにしてください。",
+        "en": "Please review the task scheduling priority settings to ensure deadlines can be met.",
+        "fr": "Veuillez réviser les paramètres de priorité de l'ordonnancement des tâches pour respecter les délais."
+      }
+    ],
+    "tags": ["rtos", "architecture", "performance"]
+  },
+  {
+    "id": "emb-076",
+    "kanji": "デッドロック",
+    "hiragana": "でっどろっく",
+    "romaji": "Deddorokku",
+    "meaning_en": "Deadlock",
+    "meaning_fr": "Interblocage",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "architecture",
+    "example_sentences": [
+      {
+        "jp": "ミューテックスの取得順序が一定でないとデッドロックが発生するリスクがあります。",
+        "reading": "みゅーてっくすのしゅとくじゅんじょがいっていでないとでっどろっくがはっせいするりすくがあります。",
+        "en": "If the mutex acquisition order is not consistent, there is a risk of deadlock.",
+        "fr": "Si l'ordre d'acquisition des mutex n'est pas cohérent, il y a un risque d'interblocage."
+      }
+    ],
+    "tags": ["rtos", "concurrency", "bug"]
+  },
+  {
+    "id": "emb-077",
+    "kanji": "レースコンディション",
+    "hiragana": "れーすこんでぃしょん",
+    "romaji": "Reesu kondishon",
+    "meaning_en": "Race condition",
+    "meaning_fr": "Condition de course",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "architecture",
+    "example_sentences": [
+      {
+        "jp": "共有変数へのアクセスを保護しないとレースコンディションが起きます。",
+        "reading": "きょうゆうへんすうへのあくせすをほごしないとれーすこんでぃしょんがおきます。",
+        "en": "If access to shared variables is not protected, a race condition will occur.",
+        "fr": "Si l'accès aux variables partagées n'est pas protégé, une condition de course se produira."
+      }
+    ],
+    "tags": ["rtos", "concurrency", "bug"]
+  },
+  {
+    "id": "emb-078",
+    "kanji": "クリティカルセクション",
+    "hiragana": "くりてぃかるせくしょん",
+    "romaji": "Kuritikaru sekushon",
+    "meaning_en": "Critical section",
+    "meaning_fr": "Section critique",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "architecture",
+    "example_sentences": [
+      {
+        "jp": "クリティカルセクション内では割り込みを無効にして排他制御を確保しています。",
+        "reading": "くりてぃかるせくしょんないではわりこみをむこうにしてはいたせいぎょをかくほしています。",
+        "en": "Inside the critical section, interrupts are disabled to ensure mutual exclusion.",
+        "fr": "Dans la section critique, les interruptions sont désactivées pour assurer l'exclusion mutuelle."
+      }
+    ],
+    "tags": ["rtos", "concurrency", "safety"]
+  },
+  {
+    "id": "emb-079",
+    "kanji": "プロファイリング",
+    "hiragana": "ぷろふぁいりんぐ",
+    "romaji": "Purofairingu",
+    "meaning_en": "Profiling",
+    "meaning_fr": "Profilage",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "performance",
+    "example_sentences": [
+      {
+        "jp": "プロファイリングツールでどの関数がCPU時間を最も消費しているか特定しました。",
+        "reading": "ぷろふぁいりんぐつーるでどのかんすうがCPUじかんをもっともしょうひしているかとくていしました。",
+        "en": "I identified which function consumes the most CPU time using a profiling tool.",
+        "fr": "J'ai identifié quelle fonction consomme le plus de temps CPU à l'aide d'un outil de profilage."
+      }
+    ],
+    "tags": ["performance", "debugging", "tools"]
+  },
+  {
+    "id": "emb-080",
+    "kanji": "エンディアン",
+    "hiragana": "えんでぃあん",
+    "romaji": "Endian",
+    "meaning_en": "Endianness",
+    "meaning_fr": "Boutisme (endianness)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "architecture",
+    "example_sentences": [
+      {
+        "jp": "ビッグエンディアンのデバイスとリトルエンディアンのCPU間でデータを変換する必要があります。",
+        "reading": "びっぐえんでぃあんのでばいすとりとるえんでぃあんのCPUかんでーたをへんかんするひつようがあります。",
+        "en": "It is necessary to convert data between a big-endian device and a little-endian CPU.",
+        "fr": "Il est nécessaire de convertir les données entre un appareil big-endian et un CPU little-endian."
+      }
+    ],
+    "tags": ["architecture", "protocols", "hardware"]
+  },
+  {
+    "id": "emb-081",
+    "kanji": "ビットフィールド",
+    "hiragana": "びっとふぃーるど",
+    "romaji": "Bitto fīrudo",
+    "meaning_en": "Bit field",
+    "meaning_fr": "Champ de bits",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "architecture",
+    "example_sentences": [
+      {
+        "jp": "レジスタのビットフィールド定義を構造体で表現してコードの可読性を上げました。",
+        "reading": "れじすたのびっとふぃーるどていぎをこうぞうたいでひょうげんしてこーどのかどくせいをあげました。",
+        "en": "I improved code readability by expressing the register bit field definition as a structure.",
+        "fr": "J'ai amélioré la lisibilité du code en exprimant la définition des champs de bits du registre sous forme de structure."
+      }
+    ],
+    "tags": ["architecture", "hardware", "c-language"]
+  },
+  {
+    "id": "emb-082",
+    "kanji": "ポーリング",
+    "hiragana": "ぽーりんぐ",
+    "romaji": "Pōringu",
+    "meaning_en": "Polling",
+    "meaning_fr": "Scrutation (polling)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "architecture",
+    "example_sentences": [
+      {
+        "jp": "ポーリングより割り込み駆動の方がCPU使用率を下げられます。",
+        "reading": "ぽーりんぐよりわりこみくどうのほうがCPUしようりつをさげられます。",
+        "en": "Interrupt-driven processing can lower CPU utilization compared to polling.",
+        "fr": "Le traitement piloté par interruptions peut réduire le taux d'utilisation du CPU par rapport à la scrutation."
+      }
+    ],
+    "tags": ["architecture", "hardware", "performance"]
+  },
+  {
+    "id": "emb-083",
+    "kanji": "イベント駆動",
+    "hiragana": "いべんとくどう",
+    "romaji": "Ibento kudō",
+    "meaning_en": "Event-driven",
+    "meaning_fr": "Piloté par événements",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "architecture",
+    "example_sentences": [
+      {
+        "jp": "イベント駆動アーキテクチャを採用することでシステムの応答性が向上しました。",
+        "reading": "いべんとくどうあーきてくちゃをさいようすることでしすてむのおうとうせいがこうじょうしました。",
+        "en": "By adopting an event-driven architecture, the system's responsiveness has improved.",
+        "fr": "En adoptant une architecture pilotée par événements, la réactivité du système s'est améliorée."
+      }
+    ],
+    "tags": ["architecture", "rtos", "design"]
+  },
+  {
+    "id": "emb-084",
+    "kanji": "状態機械",
+    "hiragana": "じょうたいきかい",
+    "romaji": "Jōtai kikai",
+    "meaning_en": "State machine (FSM)",
+    "meaning_fr": "Machine à états (automate fini)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "architecture",
+    "example_sentences": [
+      {
+        "jp": "通信プロトコルの処理を状態機械で実装すると見通しが良くなります。",
+        "reading": "つうしんぷろとこるのしょりをじょうたいきかいでじっそうするとみとおしがよくなります。",
+        "en": "Implementing communication protocol processing as a state machine improves clarity.",
+        "fr": "Implémenter le traitement du protocole de communication comme une machine à états améliore la lisibilité."
+      }
+    ],
+    "tags": ["architecture", "software", "design"]
+  },
+  {
+    "id": "emb-085",
+    "kanji": "バッファオーバーフロー",
+    "hiragana": "ばっふぁおーばーふろー",
+    "romaji": "Baffa ōbā furō",
+    "meaning_en": "Buffer overflow",
+    "meaning_fr": "Débordement de tampon",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "safety",
+    "example_sentences": [
+      {
+        "jp": "入力データの長さを検証しないとバッファオーバーフローの脆弱性が生じます。",
+        "reading": "にゅうりょくでーたのながさをけんしょうしないとばっふぁおーばーふろーのぜいじゃくせいがしょうじます。",
+        "en": "If the length of input data is not validated, a buffer overflow vulnerability arises.",
+        "fr": "Si la longueur des données d'entrée n'est pas validée, une vulnérabilité de débordement de tampon apparaît."
+      }
+    ],
+    "tags": ["safety", "security", "memory"]
+  },
+  {
+    "id": "emb-086",
+    "kanji": "整合性チェック",
+    "hiragana": "せいごうせいちぇっく",
+    "romaji": "Seigōsei chekku",
+    "meaning_en": "Integrity check",
+    "meaning_fr": "Vérification d'intégrité",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "safety",
+    "example_sentences": [
+      {
+        "jp": "フラッシュ書き込み後にCRCで整合性チェックを必ず実施してください。",
+        "reading": "ふらっしゅかきこみごにCRCでせいごうせいちぇっくをかならずじっしてください。",
+        "en": "Always perform an integrity check with CRC after flash writing.",
+        "fr": "Effectuez toujours une vérification d'intégrité avec CRC après l'écriture flash."
+      }
+    ],
+    "tags": ["safety", "firmware", "quality"]
+  },
+  {
+    "id": "emb-087",
+    "kanji": "CRC",
+    "hiragana": "しーあーるしー",
+    "romaji": "Shii aaru shii",
+    "meaning_en": "CRC (Cyclic Redundancy Check)",
+    "meaning_fr": "CRC (contrôle de redondance cyclique)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "safety",
+    "example_sentences": [
+      {
+        "jp": "CANメッセージにはCRCが含まれているので通信エラーを検出できます。",
+        "reading": "CANめっせーじにはCRCがふくまれているのでつうしんえらーをけんしゅつできます。",
+        "en": "CAN messages include CRC so communication errors can be detected.",
+        "fr": "Les messages CAN incluent un CRC donc les erreurs de communication peuvent être détectées."
+      }
+    ],
+    "tags": ["safety", "protocols", "communication"]
+  },
+  {
+    "id": "emb-088",
+    "kanji": "ISO 26262",
+    "hiragana": "あいえすおーにまんろくせんにひゃくろくじゅうに",
+    "romaji": "Ai esu oo ni man roku sen ni hyaku roku juu ni",
+    "meaning_en": "ISO 26262 (functional safety standard for road vehicles)",
+    "meaning_fr": "ISO 26262 (norme de sécurité fonctionnelle pour les véhicules routiers)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "safety",
+    "example_sentences": [
+      {
+        "jp": "ISO 26262に準拠するためにはハザード分析とリスク評価が必要です。",
+        "reading": "あいえすおーにまんろくせんにひゃくろくじゅうににじゅんきょするためにははざーどぶんせきとりすくひょうかがひつようです。",
+        "en": "To comply with ISO 26262, hazard analysis and risk assessment are required.",
+        "fr": "Pour se conformer à l'ISO 26262, une analyse des dangers et une évaluation des risques sont nécessaires."
+      }
+    ],
+    "tags": ["safety", "automotive", "iso26262"]
+  },
+  {
+    "id": "emb-089",
+    "kanji": "ASIL",
+    "hiragana": "あじる",
+    "romaji": "Ajiru",
+    "meaning_en": "ASIL (Automotive Safety Integrity Level)",
+    "meaning_fr": "ASIL (niveau d'intégrité de sécurité automobile)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "safety",
+    "example_sentences": [
+      {
+        "jp": "このブレーキ制御ソフトウェアはASIL-Dレベルで開発しなければなりません。",
+        "reading": "このぶれーきせいぎょそふとうぇあはあじるDれべるでかいはつしなければなりません。",
+        "en": "This brake control software must be developed at the ASIL-D level.",
+        "fr": "Ce logiciel de contrôle des freins doit être développé au niveau ASIL-D."
+      }
+    ],
+    "tags": ["safety", "automotive", "iso26262"]
+  },
+  {
+    "id": "emb-090",
+    "kanji": "コード生成",
+    "hiragana": "こーどせいせい",
+    "romaji": "Kōdo seisei",
+    "meaning_en": "Code generation",
+    "meaning_fr": "Génération de code",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "toolchain",
+    "example_sentences": [
+      {
+        "jp": "Simulinkモデルからコード生成してAUTOSARのSWCを作成しました。",
+        "reading": "SimulinkもでるからこーどせいせいしてAUTOSARのSWCをさくせいしました。",
+        "en": "I generated code from the Simulink model and created an AUTOSAR SWC.",
+        "fr": "J'ai généré du code à partir du modèle Simulink et créé un SWC AUTOSAR."
+      }
+    ],
+    "tags": ["toolchain", "autosar", "build"]
+  },
+  {
+    "id": "emb-091",
+    "kanji": "モデルベース開発",
+    "hiragana": "もでるべーすかいはつ",
+    "romaji": "Moderu bēsu kaihatsu",
+    "meaning_en": "Model-based development (MBD)",
+    "meaning_fr": "Développement basé sur les modèles",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "toolchain",
+    "example_sentences": [
+      {
+        "jp": "モデルベース開発を採用することで制御アルゴリズムを早期に検証できます。",
+        "reading": "もでるべーすかいはつをさいようすることでせいぎょあるごりずむをそうきにけんしょうできます。",
+        "en": "By adopting model-based development, control algorithms can be verified early.",
+        "fr": "En adoptant le développement basé sur les modèles, les algorithmes de contrôle peuvent être vérifiés tôt."
+      }
+    ],
+    "tags": ["toolchain", "automotive", "quality"]
+  },
+  {
+    "id": "emb-092",
+    "kanji": "リアルタイムクロック",
+    "hiragana": "りあるたいむくろっく",
+    "romaji": "Riaru taimu kurokku",
+    "meaning_en": "Real-time clock (RTC)",
+    "meaning_fr": "Horloge temps réel (RTC)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "hardware",
+    "example_sentences": [
+      {
+        "jp": "リアルタイムクロックのドリフトが大きすぎてタイムスタンプが不正確になっています。",
+        "reading": "りあるたいむくろっくのどりふとがおおきすぎてたいむすたんぷがふせいかくになっています。",
+        "en": "The real-time clock drift is too large and timestamps are inaccurate.",
+        "fr": "La dérive de l'horloge temps réel est trop grande et les horodatages sont inexacts."
+      }
+    ],
+    "tags": ["hardware", "peripherals", "timing"]
+  },
+  {
+    "id": "emb-093",
+    "kanji": "フラッシュメモリ",
+    "hiragana": "ふらっしゅめもり",
+    "romaji": "Furasshu memori",
+    "meaning_en": "Flash memory",
+    "meaning_fr": "Mémoire flash",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "embedded",
+    "subdomain": "memory",
+    "example_sentences": [
+      {
+        "jp": "フラッシュメモリの書き換え回数には上限があるのでウェアレベリングが必要です。",
+        "reading": "ふらっしゅめもりのかきかえかいすうにはじょうげんがあるのでうぇあればりんぐがひつようです。",
+        "en": "Flash memory has a limited number of write cycles so wear leveling is necessary.",
+        "fr": "La mémoire flash a un nombre limité de cycles d'écriture, donc le nivellement d'usure est nécessaire."
+      }
+    ],
+    "tags": ["memory", "hardware", "firmware"]
+  },
+  {
+    "id": "emb-094",
+    "kanji": "シリアル通信",
+    "hiragana": "しりあるつうしん",
+    "romaji": "Shiriaru tsūshin",
+    "meaning_en": "Serial communication",
+    "meaning_fr": "Communication série",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "embedded",
+    "subdomain": "protocols",
+    "example_sentences": [
+      {
+        "jp": "シリアル通信のボーレートと設定値がホスト側と一致しているか確認してください。",
+        "reading": "しりあるつうしんのぼーれーととせっていちがほすとがわといっちしているかかくにんしてください。",
+        "en": "Please check that the serial communication baud rate and settings match the host side.",
+        "fr": "Veuillez vérifier que le débit et les paramètres de communication série correspondent au côté hôte."
+      }
+    ],
+    "tags": ["protocols", "communication", "hardware"]
+  },
+  {
+    "id": "emb-095",
+    "kanji": "パリティビット",
+    "hiragana": "ぱりてぃびっと",
+    "romaji": "Pariti bitto",
+    "meaning_en": "Parity bit",
+    "meaning_fr": "Bit de parité",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "protocols",
+    "example_sentences": [
+      {
+        "jp": "UART通信ではパリティビットを有効にして1ビットエラーを検出できるようにしています。",
+        "reading": "ゆーあーとつうしんではぱりてぃびっとをゆうこうにして1びっとえらーをけんしゅつできるようにしています。",
+        "en": "UART communication has parity bits enabled to allow detection of 1-bit errors.",
+        "fr": "La communication UART a les bits de parité activés pour permettre la détection des erreurs à 1 bit."
+      }
+    ],
+    "tags": ["protocols", "communication", "safety"]
+  },
+  {
+    "id": "emb-096",
+    "kanji": "タイムアウト",
+    "hiragana": "たいむあうと",
+    "romaji": "Taimu auto",
+    "meaning_en": "Timeout",
+    "meaning_fr": "Délai d'expiration",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "embedded",
+    "subdomain": "safety",
+    "example_sentences": [
+      {
+        "jp": "通信タイムアウトが発生した場合のエラー処理を実装してください。",
+        "reading": "つうしんたいむあうとがはっせいしたばあいのえらーしょりをじっそうしてください。",
+        "en": "Please implement error handling for when a communication timeout occurs.",
+        "fr": "Veuillez implémenter la gestion des erreurs pour les cas de délai d'expiration de communication."
+      }
+    ],
+    "tags": ["safety", "communication", "rtos"]
+  },
+  {
+    "id": "emb-097",
+    "kanji": "再起動",
+    "hiragana": "さいきどう",
+    "romaji": "Saikidō",
+    "meaning_en": "Restart / Reboot",
+    "meaning_fr": "Redémarrage",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "embedded",
+    "subdomain": "firmware",
+    "example_sentences": [
+      {
+        "jp": "エラー検出後に安全な状態を確保してから再起動するシーケンスを設計しました。",
+        "reading": "えらーけんしゅつごにあんぜんなじょうたいをかくほしてからさいきどうするしーけんすをせっけいしました。",
+        "en": "I designed a sequence to ensure a safe state after error detection before restarting.",
+        "fr": "J'ai conçu une séquence pour assurer un état sûr après la détection d'une erreur avant le redémarrage."
+      }
+    ],
+    "tags": ["firmware", "safety", "rtos"]
+  },
+  {
+    "id": "emb-098",
+    "kanji": "初期化処理",
+    "hiragana": "しょきかしょり",
+    "romaji": "Shokika shori",
+    "meaning_en": "Initialization process",
+    "meaning_fr": "Processus d'initialisation",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "firmware",
+    "example_sentences": [
+      {
+        "jp": "初期化処理の順序が間違っているのでペリフェラルが正しく動作していません。",
+        "reading": "しょきかしょりのじゅんじょがまちがっているのでぺりふぇらるがただしくどうさしていません。",
+        "en": "The initialization process order is wrong so the peripheral is not operating correctly.",
+        "fr": "L'ordre du processus d'initialisation est incorrect, donc le périphérique ne fonctionne pas correctement."
+      }
+    ],
+    "tags": ["firmware", "hardware", "software"]
+  },
+  {
+    "id": "emb-099",
+    "kanji": "ハードウェアリセット",
+    "hiragana": "はーどうぇありせっと",
+    "romaji": "Hādo uea risetto",
+    "meaning_en": "Hardware reset",
+    "meaning_fr": "Réinitialisation matérielle",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "hardware",
+    "example_sentences": [
+      {
+        "jp": "ハードウェアリセットで全てのレジスタがデフォルト値に戻ることを確認しました。",
+        "reading": "はーどうぇありせっとですべてのれじすたがでふぉるとちにもどることをかくにんしました。",
+        "en": "I confirmed that all registers return to default values after a hardware reset.",
+        "fr": "J'ai confirmé que tous les registres reviennent aux valeurs par défaut après une réinitialisation matérielle."
+      }
+    ],
+    "tags": ["hardware", "firmware", "debugging"]
+  },
+  {
+    "id": "emb-100",
+    "kanji": "電力効率",
+    "hiragana": "でんりょくこうりつ",
+    "romaji": "Denryoku kōritsu",
+    "meaning_en": "Power efficiency",
+    "meaning_fr": "Efficacité énergétique",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "power",
+    "example_sentences": [
+      {
+        "jp": "クロック周波数を下げることで電力効率が大幅に改善しました。",
+        "reading": "くろっくしゅうはすうをさげることででんりょくこうりつがおおはばにかいぜんしました。",
+        "en": "Power efficiency improved significantly by lowering the clock frequency.",
+        "fr": "L'efficacité énergétique s'est considérablement améliorée en abaissant la fréquence d'horloge."
+      }
+    ],
+    "tags": ["power", "performance", "design"]
+  },
+  {
+    "id": "emb-101",
+    "kanji": "クロック周波数",
+    "hiragana": "くろっくしゅうはすう",
+    "romaji": "Kurokku shūhasū",
+    "meaning_en": "Clock frequency",
+    "meaning_fr": "Fréquence d'horloge",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "hardware",
+    "example_sentences": [
+      {
+        "jp": "クロック周波数を200MHzに設定してシステムの処理速度を確認してください。",
+        "reading": "くろっくしゅうはすうを200MHzにせっていしてしすてむのしょりそくどをかくにんしてください。",
+        "en": "Please set the clock frequency to 200MHz and check the system processing speed.",
+        "fr": "Veuillez régler la fréquence d'horloge à 200MHz et vérifier la vitesse de traitement du système."
+      }
+    ],
+    "tags": ["hardware", "performance", "power"]
+  },
+  {
+    "id": "emb-102",
+    "kanji": "デバッグログ",
+    "hiragana": "でばっぐろぐ",
+    "romaji": "Debaggu rogu",
+    "meaning_en": "Debug log",
+    "meaning_fr": "Journal de débogage",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "embedded",
+    "subdomain": "debugging",
+    "example_sentences": [
+      {
+        "jp": "デバッグログをUARTで出力して障害発生時の状況を記録してください。",
+        "reading": "でばっぐろぐをゆーあーとでしゅつりょくしてしょうがいはっせいじのじょうきょうをきろくしてください。",
+        "en": "Output debug logs via UART to record the situation at the time of failure.",
+        "fr": "Affichez les journaux de débogage via UART pour enregistrer la situation lors de la défaillance."
+      }
+    ],
+    "tags": ["debugging", "tools", "communication"]
+  },
+  {
+    "id": "emb-103",
+    "kanji": "トレース",
+    "hiragana": "とれーす",
+    "romaji": "Torēsu",
+    "meaning_en": "Trace",
+    "meaning_fr": "Trace",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "debugging",
+    "example_sentences": [
+      {
+        "jp": "ITMトレースを使ってリアルタイムでCPUの動作を可視化しています。",
+        "reading": "ITMとれーすをつかってりあるたいむでCPUのどうさをかしかしています。",
+        "en": "I am using ITM trace to visualize CPU behavior in real time.",
+        "fr": "J'utilise la trace ITM pour visualiser le comportement du CPU en temps réel."
+      }
+    ],
+    "tags": ["debugging", "performance", "tools"]
+  },
+  {
+    "id": "emb-104",
+    "kanji": "アサーション",
+    "hiragana": "あさーしょん",
+    "romaji": "Asāshon",
+    "meaning_en": "Assertion",
+    "meaning_fr": "Assertion",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "quality",
+    "example_sentences": [
+      {
+        "jp": "アサーションを使って関数の前提条件を実行時に検証しています。",
+        "reading": "あさーしょんをつかってかんすうのぜんていじょうけんをじっこうじにけんしょうしています。",
+        "en": "I am using assertions to verify function preconditions at runtime.",
+        "fr": "J'utilise des assertions pour vérifier les préconditions des fonctions à l'exécution."
+      }
+    ],
+    "tags": ["quality", "debugging", "safety"]
+  },
+  {
+    "id": "emb-105",
+    "kanji": "コンフィグレーション管理",
+    "hiragana": "こんふぃぐれーしょんかんり",
+    "romaji": "Konfigureshon kanri",
+    "meaning_en": "Configuration management",
+    "meaning_fr": "Gestion de configuration",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "quality",
+    "example_sentences": [
+      {
+        "jp": "コンフィグレーション管理がされていないのでどのバージョンのコードが量産に使われたか不明です。",
+        "reading": "こんふぃぐれーしょんかんりがされていないのでどのばーじょんのこーどがりょうさんにつかわれたかふめいです。",
+        "en": "Configuration management is not in place so it is unclear which version of the code was used in mass production.",
+        "fr": "La gestion de configuration n'est pas en place, donc on ne sait pas quelle version du code a été utilisée en production de masse."
+      }
+    ],
+    "tags": ["quality", "process", "toolchain"]
+  },
+  {
+    "id": "emb-106",
+    "kanji": "テストベンチ",
+    "hiragana": "てすとべんち",
+    "romaji": "Tesuto benchi",
+    "meaning_en": "Test bench",
+    "meaning_fr": "Banc de test",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "quality",
+    "example_sentences": [
+      {
+        "jp": "テストベンチを使ってハードウェアなしでドライバのロジックを検証しました。",
+        "reading": "てすとべんちをつかってはーどうぇあなしでどらいばのろじっくをけんしょうしました。",
+        "en": "I verified driver logic without hardware using a test bench.",
+        "fr": "J'ai vérifié la logique du pilote sans matériel en utilisant un banc de test."
+      }
+    ],
+    "tags": ["quality", "testing", "tools"]
+  },
+  {
+    "id": "emb-107",
+    "kanji": "モックオブジェクト",
+    "hiragana": "もっくおぶじぇくと",
+    "romaji": "Mokku obujekuto",
+    "meaning_en": "Mock object",
+    "meaning_fr": "Objet simulacre (mock)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "quality",
+    "example_sentences": [
+      {
+        "jp": "ハードウェアのモックオブジェクトを作ってユニットテストをホスト上で実行しています。",
+        "reading": "はーどうぇあのもっくおぶじぇくとをつくってゆにっとてすとをほすとうえでじっこうしています。",
+        "en": "I created a mock object for hardware and run unit tests on the host.",
+        "fr": "J'ai créé un objet simulacre pour le matériel et exécute des tests unitaires sur l'hôte."
+      }
+    ],
+    "tags": ["quality", "testing", "software"]
+  },
+  {
+    "id": "emb-108",
+    "kanji": "スペック",
+    "hiragana": "すぺっく",
+    "romaji": "Supekku",
+    "meaning_en": "Specification / Spec",
+    "meaning_fr": "Spécification",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "embedded",
+    "subdomain": "quality",
+    "example_sentences": [
+      {
+        "jp": "スペックと実際の動作に差異があるのでどちらが正しいか確認が必要です。",
+        "reading": "すぺっくとじっさいのどうさにさいがあるのでどちらがただしいかかくにんがひつようです。",
+        "en": "There is a discrepancy between the spec and the actual behavior, so it is necessary to confirm which is correct.",
+        "fr": "Il y a une divergence entre la spécification et le comportement réel, il faut donc confirmer lequel est correct."
+      }
+    ],
+    "tags": ["quality", "process", "design"]
+  },
+  {
+    "id": "emb-109",
+    "kanji": "要件定義",
+    "hiragana": "ようけんていぎ",
+    "romaji": "Yōken teigi",
+    "meaning_en": "Requirements definition",
+    "meaning_fr": "Définition des exigences",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "quality",
+    "example_sentences": [
+      {
+        "jp": "要件定義の段階で安全要件を明確にしないと後の工程で手戻りが発生します。",
+        "reading": "ようけんていぎのだんかいであんぜんようけんをめいかくにしないとあとのこうていでてもどりがはっせいします。",
+        "en": "If safety requirements are not clarified at the requirements definition stage, rework will occur in later processes.",
+        "fr": "Si les exigences de sécurité ne sont pas clarifiées à l'étape de définition des exigences, des retraitements se produiront dans les processus ultérieurs."
+      }
+    ],
+    "tags": ["quality", "process", "safety"]
+  },
+  {
+    "id": "emb-110",
+    "kanji": "設計書",
+    "hiragana": "せっけいしょ",
+    "romaji": "Sekkei sho",
+    "meaning_en": "Design document / Design specification",
+    "meaning_fr": "Document de conception",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "quality",
+    "example_sentences": [
+      {
+        "jp": "実装前に設計書をチームでレビューして問題がないか確認してください。",
+        "reading": "じっそうまえにせっけいしょをちーむでれびゅーしてもんだいがないかかくにんしてください。",
+        "en": "Before implementation, please review the design document with the team to check for any issues.",
+        "fr": "Avant l'implémentation, veuillez réviser le document de conception avec l'équipe pour vérifier les problèmes éventuels."
+      }
+    ],
+    "tags": ["quality", "process", "design"]
+  },
+  {
+    "id": "emb-111",
+    "kanji": "試験仕様書",
+    "hiragana": "しけんしようしょ",
+    "romaji": "Shiken shiyō sho",
+    "meaning_en": "Test specification document",
+    "meaning_fr": "Document de spécification de test",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "quality",
+    "example_sentences": [
+      {
+        "jp": "試験仕様書に基づいて全てのテストケースを実施して結果を記録してください。",
+        "reading": "しけんしようしょにもとづいてすべてのてすとけーすをじっしてけっかをきろくしてください。",
+        "en": "Please execute all test cases based on the test specification document and record the results.",
+        "fr": "Veuillez exécuter tous les cas de test basés sur le document de spécification de test et enregistrer les résultats."
+      }
+    ],
+    "tags": ["quality", "testing", "process"]
+  },
+  {
+    "id": "emb-112",
+    "kanji": "ソフトウェア更新",
+    "hiragana": "そふとうぇあこうしん",
+    "romaji": "Sofutouea kōshin",
+    "meaning_en": "Software update",
+    "meaning_fr": "Mise à jour logicielle",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "embedded",
+    "subdomain": "firmware",
+    "example_sentences": [
+      {
+        "jp": "ソフトウェア更新のリリースノートに変更点を全て記載してください。",
+        "reading": "そふとうぇあこうしんのりりーすのーとにへんこうてんをすべてきさいしてください。",
+        "en": "Please list all changes in the software update release notes.",
+        "fr": "Veuillez répertorier toutes les modifications dans les notes de version de la mise à jour logicielle."
+      }
+    ],
+    "tags": ["firmware", "process", "quality"]
+  },
+  {
+    "id": "emb-113",
+    "kanji": "デュアルバンク",
+    "hiragana": "でゅあるばんく",
+    "romaji": "Dyuaru banku",
+    "meaning_en": "Dual bank (flash)",
+    "meaning_fr": "Double banque (flash)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "firmware",
+    "example_sentences": [
+      {
+        "jp": "デュアルバンクフラッシュを使えば稼働中にバックグラウンドでOTAアップデートができます。",
+        "reading": "でゅあるばんくふらっしゅをつかえばかどうちゅうにばっくぐらうんどでおーてぃーえーあっぷでーとができます。",
+        "en": "Using dual-bank flash enables OTA updates in the background while running.",
+        "fr": "L'utilisation d'un flash double banque permet les mises à jour OTA en arrière-plan pendant le fonctionnement."
+      }
+    ],
+    "tags": ["firmware", "memory", "ota"]
+  },
+  {
+    "id": "emb-114",
+    "kanji": "ハードウェア抽象化層",
+    "hiragana": "はーどうぇあちゅうしょうかそう",
+    "romaji": "Hādo uea chūshōka sō",
+    "meaning_en": "Hardware Abstraction Layer (HAL)",
+    "meaning_fr": "Couche d'abstraction matérielle (HAL)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "architecture",
+    "example_sentences": [
+      {
+        "jp": "ハードウェア抽象化層を設けることでポータビリティが向上します。",
+        "reading": "はーどうぇあちゅうしょうかそうをもうけることでぽーたびりてぃがこうじょうします。",
+        "en": "Providing a hardware abstraction layer improves portability.",
+        "fr": "La fourniture d'une couche d'abstraction matérielle améliore la portabilité."
+      }
+    ],
+    "tags": ["architecture", "hardware", "abstraction"]
+  },
+  {
+    "id": "emb-115",
+    "kanji": "BSP",
+    "hiragana": "びーえすぴー",
+    "romaji": "Bii esu pii",
+    "meaning_en": "BSP (Board Support Package)",
+    "meaning_fr": "BSP (paquet de support de carte)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "architecture",
+    "example_sentences": [
+      {
+        "jp": "新しいボードのBSPを移植してOSが起動するところまで確認できました。",
+        "reading": "あたらしいぼーどのBSPをいしょくしてOSがきどうするところまでかくにんできました。",
+        "en": "I ported the new board's BSP and confirmed that the OS boots.",
+        "fr": "J'ai porté le BSP de la nouvelle carte et confirmé que l'OS démarre."
+      }
+    ],
+    "tags": ["architecture", "hardware", "firmware"]
+  },
+  {
+    "id": "emb-116",
+    "kanji": "ベアメタル",
+    "hiragana": "べあめたる",
+    "romaji": "Bea metaru",
+    "meaning_en": "Bare metal",
+    "meaning_fr": "Métal nu (bare metal)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "architecture",
+    "example_sentences": [
+      {
+        "jp": "OSなしのベアメタル実装はリソースが非常に限られたマイコンに適しています。",
+        "reading": "OSなしのべあめたるじっそうはりそーすがひじょうにかぎられたまいこんにてきしています。",
+        "en": "Bare metal implementation without an OS is suitable for microcontrollers with very limited resources.",
+        "fr": "L'implémentation bare metal sans OS est adaptée aux microcontrôleurs avec des ressources très limitées."
+      }
+    ],
+    "tags": ["architecture", "rtos", "hardware"]
+  },
+  {
+    "id": "emb-117",
+    "kanji": "バスアービトレーション",
+    "hiragana": "ばすあーびとれーしょん",
+    "romaji": "Basu ābitoreeshon",
+    "meaning_en": "Bus arbitration",
+    "meaning_fr": "Arbitrage de bus",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "protocols",
+    "example_sentences": [
+      {
+        "jp": "CANのバスアービトレーションにより優先度の高いメッセージが先に送信されます。",
+        "reading": "CANのばすあーびとれーしょんによりゆうせんどのたかいめっせーじがさきにそうしんされます。",
+        "en": "CAN bus arbitration ensures that higher-priority messages are transmitted first.",
+        "fr": "L'arbitrage de bus CAN garantit que les messages de priorité plus élevée sont transmis en premier."
+      }
+    ],
+    "tags": ["protocols", "automotive", "communication"]
+  },
+  {
+    "id": "emb-118",
+    "kanji": "診断機能",
+    "hiragana": "しんだんきのう",
+    "romaji": "Shindan kinō",
+    "meaning_en": "Diagnostic function",
+    "meaning_fr": "Fonction de diagnostic",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "safety",
+    "example_sentences": [
+      {
+        "jp": "OBDポートから診断機能でECUのエラーコードを読み出して解析します。",
+        "reading": "OBDぽーとからしんだんきのうでECUのえらーこーどをよみだしてかいせきします。",
+        "en": "I will read and analyze the ECU error codes from the OBD port using the diagnostic function.",
+        "fr": "Je vais lire et analyser les codes d'erreur de l'ECU depuis le port OBD en utilisant la fonction de diagnostic."
+      }
+    ],
+    "tags": ["safety", "automotive", "debugging"]
+  },
+  {
+    "id": "emb-119",
+    "kanji": "アクセス制御",
+    "hiragana": "あくせすせいぎょ",
+    "romaji": "Akusesu seigyo",
+    "meaning_en": "Access control",
+    "meaning_fr": "Contrôle d'accès",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "safety",
+    "example_sentences": [
+      {
+        "jp": "MPUでアクセス制御を設定してアプリケーションがカーネル領域を書き換えられないようにします。",
+        "reading": "MPUでアクセスせいぎょをせっていしてあぷりけーしょんがかーねるりょういきをかきかえられないようにします。",
+        "en": "Access control is configured with the MPU to prevent applications from overwriting the kernel area.",
+        "fr": "Le contrôle d'accès est configuré avec le MPU pour empêcher les applications d'écraser la zone noyau."
+      }
+    ],
+    "tags": ["safety", "memory", "security"]
+  },
+  {
+    "id": "emb-120",
+    "kanji": "仕様変更",
+    "hiragana": "しようへんこう",
+    "romaji": "Shiyō henkō",
+    "meaning_en": "Specification change",
+    "meaning_fr": "Changement de spécification",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "embedded",
+    "subdomain": "quality",
+    "example_sentences": [
+      {
+        "jp": "仕様変更の影響範囲を調べてから実装工数を見積もってください。",
+        "reading": "しようへんこうのえいきょうはんいをしらべてからじっそうこうすうをみつもってください。",
+        "en": "Please investigate the impact scope of the specification change and then estimate the implementation effort.",
+        "fr": "Veuillez analyser le périmètre d'impact du changement de spécification avant d'estimer l'effort d'implémentation."
+      }
+    ],
+    "tags": ["quality", "process", "design"]
+  }
+]

@@ -1,0 +1,3001 @@
+[
+  {
+    "id": "auto-001",
+    "kanji": "電子制御ユニット",
+    "hiragana": "でんしせいぎょゆにっと",
+    "romaji": "Denshi seigyo yunitto",
+    "meaning_en": "Electronic Control Unit (ECU)",
+    "meaning_fr": "Unité de contrôle électronique",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "systems",
+    "example_sentences": [
+      {
+        "jp": "このECUはエンジンの点火タイミングを制御しています。",
+        "reading": "このECUはえんじんのてんかたいみんぐをせいぎょしています。",
+        "en": "This ECU controls the engine ignition timing.",
+        "fr": "Cet ECU contrôle le calage de l'allumage du moteur."
+      }
+    ],
+    "tags": [
+      "ecu",
+      "hardware",
+      "systems"
+    ]
+  },
+  {
+    "id": "auto-002",
+    "kanji": "ボディ制御モジュール",
+    "hiragana": "ぼでぃせいぎょもじゅーる",
+    "romaji": "Bodi seigyo mojuuru",
+    "meaning_en": "Body Control Module (BCM)",
+    "meaning_fr": "Module de contrôle de carrosserie",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "systems",
+    "example_sentences": [
+      {
+        "jp": "BCMはドアロックやライトの制御を担当しています。",
+        "reading": "BCMはどあろっくやらいとのせいぎょをたんとうしています。",
+        "en": "The BCM is responsible for controlling door locks and lights.",
+        "fr": "Le BCM est responsable du contrôle des serrures de portes et des lumières."
+      }
+    ],
+    "tags": [
+      "bcm",
+      "hardware",
+      "systems"
+    ]
+  },
+  {
+    "id": "auto-003",
+    "kanji": "トランスミッション制御ユニット",
+    "hiragana": "とらんすみっしょんせいぎょゆにっと",
+    "romaji": "Toransumasshon seigyo yunitto",
+    "meaning_en": "Transmission Control Unit (TCU)",
+    "meaning_fr": "Unité de contrôle de transmission",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "systems",
+    "example_sentences": [
+      {
+        "jp": "TCUのソフトウェアにバグが見つかりました。",
+        "reading": "TCUのそふとうぇあにばぐがみつかりました。",
+        "en": "A bug was found in the TCU software.",
+        "fr": "Un bug a été trouvé dans le logiciel du TCU."
+      }
+    ],
+    "tags": [
+      "tcu",
+      "hardware",
+      "transmission"
+    ]
+  },
+  {
+    "id": "auto-004",
+    "kanji": "車両制御ユニット",
+    "hiragana": "しゃりょうせいぎょゆにっと",
+    "romaji": "Sharyou seigyo yunitto",
+    "meaning_en": "Vehicle Control Unit (VCU)",
+    "meaning_fr": "Unité de contrôle du véhicule",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "systems",
+    "example_sentences": [
+      {
+        "jp": "VCUは電気自動車のエネルギー管理を行います。",
+        "reading": "VCUはでんきじどうしゃのえねるぎーかんりをおこないます。",
+        "en": "The VCU manages the energy of the electric vehicle.",
+        "fr": "Le VCU gère l'énergie du véhicule électrique."
+      }
+    ],
+    "tags": [
+      "vcu",
+      "ev",
+      "hardware"
+    ]
+  },
+  {
+    "id": "auto-005",
+    "kanji": "マイクロコントローラ",
+    "hiragana": "まいくろこんとろーら",
+    "romaji": "Maikuro kontorōra",
+    "meaning_en": "Microcontroller (MCU)",
+    "meaning_fr": "Microcontrôleur",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "systems",
+    "example_sentences": [
+      {
+        "jp": "このマイクロコントローラはルネサス製です。",
+        "reading": "このまいくろこんとろーらはるねさすせいです。",
+        "en": "This microcontroller is made by Renesas.",
+        "fr": "Ce microcontrôleur est fabriqué par Renesas."
+      }
+    ],
+    "tags": [
+      "mcu",
+      "hardware",
+      "embedded"
+    ]
+  },
+  {
+    "id": "auto-006",
+    "kanji": "センサー制御",
+    "hiragana": "せんさーせいぎょ",
+    "romaji": "Sensā seigyo",
+    "meaning_en": "Sensor control",
+    "meaning_fr": "Contrôle des capteurs",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "systems",
+    "example_sentences": [
+      {
+        "jp": "センサー制御のタスクは最高優先度で動いています。",
+        "reading": "せんさーせいぎょのたすくはさいこうゆうせんどでうごいています。",
+        "en": "The sensor control task runs at the highest priority.",
+        "fr": "La tâche de contrôle des capteurs fonctionne à la priorité maximale."
+      }
+    ],
+    "tags": [
+      "sensor",
+      "rtos",
+      "embedded"
+    ]
+  },
+  {
+    "id": "auto-007",
+    "kanji": "CANバス",
+    "hiragana": "キャンバス",
+    "romaji": "Kyan basu",
+    "meaning_en": "CAN bus (Controller Area Network)",
+    "meaning_fr": "Bus CAN (réseau de communication embarqué)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "protocols",
+    "example_sentences": [
+      {
+        "jp": "CANバスの通信速度は最大1Mbpsです。",
+        "reading": "キャンバスのつうしんそくどはさいだい1Mbpsです。",
+        "en": "The CAN bus communication speed is a maximum of 1 Mbps.",
+        "fr": "La vitesse de communication du bus CAN est de 1 Mbps maximum."
+      }
+    ],
+    "tags": [
+      "can",
+      "protocol",
+      "network"
+    ]
+  },
+  {
+    "id": "auto-008",
+    "kanji": "CANフレーム",
+    "hiragana": "キャンフレーム",
+    "romaji": "Kyan furēmu",
+    "meaning_en": "CAN frame",
+    "meaning_fr": "Trame CAN",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "protocols",
+    "example_sentences": [
+      {
+        "jp": "このCANフレームのDLCは8バイトに設定されています。",
+        "reading": "このキャンフレームのDLCは8ばいとにせっていされています。",
+        "en": "The DLC of this CAN frame is set to 8 bytes.",
+        "fr": "Le DLC de cette trame CAN est défini à 8 octets."
+      }
+    ],
+    "tags": [
+      "can",
+      "protocol",
+      "frame"
+    ]
+  },
+  {
+    "id": "auto-009",
+    "kanji": "CANノード",
+    "hiragana": "キャンノード",
+    "romaji": "Kyan nōdo",
+    "meaning_en": "CAN node",
+    "meaning_fr": "Nœud CAN",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "protocols",
+    "example_sentences": [
+      {
+        "jp": "新しいCANノードをネットワークに追加しました。",
+        "reading": "あたらしいキャンノードをねっとわーくについかしました。",
+        "en": "We added a new CAN node to the network.",
+        "fr": "Nous avons ajouté un nouveau nœud CAN au réseau."
+      }
+    ],
+    "tags": [
+      "can",
+      "protocol",
+      "network"
+    ]
+  },
+  {
+    "id": "auto-010",
+    "kanji": "LINバス",
+    "hiragana": "リンバス",
+    "romaji": "Rin basu",
+    "meaning_en": "LIN bus (Local Interconnect Network)",
+    "meaning_fr": "Bus LIN (réseau d'interconnexion local)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "protocols",
+    "example_sentences": [
+      {
+        "jp": "シートモーターの制御にはLINバスを使っています。",
+        "reading": "しーともーたーのせいぎょにはリンバスをつかっています。",
+        "en": "We use LIN bus for seat motor control.",
+        "fr": "Nous utilisons le bus LIN pour le contrôle du moteur de siège."
+      }
+    ],
+    "tags": [
+      "lin",
+      "protocol",
+      "network"
+    ]
+  },
+  {
+    "id": "auto-011",
+    "kanji": "フレックスレイ",
+    "hiragana": "ふれっくすれい",
+    "romaji": "Furekkusu rei",
+    "meaning_en": "FlexRay",
+    "meaning_fr": "FlexRay",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "protocols",
+    "example_sentences": [
+      {
+        "jp": "シャシー制御にはFlexRayの時間確定性が必要です。",
+        "reading": "しゃしーせいぎょにはふれっくすれいのじかんかくていせいがひつようです。",
+        "en": "Chassis control requires the time determinism of FlexRay.",
+        "fr": "Le contrôle du châssis nécessite le déterminisme temporel de FlexRay."
+      }
+    ],
+    "tags": [
+      "flexray",
+      "protocol",
+      "safety-critical"
+    ]
+  },
+  {
+    "id": "auto-012",
+    "kanji": "車載イーサネット",
+    "hiragana": "しゃさいいーさねっと",
+    "romaji": "Shazai Īsanetto",
+    "meaning_en": "Automotive Ethernet",
+    "meaning_fr": "Ethernet automobile",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "protocols",
+    "example_sentences": [
+      {
+        "jp": "カメラデータの転送には車載イーサネットが必要です。",
+        "reading": "かめらでーたのてんそうにはしゃさいいーさねっとがひつようです。",
+        "en": "Automotive Ethernet is required for camera data transfer.",
+        "fr": "L'Ethernet automobile est nécessaire pour le transfert des données caméra."
+      }
+    ],
+    "tags": [
+      "ethernet",
+      "protocol",
+      "adas"
+    ]
+  },
+  {
+    "id": "auto-013",
+    "kanji": "AUTOSARアーキテクチャ",
+    "hiragana": "あうとさーあーきてくちゃ",
+    "romaji": "Autosā ākitekucha",
+    "meaning_en": "AUTOSAR architecture",
+    "meaning_fr": "Architecture AUTOSAR",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "standards",
+    "example_sentences": [
+      {
+        "jp": "このプロジェクトはAUTOSARアーキテクチャに準拠しています。",
+        "reading": "このぷろじぇくとはあうとさーあーきてくちゃにじゅんきょしています。",
+        "en": "This project complies with the AUTOSAR architecture.",
+        "fr": "Ce projet est conforme à l'architecture AUTOSAR."
+      }
+    ],
+    "tags": [
+      "autosar",
+      "architecture",
+      "standard"
+    ]
+  },
+  {
+    "id": "auto-014",
+    "kanji": "ソフトウェアコンポーネント",
+    "hiragana": "そふとうぇあこんぽーねんと",
+    "romaji": "Sofutouea konpōnento",
+    "meaning_en": "Software Component (SWC)",
+    "meaning_fr": "Composant logiciel",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "standards",
+    "example_sentences": [
+      {
+        "jp": "新しいソフトウェアコンポーネントのインターフェースを定義してください。",
+        "reading": "あたらしいそふとうぇあこんぽーねんとのいんたーふぇーすをていぎしてください。",
+        "en": "Please define the interface of the new software component.",
+        "fr": "Veuillez définir l'interface du nouveau composant logiciel."
+      }
+    ],
+    "tags": [
+      "autosar",
+      "swc",
+      "software"
+    ]
+  },
+  {
+    "id": "auto-015",
+    "kanji": "ランタイム環境",
+    "hiragana": "らんたいむかんきょう",
+    "romaji": "Rantaimu kankyō",
+    "meaning_en": "Runtime Environment (RTE)",
+    "meaning_fr": "Environnement d'exécution",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "standards",
+    "example_sentences": [
+      {
+        "jp": "RTEはSWC間の通信を仲介します。",
+        "reading": "らんたいむかんきょうはSWCかんのつうしんをちゅうかいします。",
+        "en": "The RTE mediates communication between SWCs.",
+        "fr": "Le RTE assure la médiation de la communication entre les SWC."
+      }
+    ],
+    "tags": [
+      "autosar",
+      "rte",
+      "software"
+    ]
+  },
+  {
+    "id": "auto-016",
+    "kanji": "基本ソフトウェア",
+    "hiragana": "きほんそふとうぇあ",
+    "romaji": "Kihon sofutouea",
+    "meaning_en": "Basic Software (BSW)",
+    "meaning_fr": "Logiciel de base",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "standards",
+    "example_sentences": [
+      {
+        "jp": "基本ソフトウェアのコンフィギュレーションを確認してください。",
+        "reading": "きほんそふとうぇあのこんふぃぎゅれーしょんをかくにんしてください。",
+        "en": "Please check the Basic Software configuration.",
+        "fr": "Veuillez vérifier la configuration du logiciel de base."
+      }
+    ],
+    "tags": [
+      "autosar",
+      "bsw",
+      "software"
+    ]
+  },
+  {
+    "id": "auto-017",
+    "kanji": "機能安全",
+    "hiragana": "きのうあんぜん",
+    "romaji": "Kinō anzen",
+    "meaning_en": "Functional safety",
+    "meaning_fr": "Sécurité fonctionnelle",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "safety",
+    "example_sentences": [
+      {
+        "jp": "機能安全の要件はISO 26262で規定されています。",
+        "reading": "きのうあんぜんのようけんはISO 26262でさだめられています。",
+        "en": "Functional safety requirements are defined in ISO 26262.",
+        "fr": "Les exigences de sécurité fonctionnelle sont définies dans ISO 26262."
+      }
+    ],
+    "tags": [
+      "safety",
+      "iso26262",
+      "standard"
+    ]
+  },
+  {
+    "id": "auto-018",
+    "kanji": "自動車安全度水準",
+    "hiragana": "じどうしゃあんぜんどすいじゅん",
+    "romaji": "Jidōsha anzen-do suijun",
+    "meaning_en": "Automotive Safety Integrity Level (ASIL)",
+    "meaning_fr": "Niveau d'intégrité de sécurité automobile",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "safety",
+    "example_sentences": [
+      {
+        "jp": "このブレーキ機能はASIL-Dに分類されています。",
+        "reading": "このぶれーききのうはASIL-Dにぶんるいされています。",
+        "en": "This brake function is classified as ASIL-D.",
+        "fr": "Cette fonction de freinage est classifiée ASIL-D."
+      }
+    ],
+    "tags": [
+      "asil",
+      "safety",
+      "iso26262"
+    ]
+  },
+  {
+    "id": "auto-019",
+    "kanji": "ハザード解析",
+    "hiragana": "はざーどかいせき",
+    "romaji": "Hazādo kaiseki",
+    "meaning_en": "Hazard analysis",
+    "meaning_fr": "Analyse des dangers",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "safety",
+    "example_sentences": [
+      {
+        "jp": "ハザード解析とリスク評価をレビューしましょう。",
+        "reading": "はざーどかいせきとりすくひょうかをれびゅーしましょう。",
+        "en": "Let's review the hazard analysis and risk assessment.",
+        "fr": "Passons en revue l'analyse des dangers et l'évaluation des risques."
+      }
+    ],
+    "tags": [
+      "safety",
+      "hara",
+      "iso26262"
+    ]
+  },
+  {
+    "id": "auto-020",
+    "kanji": "フォールトトレランス",
+    "hiragana": "ふぉーるととれらんす",
+    "romaji": "Fōruto toransu",
+    "meaning_en": "Fault tolerance",
+    "meaning_fr": "Tolérance aux pannes",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "safety",
+    "example_sentences": [
+      {
+        "jp": "このシステムはフォールトトレランスが必要です。",
+        "reading": "このしすてむはふぉーるととれらんすがひつようです。",
+        "en": "This system requires fault tolerance.",
+        "fr": "Ce système nécessite une tolérance aux pannes."
+      }
+    ],
+    "tags": [
+      "safety",
+      "fault-tolerance",
+      "redundancy"
+    ]
+  },
+  {
+    "id": "auto-021",
+    "kanji": "パワートレイン",
+    "hiragana": "ぱわーとれいん",
+    "romaji": "Pawā torein",
+    "meaning_en": "Powertrain",
+    "meaning_fr": "Groupe motopropulseur",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "systems",
+    "example_sentences": [
+      {
+        "jp": "パワートレインチームと協力して仕様を決めます。",
+        "reading": "ぱわーとれいんちーむときょうりょくしてしようをきめます。",
+        "en": "We will decide the specifications in cooperation with the powertrain team.",
+        "fr": "Nous allons définir les spécifications en coopération avec l'équipe groupe motopropulseur."
+      }
+    ],
+    "tags": [
+      "powertrain",
+      "systems",
+      "engine"
+    ]
+  },
+  {
+    "id": "auto-022",
+    "kanji": "ブレーキシステム",
+    "hiragana": "ぶれーきしすてむ",
+    "romaji": "Burēki shisutemu",
+    "meaning_en": "Brake system",
+    "meaning_fr": "Système de freinage",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "automotive",
+    "subdomain": "systems",
+    "example_sentences": [
+      {
+        "jp": "ブレーキシステムのASILレベルを上げる必要があります。",
+        "reading": "ぶれーきしすてむのASILれべるをあげるひつようがあります。",
+        "en": "We need to raise the ASIL level of the brake system.",
+        "fr": "Nous devons augmenter le niveau ASIL du système de freinage."
+      }
+    ],
+    "tags": [
+      "brake",
+      "safety",
+      "systems"
+    ]
+  },
+  {
+    "id": "auto-023",
+    "kanji": "先進運転支援システム",
+    "hiragana": "せんしんうんてんしえんしすてむ",
+    "romaji": "Senshin unten shien shisutemu",
+    "meaning_en": "Advanced Driver Assistance Systems (ADAS)",
+    "meaning_fr": "Systèmes d'aide à la conduite avancés",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "adas",
+    "example_sentences": [
+      {
+        "jp": "ADASの機能追加については次のスプリントで対応します。",
+        "reading": "ADASのきのうついかについてはつぎのすぷりんとでたいおうします。",
+        "en": "We will handle the ADAS feature additions in the next sprint.",
+        "fr": "Nous traiterons les ajouts de fonctionnalités ADAS dans le prochain sprint."
+      }
+    ],
+    "tags": [
+      "adas",
+      "safety",
+      "autonomous"
+    ]
+  },
+  {
+    "id": "auto-024",
+    "kanji": "自動運転",
+    "hiragana": "じどううんてん",
+    "romaji": "Jidō unten",
+    "meaning_en": "Autonomous driving",
+    "meaning_fr": "Conduite autonome",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "adas",
+    "example_sentences": [
+      {
+        "jp": "自動運転レベル4の実現には多くの課題があります。",
+        "reading": "じどううんてんれべる4のじつげんにはおおくのかだいがあります。",
+        "en": "There are many challenges to achieving level 4 autonomous driving.",
+        "fr": "Il y a de nombreux défis pour atteindre la conduite autonome de niveau 4."
+      }
+    ],
+    "tags": [
+      "autonomous",
+      "adas",
+      "level4"
+    ]
+  },
+  {
+    "id": "auto-025",
+    "kanji": "HILテスト",
+    "hiragana": "えいちあいえるてすと",
+    "romaji": "Eichi ai eru tesuto",
+    "meaning_en": "Hardware-in-the-Loop test",
+    "meaning_fr": "Test matériel dans la boucle",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "testing",
+    "example_sentences": [
+      {
+        "jp": "HILテスト環境でエラーが再現できました。",
+        "reading": "えいちあいえるてすとかんきょうでえらーがさいげんできました。",
+        "en": "We were able to reproduce the error in the HIL test environment.",
+        "fr": "Nous avons pu reproduire l'erreur dans l'environnement de test HIL."
+      }
+    ],
+    "tags": [
+      "hil",
+      "testing",
+      "hardware"
+    ]
+  },
+  {
+    "id": "auto-026",
+    "kanji": "SILテスト",
+    "hiragana": "えすあいえるてすと",
+    "romaji": "Esu ai eru tesuto",
+    "meaning_en": "Software-in-the-Loop test",
+    "meaning_fr": "Test logiciel dans la boucle",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "testing",
+    "example_sentences": [
+      {
+        "jp": "SILテストはHILテストより早い段階で実施できます。",
+        "reading": "えすあいえるてすとはえいちあいえるてすとよりはやいだんかいでじっしできます。",
+        "en": "SIL tests can be performed at an earlier stage than HIL tests.",
+        "fr": "Les tests SIL peuvent être effectués à un stade plus précoce que les tests HIL."
+      }
+    ],
+    "tags": [
+      "sil",
+      "testing",
+      "software"
+    ]
+  },
+  {
+    "id": "auto-027",
+    "kanji": "MILテスト",
+    "hiragana": "えむあいえるてすと",
+    "romaji": "Emu ai eru tesuto",
+    "meaning_en": "Model-in-the-Loop test",
+    "meaning_fr": "Test modèle dans la boucle",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "testing",
+    "example_sentences": [
+      {
+        "jp": "まずMILテストでアルゴリズムを検証してください。",
+        "reading": "まずえむあいえるてすとでありごりずむをけんしょうしてください。",
+        "en": "Please first verify the algorithm with MIL testing.",
+        "fr": "Veuillez d'abord vérifier l'algorithme avec les tests MIL."
+      }
+    ],
+    "tags": [
+      "mil",
+      "testing",
+      "model"
+    ]
+  },
+  {
+    "id": "auto-028",
+    "kanji": "テストベクター",
+    "hiragana": "てすとべくたー",
+    "romaji": "Tesuto bekutā",
+    "meaning_en": "Test vector",
+    "meaning_fr": "Vecteur de test",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "testing",
+    "example_sentences": [
+      {
+        "jp": "テストベクターのカバレッジが不足しています。",
+        "reading": "てすとべくたーのかばれっじがふそくしています。",
+        "en": "The test vector coverage is insufficient.",
+        "fr": "La couverture des vecteurs de test est insuffisante."
+      }
+    ],
+    "tags": [
+      "testing",
+      "coverage",
+      "verification"
+    ]
+  },
+  {
+    "id": "auto-029",
+    "kanji": "検証",
+    "hiragana": "けんしょう",
+    "romaji": "Kenshō",
+    "meaning_en": "Verification",
+    "meaning_fr": "Vérification",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "testing",
+    "example_sentences": [
+      {
+        "jp": "要件に対する検証が完了しました。",
+        "reading": "ようけんにたいするけんしょうがかんりょうしました。",
+        "en": "Verification against requirements has been completed.",
+        "fr": "La vérification par rapport aux exigences est terminée."
+      }
+    ],
+    "tags": [
+      "testing",
+      "verification",
+      "process"
+    ]
+  },
+  {
+    "id": "auto-030",
+    "kanji": "妥当性確認",
+    "hiragana": "だとうせいかくにん",
+    "romaji": "Datōsei kakunin",
+    "meaning_en": "Validation",
+    "meaning_fr": "Validation",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "testing",
+    "example_sentences": [
+      {
+        "jp": "妥当性確認は実車環境で行う必要があります。",
+        "reading": "だとうせいかくにんはじっしゃかんきょうでおこなうひつようがあります。",
+        "en": "Validation must be carried out in a real vehicle environment.",
+        "fr": "La validation doit être effectuée dans un environnement de véhicule réel."
+      }
+    ],
+    "tags": [
+      "testing",
+      "validation",
+      "process"
+    ]
+  },
+  {
+    "id": "auto-031",
+    "kanji": "ベクターキャスト",
+    "hiragana": "べくたーきゃすと",
+    "romaji": "Bekutā kyasuto",
+    "meaning_en": "VectorCAST (test automation tool)",
+    "meaning_fr": "VectorCAST (outil d'automatisation des tests)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "tools",
+    "example_sentences": [
+      {
+        "jp": "ベクターキャストでユニットテストを自動化しています。",
+        "reading": "べくたーきゃすとでゆにっとてすとをじどうかしています。",
+        "en": "We are automating unit tests with VectorCAST.",
+        "fr": "Nous automatisons les tests unitaires avec VectorCAST."
+      }
+    ],
+    "tags": [
+      "tools",
+      "testing",
+      "automation"
+    ]
+  },
+  {
+    "id": "auto-032",
+    "kanji": "CANoe",
+    "hiragana": "キャンおー",
+    "romaji": "Kyan ō",
+    "meaning_en": "CANoe (CAN bus analysis tool by Vector)",
+    "meaning_fr": "CANoe (outil d'analyse de bus CAN par Vector)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "tools",
+    "example_sentences": [
+      {
+        "jp": "CANoeでメッセージのタイミングを確認しました。",
+        "reading": "キャンおーでめっせーじのたいみんぐをかくにんしました。",
+        "en": "I confirmed the message timing with CANoe.",
+        "fr": "J'ai confirmé le timing des messages avec CANoe."
+      }
+    ],
+    "tags": [
+      "tools",
+      "can",
+      "analysis"
+    ]
+  },
+  {
+    "id": "auto-033",
+    "kanji": "CANalyzer",
+    "hiragana": "キャナライザー",
+    "romaji": "Kyanaraizā",
+    "meaning_en": "CANalyzer (CAN bus monitoring tool)",
+    "meaning_fr": "CANalyzer (outil de surveillance du bus CAN)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "tools",
+    "example_sentences": [
+      {
+        "jp": "CANalyzerでバスのトラフィックを記録しました。",
+        "reading": "キャナライザーでばすのとらふぃっくをきろくしました。",
+        "en": "I recorded the bus traffic with CANalyzer.",
+        "fr": "J'ai enregistré le trafic du bus avec CANalyzer."
+      }
+    ],
+    "tags": [
+      "tools",
+      "can",
+      "monitoring"
+    ]
+  },
+  {
+    "id": "auto-034",
+    "kanji": "INCA",
+    "hiragana": "いんか",
+    "romaji": "Inka",
+    "meaning_en": "INCA (ECU calibration tool by ETAS)",
+    "meaning_fr": "INCA (outil de calibration ECU par ETAS)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "tools",
+    "example_sentences": [
+      {
+        "jp": "INCAでエンジンパラメータのキャリブレーションを行いました。",
+        "reading": "いんかでえんじんぱらめーたのきゃりぶれーしょんをおこないました。",
+        "en": "Engine parameter calibration was performed with INCA.",
+        "fr": "La calibration des paramètres moteur a été effectuée avec INCA."
+      }
+    ],
+    "tags": [
+      "tools",
+      "calibration",
+      "ecu"
+    ]
+  },
+  {
+    "id": "auto-035",
+    "kanji": "MISRA-C",
+    "hiragana": "みずらしー",
+    "romaji": "Mizura shī",
+    "meaning_en": "MISRA-C (automotive C coding standard)",
+    "meaning_fr": "MISRA-C (norme de codage C automobile)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "standards",
+    "example_sentences": [
+      {
+        "jp": "このコードはMISRA-Cに準拠していません。",
+        "reading": "このこーどはみずらしーにじゅんきょしていません。",
+        "en": "This code does not comply with MISRA-C.",
+        "fr": "Ce code n'est pas conforme à MISRA-C."
+      }
+    ],
+    "tags": [
+      "misra",
+      "coding-standard",
+      "safety"
+    ]
+  },
+  {
+    "id": "auto-036",
+    "kanji": "車載OS",
+    "hiragana": "しゃさいOS",
+    "romaji": "Shazai OS",
+    "meaning_en": "Automotive OS (e.g. OSEK/VDX, AUTOSAR OS)",
+    "meaning_fr": "Système d'exploitation automobile",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "systems",
+    "example_sentences": [
+      {
+        "jp": "車載OSのスケジューリングポリシーを確認してください。",
+        "reading": "しゃさいOSのすけじゅーりんぐぽりしーをかくにんしてください。",
+        "en": "Please check the scheduling policy of the automotive OS.",
+        "fr": "Veuillez vérifier la politique d'ordonnancement du système d'exploitation automobile."
+      }
+    ],
+    "tags": [
+      "rtos",
+      "os",
+      "autosar"
+    ]
+  },
+  {
+    "id": "auto-037",
+    "kanji": "プロセス認証",
+    "hiragana": "ぷろせすにんしょう",
+    "romaji": "Purosesu ninshō",
+    "meaning_en": "Process certification",
+    "meaning_fr": "Certification de processus",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "standards",
+    "example_sentences": [
+      {
+        "jp": "ASPICEのプロセス認証を来月受ける予定です。",
+        "reading": "ASPICEのぷろせすにんしょうをらいげつうけるよていです。",
+        "en": "We are scheduled to undergo ASPICE process certification next month.",
+        "fr": "Nous devons passer la certification de processus ASPICE le mois prochain."
+      }
+    ],
+    "tags": [
+      "aspice",
+      "certification",
+      "process"
+    ]
+  },
+  {
+    "id": "auto-038",
+    "kanji": "車載開発",
+    "hiragana": "しゃさいかいはつ",
+    "romaji": "Shazai kaihatsu",
+    "meaning_en": "Automotive embedded development",
+    "meaning_fr": "Développement embarqué automobile",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "development",
+    "example_sentences": [
+      {
+        "jp": "車載開発の経験は三年以上必要です。",
+        "reading": "しゃさいかいはつのけいけんはさんねんいじょうひつようです。",
+        "en": "More than three years of automotive development experience is required.",
+        "fr": "Plus de trois ans d'expérience en développement automobile est requis."
+      }
+    ],
+    "tags": [
+      "career",
+      "development",
+      "automotive"
+    ]
+  },
+  {
+    "id": "auto-039",
+    "kanji": "組み込みエンジニア",
+    "hiragana": "くみこみえんじにあ",
+    "romaji": "Kumikomi enjinia",
+    "meaning_en": "Embedded software engineer",
+    "meaning_fr": "Ingénieur logiciel embarqué",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "development",
+    "example_sentences": [
+      {
+        "jp": "組み込みエンジニアとしてチームに貢献したいです。",
+        "reading": "くみこみえんじにあとしてちーむにこうけんしたいです。",
+        "en": "I want to contribute to the team as an embedded engineer.",
+        "fr": "Je veux contribuer à l'équipe en tant qu'ingénieur embarqué."
+      }
+    ],
+    "tags": [
+      "career",
+      "embedded",
+      "engineer"
+    ]
+  },
+  {
+    "id": "auto-040",
+    "kanji": "仕様書",
+    "hiragana": "しようしょ",
+    "romaji": "Shiyōsho",
+    "meaning_en": "Specification document",
+    "meaning_fr": "Document de spécification",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "development",
+    "example_sentences": [
+      {
+        "jp": "仕様書を更新してからコードレビューをお願いします。",
+        "reading": "しようしょをこうしんしてからこーどれびゅーをおねがいします。",
+        "en": "Please update the specification document before requesting a code review.",
+        "fr": "Veuillez mettre à jour le document de spécification avant de demander une revue de code."
+      }
+    ],
+    "tags": [
+      "documentation",
+      "process",
+      "development"
+    ]
+  },
+  {
+    "id": "auto-041",
+    "kanji": "エンジン制御",
+    "hiragana": "えんじんせいぎょ",
+    "romaji": "Enjin seigyo",
+    "meaning_en": "Engine control",
+    "meaning_fr": "Contrôle moteur",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "systems",
+    "example_sentences": [
+      {
+        "jp": "エンジン制御ソフトウェアのバグを特定しました。",
+        "reading": "えんじんせいぎょそふとうぇあのばぐをとくていしました。",
+        "en": "I identified a bug in the engine control software.",
+        "fr": "J'ai identifié un bug dans le logiciel de contrôle moteur."
+      }
+    ],
+    "tags": [
+      "engine",
+      "control"
+    ]
+  },
+  {
+    "id": "auto-042",
+    "kanji": "バッテリー管理システム",
+    "hiragana": "ばってりーかんりしすてむ",
+    "romaji": "Batterii kanri shisutemu",
+    "meaning_en": "Battery Management System (BMS)",
+    "meaning_fr": "Système de gestion de batterie",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "systems",
+    "example_sentences": [
+      {
+        "jp": "BMSは充電状態と温度を監視します。",
+        "reading": "BMSはじゅうでんじょうたいとおんどをかんしします。",
+        "en": "The BMS monitors the state of charge and temperature.",
+        "fr": "Le BMS surveille l'état de charge et la température."
+      }
+    ],
+    "tags": [
+      "bms",
+      "ev",
+      "battery"
+    ]
+  },
+  {
+    "id": "auto-043",
+    "kanji": "インバーター",
+    "hiragana": "いんばーたー",
+    "romaji": "Inbaataa",
+    "meaning_en": "Inverter (DC to AC converter for EV motor)",
+    "meaning_fr": "Onduleur (convertisseur DC/AC pour moteur EV)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "systems",
+    "example_sentences": [
+      {
+        "jp": "インバーターは直流を交流に変換してモーターを駆動します。",
+        "reading": "いんばーたーはちょくりゅうをこうりゅうにへんかんしてもーたーをくどうします。",
+        "en": "The inverter converts DC to AC to drive the motor.",
+        "fr": "L'onduleur convertit le courant continu en courant alternatif pour entraîner le moteur."
+      }
+    ],
+    "tags": [
+      "ev",
+      "inverter",
+      "power"
+    ]
+  },
+  {
+    "id": "auto-044",
+    "kanji": "電動化",
+    "hiragana": "でんどうか",
+    "romaji": "Dendooka",
+    "meaning_en": "Electrification",
+    "meaning_fr": "Électrification (transition vers les véhicules électriques)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "systems",
+    "example_sentences": [
+      {
+        "jp": "自動車業界は急速に電動化が進んでいます。",
+        "reading": "じどうしゃぎょうかいはきゅうそくにでんどうかがすすんでいます。",
+        "en": "The automotive industry is rapidly advancing electrification.",
+        "fr": "L'industrie automobile avance rapidement dans l'électrification."
+      }
+    ],
+    "tags": [
+      "ev",
+      "electrification",
+      "trend"
+    ]
+  },
+  {
+    "id": "auto-045",
+    "kanji": "ハイブリッドシステム",
+    "hiragana": "はいぶりっどしすてむ",
+    "romaji": "Haiburiddo shisutemu",
+    "meaning_en": "Hybrid system",
+    "meaning_fr": "Système hybride",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "systems",
+    "example_sentences": [
+      {
+        "jp": "ハイブリッドシステムの制御ロジックを担当しています。",
+        "reading": "はいぶりっどしすてむのせいぎょろじっくをたんとうしています。",
+        "en": "I am in charge of the hybrid system control logic.",
+        "fr": "Je suis responsable de la logique de contrôle du système hybride."
+      }
+    ],
+    "tags": [
+      "hybrid",
+      "ev",
+      "control"
+    ]
+  },
+  {
+    "id": "auto-046",
+    "kanji": "充電システム",
+    "hiragana": "じゅうでんしすてむ",
+    "romaji": "Juuden shisutemu",
+    "meaning_en": "Charging system (EV)",
+    "meaning_fr": "Système de recharge (véhicule électrique)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "systems",
+    "example_sentences": [
+      {
+        "jp": "急速充電システムの開発に携わっています。",
+        "reading": "きゅうそくじゅうでんしすてむのかいはつにたずさわっています。",
+        "en": "I am involved in developing the fast charging system.",
+        "fr": "Je participe au développement du système de charge rapide."
+      }
+    ],
+    "tags": [
+      "ev",
+      "charging",
+      "hardware"
+    ]
+  },
+  {
+    "id": "auto-047",
+    "kanji": "車載診断",
+    "hiragana": "しゃさいしんだん",
+    "romaji": "Shazai shindan",
+    "meaning_en": "On-board diagnostics (OBD)",
+    "meaning_fr": "Diagnostic embarqué (OBD)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "protocols",
+    "example_sentences": [
+      {
+        "jp": "OBDポートから診断データを読み取ります。",
+        "reading": "OBDぽーとからしんだんでーたをよみとります。",
+        "en": "We read diagnostic data from the OBD port.",
+        "fr": "Nous lisons les données de diagnostic depuis le port OBD."
+      }
+    ],
+    "tags": [
+      "obd",
+      "diagnostics",
+      "protocols"
+    ]
+  },
+  {
+    "id": "auto-048",
+    "kanji": "統一診断サービス",
+    "hiragana": "とういつしんだんさーびす",
+    "romaji": "Tooitsu shindan saabisu",
+    "meaning_en": "Unified Diagnostic Services (UDS)",
+    "meaning_fr": "Services de diagnostic unifiés (UDS)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "protocols",
+    "example_sentences": [
+      {
+        "jp": "UDSプロトコルを使ってECUのフラッシュ書き込みを行います。",
+        "reading": "UDSぷろとこるをつかってECUのふらっしゅがきこみをおこないます。",
+        "en": "We use the UDS protocol to flash the ECU.",
+        "fr": "Nous utilisons le protocole UDS pour flasher l'ECU."
+      }
+    ],
+    "tags": [
+      "uds",
+      "protocols",
+      "diagnostics"
+    ]
+  },
+  {
+    "id": "auto-049",
+    "kanji": "XCPプロトコル",
+    "hiragana": "XCPぷろとこる",
+    "romaji": "XCP purotokoru",
+    "meaning_en": "XCP calibration protocol",
+    "meaning_fr": "Protocole de calibration XCP",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "protocols",
+    "example_sentences": [
+      {
+        "jp": "XCPを使ってECUのパラメータをリアルタイムで調整します。",
+        "reading": "XCPをつかってECUのぱらめーたをりあるたいむでちょうせいします。",
+        "en": "We use XCP to adjust ECU parameters in real time.",
+        "fr": "Nous utilisons XCP pour ajuster les paramètres ECU en temps réel."
+      }
+    ],
+    "tags": [
+      "xcp",
+      "calibration",
+      "protocols"
+    ]
+  },
+  {
+    "id": "auto-050",
+    "kanji": "SOME/IP通信",
+    "hiragana": "SOME/IPつうしん",
+    "romaji": "SOME/IP tsuushin",
+    "meaning_en": "SOME/IP communication (Scalable service-Oriented MiddlewarE over IP)",
+    "meaning_fr": "Communication SOME/IP (middleware orienté service sur IP)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "protocols",
+    "example_sentences": [
+      {
+        "jp": "SOME/IPは車載イーサネット上のサービス通信に使われます。",
+        "reading": "SOME/IPはしゃさいいーさねっとうえのさーびすつうしんにつかわれます。",
+        "en": "SOME/IP is used for service communication over automotive Ethernet.",
+        "fr": "SOME/IP est utilisé pour la communication de services sur Ethernet automobile."
+      }
+    ],
+    "tags": [
+      "someip",
+      "ethernet",
+      "protocols"
+    ]
+  },
+  {
+    "id": "auto-051",
+    "kanji": "診断通信",
+    "hiragana": "しんだんつうしん",
+    "romaji": "Shindan tsuushin",
+    "meaning_en": "Diagnostic communication",
+    "meaning_fr": "Communication de diagnostic",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "protocols",
+    "example_sentences": [
+      {
+        "jp": "診断通信のプロトコルスタックを実装しました。",
+        "reading": "しんだんつうしんのぷろとこるすたっくをじっそうしました。",
+        "en": "I implemented the diagnostic communication protocol stack.",
+        "fr": "J'ai implémenté la pile de protocoles de communication de diagnostic."
+      }
+    ],
+    "tags": [
+      "diagnostics",
+      "protocols",
+      "implementation"
+    ]
+  },
+  {
+    "id": "auto-052",
+    "kanji": "セーフティゴール",
+    "hiragana": "せーふてぃごーる",
+    "romaji": "Seefuti gooru",
+    "meaning_en": "Safety goal (ISO 26262)",
+    "meaning_fr": "Objectif de sécurité (ISO 26262)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "safety",
+    "example_sentences": [
+      {
+        "jp": "システムレベルのセーフティゴールを定義する必要があります。",
+        "reading": "しすてむれべるのせーふてぃごーるをていぎするひつようがあります。",
+        "en": "It is necessary to define safety goals at the system level.",
+        "fr": "Il est nécessaire de définir des objectifs de sécurité au niveau système."
+      }
+    ],
+    "tags": [
+      "safety",
+      "iso26262",
+      "asil"
+    ]
+  },
+  {
+    "id": "auto-053",
+    "kanji": "安全要求",
+    "hiragana": "あんぜんようきゅう",
+    "romaji": "Anzen yookyuu",
+    "meaning_en": "Safety requirement",
+    "meaning_fr": "Exigence de sécurité",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "safety",
+    "example_sentences": [
+      {
+        "jp": "安全要求をソフトウェア設計に落とし込みます。",
+        "reading": "あんぜんようきゅうをそふとうぇあせっけいにおとしこみます。",
+        "en": "We translate safety requirements into software design.",
+        "fr": "Nous transposons les exigences de sécurité en conception logicielle."
+      }
+    ],
+    "tags": [
+      "safety",
+      "requirements",
+      "iso26262"
+    ]
+  },
+  {
+    "id": "auto-054",
+    "kanji": "診断カバレッジ",
+    "hiragana": "しんだんかばれっじ",
+    "romaji": "Shindan kabarejji",
+    "meaning_en": "Diagnostic coverage (ISO 26262)",
+    "meaning_fr": "Couverture de diagnostic",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "safety",
+    "example_sentences": [
+      {
+        "jp": "この機能のASIL-D要求を満たすために診断カバレッジを向上させます。",
+        "reading": "このきのうのASIL-Dようきゅうをみたすためにしんだんかばれっじをこうじょうさせます。",
+        "en": "We improve diagnostic coverage to meet ASIL-D requirements for this function.",
+        "fr": "Nous améliorons la couverture de diagnostic pour satisfaire les exigences ASIL-D."
+      }
+    ],
+    "tags": [
+      "safety",
+      "asil",
+      "diagnostics"
+    ]
+  },
+  {
+    "id": "auto-055",
+    "kanji": "安全ライフサイクル",
+    "hiragana": "あんぜんらいふさいくる",
+    "romaji": "Anzen raifu saikuru",
+    "meaning_en": "Safety lifecycle (ISO 26262)",
+    "meaning_fr": "Cycle de vie sécurité (ISO 26262)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "safety",
+    "example_sentences": [
+      {
+        "jp": "ISO 26262の安全ライフサイクルに従って開発を進めます。",
+        "reading": "ISO 26262のあんぜんらいふさいくるにしたがってかいはつをすすめます。",
+        "en": "Development proceeds following the ISO 26262 safety lifecycle.",
+        "fr": "Le développement avance en suivant le cycle de vie sécurité ISO 26262."
+      }
+    ],
+    "tags": [
+      "safety",
+      "iso26262",
+      "lifecycle"
+    ]
+  },
+  {
+    "id": "auto-056",
+    "kanji": "故障モード影響解析",
+    "hiragana": "こしょうもーどえいきょうかいせき",
+    "romaji": "Koshoo moodo eikyoo kaiseki",
+    "meaning_en": "Failure Mode and Effects Analysis (FMEA)",
+    "meaning_fr": "Analyse des modes de défaillance et de leurs effets (FMEA)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "safety",
+    "example_sentences": [
+      {
+        "jp": "FMEAを実施してリスクを洗い出しました。",
+        "reading": "FMEAをじっししてりすくをあらいだしました。",
+        "en": "We conducted FMEA to identify risks.",
+        "fr": "Nous avons réalisé une FMEA pour identifier les risques."
+      }
+    ],
+    "tags": [
+      "fmea",
+      "safety",
+      "analysis"
+    ]
+  },
+  {
+    "id": "auto-057",
+    "kanji": "フォールトツリー解析",
+    "hiragana": "ふぉーるとつりーかいせき",
+    "romaji": "Fooruto turii kaiseki",
+    "meaning_en": "Fault Tree Analysis (FTA)",
+    "meaning_fr": "Analyse par arbre de défaillance (FTA)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "safety",
+    "example_sentences": [
+      {
+        "jp": "FTAを使ってシステムの安全性を評価します。",
+        "reading": "FTAをつかってしすてむのあんぜんせいをひょうかします。",
+        "en": "We use FTA to evaluate system safety.",
+        "fr": "Nous utilisons FTA pour évaluer la sécurité du système."
+      }
+    ],
+    "tags": [
+      "fta",
+      "safety",
+      "analysis"
+    ]
+  },
+  {
+    "id": "auto-058",
+    "kanji": "車線維持支援",
+    "hiragana": "しゃせんいじしえん",
+    "romaji": "Shasen iji shien",
+    "meaning_en": "Lane Keeping Assist (LKA)",
+    "meaning_fr": "Aide au maintien de voie",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "adas",
+    "example_sentences": [
+      {
+        "jp": "車線維持支援システムのカメラ処理アルゴリズムを開発しています。",
+        "reading": "しゃせんいじしえんしすてむのかめらしょりあるごりずむをかいはつしています。",
+        "en": "I am developing camera processing algorithms for the lane keeping assist system.",
+        "fr": "Je développe des algorithmes de traitement de caméra pour le système d'aide au maintien de voie."
+      }
+    ],
+    "tags": [
+      "adas",
+      "lka",
+      "camera"
+    ]
+  },
+  {
+    "id": "auto-059",
+    "kanji": "衝突回避",
+    "hiragana": "しょうとつかいひ",
+    "romaji": "Shoototu kaihi",
+    "meaning_en": "Collision avoidance",
+    "meaning_fr": "Évitement de collision",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "adas",
+    "example_sentences": [
+      {
+        "jp": "衝突回避機能のソフトウェアテストを担当しています。",
+        "reading": "しょうとつかいひきのうのそふとうぇあてすとをたんとうしています。",
+        "en": "I am in charge of software testing for the collision avoidance function.",
+        "fr": "Je suis responsable des tests logiciels pour la fonction d'évitement de collision."
+      }
+    ],
+    "tags": [
+      "adas",
+      "safety",
+      "collision"
+    ]
+  },
+  {
+    "id": "auto-060",
+    "kanji": "自動緊急ブレーキ",
+    "hiragana": "じどうきんきゅうぶれーき",
+    "romaji": "Jidoo kinkyuu bureeki",
+    "meaning_en": "Automatic Emergency Braking (AEB)",
+    "meaning_fr": "Freinage d'urgence automatique (AEB)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "adas",
+    "example_sentences": [
+      {
+        "jp": "自動緊急ブレーキの反応時間を計測しました。",
+        "reading": "じどうきんきゅうぶれーきのはんのうじかんをけいそくしました。",
+        "en": "We measured the response time of the automatic emergency braking.",
+        "fr": "Nous avons mesuré le temps de réaction du freinage d'urgence automatique."
+      }
+    ],
+    "tags": [
+      "adas",
+      "aeb",
+      "safety"
+    ]
+  },
+  {
+    "id": "auto-061",
+    "kanji": "レーダーセンサー",
+    "hiragana": "れーだーせんさー",
+    "romaji": "Reedaa sensaa",
+    "meaning_en": "Radar sensor",
+    "meaning_fr": "Capteur radar",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "adas",
+    "example_sentences": [
+      {
+        "jp": "レーダーセンサーの信号処理を最適化しました。",
+        "reading": "れーだーせんさーのしんごうしょりをさいてきかしました。",
+        "en": "I optimized the signal processing of the radar sensor.",
+        "fr": "J'ai optimisé le traitement du signal du capteur radar."
+      }
+    ],
+    "tags": [
+      "adas",
+      "radar",
+      "sensor"
+    ]
+  },
+  {
+    "id": "auto-062",
+    "kanji": "センサーフュージョン",
+    "hiragana": "せんさーふゅーじょん",
+    "romaji": "Sensaa fyuujon",
+    "meaning_en": "Sensor fusion",
+    "meaning_fr": "Fusion de capteurs",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "adas",
+    "example_sentences": [
+      {
+        "jp": "カメラとレーダーのセンサーフュージョンで精度を向上させます。",
+        "reading": "かめらとれーだーのせんさーふゅーじょんでせいどをこうじょうさせます。",
+        "en": "We improve accuracy with camera and radar sensor fusion.",
+        "fr": "Nous améliorons la précision avec la fusion des capteurs caméra et radar."
+      }
+    ],
+    "tags": [
+      "adas",
+      "sensor",
+      "fusion"
+    ]
+  },
+  {
+    "id": "auto-063",
+    "kanji": "ライダー",
+    "hiragana": "らいだー",
+    "romaji": "Raidaa",
+    "meaning_en": "LiDAR (Light Detection and Ranging)",
+    "meaning_fr": "LiDAR (détection et mesure de distance par laser)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "adas",
+    "example_sentences": [
+      {
+        "jp": "ライダーは周囲の3Dマップをリアルタイムで生成します。",
+        "reading": "らいだーはしゅういの3Dまっぷをりあるたいむでせいせいします。",
+        "en": "LiDAR generates a real-time 3D map of the surroundings.",
+        "fr": "Le LiDAR génère une carte 3D en temps réel de l'environnement."
+      }
+    ],
+    "tags": [
+      "adas",
+      "lidar",
+      "sensor"
+    ]
+  },
+  {
+    "id": "auto-064",
+    "kanji": "V字モデル",
+    "hiragana": "Vじもでる",
+    "romaji": "V-ji moderu",
+    "meaning_en": "V-model (development process)",
+    "meaning_fr": "Modèle en V (processus de développement)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "development",
+    "example_sentences": [
+      {
+        "jp": "当社ではV字モデルに従って開発と検証を行っています。",
+        "reading": "とうしゃではVじもでるにしたがってかいはつとけんしょうをおこなっています。",
+        "en": "Our company performs development and verification following the V-model.",
+        "fr": "Notre entreprise réalise le développement et la vérification selon le modèle en V."
+      }
+    ],
+    "tags": [
+      "v-model",
+      "process",
+      "development"
+    ]
+  },
+  {
+    "id": "auto-065",
+    "kanji": "設計レビュー",
+    "hiragana": "せっけいれびゅー",
+    "romaji": "Sekkei rebyuu",
+    "meaning_en": "Design review",
+    "meaning_fr": "Revue de conception",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "development",
+    "example_sentences": [
+      {
+        "jp": "来週の設計レビューに向けて資料を準備しています。",
+        "reading": "らいしゅうのせっけいれびゅーにむけてしりょうをじゅんびしています。",
+        "en": "I am preparing materials for next week's design review.",
+        "fr": "Je prépare des documents pour la revue de conception de la semaine prochaine."
+      }
+    ],
+    "tags": [
+      "review",
+      "process",
+      "design"
+    ]
+  },
+  {
+    "id": "auto-066",
+    "kanji": "ソフトウェア要求仕様",
+    "hiragana": "そふとうぇあようきゅうしよう",
+    "romaji": "Sofutowea yookyuu shiyoo",
+    "meaning_en": "Software Requirements Specification (SRS)",
+    "meaning_fr": "Spécification des exigences logicielles",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "development",
+    "example_sentences": [
+      {
+        "jp": "ソフトウェア要求仕様書を顧客と合意する必要があります。",
+        "reading": "そふとうぇあようきゅうしようしょをこきゃくとごういするひつようがあります。",
+        "en": "We need to agree on the software requirements specification with the customer.",
+        "fr": "Nous devons nous mettre d'accord sur la spécification des exigences logicielles avec le client."
+      }
+    ],
+    "tags": [
+      "srs",
+      "requirements",
+      "documentation"
+    ]
+  },
+  {
+    "id": "auto-067",
+    "kanji": "ソフトウェア設計仕様",
+    "hiragana": "そふとうぇあせっけいしよう",
+    "romaji": "Sofutowea sekkei shiyoo",
+    "meaning_en": "Software Design Specification (SDS)",
+    "meaning_fr": "Spécification de conception logicielle",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "development",
+    "example_sentences": [
+      {
+        "jp": "ソフトウェア設計仕様に基づいて実装を進めます。",
+        "reading": "そふとうぇあせっけいしようにもとづいてじっそうをすすめます。",
+        "en": "We proceed with implementation based on the software design specification.",
+        "fr": "Nous avançons dans l'implémentation en nous basant sur la spécification de conception."
+      }
+    ],
+    "tags": [
+      "sds",
+      "design",
+      "documentation"
+    ]
+  },
+  {
+    "id": "auto-068",
+    "kanji": "単体テスト",
+    "hiragana": "たんたいてすと",
+    "romaji": "Tantai tesuto",
+    "meaning_en": "Unit test",
+    "meaning_fr": "Test unitaire",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "automotive",
+    "subdomain": "testing",
+    "example_sentences": [
+      {
+        "jp": "各モジュールの単体テストを完了しました。",
+        "reading": "かくもじゅーるのたんたいてすとをかんりょうしました。",
+        "en": "Unit testing for each module has been completed.",
+        "fr": "Les tests unitaires de chaque module ont été complétés."
+      }
+    ],
+    "tags": [
+      "testing",
+      "unit-test",
+      "quality"
+    ]
+  },
+  {
+    "id": "auto-069",
+    "kanji": "統合テスト",
+    "hiragana": "とうごうてすと",
+    "romaji": "Toogoo tesuto",
+    "meaning_en": "Integration test",
+    "meaning_fr": "Test d'intégration",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "automotive",
+    "subdomain": "testing",
+    "example_sentences": [
+      {
+        "jp": "統合テストでCAN通信のタイミング問題が発覚しました。",
+        "reading": "とうごうてすとでCANつうしんのたいみんぐもんだいがはっかくしました。",
+        "en": "An integration test revealed a CAN communication timing issue.",
+        "fr": "Un test d'intégration a révélé un problème de timing de communication CAN."
+      }
+    ],
+    "tags": [
+      "testing",
+      "integration",
+      "can"
+    ]
+  },
+  {
+    "id": "auto-070",
+    "kanji": "要求カバレッジ",
+    "hiragana": "ようきゅうかばれっじ",
+    "romaji": "Yookyuu kabarejji",
+    "meaning_en": "Requirements coverage",
+    "meaning_fr": "Couverture des exigences",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "testing",
+    "example_sentences": [
+      {
+        "jp": "要求カバレッジ100%を達成する必要があります。",
+        "reading": "ようきゅうかばれっじ100%をたっせいするひつようがあります。",
+        "en": "We need to achieve 100% requirements coverage.",
+        "fr": "Nous devons atteindre une couverture des exigences de 100%."
+      }
+    ],
+    "tags": [
+      "testing",
+      "coverage",
+      "requirements"
+    ]
+  },
+  {
+    "id": "auto-071",
+    "kanji": "テスト自動化",
+    "hiragana": "てすとじどうか",
+    "romaji": "Tesuto jidooka",
+    "meaning_en": "Test automation",
+    "meaning_fr": "Automatisation des tests",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "testing",
+    "example_sentences": [
+      {
+        "jp": "回帰テストはテスト自動化で効率化できます。",
+        "reading": "かいきてすとはてすとじどうかでこうりつかできます。",
+        "en": "Regression testing can be made more efficient with test automation.",
+        "fr": "Les tests de régression peuvent être optimisés avec l'automatisation des tests."
+      }
+    ],
+    "tags": [
+      "testing",
+      "automation",
+      "ci"
+    ]
+  },
+  {
+    "id": "auto-072",
+    "kanji": "不具合追跡",
+    "hiragana": "ふぐあいついせき",
+    "romaji": "Fuguai tsuiseki",
+    "meaning_en": "Defect tracking",
+    "meaning_fr": "Suivi des défauts",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "testing",
+    "example_sentences": [
+      {
+        "jp": "不具合追跡ツールにバグを登録してください。",
+        "reading": "ふぐあいついせきつーるにばぐをとうろくしてください。",
+        "en": "Please register the bug in the defect tracking tool.",
+        "fr": "Veuillez enregistrer le bug dans l'outil de suivi des défauts."
+      }
+    ],
+    "tags": [
+      "testing",
+      "bug",
+      "tracking"
+    ]
+  },
+  {
+    "id": "auto-073",
+    "kanji": "フラッシュ書き込み",
+    "hiragana": "ふらっしゅがきこみ",
+    "romaji": "Furasshu gakikomi",
+    "meaning_en": "Flash programming / ECU flashing",
+    "meaning_fr": "Programmation flash / flashage ECU",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "tools",
+    "example_sentences": [
+      {
+        "jp": "新しいソフトウェアのフラッシュ書き込みをテスト車両で実施しました。",
+        "reading": "あたらしいそふとうぇあのふらっしゅがきこみをてすとしゃりょうでじっしました。",
+        "en": "We performed flash programming of the new software on the test vehicle.",
+        "fr": "Nous avons effectué la programmation flash du nouveau logiciel sur le véhicule de test."
+      }
+    ],
+    "tags": [
+      "tools",
+      "flashing",
+      "ecu"
+    ]
+  },
+  {
+    "id": "auto-074",
+    "kanji": "キャリブレーション",
+    "hiragana": "きゃりぶれーしょん",
+    "romaji": "Kyaribureshon",
+    "meaning_en": "Calibration (ECU parameter tuning)",
+    "meaning_fr": "Calibration (ajustement des paramètres ECU)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "tools",
+    "example_sentences": [
+      {
+        "jp": "INCAを使ってエンジンのキャリブレーションを行います。",
+        "reading": "INCAをつかってえんじんのきゃりぶれーしょんをおこないます。",
+        "en": "We perform engine calibration using INCA.",
+        "fr": "Nous effectuons la calibration moteur en utilisant INCA."
+      }
+    ],
+    "tags": [
+      "calibration",
+      "inca",
+      "tools"
+    ]
+  },
+  {
+    "id": "auto-075",
+    "kanji": "品質管理",
+    "hiragana": "ひんしつかんり",
+    "romaji": "Hinshitsu kanri",
+    "meaning_en": "Quality management",
+    "meaning_fr": "Gestion de la qualité",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "development",
+    "example_sentences": [
+      {
+        "jp": "品質管理プロセスを遵守することが重要です。",
+        "reading": "ひんしつかんりぷろせすをじゅんしゅすることがじゅうようです。",
+        "en": "It is important to comply with the quality management process.",
+        "fr": "Il est important de respecter le processus de gestion de la qualité."
+      }
+    ],
+    "tags": [
+      "quality",
+      "process",
+      "management"
+    ]
+  },
+  {
+    "id": "auto-076",
+    "kanji": "変更管理",
+    "hiragana": "へんこうかんり",
+    "romaji": "Henkoo kanri",
+    "meaning_en": "Change management",
+    "meaning_fr": "Gestion des modifications",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "development",
+    "example_sentences": [
+      {
+        "jp": "仕様変更は変更管理プロセスに従って処理します。",
+        "reading": "しようへんこうはへんこうかんりぷろせすにしたがってしょりします。",
+        "en": "Specification changes are processed according to the change management process.",
+        "fr": "Les modifications de spécification sont traitées selon le processus de gestion des modifications."
+      }
+    ],
+    "tags": [
+      "change",
+      "management",
+      "process"
+    ]
+  },
+  {
+    "id": "auto-077",
+    "kanji": "構成管理",
+    "hiragana": "こうせいかんり",
+    "romaji": "Koosei kanri",
+    "meaning_en": "Configuration management",
+    "meaning_fr": "Gestion de configuration",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "development",
+    "example_sentences": [
+      {
+        "jp": "ソフトウェアのバージョン管理には構成管理ツールを使います。",
+        "reading": "そふとうぇあのばーじょんかんりにはこうせいかんりつーるをつかいます。",
+        "en": "Configuration management tools are used for software version control.",
+        "fr": "Les outils de gestion de configuration sont utilisés pour le contrôle des versions logicielles."
+      }
+    ],
+    "tags": [
+      "configuration",
+      "git",
+      "management"
+    ]
+  },
+  {
+    "id": "auto-078",
+    "kanji": "サイバーセキュリティ",
+    "hiragana": "さいばーせきゅりてぃ",
+    "romaji": "Saibaasekiyuriti",
+    "meaning_en": "Cybersecurity (automotive)",
+    "meaning_fr": "Cybersécurité automobile",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "safety",
+    "example_sentences": [
+      {
+        "jp": "ISO/SAE 21434に基づいた車載サイバーセキュリティ対策が必要です。",
+        "reading": "ISO/SAE 21434にもとづいたしゃさいさいばーせきゅりてぃたいさくがひつようです。",
+        "en": "Automotive cybersecurity measures based on ISO/SAE 21434 are required.",
+        "fr": "Des mesures de cybersécurité automobile basées sur l'ISO/SAE 21434 sont nécessaires."
+      }
+    ],
+    "tags": [
+      "cybersecurity",
+      "iso21434",
+      "safety"
+    ]
+  },
+  {
+    "id": "auto-079",
+    "kanji": "脅威分析",
+    "hiragana": "きょういぶんせき",
+    "romaji": "Kyooi bunseki",
+    "meaning_en": "Threat analysis (TARA)",
+    "meaning_fr": "Analyse des menaces (TARA)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "safety",
+    "example_sentences": [
+      {
+        "jp": "脅威分析を行ってセキュリティリスクを特定しました。",
+        "reading": "きょういぶんせきをおこなってせきゅりてぃりすくをとくていしました。",
+        "en": "We identified security risks through threat analysis.",
+        "fr": "Nous avons identifié les risques de sécurité par une analyse des menaces."
+      }
+    ],
+    "tags": [
+      "cybersecurity",
+      "tara",
+      "analysis"
+    ]
+  },
+  {
+    "id": "auto-080",
+    "kanji": "ASPICE評価",
+    "hiragana": "ASPICEひょうか",
+    "romaji": "ASPICE hyooka",
+    "meaning_en": "Automotive SPICE assessment",
+    "meaning_fr": "Évaluation Automotive SPICE",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "standards",
+    "example_sentences": [
+      {
+        "jp": "当社のプロセスはASPICEレベル3の認定を受けています。",
+        "reading": "とうしゃのぷろせすはASPICEれべる3のにんていをうけています。",
+        "en": "Our company's processes are ASPICE Level 3 certified.",
+        "fr": "Les processus de notre entreprise sont certifiés ASPICE Niveau 3."
+      }
+    ],
+    "tags": [
+      "aspice",
+      "standards",
+      "process"
+    ]
+  },
+  {
+    "id": "auto-081",
+    "kanji": "技術面接",
+    "hiragana": "ぎじゅつめんせつ",
+    "romaji": "Gijutsu mensetsu",
+    "meaning_en": "Technical interview",
+    "meaning_fr": "Entretien technique",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "automotive",
+    "subdomain": "development",
+    "example_sentences": [
+      {
+        "jp": "技術面接でRTOSの経験について聞かれました。",
+        "reading": "ぎじゅつめんせつでRTOSのけいけんについてきかれました。",
+        "en": "I was asked about my RTOS experience in the technical interview.",
+        "fr": "On m'a posé des questions sur mon expérience RTOS lors de l'entretien technique."
+      }
+    ],
+    "tags": [
+      "career",
+      "interview",
+      "technical"
+    ]
+  },
+  {
+    "id": "auto-082",
+    "kanji": "中途採用",
+    "hiragana": "ちゅうとさいよう",
+    "romaji": "Chuuto saiyoo",
+    "meaning_en": "Mid-career hiring",
+    "meaning_fr": "Recrutement en milieu de carrière",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "automotive",
+    "subdomain": "development",
+    "example_sentences": [
+      {
+        "jp": "中途採用で即戦力として入社しました。",
+        "reading": "ちゅうとさいようでそくせんりょくとしてにゅうしゃしました。",
+        "en": "I joined the company as an immediately deployable hire.",
+        "fr": "J'ai rejoint l'entreprise comme recrue opérationnelle immédiate."
+      }
+    ],
+    "tags": [
+      "career",
+      "hiring",
+      "job"
+    ]
+  },
+  {
+    "id": "auto-083",
+    "kanji": "スキルシート",
+    "hiragana": "すきるしーと",
+    "romaji": "Sukiru shiito",
+    "meaning_en": "Skill sheet (technical resume)",
+    "meaning_fr": "Fiche de compétences (CV technique)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "automotive",
+    "subdomain": "development",
+    "example_sentences": [
+      {
+        "jp": "スキルシートにAUTOSARの経験を詳しく記載してください。",
+        "reading": "すきるしーとにAUTOSARのけいけんをくわしくきさいしてください。",
+        "en": "Please describe your AUTOSAR experience in detail on the skill sheet.",
+        "fr": "Veuillez décrire en détail votre expérience AUTOSAR sur la fiche de compétences."
+      }
+    ],
+    "tags": [
+      "career",
+      "resume",
+      "skills"
+    ]
+  },
+  {
+    "id": "auto-084",
+    "kanji": "要件定義",
+    "hiragana": "ようけんていぎ",
+    "romaji": "Yooken teigi",
+    "meaning_en": "Requirements definition",
+    "meaning_fr": "Définition des exigences",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "development",
+    "example_sentences": [
+      {
+        "jp": "プロジェクト開始前に要件定義をしっかり行うことが重要です。",
+        "reading": "ぷろじぇくとかいしまえにようけんていぎをしっかりおこなうことがじゅうようです。",
+        "en": "It is important to properly perform requirements definition before the project starts.",
+        "fr": "Il est important de bien réaliser la définition des exigences avant le démarrage du projet."
+      }
+    ],
+    "tags": [
+      "requirements",
+      "process",
+      "development"
+    ]
+  },
+  {
+    "id": "auto-085",
+    "kanji": "テスト計画",
+    "hiragana": "てすとけいかく",
+    "romaji": "Tesuto keikaku",
+    "meaning_en": "Test plan",
+    "meaning_fr": "Plan de test",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "testing",
+    "example_sentences": [
+      {
+        "jp": "テスト計画書を作成して品質保証チームに提出しました。",
+        "reading": "てすとけいかくしょをさくせいしてひんしつほしょうちーむにていしゅつしました。",
+        "en": "I created and submitted the test plan to the quality assurance team.",
+        "fr": "J'ai créé et soumis le plan de test à l'équipe d'assurance qualité."
+      }
+    ],
+    "tags": [
+      "testing",
+      "planning",
+      "documentation"
+    ]
+  },
+  {
+    "id": "auto-086",
+    "kanji": "品質保証",
+    "hiragana": "ひんしつほしょう",
+    "romaji": "Hinshitsu hoshoo",
+    "meaning_en": "Quality assurance (QA)",
+    "meaning_fr": "Assurance qualité (QA)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "development",
+    "example_sentences": [
+      {
+        "jp": "品質保証チームと連携して不具合を早期発見します。",
+        "reading": "ひんしつほしょうちーむとれんけいしてふぐあいをそうきはっけんします。",
+        "en": "We work with the quality assurance team to detect defects early.",
+        "fr": "Nous collaborons avec l'équipe d'assurance qualité pour détecter les défauts tôt."
+      }
+    ],
+    "tags": [
+      "qa",
+      "quality",
+      "collaboration"
+    ]
+  },
+  {
+    "id": "auto-087",
+    "kanji": "量産",
+    "hiragana": "りょうさん",
+    "romaji": "Ryoozan",
+    "meaning_en": "Mass production",
+    "meaning_fr": "Production en série",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "automotive",
+    "subdomain": "development",
+    "example_sentences": [
+      {
+        "jp": "量産前に最終的なソフトウェア検証を完了させます。",
+        "reading": "りょうさんまえにさいしゅうてきなそふとうぇあけんしょうをかんりょうさせます。",
+        "en": "We complete final software verification before mass production.",
+        "fr": "Nous complétons la vérification logicielle finale avant la production en série."
+      }
+    ],
+    "tags": [
+      "production",
+      "verification",
+      "milestone"
+    ]
+  },
+  {
+    "id": "auto-088",
+    "kanji": "走行試験",
+    "hiragana": "そうこうしけん",
+    "romaji": "Sookoo shiken",
+    "meaning_en": "Driving test / road test",
+    "meaning_fr": "Essai routier",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "testing",
+    "example_sentences": [
+      {
+        "jp": "走行試験で実際の動作を確認しました。",
+        "reading": "そうこうしけんでじっさいのどうさをかくにんしました。",
+        "en": "We confirmed the actual behavior during the driving test.",
+        "fr": "Nous avons confirmé le comportement réel lors de l'essai routier."
+      }
+    ],
+    "tags": [
+      "testing",
+      "vehicle",
+      "road-test"
+    ]
+  },
+  {
+    "id": "auto-089",
+    "kanji": "環境試験",
+    "hiragana": "かんきょうしけん",
+    "romaji": "Kankyoo shiken",
+    "meaning_en": "Environmental test",
+    "meaning_fr": "Test environnemental",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "testing",
+    "example_sentences": [
+      {
+        "jp": "高温・低温環境試験でシステムの信頼性を確認します。",
+        "reading": "こうおん・ていおんかんきょうしけんでしすてむのしんらいせいをかくにんします。",
+        "en": "We confirm system reliability through high and low temperature environmental tests.",
+        "fr": "Nous confirmons la fiabilité du système par des tests environnementaux haute et basse température."
+      }
+    ],
+    "tags": [
+      "testing",
+      "environment",
+      "reliability"
+    ]
+  },
+  {
+    "id": "auto-090",
+    "kanji": "冗長性",
+    "hiragana": "じょうちょうせい",
+    "romaji": "Joochousei",
+    "meaning_en": "Redundancy",
+    "meaning_fr": "Redondance",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "safety",
+    "example_sentences": [
+      {
+        "jp": "ブレーキシステムには冗長性が必要です。",
+        "reading": "ぶれーきしすてむにはじょうちょうせいがひつようです。",
+        "en": "Redundancy is required in the braking system.",
+        "fr": "La redondance est nécessaire dans le système de freinage."
+      }
+    ],
+    "tags": [
+      "safety",
+      "redundancy",
+      "design"
+    ]
+  },
+  {
+    "id": "auto-091",
+    "kanji": "タイムスタンプ",
+    "hiragana": "たいむすたんぷ",
+    "romaji": "Taimu sutanpu",
+    "meaning_en": "Timestamp",
+    "meaning_fr": "Horodatage",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "automotive",
+    "subdomain": "protocols",
+    "example_sentences": [
+      {
+        "jp": "CANメッセージにタイムスタンプを追加して通信遅延を分析しました。",
+        "reading": "CANめっせーじにたいむすたんぷをついかしてつうしんちえんをぶんせきしました。",
+        "en": "I added timestamps to CAN messages to analyze communication delays.",
+        "fr": "J'ai ajouté des horodatages aux messages CAN pour analyser les délais de communication."
+      }
+    ],
+    "tags": [
+      "can",
+      "timing",
+      "protocols"
+    ]
+  },
+  {
+    "id": "auto-092",
+    "kanji": "バスロード",
+    "hiragana": "ばすろーど",
+    "romaji": "Basu roodo",
+    "meaning_en": "Bus load (CAN bus utilization)",
+    "meaning_fr": "Charge du bus CAN",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "protocols",
+    "example_sentences": [
+      {
+        "jp": "CANバスのバスロードが80%を超えると問題が発生します。",
+        "reading": "CANばすのばすろーどが80%をこえるともんだいがはっせいします。",
+        "en": "Problems occur when CAN bus load exceeds 80%.",
+        "fr": "Des problèmes surviennent lorsque la charge du bus CAN dépasse 80%."
+      }
+    ],
+    "tags": [
+      "can",
+      "protocols",
+      "performance"
+    ]
+  },
+  {
+    "id": "auto-093",
+    "kanji": "DBCファイル",
+    "hiragana": "DBCふぁいる",
+    "romaji": "DBC fairu",
+    "meaning_en": "DBC file (CAN signal database)",
+    "meaning_fr": "Fichier DBC (base de données de signaux CAN)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "tools",
+    "example_sentences": [
+      {
+        "jp": "DBCファイルを更新してCANoeに取り込みます。",
+        "reading": "DBCふぁいるをこうしんしてCANoeにとりこみます。",
+        "en": "We update the DBC file and import it into CANoe.",
+        "fr": "Nous mettons à jour le fichier DBC et l'importons dans CANoe."
+      }
+    ],
+    "tags": [
+      "dbc",
+      "canoe",
+      "tools"
+    ]
+  },
+  {
+    "id": "auto-094",
+    "kanji": "ポリスペース",
+    "hiragana": "ぽりすぺーす",
+    "romaji": "Porisupeesu",
+    "meaning_en": "Polyspace (static code analysis tool)",
+    "meaning_fr": "Polyspace (outil d'analyse statique de code)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "tools",
+    "example_sentences": [
+      {
+        "jp": "ポリスペースでランタイムエラーの可能性を事前に検出します。",
+        "reading": "ぽりすぺーすでらんたいむえらーのかのうせいをじぜんにけんしゅつします。",
+        "en": "Polyspace is used to detect potential runtime errors in advance.",
+        "fr": "Polyspace est utilisé pour détecter à l'avance les éventuelles erreurs d'exécution."
+      }
+    ],
+    "tags": [
+      "polyspace",
+      "static-analysis",
+      "tools"
+    ]
+  },
+  {
+    "id": "auto-095",
+    "kanji": "継続的インテグレーション",
+    "hiragana": "けいぞくてきいんてぐれーしょん",
+    "romaji": "Keizokuteki integreeshon",
+    "meaning_en": "Continuous Integration (CI)",
+    "meaning_fr": "Intégration continue (CI)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "tools",
+    "example_sentences": [
+      {
+        "jp": "継続的インテグレーションでビルドとテストを自動化しています。",
+        "reading": "けいぞくてきいんてぐれーしょんでびるどとてすとをじどうかしています。",
+        "en": "We automate builds and tests with continuous integration.",
+        "fr": "Nous automatisons les builds et les tests avec l'intégration continue."
+      }
+    ],
+    "tags": [
+      "ci",
+      "automation",
+      "tools"
+    ]
+  },
+  {
+    "id": "auto-096",
+    "kanji": "コードカバレッジ",
+    "hiragana": "こーどかばれっじ",
+    "romaji": "Koodo kabarejji",
+    "meaning_en": "Code coverage",
+    "meaning_fr": "Couverture de code",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "testing",
+    "example_sentences": [
+      {
+        "jp": "MC/DCカバレッジをASIL-Dの要件として達成する必要があります。",
+        "reading": "MC/DCかばれっじをASIL-Dのようけんとしてたっせいするひつようがあります。",
+        "en": "MC/DC coverage needs to be achieved as an ASIL-D requirement.",
+        "fr": "La couverture MC/DC doit être atteinte en tant qu'exigence ASIL-D."
+      }
+    ],
+    "tags": [
+      "testing",
+      "coverage",
+      "asil"
+    ]
+  },
+  {
+    "id": "auto-097",
+    "kanji": "メモリマップ",
+    "hiragana": "めもりまっぷ",
+    "romaji": "Memori mappu",
+    "meaning_en": "Memory map",
+    "meaning_fr": "Carte mémoire",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "systems",
+    "example_sentences": [
+      {
+        "jp": "リンカスクリプトでメモリマップを定義します。",
+        "reading": "りんかすくりぷとでめもりまっぷをていぎします。",
+        "en": "We define the memory map in the linker script.",
+        "fr": "Nous définissons la carte mémoire dans le script de l'éditeur de liens."
+      }
+    ],
+    "tags": [
+      "memory",
+      "linker",
+      "firmware"
+    ]
+  },
+  {
+    "id": "auto-098",
+    "kanji": "ブートシーケンス",
+    "hiragana": "ぶーとしーくえんす",
+    "romaji": "Buuto shiikuensu",
+    "meaning_en": "Boot sequence",
+    "meaning_fr": "Séquence de démarrage",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "systems",
+    "example_sentences": [
+      {
+        "jp": "ブートシーケンス中に初期診断を実行します。",
+        "reading": "ぶーとしーくえんすちゅうにしょきしんだんをじっこうします。",
+        "en": "Initial diagnostics are executed during the boot sequence.",
+        "fr": "Les diagnostics initiaux sont exécutés pendant la séquence de démarrage."
+      }
+    ],
+    "tags": [
+      "boot",
+      "firmware",
+      "diagnostics"
+    ]
+  },
+  {
+    "id": "auto-099",
+    "kanji": "ゲートウェイECU",
+    "hiragana": "げーとうぇいECU",
+    "romaji": "Geetouei ECU",
+    "meaning_en": "Gateway ECU (network bridge)",
+    "meaning_fr": "ECU passerelle (pont réseau)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "protocols",
+    "example_sentences": [
+      {
+        "jp": "ゲートウェイECUがCANとEthernetのブリッジング処理を担当しています。",
+        "reading": "げーとうぇいECUがCANとEthernetのぶりっじんぐしょりをたんとうしています。",
+        "en": "The gateway ECU handles bridging between CAN and Ethernet.",
+        "fr": "L'ECU passerelle gère le pontage entre CAN et Ethernet."
+      }
+    ],
+    "tags": [
+      "gateway",
+      "can",
+      "ethernet"
+    ]
+  },
+  {
+    "id": "auto-100",
+    "kanji": "セキュアブート",
+    "hiragana": "せきゅあぶーと",
+    "romaji": "Sekyua buuto",
+    "meaning_en": "Secure boot",
+    "meaning_fr": "Démarrage sécurisé",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "safety",
+    "example_sentences": [
+      {
+        "jp": "セキュアブートで不正なソフトウェアの実行を防ぎます。",
+        "reading": "せきゅあぶーとでふせいなそふとうぇあのじっこうをふせぎます。",
+        "en": "Secure boot prevents unauthorized software from running.",
+        "fr": "Le démarrage sécurisé empêche l'exécution de logiciels non autorisés."
+      }
+    ],
+    "tags": [
+      "security",
+      "boot",
+      "cybersecurity"
+    ]
+  },
+  {
+    "id": "auto-101",
+    "kanji": "OTA更新",
+    "hiragana": "OTAこうしん",
+    "romaji": "OTA kooshin",
+    "meaning_en": "Over-the-Air update",
+    "meaning_fr": "Mise à jour OTA",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "systems",
+    "example_sentences": [
+      {
+        "jp": "OTA更新でフィールド車両のソフトウェアを遠隔でアップデートできます。",
+        "reading": "OTAこうしんでふぃーるどしゃりょうのそふとうぇあをえんかくでうぷでーとできます。",
+        "en": "OTA updates allow remote software updates for field vehicles.",
+        "fr": "Les mises à jour OTA permettent des mises à jour logicielles à distance pour les véhicules en service."
+      }
+    ],
+    "tags": [
+      "ota",
+      "update",
+      "connectivity"
+    ]
+  },
+  {
+    "id": "auto-102",
+    "kanji": "信頼性",
+    "hiragana": "しんらいせい",
+    "romaji": "Shinraisei",
+    "meaning_en": "Reliability",
+    "meaning_fr": "Fiabilité",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "automotive",
+    "subdomain": "safety",
+    "example_sentences": [
+      {
+        "jp": "車載システムには高い信頼性が求められます。",
+        "reading": "しゃさいしすてむにはたかいしんらいせいがもとめられます。",
+        "en": "High reliability is required for automotive systems.",
+        "fr": "Une haute fiabilité est exigée pour les systèmes automobiles."
+      }
+    ],
+    "tags": [
+      "reliability",
+      "safety",
+      "quality"
+    ]
+  },
+  {
+    "id": "auto-103",
+    "kanji": "電磁両立性",
+    "hiragana": "でんじりょうりつせい",
+    "romaji": "Denji ryooritsusei",
+    "meaning_en": "Electromagnetic Compatibility (EMC)",
+    "meaning_fr": "Compatibilité électromagnétique (CEM)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "testing",
+    "example_sentences": [
+      {
+        "jp": "EMC試験に合格するため回路の設計を修正しました。",
+        "reading": "EMCしけんにごうかくするためかいろのせっけいをしゅうせいしました。",
+        "en": "I modified the circuit design to pass the EMC test.",
+        "fr": "J'ai modifié la conception du circuit pour réussir le test CEM."
+      }
+    ],
+    "tags": [
+      "emc",
+      "testing",
+      "hardware"
+    ]
+  },
+  {
+    "id": "auto-104",
+    "kanji": "タスクスケジューリング",
+    "hiragana": "たすくすけじゅーりんぐ",
+    "romaji": "Tasuku sukejuuringu",
+    "meaning_en": "Task scheduling",
+    "meaning_fr": "Ordonnancement des tâches",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "systems",
+    "example_sentences": [
+      {
+        "jp": "RTOSのタスクスケジューリングポリシーを見直しました。",
+        "reading": "RTOSのたすくすけじゅーりんぐぽりしーをみなおしました。",
+        "en": "I reviewed the RTOS task scheduling policy.",
+        "fr": "J'ai revu la politique d'ordonnancement des tâches RTOS."
+      }
+    ],
+    "tags": [
+      "rtos",
+      "scheduling",
+      "tasks"
+    ]
+  },
+  {
+    "id": "auto-105",
+    "kanji": "割り込みレイテンシ",
+    "hiragana": "わりこみれいてんし",
+    "romaji": "Warikomi reitenshi",
+    "meaning_en": "Interrupt latency",
+    "meaning_fr": "Latence d'interruption",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "systems",
+    "example_sentences": [
+      {
+        "jp": "安全クリティカルな機能では割り込みレイテンシの最大値を保証する必要があります。",
+        "reading": "あんぜんくりてぃかるなきのうではわりこみれいてんしのさいだいちをほしょうするひつようがあります。",
+        "en": "For safety-critical functions, the maximum interrupt latency must be guaranteed.",
+        "fr": "Pour les fonctions critiques de sécurité, la latence maximale d'interruption doit être garantie."
+      }
+    ],
+    "tags": [
+      "rtos",
+      "latency",
+      "safety"
+    ]
+  },
+  {
+    "id": "auto-106",
+    "kanji": "プロジェクト管理",
+    "hiragana": "ぷろじぇくとかんり",
+    "romaji": "Purojekuto kanri",
+    "meaning_en": "Project management",
+    "meaning_fr": "Gestion de projet",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "automotive",
+    "subdomain": "development",
+    "example_sentences": [
+      {
+        "jp": "プロジェクト管理ツールでタスクの進捗を追跡しています。",
+        "reading": "ぷろじぇくとかんりつーるでたすくのしんちょくをついせきしています。",
+        "en": "I track task progress with a project management tool.",
+        "fr": "Je suis l'avancement des tâches avec un outil de gestion de projet."
+      }
+    ],
+    "tags": [
+      "management",
+      "project",
+      "tools"
+    ]
+  },
+  {
+    "id": "auto-107",
+    "kanji": "マイルストーン",
+    "hiragana": "まいるすとーん",
+    "romaji": "Mairusutoon",
+    "meaning_en": "Milestone",
+    "meaning_fr": "Jalon (milestone)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "automotive",
+    "subdomain": "development",
+    "example_sentences": [
+      {
+        "jp": "次のマイルストーンは量産開始日の3ヶ月前です。",
+        "reading": "つぎのまいるすとーんはりょうさんかいしびの3かげつまえです。",
+        "en": "The next milestone is 3 months before the mass production start date.",
+        "fr": "Le prochain jalon est 3 mois avant la date de début de production en série."
+      }
+    ],
+    "tags": [
+      "planning",
+      "milestone",
+      "management"
+    ]
+  },
+  {
+    "id": "auto-108",
+    "kanji": "納期",
+    "hiragana": "のうき",
+    "romaji": "Nooki",
+    "meaning_en": "Delivery deadline",
+    "meaning_fr": "Date de livraison / délai",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "automotive",
+    "subdomain": "development",
+    "example_sentences": [
+      {
+        "jp": "納期を守るために残業が続いています。",
+        "reading": "のうきをまもるためにざんぎょうがつづいています。",
+        "en": "Overtime continues in order to meet the delivery deadline.",
+        "fr": "Les heures supplémentaires se poursuivent pour respecter la date de livraison."
+      }
+    ],
+    "tags": [
+      "deadline",
+      "management",
+      "work"
+    ]
+  },
+  {
+    "id": "auto-109",
+    "kanji": "アーキテクチャ設計",
+    "hiragana": "あーきてくちゃせっけい",
+    "romaji": "Aakitekucha sekkei",
+    "meaning_en": "Architecture design",
+    "meaning_fr": "Conception architecturale",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "development",
+    "example_sentences": [
+      {
+        "jp": "システムのアーキテクチャ設計を担当しています。",
+        "reading": "しすてむのあーきてくちゃせっけいをたんとうしています。",
+        "en": "I am in charge of the system architecture design.",
+        "fr": "Je suis responsable de la conception architecturale du système."
+      }
+    ],
+    "tags": [
+      "architecture",
+      "design",
+      "systems"
+    ]
+  },
+  {
+    "id": "auto-110",
+    "kanji": "コンポーネント分割",
+    "hiragana": "こんぽーねんとぶんかつ",
+    "romaji": "Konpoonento bunkatsu",
+    "meaning_en": "Component decomposition",
+    "meaning_fr": "Décomposition en composants",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "development",
+    "example_sentences": [
+      {
+        "jp": "AUTOSARに基づいてソフトウェアのコンポーネント分割を行います。",
+        "reading": "AUTOSARにもとづいてそふとうぇあのこんぽーねんとぶんかつをおこないます。",
+        "en": "We perform software component decomposition based on AUTOSAR.",
+        "fr": "Nous effectuons la décomposition en composants logiciels selon AUTOSAR."
+      }
+    ],
+    "tags": [
+      "autosar",
+      "architecture",
+      "design"
+    ]
+  },
+  {
+    "id": "auto-111",
+    "kanji": "チームリード",
+    "hiragana": "ちーむりーど",
+    "romaji": "Chiimu riido",
+    "meaning_en": "Team lead",
+    "meaning_fr": "Responsable d'équipe",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "automotive",
+    "subdomain": "development",
+    "example_sentences": [
+      {
+        "jp": "チームリードとして5名のエンジニアを管理しています。",
+        "reading": "ちーむりーどとしてごめいのえんじにあをかんりしています。",
+        "en": "I manage 5 engineers as team lead.",
+        "fr": "Je gère 5 ingénieurs en tant que responsable d'équipe."
+      }
+    ],
+    "tags": [
+      "career",
+      "management",
+      "team"
+    ]
+  },
+  {
+    "id": "auto-112",
+    "kanji": "承認プロセス",
+    "hiragana": "しょうにんぷろせす",
+    "romaji": "Shoonin purosesu",
+    "meaning_en": "Approval process",
+    "meaning_fr": "Processus d'approbation",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "development",
+    "example_sentences": [
+      {
+        "jp": "設計変更は承認プロセスを経てから実施します。",
+        "reading": "せっけいへんこうはしょうにんぷろせすをへてからじっしします。",
+        "en": "Design changes are implemented after going through the approval process.",
+        "fr": "Les modifications de conception sont mises en œuvre après le processus d'approbation."
+      }
+    ],
+    "tags": [
+      "process",
+      "approval",
+      "management"
+    ]
+  },
+  {
+    "id": "auto-113",
+    "kanji": "ドキュメント管理",
+    "hiragana": "どきゅめんとかんり",
+    "romaji": "Dokyumento kanri",
+    "meaning_en": "Document management",
+    "meaning_fr": "Gestion documentaire",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "development",
+    "example_sentences": [
+      {
+        "jp": "全ての技術資料はドキュメント管理システムに登録します。",
+        "reading": "すべてのぎじゅつしりょうはどきゅめんとかんりしすてむにとうろくします。",
+        "en": "All technical documents are registered in the document management system.",
+        "fr": "Tous les documents techniques sont enregistrés dans le système de gestion documentaire."
+      }
+    ],
+    "tags": [
+      "documentation",
+      "management",
+      "process"
+    ]
+  },
+  {
+    "id": "auto-114",
+    "kanji": "耐久性",
+    "hiragana": "たいきゅうせい",
+    "romaji": "Taikyuusei",
+    "meaning_en": "Durability",
+    "meaning_fr": "Durabilité",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "automotive",
+    "subdomain": "testing",
+    "example_sentences": [
+      {
+        "jp": "耐久性試験では15年相当の動作を模擬します。",
+        "reading": "たいきゅうせいしけんでは15ねんそうとうのどうさをもぎします。",
+        "en": "Durability tests simulate 15 years of equivalent operation.",
+        "fr": "Les tests de durabilité simulent 15 années d'opération équivalente."
+      }
+    ],
+    "tags": [
+      "durability",
+      "testing",
+      "reliability"
+    ]
+  },
+  {
+    "id": "auto-115",
+    "kanji": "生産ライン",
+    "hiragana": "せいさんらいん",
+    "romaji": "Seisan rain",
+    "meaning_en": "Production line",
+    "meaning_fr": "Ligne de production",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "automotive",
+    "subdomain": "systems",
+    "example_sentences": [
+      {
+        "jp": "生産ラインでのECUの書き込み時間を短縮しました。",
+        "reading": "せいさんらいんでのECUのがきこみじかんをたんしゅくしました。",
+        "en": "We reduced the ECU programming time on the production line.",
+        "fr": "Nous avons réduit le temps de programmation de l'ECU sur la ligne de production."
+      }
+    ],
+    "tags": [
+      "production",
+      "manufacturing",
+      "ecu"
+    ]
+  },
+  {
+    "id": "auto-116",
+    "kanji": "生産対応",
+    "hiragana": "せいさんたいおう",
+    "romaji": "Seisan taioo",
+    "meaning_en": "Production support",
+    "meaning_fr": "Support à la production",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "development",
+    "example_sentences": [
+      {
+        "jp": "量産後の不具合に対して迅速な生産対応が必要でした。",
+        "reading": "りょうさんごのふぐあいにたいしてじんそくなせいさんたいおうがひつようでした。",
+        "en": "A rapid production response was necessary for the post-mass-production defect.",
+        "fr": "Une réponse de production rapide était nécessaire pour le défaut post-production en série."
+      }
+    ],
+    "tags": [
+      "production",
+      "support",
+      "defect"
+    ]
+  },
+  {
+    "id": "auto-117",
+    "kanji": "パラメータ調整",
+    "hiragana": "ぱらめーたちょうせい",
+    "romaji": "Parameeta choosei",
+    "meaning_en": "Parameter tuning",
+    "meaning_fr": "Ajustement des paramètres",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "automotive",
+    "subdomain": "development",
+    "example_sentences": [
+      {
+        "jp": "エンジン制御のパラメータ調整で燃費が向上しました。",
+        "reading": "えんじんせいぎょのぱらめーたちょうせいでねんぴがこうじょうしました。",
+        "en": "Fuel efficiency improved through engine control parameter tuning.",
+        "fr": "La consommation de carburant s'est améliorée grâce à l'ajustement des paramètres de contrôle moteur."
+      }
+    ],
+    "tags": [
+      "calibration",
+      "parameter",
+      "control"
+    ]
+  },
+  {
+    "id": "auto-118",
+    "kanji": "設計変更通知",
+    "hiragana": "せっけいへんこうつうち",
+    "romaji": "Sekkei henkoo tsuuchi",
+    "meaning_en": "Engineering Change Notice (ECN)",
+    "meaning_fr": "Avis de modification technique",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "development",
+    "example_sentences": [
+      {
+        "jp": "ハードウェアチームから設計変更通知を受け取りました。",
+        "reading": "はーどうぇあちーむからせっけいへんこうつうちをうけとりました。",
+        "en": "I received an engineering change notice from the hardware team.",
+        "fr": "J'ai reçu un avis de modification technique de l'équipe matérielle."
+      }
+    ],
+    "tags": [
+      "change",
+      "documentation",
+      "process"
+    ]
+  },
+  {
+    "id": "auto-119",
+    "kanji": "ソフトウェアリリース",
+    "hiragana": "そふとうぇありりーす",
+    "romaji": "Sofutowea ririisu",
+    "meaning_en": "Software release",
+    "meaning_fr": "Version logicielle / release",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "development",
+    "example_sentences": [
+      {
+        "jp": "次のソフトウェアリリースは来月の予定です。",
+        "reading": "つぎのそふとうぇありりーすはらいげつのよていです。",
+        "en": "The next software release is scheduled for next month.",
+        "fr": "La prochaine version logicielle est prévue le mois prochain."
+      }
+    ],
+    "tags": [
+      "release",
+      "versioning",
+      "milestone"
+    ]
+  },
+  {
+    "id": "auto-120",
+    "kanji": "リグレッションテスト",
+    "hiragana": "りぐれっしょんてすと",
+    "romaji": "Riguressshon tesuto",
+    "meaning_en": "Regression test",
+    "meaning_fr": "Test de régression",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "automotive",
+    "subdomain": "testing",
+    "example_sentences": [
+      {
+        "jp": "変更後は必ずリグレッションテストを実施してください。",
+        "reading": "へんこうごはかならずりぐれっしょんてすとをじっしてください。",
+        "en": "Always perform regression tests after making changes.",
+        "fr": "Effectuez toujours des tests de régression après avoir apporté des modifications."
+      }
+    ],
+    "tags": [
+      "testing",
+      "regression",
+      "quality"
+    ]
+  }
+]

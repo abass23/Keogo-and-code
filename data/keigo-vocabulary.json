@@ -1,0 +1,2524 @@
+[
+  {
+    "id": "keigo-001",
+    "kanji": "よろしくお願いいたします",
+    "hiragana": "よろしくおねがいいたします",
+    "romaji": "Yoroshiku onegai itashimasu",
+    "meaning_en": "I humbly ask for your continued support (most formal version)",
+    "meaning_fr": "Je vous sollicite humblement (version la plus formelle — à utiliser en entretien et avec les supérieurs)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "closing",
+    "example_sentences": [
+      {
+        "jp": "面接の機会をいただきありがとうございます。よろしくお願いいたします。",
+        "reading": "めんせつのきかいをいただきありがとうございます。よろしくおねがいいたします。",
+        "en": "Thank you for the interview opportunity. I look forward to working with you.",
+        "fr": "Merci pour l'opportunité d'entretien. Je vous en serai reconnaissant."
+      }
+    ],
+    "tags": [
+      "keigo",
+      "interview",
+      "closing",
+      "essential"
+    ]
+  },
+  {
+    "id": "keigo-002",
+    "kanji": "御社を志望した理由は",
+    "hiragana": "おんしゃをしぼうしたりゆうは",
+    "romaji": "Onsha wo shibou shita riyuu wa",
+    "meaning_en": "The reason I am applying to your company is...",
+    "meaning_fr": "La raison pour laquelle je postule dans votre entreprise est... (「御社」 s'utilise à l'oral; à l'écrit on dit 「貴社」)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "interview",
+    "example_sentences": [
+      {
+        "jp": "御社を志望した理由は、組込みシステムの最先端技術に携わりたいからです。",
+        "reading": "おんしゃをしぼうしたりゆうは、くみこみしすてむのさいせんたんぎじゅつにたずさわりたいからです。",
+        "en": "The reason I applied to your company is that I want to be involved in cutting-edge embedded systems technology.",
+        "fr": "Je postule dans votre entreprise car je souhaite travailler sur des technologies embarquées de pointe."
+      }
+    ],
+    "tags": [
+      "keigo",
+      "interview",
+      "motivation"
+    ]
+  },
+  {
+    "id": "keigo-003",
+    "kanji": "入社後は貢献したいと思います",
+    "hiragana": "にゅうしゃごはこうけんしたいとおもいます",
+    "romaji": "Nyuusha go wa kouken shitai to omoimasu",
+    "meaning_en": "After joining the company, I hope to contribute...",
+    "meaning_fr": "Après avoir rejoint l'entreprise, j'espère contribuer... (phrase clé pour clore une réponse en entretien)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "interview",
+    "example_sentences": [
+      {
+        "jp": "入社後はファームウェア開発チームに貢献したいと思います。",
+        "reading": "にゅうしゃごはふぁーむうぇあかいはつちーむにこうけんしたいとおもいます。",
+        "en": "After joining the company, I hope to contribute to the firmware development team.",
+        "fr": "Après avoir rejoint l'entreprise, j'espère contribuer à l'équipe de développement firmware."
+      }
+    ],
+    "tags": [
+      "keigo",
+      "interview",
+      "future-goals"
+    ]
+  },
+  {
+    "id": "keigo-004",
+    "kanji": "ご質問はありますか",
+    "hiragana": "ごしつもんはありますか",
+    "romaji": "Go-shitsumon wa arimasu ka",
+    "meaning_en": "Do you have any questions? (asked by the interviewer)",
+    "meaning_fr": "Avez-vous des questions ? (posé par le recruteur — préparer 2-3 questions intelligentes est indispensable culturellement)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "interview",
+    "example_sentences": [
+      {
+        "jp": "最後に、ご質問はありますか？",
+        "reading": "さいごに、ごしつもんはありますか？",
+        "en": "Finally, do you have any questions?",
+        "fr": "Pour finir, avez-vous des questions ?"
+      }
+    ],
+    "tags": [
+      "keigo",
+      "interview",
+      "questions"
+    ]
+  },
+  {
+    "id": "keigo-005",
+    "kanji": "面接のお礼を申し上げます",
+    "hiragana": "めんせつのおれいをもうしあげます",
+    "romaji": "Mensetsu no orei wo moushiagemasu",
+    "meaning_en": "I would like to express my gratitude for the interview",
+    "meaning_fr": "Je tiens à vous remercier pour l'entretien (formule d'email post-entretien — envoyer dans les 24h est une bonne pratique au Japon)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "interview",
+    "example_sentences": [
+      {
+        "jp": "本日は面接のお礼を申し上げます。お時間をいただきありがとうございました。",
+        "reading": "ほんじつはめんせつのおれいをもうしあげます。おじかんをいただきありがとうございました。",
+        "en": "I would like to thank you for today's interview. Thank you for your time.",
+        "fr": "Je tiens à vous remercier pour l'entretien d'aujourd'hui. Merci pour le temps que vous m'avez accordé."
+      }
+    ],
+    "tags": [
+      "keigo",
+      "interview",
+      "email",
+      "gratitude"
+    ]
+  },
+  {
+    "id": "keigo-006",
+    "kanji": "出身はフランスです",
+    "hiragana": "しゅっしんはふらんすです",
+    "romaji": "Shusshin wa Furansu desu",
+    "meaning_en": "I am from France",
+    "meaning_fr": "Je suis originaire de France (composant essentiel de l'auto-présentation 自己紹介)",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "business",
+    "subdomain": "self-intro",
+    "example_sentences": [
+      {
+        "jp": "出身はフランスのパリです。現在は日本に住んでおります。",
+        "reading": "しゅっしんはふらんすのぱりです。げんざいはにほんにすんでおります。",
+        "en": "I am from Paris, France. I currently live in Japan.",
+        "fr": "Je suis originaire de Paris, en France. Je vis actuellement au Japon."
+      }
+    ],
+    "tags": [
+      "self-intro",
+      "background"
+    ]
+  },
+  {
+    "id": "keigo-007",
+    "kanji": "専門は組込みシステムです",
+    "hiragana": "せんもんはくみこみしすてむです",
+    "romaji": "Senmon wa kumikomi shisutemu desu",
+    "meaning_en": "My specialty is embedded systems",
+    "meaning_fr": "Ma spécialité est les systèmes embarqués (préciser sa spécialité technique dès le début de la自己紹介 est attendu)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "self-intro",
+    "example_sentences": [
+      {
+        "jp": "専門は組込みシステムで、特にリアルタイムOSの開発経験があります。",
+        "reading": "せんもんはくみこみしすてむで、とくにりあるたいむおーえすのかいはつけいけんがあります。",
+        "en": "My specialty is embedded systems, and I have particular experience in real-time OS development.",
+        "fr": "Ma spécialité est les systèmes embarqués, et j'ai notamment de l'expérience en développement d'OS temps réel."
+      }
+    ],
+    "tags": [
+      "self-intro",
+      "technical",
+      "specialty"
+    ]
+  },
+  {
+    "id": "keigo-008",
+    "kanji": "〜の経験があります",
+    "hiragana": "〜のけいけんがあります",
+    "romaji": "~ no keiken ga arimasu",
+    "meaning_en": "I have experience in ~",
+    "meaning_fr": "J'ai de l'expérience en ~ (formule neutre et polyvalente pour l'entretien)",
+    "audio_url": null,
+    "jlpt_level": "N4",
+    "domain": "business",
+    "subdomain": "self-intro",
+    "example_sentences": [
+      {
+        "jp": "CとC++を使った組込みソフトウェア開発の経験があります。",
+        "reading": "しーとしーぷらすぷらすをつかったくみこみそふとうぇあかいはつのけいけんがあります。",
+        "en": "I have experience in embedded software development using C and C++.",
+        "fr": "J'ai de l'expérience en développement logiciel embarqué utilisant le C et le C++."
+      }
+    ],
+    "tags": [
+      "self-intro",
+      "experience",
+      "technical"
+    ]
+  },
+  {
+    "id": "keigo-009",
+    "kanji": "〜を担当しておりました",
+    "hiragana": "〜をたんとうしておりました",
+    "romaji": "~ wo tantou shite orimashita",
+    "meaning_en": "I was in charge of ~ (humble past form)",
+    "meaning_fr": "J'étais en charge de ~ (forme humble du passé — 「おりました」 est la forme humble de 「いました」)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "self-intro",
+    "example_sentences": [
+      {
+        "jp": "前職では車載ECUのファームウェア設計を担当しておりました。",
+        "reading": "ぜんしょくではしゃさいいーしーゆーのふぁーむうぇあせっけいをたんとうしておりました。",
+        "en": "In my previous role, I was in charge of automotive ECU firmware design.",
+        "fr": "Dans mon poste précédent, j'étais en charge de la conception du firmware pour les ECU automobiles."
+      }
+    ],
+    "tags": [
+      "keigo",
+      "self-intro",
+      "experience",
+      "humble"
+    ]
+  },
+  {
+    "id": "keigo-010",
+    "kanji": "長所は粘り強さです",
+    "hiragana": "ちょうしょはねばりづよさです",
+    "romaji": "Chousho wa nebarizuyosa desu",
+    "meaning_en": "My strength is perseverance",
+    "meaning_fr": "Mon point fort est la persévérance (qualité très valorisée au Japon — mentionner des exemples concrets renforce la crédibilité)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "interview",
+    "example_sentences": [
+      {
+        "jp": "長所は粘り強さです。バグの原因究明に何時間もかけて解決した経験があります。",
+        "reading": "ちょうしょはねばりづよさです。ばぐのげんいんきゅうめいになんじかんもかけてかいけつしたけいけんがあります。",
+        "en": "My strength is perseverance. I have experience spending many hours to identify and resolve the root cause of bugs.",
+        "fr": "Mon point fort est la persévérance. J'ai l'expérience de passer de nombreuses heures à identifier et résoudre la cause racine de bugs."
+      }
+    ],
+    "tags": [
+      "interview",
+      "strengths"
+    ]
+  },
+  {
+    "id": "keigo-011",
+    "kanji": "短所は〜ですが、改善中です",
+    "hiragana": "たんしょは〜ですが、かいぜんちゅうです",
+    "romaji": "Tansho wa ~ desu ga, kaizen-chuu desu",
+    "meaning_en": "My weakness is ~, but I am working to improve it",
+    "meaning_fr": "Mon point faible est ~, mais je travaille à m'améliorer (toujours terminer sur une note positive — la formule 「改善中」 montre la conscience de soi et la croissance)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "interview",
+    "example_sentences": [
+      {
+        "jp": "短所は日本語でのプレゼンテーションですが、毎日練習して改善中です。",
+        "reading": "たんしょはにほんごでのぷれぜんてーしょんですが、まいにちれんしゅうしてかいぜんちゅうです。",
+        "en": "My weakness is presenting in Japanese, but I practice every day and am working to improve.",
+        "fr": "Mon point faible est les présentations en japonais, mais je m'entraîne chaque jour et je progresse."
+      }
+    ],
+    "tags": [
+      "interview",
+      "weaknesses",
+      "self-awareness"
+    ]
+  },
+  {
+    "id": "keigo-012",
+    "kanji": "〜に努力しています",
+    "hiragana": "〜にどりょくしています",
+    "romaji": "~ ni doryoku shite imasu",
+    "meaning_en": "I am making efforts toward ~",
+    "meaning_fr": "Je fais des efforts pour ~ (valorise le sérieux et la démarche proactive, très appréciés dans la culture d'entreprise japonaise)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "interview",
+    "example_sentences": [
+      {
+        "jp": "日本語の向上に努力しており、現在JLPT N2取得に向けて勉強しています。",
+        "reading": "にほんごのこうじょうにどりょくしており、げんざいじぇいえるぴーてぃーえぬにしゅとくにむけてべんきょうしています。",
+        "en": "I am making efforts to improve my Japanese and am currently studying toward JLPT N2.",
+        "fr": "Je fais des efforts pour améliorer mon japonais et j'étudie actuellement en vue du JLPT N2."
+      }
+    ],
+    "tags": [
+      "interview",
+      "self-improvement"
+    ]
+  },
+  {
+    "id": "keigo-013",
+    "kanji": "将来は〜を目指しています",
+    "hiragana": "しょうらいは〜をめざしています",
+    "romaji": "Shourai wa ~ wo mezashite imasu",
+    "meaning_en": "In the future, I aim to ~",
+    "meaning_fr": "À l'avenir, je vise à ~ (montrer une vision à long terme rassure les recruteurs japonais sur la stabilité du candidat)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "interview",
+    "example_sentences": [
+      {
+        "jp": "将来はソフトウェアアーキテクトとして御社の製品開発に貢献することを目指しています。",
+        "reading": "しょうらいはそふとうぇああーきてくととしておんしゃのせいひんかいはつにこうけんすることをめざしています。",
+        "en": "In the future, I aim to contribute to your company's product development as a software architect.",
+        "fr": "À l'avenir, je vise à contribuer au développement produit de votre entreprise en tant qu'architecte logiciel."
+      }
+    ],
+    "tags": [
+      "interview",
+      "future-goals"
+    ]
+  },
+  {
+    "id": "keigo-014",
+    "kanji": "スキルを活かしたいと思います",
+    "hiragana": "すきるをいかしたいとおもいます",
+    "romaji": "Sukiru wo ikashitai to omoimasu",
+    "meaning_en": "I would like to make use of my skills",
+    "meaning_fr": "Je souhaite mettre à profit mes compétences (relie votre expérience aux besoins de l'entreprise — formule pivot en entretien)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "interview",
+    "example_sentences": [
+      {
+        "jp": "これまでのファームウェア開発のスキルを活かして、御社の自動車部門に貢献したいと思います。",
+        "reading": "これまでのふぁーむうぇあかいはつのすきるをいかして、おんしゃのじどうしゃぶもんにこうけんしたいとおもいます。",
+        "en": "I would like to use my firmware development skills to contribute to your automotive division.",
+        "fr": "Je souhaite mettre à profit mes compétences en développement firmware pour contribuer à votre division automobile."
+      }
+    ],
+    "tags": [
+      "interview",
+      "future-goals",
+      "skills"
+    ]
+  },
+  {
+    "id": "keigo-015",
+    "kanji": "承知しました",
+    "hiragana": "しょうちしました",
+    "romaji": "Shouchi shimashita",
+    "meaning_en": "Understood / I acknowledge (formal)",
+    "meaning_fr": "Bien compris / Entendu (formel — plus poli que 「わかりました」; à utiliser avec les supérieurs et en contexte professionnel)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "workplace",
+    "example_sentences": [
+      {
+        "jp": "明日の朝10時に会議室に来てください。—承知しました。",
+        "reading": "あしたのあさじゅうじにかいぎしつにきてください。—しょうちしました。",
+        "en": "Please come to the meeting room tomorrow at 10am. — Understood.",
+        "fr": "Veuillez venir en salle de réunion demain à 10h. — Bien compris."
+      }
+    ],
+    "tags": [
+      "keigo",
+      "workplace",
+      "essential",
+      "response"
+    ]
+  },
+  {
+    "id": "keigo-016",
+    "kanji": "かしこまりました",
+    "hiragana": "かしこまりました",
+    "romaji": "Kashikomarimashita",
+    "meaning_en": "Certainly / As you wish (most formal acknowledgement)",
+    "meaning_fr": "Certainement / À vos ordres (niveau de politesse le plus élevé — réservé aux clients importants et aux supérieurs hiérarchiques directs)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "workplace",
+    "example_sentences": [
+      {
+        "jp": "この仕様書を本日中に確認してもらえますか。—かしこまりました。すぐに確認いたします。",
+        "reading": "このしようしょをほんじつちゅうにかくにんしてもらえますか。—かしこまりました。すぐにかくにんいたします。",
+        "en": "Could you review this specification document by end of today? — Certainly. I will review it right away.",
+        "fr": "Pourriez-vous examiner ce document de spécification avant la fin de la journée ? — Certainement. Je vais l'examiner immédiatement."
+      }
+    ],
+    "tags": [
+      "keigo",
+      "workplace",
+      "formal",
+      "response"
+    ]
+  },
+  {
+    "id": "keigo-017",
+    "kanji": "失礼いたします",
+    "hiragana": "しつれいいたします",
+    "romaji": "Shitsurei itashimasu",
+    "meaning_en": "Excuse me / I am being rude (polite formula for interrupting or leaving)",
+    "meaning_fr": "Excusez-moi / Je vous dérange (formule polie pour interrompre, entrer dans un bureau ou prendre congé — 「いたします」 est la forme humble de 「します」)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "workplace",
+    "example_sentences": [
+      {
+        "jp": "少しよろしいですか。失礼いたします、確認したいことがあるのですが。",
+        "reading": "すこしよろしいですか。しつれいいたします、かくにんしたいことがあるのですが。",
+        "en": "Do you have a moment? Excuse me, there is something I would like to confirm.",
+        "fr": "Avez-vous un moment ? Excusez-moi, il y a quelque chose que je souhaite vérifier."
+      }
+    ],
+    "tags": [
+      "keigo",
+      "workplace",
+      "etiquette"
+    ]
+  },
+  {
+    "id": "keigo-018",
+    "kanji": "お先に失礼します",
+    "hiragana": "おさきにしつれいします",
+    "romaji": "Osaki ni shitsurei shimasu",
+    "meaning_en": "Excuse me for leaving ahead of you",
+    "meaning_fr": "Pardonnez-moi de partir avant vous (formule obligatoire en quittant le bureau avant ses collègues — omise, elle est perçue comme impolie)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "workplace",
+    "example_sentences": [
+      {
+        "jp": "今日は定時で上がらせていただきます。お先に失礼します。",
+        "reading": "きょうはていじであがらせていただきます。おさきにしつれいします。",
+        "en": "I will be leaving on time today. Excuse me for leaving before you.",
+        "fr": "Je pars à l'heure aujourd'hui. Pardonnez-moi de partir avant vous."
+      }
+    ],
+    "tags": [
+      "keigo",
+      "workplace",
+      "etiquette",
+      "daily"
+    ]
+  },
+  {
+    "id": "keigo-019",
+    "kanji": "議題は〜です",
+    "hiragana": "ぎだいは〜です",
+    "romaji": "Gidai wa ~ desu",
+    "meaning_en": "The agenda item is ~",
+    "meaning_fr": "Le point à l'ordre du jour est ~ (pour structurer une réunion en annonçant clairement les sujets)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "meeting",
+    "example_sentences": [
+      {
+        "jp": "本日の議題は新しいファームウェアリリースのスケジュール確認です。",
+        "reading": "ほんじつのぎだいはあたらしいふぁーむうぇありりーすのすけじゅーるかくにんです。",
+        "en": "Today's agenda item is confirming the schedule for the new firmware release.",
+        "fr": "Le point à l'ordre du jour d'aujourd'hui est la confirmation du calendrier de la nouvelle version du firmware."
+      }
+    ],
+    "tags": [
+      "meeting",
+      "agenda"
+    ]
+  },
+  {
+    "id": "keigo-020",
+    "kanji": "確認させてください",
+    "hiragana": "かくにんさせてください",
+    "romaji": "Kakunin sasete kudasai",
+    "meaning_en": "Please allow me to confirm",
+    "meaning_fr": "Permettez-moi de vérifier (formule indispensable en réunion pour s'assurer de la compréhension mutuelle)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "meeting",
+    "example_sentences": [
+      {
+        "jp": "要件を確認させてください。割り込みハンドラはRTOS上で動作するということでよろしいですか？",
+        "reading": "ようけんをかくにんさせてください。わりこみはんどらはあーるてぃーおーえすじょうでどうさするということでよろしいですか？",
+        "en": "Please allow me to confirm the requirements. Is it correct that the interrupt handler will run on top of the RTOS?",
+        "fr": "Permettez-moi de vérifier les exigences. Est-il correct que le gestionnaire d'interruptions fonctionnera sur le RTOS ?"
+      }
+    ],
+    "tags": [
+      "meeting",
+      "confirmation",
+      "technical"
+    ]
+  },
+  {
+    "id": "keigo-021",
+    "kanji": "ご提案があります",
+    "hiragana": "ごていあんがあります",
+    "romaji": "Go-teian ga arimasu",
+    "meaning_en": "I have a proposal / suggestion",
+    "meaning_fr": "J'ai une proposition / suggestion (le préfixe 「ご」 rend la formule plus polie — façon respectueuse d'introduire une idée en réunion)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "meeting",
+    "example_sentences": [
+      {
+        "jp": "一点ご提案があります。テストの自動化によってリリースサイクルを短縮できると思います。",
+        "reading": "いってんごていあんがあります。てすとのじどうかによってりりーすさいくるをたんしゅくできるとおもいます。",
+        "en": "I have one proposal. I think we can shorten the release cycle through test automation.",
+        "fr": "J'ai une proposition. Je pense que nous pouvons raccourcir le cycle de publication grâce à l'automatisation des tests."
+      }
+    ],
+    "tags": [
+      "meeting",
+      "proposal"
+    ]
+  },
+  {
+    "id": "keigo-022",
+    "kanji": "再確認いたします",
+    "hiragana": "さいかくにんいたします",
+    "romaji": "Sai-kakunin itashimasu",
+    "meaning_en": "I will double-check / reconfirm",
+    "meaning_fr": "Je vais revérifier / reconfirmer (「いたします」 est la forme humble de 「します」 — élève le niveau de politesse)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "meeting",
+    "example_sentences": [
+      {
+        "jp": "仕様の詳細については持ち帰り、再確認いたします。",
+        "reading": "しようのしょうさいについてはもちかえり、さいかくにんいたします。",
+        "en": "I will take back the details of the specifications and double-check them.",
+        "fr": "Je vais reprendre les détails des spécifications et les revérifier."
+      }
+    ],
+    "tags": [
+      "meeting",
+      "keigo",
+      "confirmation"
+    ]
+  },
+  {
+    "id": "keigo-023",
+    "kanji": "お世話になっております",
+    "hiragana": "おせわになっております",
+    "romaji": "Osewa ni natte orimasu",
+    "meaning_en": "Thank you for your continued support (standard email/call opener)",
+    "meaning_fr": "Merci pour votre soutien continu (formule d'ouverture universelle pour les emails professionnels japonais — équivalent de 'Madame, Monsieur' mais obligatoire)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "email",
+    "example_sentences": [
+      {
+        "jp": "お世話になっております。ウォーヴン・バイ・トヨタのバリーと申します。",
+        "reading": "おせわになっております。うぉーう゛ん・ばい・とよたのばりーともうします。",
+        "en": "Thank you for your continued support. This is Barry from Woven by Toyota.",
+        "fr": "Merci pour votre soutien continu. Je suis Barry de Woven by Toyota."
+      }
+    ],
+    "tags": [
+      "email",
+      "keigo",
+      "essential",
+      "opener"
+    ]
+  },
+  {
+    "id": "keigo-024",
+    "kanji": "ご返信ありがとうございます",
+    "hiragana": "ごへんしんありがとうございます",
+    "romaji": "Go-henshin arigatou gozaimasu",
+    "meaning_en": "Thank you for your reply",
+    "meaning_fr": "Merci pour votre réponse (formule standard pour ouvrir un email de suivi — le préfixe honorifique 「ご」 devant 「返信」 est indispensable)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "email",
+    "example_sentences": [
+      {
+        "jp": "ご返信ありがとうございます。ご確認の件、承知いたしました。",
+        "reading": "ごへんしんありがとうございます。ごかくにんのけん、しょうちいたしました。",
+        "en": "Thank you for your reply. I understand regarding the matter you confirmed.",
+        "fr": "Merci pour votre réponse. J'ai bien pris note concernant le point que vous avez confirmé."
+      }
+    ],
+    "tags": [
+      "email",
+      "keigo",
+      "gratitude"
+    ]
+  },
+  {
+    "id": "keigo-025",
+    "kanji": "何卒よろしくお願い申し上げます",
+    "hiragana": "なにとぞよろしくおねがいもうしあげます",
+    "romaji": "Nanitozo yoroshiku onegai moushiagemasu",
+    "meaning_en": "I sincerely ask for your kind consideration (highest formality email closer)",
+    "meaning_fr": "Je vous sollicite respectueusement (formule de clôture d'email la plus formelle — réservée aux emails importants, candidatures, clients)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "email",
+    "example_sentences": [
+      {
+        "jp": "ご多忙のところ恐縮ですが、何卒よろしくお願い申し上げます。",
+        "reading": "ごたぼうのところきょうしゅくですが、なにとぞよろしくおねがいもうしあげます。",
+        "en": "I apologize for contacting you during your busy schedule, but I sincerely ask for your kind consideration.",
+        "fr": "Je m'excuse de vous contacter pendant votre période chargée, mais je vous sollicite respectueusement."
+      }
+    ],
+    "tags": [
+      "email",
+      "keigo",
+      "closing",
+      "formal"
+    ]
+  },
+  {
+    "id": "keigo-026",
+    "kanji": "ご教示ください",
+    "hiragana": "ごきょうじください",
+    "romaji": "Go-kyouji kudasai",
+    "meaning_en": "Please teach / instruct me (formal request for guidance)",
+    "meaning_fr": "Veuillez m'instruire / m'indiquer (formule très formelle pour demander des conseils ou instructions — plus formel que 「教えてください」)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "request",
+    "example_sentences": [
+      {
+        "jp": "CANバスの設定方法についてご教示いただけますでしょうか。",
+        "reading": "しーえーえぬばすのせっていほうほうについてごきょうじいただけますでしょうか。",
+        "en": "Could you please instruct me on how to configure the CAN bus?",
+        "fr": "Pourriez-vous m'indiquer comment configurer le bus CAN ?"
+      }
+    ],
+    "tags": [
+      "keigo",
+      "request",
+      "guidance"
+    ]
+  },
+  {
+    "id": "keigo-027",
+    "kanji": "ご確認をお願いできますか",
+    "hiragana": "ごかくにんをおねがいできますか",
+    "romaji": "Go-kakunin wo onegai dekimasu ka",
+    "meaning_en": "Could I ask you to please confirm?",
+    "meaning_fr": "Puis-je vous demander de bien vouloir vérifier ? (formule polie pour soumettre un travail à la révision d'un supérieur)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "request",
+    "example_sentences": [
+      {
+        "jp": "プルリクエストを作成しました。ご確認をお願いできますか？",
+        "reading": "ぷるりくえすとをさくせいしました。ごかくにんをおねがいできますか？",
+        "en": "I have created a pull request. Could I ask you to please review it?",
+        "fr": "J'ai créé une pull request. Puis-je vous demander de bien vouloir la réviser ?"
+      }
+    ],
+    "tags": [
+      "keigo",
+      "request",
+      "technical",
+      "code-review"
+    ]
+  },
+  {
+    "id": "keigo-028",
+    "kanji": "お力を借りられますか",
+    "hiragana": "おちからをかりられますか",
+    "romaji": "O-chikara wo kariraremasu ka",
+    "meaning_en": "Could I borrow your expertise / assistance?",
+    "meaning_fr": "Puis-je solliciter votre aide / expertise ? (formule respectueuse pour demander de l'aide à un collègue expérimenté)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "request",
+    "example_sentences": [
+      {
+        "jp": "RTOSのタスク優先度設定でつまずいています。少しお力を借りられますか？",
+        "reading": "あーるてぃーおーえすのたすくゆうせんどせっていでつまずいています。すこしおちからをかりられますか？",
+        "en": "I am stuck on RTOS task priority configuration. Could I borrow your expertise for a moment?",
+        "fr": "Je bloque sur la configuration des priorités de tâches RTOS. Puis-je solliciter votre aide un instant ?"
+      }
+    ],
+    "tags": [
+      "keigo",
+      "request",
+      "help",
+      "technical"
+    ]
+  },
+  {
+    "id": "keigo-029",
+    "kanji": "ご報告いたします",
+    "hiragana": "ごほうこくいたします",
+    "romaji": "Go-houkoku itashimasu",
+    "meaning_en": "I would like to report (humble)",
+    "meaning_fr": "Je souhaite faire un compte-rendu (形式「ご〜いたします」 est la combinaison la plus formelle pour rapporter à un supérieur)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "reporting",
+    "example_sentences": [
+      {
+        "jp": "今週の進捗についてご報告いたします。",
+        "reading": "こんしゅうのしんちょくについてごほうこくいたします。",
+        "en": "I would like to report on this week's progress.",
+        "fr": "Je souhaite faire un compte-rendu sur l'avancement de cette semaine."
+      }
+    ],
+    "tags": [
+      "keigo",
+      "reporting",
+      "workplace"
+    ]
+  },
+  {
+    "id": "keigo-030",
+    "kanji": "進捗は予定通りです",
+    "hiragana": "しんちょくはよていどおりです",
+    "romaji": "Shinchou wa yotei doori desu",
+    "meaning_en": "Progress is as scheduled / on track",
+    "meaning_fr": "L'avancement est conforme au planning (phrase rassurante pour le reporting hebdomadaire au chef de projet)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "reporting",
+    "example_sentences": [
+      {
+        "jp": "ドライバの実装については、進捗は予定通りです。来週月曜日に完了予定です。",
+        "reading": "どらいばのじっそうについては、しんちょくはよていどおりです。らいしゅうげつようびにかんりょうよていです。",
+        "en": "Regarding the driver implementation, progress is on track. We expect to complete it next Monday.",
+        "fr": "Concernant l'implémentation du driver, l'avancement est conforme au planning. Nous prévoyons de terminer lundi prochain."
+      }
+    ],
+    "tags": [
+      "reporting",
+      "progress",
+      "technical"
+    ]
+  },
+  {
+    "id": "keigo-031",
+    "kanji": "課題があります",
+    "hiragana": "かだいがあります",
+    "romaji": "Kadai ga arimasu",
+    "meaning_en": "There is an issue / challenge",
+    "meaning_fr": "Il y a un problème / défi (formule neutre pour signaler un obstacle — plus doux que 「問題があります」 qui peut sembler alarmiste)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "reporting",
+    "example_sentences": [
+      {
+        "jp": "一点課題があります。メモリ使用量が想定を超えており、最適化が必要です。",
+        "reading": "いってんかだいがあります。めもりしようりょうがそうていをこえており、さいてきかがひつようです。",
+        "en": "There is one issue. Memory usage has exceeded estimates and optimization is required.",
+        "fr": "Il y a un point problématique. L'utilisation mémoire dépasse les estimations et une optimisation est nécessaire."
+      }
+    ],
+    "tags": [
+      "reporting",
+      "issues",
+      "technical"
+    ]
+  },
+  {
+    "id": "keigo-032",
+    "kanji": "解決いたしました",
+    "hiragana": "かいけついたしました",
+    "romaji": "Kaiketsu itashimashita",
+    "meaning_en": "I have resolved it (humble past)",
+    "meaning_fr": "J'ai résolu le problème (forme humble du passé — toujours signaler la résolution de problèmes rapidement à son supérieur au Japon)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "reporting",
+    "example_sentences": [
+      {
+        "jp": "先日ご報告したメモリリークの件ですが、本日解決いたしました。",
+        "reading": "せんじつごほうこくしためもりりーくのけんですが、ほんじつかいけついたしました。",
+        "en": "Regarding the memory leak issue I reported the other day, I have resolved it today.",
+        "fr": "Concernant la fuite mémoire que j'ai signalée l'autre jour, je l'ai résolue aujourd'hui."
+      }
+    ],
+    "tags": [
+      "keigo",
+      "reporting",
+      "technical",
+      "resolution"
+    ]
+  },
+  {
+    "id": "keigo-033",
+    "kanji": "仕様を確認させてください",
+    "hiragana": "しようをかくにんさせてください",
+    "romaji": "Shiyou wo kakunin sasete kudasai",
+    "meaning_en": "Please allow me to confirm the specifications",
+    "meaning_fr": "Permettez-moi de vérifier les spécifications (formule indispensable avant tout développement pour éviter les malentendus techniques)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "meeting",
+    "example_sentences": [
+      {
+        "jp": "実装を始める前に、通信プロトコルの仕様を確認させてください。",
+        "reading": "じっそうをはじめるまえに、つうしんぷろとこるのしようをかくにんさせてください。",
+        "en": "Before starting the implementation, please allow me to confirm the communication protocol specifications.",
+        "fr": "Avant de commencer l'implémentation, permettez-moi de vérifier les spécifications du protocole de communication."
+      }
+    ],
+    "tags": [
+      "technical",
+      "meeting",
+      "confirmation"
+    ]
+  },
+  {
+    "id": "keigo-034",
+    "kanji": "設計レビューをお願いします",
+    "hiragana": "せっけいれびゅーをおねがいします",
+    "romaji": "Sekkei rebyuu wo onegai shimasu",
+    "meaning_en": "Please conduct a design review",
+    "meaning_fr": "Veuillez effectuer une revue de conception (formule clé pour les ingénieurs lors des revues de code et d'architecture)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "request",
+    "example_sentences": [
+      {
+        "jp": "割り込み処理のアーキテクチャについて設計レビューをお願いします。",
+        "reading": "わりこみしょりのあーきてくちゃについてせっけいれびゅーをおねがいします。",
+        "en": "Please conduct a design review of the interrupt handling architecture.",
+        "fr": "Veuillez effectuer une revue de conception de l'architecture de gestion des interruptions."
+      }
+    ],
+    "tags": [
+      "technical",
+      "request",
+      "code-review"
+    ]
+  },
+  {
+    "id": "keigo-035",
+    "kanji": "バグを修正いたしました",
+    "hiragana": "ばぐをしゅうせいいたしました",
+    "romaji": "Bagu wo shuusei itashimashita",
+    "meaning_en": "I have fixed the bug (humble)",
+    "meaning_fr": "J'ai corrigé le bug (forme humble — à utiliser dans les messages de commit, emails de suivi et rapports d'avancement)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "reporting",
+    "example_sentences": [
+      {
+        "jp": "SPI通信のタイミングエラーに起因するバグを修正いたしました。プルリクエストをご確認ください。",
+        "reading": "えすぴーあいつうしんのたいみんぐえらーにきいんするばぐをしゅうせいいたしました。ぷるりくえすとをごかくにんください。",
+        "en": "I have fixed the bug caused by SPI communication timing errors. Please review the pull request.",
+        "fr": "J'ai corrigé le bug causé par des erreurs de timing de communication SPI. Veuillez examiner la pull request."
+      }
+    ],
+    "tags": [
+      "keigo",
+      "technical",
+      "reporting",
+      "bug-fix"
+    ]
+  },
+  {
+    "id": "keigo-036",
+    "kanji": "いたします",
+    "hiragana": "いたします",
+    "romaji": "Itashimasu",
+    "meaning_en": "I will do (humble form of します)",
+    "meaning_fr": "Je vais faire (forme humble de 「します」 — règle fondamentale : utiliser 「いたします」 quand vous parlez de vos propres actions devant un supérieur ou un client)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "keigo-forms",
+    "example_sentences": [
+      {
+        "jp": "資料を準備いたします。少々お待ちください。",
+        "reading": "しりょうをじゅんびいたします。しょうしょうおまちください。",
+        "en": "I will prepare the materials. Please wait a moment.",
+        "fr": "Je vais préparer les documents. Veuillez patienter un instant."
+      }
+    ],
+    "tags": [
+      "keigo-forms",
+      "humble",
+      "essential"
+    ]
+  },
+  {
+    "id": "keigo-037",
+    "kanji": "おります",
+    "hiragana": "おります",
+    "romaji": "Orimasu",
+    "meaning_en": "I am (humble form of います)",
+    "meaning_fr": "Je suis / Je me trouve (forme humble de 「います」 — à utiliser pour parler de soi-même, jamais pour l'interlocuteur)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "keigo-forms",
+    "example_sentences": [
+      {
+        "jp": "現在、組込みソフトウェアの開発に携わっております。",
+        "reading": "げんざい、くみこみそふとうぇあのかいはつにたずさわっております。",
+        "en": "I am currently involved in embedded software development.",
+        "fr": "Je suis actuellement impliqué dans le développement logiciel embarqué."
+      }
+    ],
+    "tags": [
+      "keigo-forms",
+      "humble",
+      "essential"
+    ]
+  },
+  {
+    "id": "keigo-038",
+    "kanji": "参ります",
+    "hiragana": "まいります",
+    "romaji": "Mairimasu",
+    "meaning_en": "I will go / I will come (humble form of 行きます/来ます)",
+    "meaning_fr": "Je vais / Je viens (forme humble de 「行きます」 et 「来ます」 — à utiliser quand on se déplace vers un supérieur ou un client)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "keigo-forms",
+    "example_sentences": [
+      {
+        "jp": "ただいま会議室に参ります。",
+        "reading": "ただいまかいぎしつにまいります。",
+        "en": "I will come to the meeting room right now.",
+        "fr": "Je me rends immédiatement en salle de réunion."
+      }
+    ],
+    "tags": [
+      "keigo-forms",
+      "humble",
+      "movement"
+    ]
+  },
+  {
+    "id": "keigo-039",
+    "kanji": "申します",
+    "hiragana": "もうします",
+    "romaji": "Moushimasu",
+    "meaning_en": "My name is ~ / I say (humble form of 言います)",
+    "meaning_fr": "Je m'appelle ~ / Je dis (forme humble de 「言います」 — formule incontournable pour se présenter : 「〜と申します」)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "keigo-forms",
+    "example_sentences": [
+      {
+        "jp": "フジツウのバリーと申します。本日はよろしくお願いいたします。",
+        "reading": "ふじつうのばりーともうします。ほんじつはよろしくおねがいいたします。",
+        "en": "My name is Barry from Fujitsu. I look forward to working with you today.",
+        "fr": "Je m'appelle Barry, de Fujitsu. Je me réjouis de travailler avec vous aujourd'hui."
+      }
+    ],
+    "tags": [
+      "keigo-forms",
+      "humble",
+      "self-intro",
+      "essential"
+    ]
+  },
+  {
+    "id": "keigo-040",
+    "kanji": "いただきます",
+    "hiragana": "いただきます",
+    "romaji": "Itadakimasu",
+    "meaning_en": "I humbly receive (humble form of もらいます/食べます)",
+    "meaning_fr": "Je reçois humblement (forme humble de 「もらいます」 — aussi utilisé pour 'recevoir' une faveur, un document, une opportunité en contexte professionnel)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "keigo-forms",
+    "example_sentences": [
+      {
+        "jp": "面接の機会をいただき、ありがとうございます。",
+        "reading": "めんせつのきかいをいただき、ありがとうございます。",
+        "en": "Thank you for giving me the opportunity for an interview.",
+        "fr": "Merci de m'avoir accordé l'opportunité de cet entretien."
+      }
+    ],
+    "tags": [
+      "keigo-forms",
+      "humble",
+      "gratitude"
+    ]
+  },
+  {
+    "id": "keigo-041",
+    "kanji": "ございます",
+    "hiragana": "ございます",
+    "romaji": "Gozaimasu",
+    "meaning_en": "There is / I have (polite form of あります/です)",
+    "meaning_fr": "Il y a / C'est (forme polie de 「あります」 et 「です」 — rend n'importe quelle phrase plus formelle : 「ありがとうございます」、「おはようございます」)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "keigo-forms",
+    "example_sentences": [
+      {
+        "jp": "ご不明な点がございましたら、お気軽にお声がけください。",
+        "reading": "ごふめいなてんがございましたら、おきがるにおこえがけください。",
+        "en": "If you have any unclear points, please feel free to ask.",
+        "fr": "Si vous avez des points peu clairs, n'hésitez pas à me solliciter."
+      }
+    ],
+    "tags": [
+      "keigo-forms",
+      "polite",
+      "essential"
+    ]
+  },
+  {
+    "id": "keigo-042",
+    "kanji": "おっしゃいます",
+    "hiragana": "おっしゃいます",
+    "romaji": "Osshaimasu",
+    "meaning_en": "You say / He/she says (respectful form of 言います)",
+    "meaning_fr": "Vous dites / Il dit (forme respectueuse de 「言います」 — s'utilise pour parler des paroles de quelqu'un de supérieur, jamais de soi-même)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "keigo-forms",
+    "example_sentences": [
+      {
+        "jp": "部長がおっしゃった通り、この設計を見直す必要があります。",
+        "reading": "ぶちょうがおっしゃったとおり、このせっけいをみなおすひつようがあります。",
+        "en": "As the department head said, we need to review this design.",
+        "fr": "Comme l'a dit le chef de département, nous devons revoir cette conception."
+      }
+    ],
+    "tags": [
+      "keigo-forms",
+      "respectful",
+      "speech"
+    ]
+  },
+  {
+    "id": "keigo-043",
+    "kanji": "いらっしゃいます",
+    "hiragana": "いらっしゃいます",
+    "romaji": "Irasshaimasu",
+    "meaning_en": "You are / He/she is (respectful form of います/あります/行きます/来ます)",
+    "meaning_fr": "Vous êtes / Il est (forme respectueuse de 「います」, 「行きます」 et 「来ます」 — une seule forme pour trois verbes quand on parle d'un supérieur)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "keigo-forms",
+    "example_sentences": [
+      {
+        "jp": "田中部長はただいま会議室にいらっしゃいます。",
+        "reading": "たなかぶちょうはただいまかいぎしつにいらっしゃいます。",
+        "en": "Department head Tanaka is currently in the meeting room.",
+        "fr": "Le chef de département Tanaka se trouve actuellement en salle de réunion."
+      }
+    ],
+    "tags": [
+      "keigo-forms",
+      "respectful",
+      "location"
+    ]
+  },
+  {
+    "id": "keigo-044",
+    "kanji": "ご覧になります",
+    "hiragana": "ごらんになります",
+    "romaji": "Go-ran ni narimasu",
+    "meaning_en": "You see / look at (respectful form of 見ます)",
+    "meaning_fr": "Vous regardez / voyez (forme respectueuse de 「見ます」 — utilisé quand un supérieur examine votre travail ou une présentation)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "keigo-forms",
+    "example_sentences": [
+      {
+        "jp": "こちらの図をご覧になってください。システム全体のアーキテクチャです。",
+        "reading": "こちらのずをごらんになってください。しすてむぜんたいのあーきてくちゃです。",
+        "en": "Please look at this diagram. It shows the overall system architecture.",
+        "fr": "Veuillez regarder ce diagramme. Il représente l'architecture globale du système."
+      }
+    ],
+    "tags": [
+      "keigo-forms",
+      "respectful",
+      "presentation"
+    ]
+  },
+  {
+    "id": "keigo-045",
+    "kanji": "拝見いたします",
+    "hiragana": "はいけんいたします",
+    "romaji": "Haiken itashimasu",
+    "meaning_en": "I will humbly look at / read (humble form of 見ます)",
+    "meaning_fr": "Je vais humblement regarder / lire (forme humble de 「見ます」 — à utiliser quand vous consultez un document d'un supérieur ou d'un client)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "keigo-forms",
+    "example_sentences": [
+      {
+        "jp": "ご送付いただいた仕様書、拝見いたします。",
+        "reading": "ごそうふいただいたしようしょ、はいけんいたします。",
+        "en": "I will humbly read the specification document you sent.",
+        "fr": "Je vais humblement lire le document de spécification que vous avez envoyé."
+      }
+    ],
+    "tags": [
+      "keigo-forms",
+      "humble",
+      "documents"
+    ]
+  },
+  {
+    "id": "keigo-046",
+    "kanji": "自己紹介をさせていただきます",
+    "hiragana": "じこしょうかいをさせていただきます",
+    "romaji": "Jiko-shoukai wo sasete itadakimasu",
+    "meaning_en": "Allow me to introduce myself",
+    "meaning_fr": "Permettez-moi de me présenter (ouverture standard de la 自己紹介 en entretien — 「させていただきます」 est une formule humble très utilisée pour demander permission de faire quelque chose)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "self-intro",
+    "example_sentences": [
+      {
+        "jp": "それでは、自己紹介をさせていただきます。バリー・アバシーと申します。",
+        "reading": "それでは、じこしょうかいをさせていただきます。ばりー・あばしーともうします。",
+        "en": "Now allow me to introduce myself. My name is Barry Abassy.",
+        "fr": "Permettez-moi donc de me présenter. Je m'appelle Barry Abassy."
+      }
+    ],
+    "tags": [
+      "self-intro",
+      "keigo",
+      "interview",
+      "opening"
+    ]
+  },
+  {
+    "id": "keigo-047",
+    "kanji": "〜に従事しております",
+    "hiragana": "〜にじゅうじしております",
+    "romaji": "~ ni juuji shite orimasu",
+    "meaning_en": "I am engaged in / working in ~",
+    "meaning_fr": "Je suis engagé dans / je travaille dans ~ (plus formel que 「〜をしています」 — bien adapté pour décrire son domaine professionnel)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "self-intro",
+    "example_sentences": [
+      {
+        "jp": "現在は自動車向け組込みソフトウェアの開発に従事しております。",
+        "reading": "げんざいはじどうしゃむけくみこみそふとうぇあのかいはつにじゅうじしております。",
+        "en": "I am currently engaged in automotive embedded software development.",
+        "fr": "Je suis actuellement engagé dans le développement logiciel embarqué pour l'automobile."
+      }
+    ],
+    "tags": [
+      "self-intro",
+      "keigo",
+      "experience"
+    ]
+  },
+  {
+    "id": "keigo-048",
+    "kanji": "〜に携わっております",
+    "hiragana": "〜にたずさわっております",
+    "romaji": "~ ni tazusawatte orimasu",
+    "meaning_en": "I am involved in ~ (nuance of hands-on contribution)",
+    "meaning_fr": "Je suis impliqué dans ~ (nuance de contribution directe et active — légèrement plus fort que 「従事しております」)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "self-intro",
+    "example_sentences": [
+      {
+        "jp": "これまで5年間、車載ECUのファームウェア設計に携わっております。",
+        "reading": "これまでごねんかん、しゃさいいーしーゆーのふぁーむうぇあせっけいにたずさわっております。",
+        "en": "I have been involved in automotive ECU firmware design for the past 5 years.",
+        "fr": "Je suis impliqué dans la conception de firmware pour ECU automobile depuis 5 ans."
+      }
+    ],
+    "tags": [
+      "self-intro",
+      "keigo",
+      "experience",
+      "technical"
+    ]
+  },
+  {
+    "id": "keigo-049",
+    "kanji": "弊社では〜",
+    "hiragana": "へいしゃでは〜",
+    "romaji": "Heisha de wa ~",
+    "meaning_en": "At our company ~ (humble reference to one's own company)",
+    "meaning_fr": "Dans notre entreprise ~ (「弊社」 est la forme humble pour parler de sa propre entreprise — contraire de 「御社」 qui est honorifique pour l'entreprise de l'interlocuteur)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "workplace",
+    "example_sentences": [
+      {
+        "jp": "弊社では現在、AUTOSAR対応の組込みプラットフォーム開発を進めております。",
+        "reading": "へいしゃではげんざい、おーとさーたいおうのくみこみぷらっとふぉーむかいはつをすすめております。",
+        "en": "At our company, we are currently developing an AUTOSAR-compatible embedded platform.",
+        "fr": "Dans notre entreprise, nous développons actuellement une plateforme embarquée compatible AUTOSAR."
+      }
+    ],
+    "tags": [
+      "keigo-forms",
+      "workplace",
+      "company"
+    ]
+  },
+  {
+    "id": "keigo-050",
+    "kanji": "ご指摘ありがとうございます",
+    "hiragana": "ごしてきありがとうございます",
+    "romaji": "Go-shiteki arigatou gozaimasu",
+    "meaning_en": "Thank you for pointing that out",
+    "meaning_fr": "Merci de l'avoir signalé (réponse indispensable lors d'une revue de code ou d'une correction — accepter la critique avec grâce est une valeur culturelle forte au Japon)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "workplace",
+    "example_sentences": [
+      {
+        "jp": "ご指摘ありがとうございます。すぐに修正いたします。",
+        "reading": "ごしてきありがとうございます。すぐにしゅうせいいたします。",
+        "en": "Thank you for pointing that out. I will correct it immediately.",
+        "fr": "Merci de l'avoir signalé. Je vais le corriger immédiatement."
+      }
+    ],
+    "tags": [
+      "workplace",
+      "keigo",
+      "code-review",
+      "feedback"
+    ]
+  },
+  {
+    "id": "keigo-051",
+    "kanji": "ご迷惑をおかけして申し訳ございません",
+    "hiragana": "ごめいわくをおかけしてもうしわけございません",
+    "romaji": "Go-meiwaku wo okake shite moushiwake gozaimasen",
+    "meaning_en": "I sincerely apologize for the inconvenience caused",
+    "meaning_fr": "Je m'excuse sincèrement pour le dérangement occasionné (formule d'excuse formelle complète — à utiliser quand un bug ou un retard a impacté l'équipe ou le client)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "workplace",
+    "example_sentences": [
+      {
+        "jp": "デプロイの遅れにより、ご迷惑をおかけして申し訳ございません。",
+        "reading": "でぷろいのおくれにより、ごめいわくをおかけしてもうしわけございません。",
+        "en": "I sincerely apologize for the inconvenience caused by the deployment delay.",
+        "fr": "Je m'excuse sincèrement pour le dérangement occasionné par le retard de déploiement."
+      }
+    ],
+    "tags": [
+      "keigo",
+      "apology",
+      "workplace"
+    ]
+  },
+  {
+    "id": "keigo-052",
+    "kanji": "少々お待ちください",
+    "hiragana": "しょうしょうおまちください",
+    "romaji": "Shoushou omachi kudasai",
+    "meaning_en": "Please wait a moment",
+    "meaning_fr": "Veuillez patienter un instant (plus poli que 「ちょっと待ってください」 — à utiliser avec les supérieurs, clients, ou dans toute situation formelle)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "workplace",
+    "example_sentences": [
+      {
+        "jp": "ログファイルを確認いたします。少々お待ちください。",
+        "reading": "ろぐふぁいるをかくにんいたします。しょうしょうおまちください。",
+        "en": "I will check the log file. Please wait a moment.",
+        "fr": "Je vais vérifier le fichier de log. Veuillez patienter un instant."
+      }
+    ],
+    "tags": [
+      "workplace",
+      "keigo",
+      "waiting"
+    ]
+  },
+  {
+    "id": "keigo-053",
+    "kanji": "おかげさまで",
+    "hiragana": "おかげさまで",
+    "romaji": "Okagesama de",
+    "meaning_en": "Thanks to you / Fortunately (attributing one's success to others)",
+    "meaning_fr": "Grâce à vous / Fort heureusement (formule humble qui attribue son succès aux autres — très apprécié culturellement pour montrer la gratitude et l'humilité)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "workplace",
+    "example_sentences": [
+      {
+        "jp": "おかげさまで、プロジェクトを無事に完了できました。",
+        "reading": "おかげさまで、ぷろじぇくとをぶじにかんりょうできました。",
+        "en": "Thanks to you, I was able to complete the project successfully.",
+        "fr": "Grâce à vous, j'ai pu mener à bien le projet."
+      }
+    ],
+    "tags": [
+      "workplace",
+      "keigo",
+      "gratitude",
+      "humility"
+    ]
+  },
+  {
+    "id": "keigo-054",
+    "kanji": "ご多忙のところ恐縮ですが",
+    "hiragana": "ごたぼうのところきょうしゅくですが",
+    "romaji": "Go-tabou no tokoro kyoushuku desu ga",
+    "meaning_en": "I apologize for interrupting your busy schedule, but...",
+    "meaning_fr": "Je m'excuse de vous déranger pendant votre période chargée, mais... (formule d'atténuation indispensable pour introduire une demande à un supérieur ou collègue occupé)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "request",
+    "example_sentences": [
+      {
+        "jp": "ご多忙のところ恐縮ですが、この設計書をご確認いただけますでしょうか。",
+        "reading": "ごたぼうのところきょうしゅくですが、このせっけいしょをごかくにんいただけますでしょうか。",
+        "en": "I apologize for interrupting your busy schedule, but could you please review this design document?",
+        "fr": "Je m'excuse de vous déranger pendant votre période chargée, mais pourriez-vous examiner ce document de conception ?"
+      }
+    ],
+    "tags": [
+      "keigo",
+      "request",
+      "consideration"
+    ]
+  },
+  {
+    "id": "keigo-055",
+    "kanji": "〜についてお伺いしたいのですが",
+    "hiragana": "〜についておうかがいしたいのですが",
+    "romaji": "~ ni tsuite o-ukagai shitai no desu ga",
+    "meaning_en": "I would like to humbly inquire about ~",
+    "meaning_fr": "Je souhaiterais humblement me renseigner sur ~ (「伺う」 est la forme humble de 「聞く/訪ねる」 — formule idéale pour poser des questions en entretien ou à un supérieur)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "request",
+    "example_sentences": [
+      {
+        "jp": "開発チームのアジャイルプロセスについてお伺いしたいのですが、よろしいでしょうか。",
+        "reading": "かいはつちーむのあじゃいるぷろせすについておうかがいしたいのですが、よろしいでしょうか。",
+        "en": "I would like to humbly inquire about the development team's agile process — would that be alright?",
+        "fr": "Je souhaiterais me renseigner sur le processus agile de l'équipe de développement — serait-ce possible ?"
+      }
+    ],
+    "tags": [
+      "keigo",
+      "request",
+      "interview",
+      "inquiry"
+    ]
+  },
+  {
+    "id": "keigo-056",
+    "katml": "以上でございます",
+    "kanji": "以上でございます",
+    "hiragana": "いじょうでございます",
+    "romaji": "Ijou de gozaimasu",
+    "meaning_en": "That is all / That concludes my report",
+    "meaning_fr": "C'est tout / Voilà pour mon compte-rendu (formule de clôture formelle pour terminer une présentation, un rapport ou un discours)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "closing",
+    "example_sentences": [
+      {
+        "jp": "今週の進捗報告は以上でございます。ご質問はありますでしょうか。",
+        "reading": "こんしゅうのしんちょくほうこくはいじょうでございます。ごしつもんはありますでしょうか。",
+        "en": "That concludes my progress report for this week. Are there any questions?",
+        "fr": "Voilà pour mon rapport d'avancement de cette semaine. Y a-t-il des questions ?"
+      }
+    ],
+    "tags": [
+      "closing",
+      "keigo",
+      "reporting",
+      "presentation"
+    ]
+  },
+  {
+    "id": "keigo-057",
+    "kanji": "ご検討のほどよろしくお願いいたします",
+    "hiragana": "ごけんとうのほどよろしくおねがいいたします",
+    "romaji": "Go-kentou no hodo yoroshiku onegai itashimasu",
+    "meaning_en": "I would appreciate your consideration",
+    "meaning_fr": "Je vous serais reconnaissant d'examiner ma candidature (formule de clôture standard pour les lettres et emails de candidature — très attendue des recruteurs japonais)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "email",
+    "example_sentences": [
+      {
+        "jp": "ご多忙のところ恐縮ですが、ご検討のほどよろしくお願いいたします。",
+        "reading": "ごたぼうのところきょうしゅくですが、ごけんとうのほどよろしくおねがいいたします。",
+        "en": "I apologize for your busy schedule, but I would appreciate your consideration.",
+        "fr": "Je m'excuse pour votre emploi du temps chargé, mais je vous serais reconnaissant d'examiner ma candidature."
+      }
+    ],
+    "tags": [
+      "email",
+      "keigo",
+      "application",
+      "closing"
+    ]
+  },
+  {
+    "id": "keigo-058",
+    "kanji": "ご連絡いただけますと幸いです",
+    "hiragana": "ごれんらくいただけますとさいわいです",
+    "romaji": "Go-renraku itadakemasu to saiwai desu",
+    "meaning_en": "I would be grateful if you could contact me",
+    "meaning_fr": "Je serais heureux que vous me contactiez (formule douce pour demander une réponse — moins directe et plus polie que de demander explicitement un retour)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "email",
+    "example_sentences": [
+      {
+        "jp": "ご都合のよい日時をご連絡いただけますと幸いです。",
+        "reading": "ごつごうのよいにちじをごれんらくいただけますとさいわいです。",
+        "en": "I would be grateful if you could let me know a date and time that works for you.",
+        "fr": "Je serais heureux que vous m'indiquiez une date et une heure qui vous conviennent."
+      }
+    ],
+    "tags": [
+      "email",
+      "keigo",
+      "scheduling"
+    ]
+  },
+  {
+    "id": "keigo-059",
+    "kanji": "取り急ぎご連絡申し上げます",
+    "hiragana": "とりいそぎごれんらくもうしあげます",
+    "romaji": "Toriisogi go-renraku moushiagemasu",
+    "meaning_en": "I am contacting you in haste (urgent but brief message)",
+    "meaning_fr": "Je vous contacte en urgence (formule pour signaler que le message est bref et urgent — s'utilise en clôture d'un email court envoyé rapidement)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "email",
+    "example_sentences": [
+      {
+        "jp": "本番環境でエラーが発生しています。取り急ぎご連絡申し上げます。詳細は後ほど報告いたします。",
+        "reading": "ほんばんかんきょうでえらーがはっせいしています。とりいそぎごれんらくもうしあげます。しょうさいはのちほどほうこくいたします。",
+        "en": "An error has occurred in the production environment. I am contacting you in haste. I will report the details later.",
+        "fr": "Une erreur s'est produite dans l'environnement de production. Je vous contacte en urgence. Je rapporterai les détails ultérieurement."
+      }
+    ],
+    "tags": [
+      "email",
+      "keigo",
+      "urgent"
+    ]
+  },
+  {
+    "id": "keigo-060",
+    "kanji": "お手数をおかけいたします",
+    "hiragana": "おてすうをおかけいたします",
+    "romaji": "O-tesuu wo okake itashimasu",
+    "meaning_en": "I am sorry to trouble you / Thank you for the trouble",
+    "meaning_fr": "Désolé de vous déranger / Merci de vous donner cette peine (formule d'atténuation très fréquente avant toute demande — reconnaît l'effort de l'autre personne)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "request",
+    "example_sentences": [
+      {
+        "jp": "お手数をおかけいたしますが、修正後のファイルをご確認いただけますでしょうか。",
+        "reading": "おてすうをおかけいたしますが、しゅうせいごのふぁいるをごかくにんいただけますでしょうか。",
+        "en": "I am sorry to trouble you, but could you please check the corrected file?",
+        "fr": "Désolé de vous déranger, mais pourriez-vous vérifier le fichier corrigé ?"
+      }
+    ],
+    "tags": [
+      "keigo",
+      "request",
+      "consideration"
+    ]
+  },
+  {
+    "id": "keigo-061",
+    "kanji": "なるほど、そういうことですね",
+    "hiragana": "なるほど、そういうことですね",
+    "romaji": "Naruhodo, sou iu koto desu ne",
+    "meaning_en": "I see, so that is how it is",
+    "meaning_fr": "Je vois, c'est donc ainsi (formule pour montrer que l'on a compris — montrer sa compréhension activement est attendu en contexte professionnel japonais)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "meeting",
+    "example_sentences": [
+      {
+        "jp": "なるほど、そういうことですね。つまり、ブートローダーはフラッシュの先頭アドレスから起動するわけですね。",
+        "reading": "なるほど、そういうことですね。つまり、ぶーとろーだーはふらっしゅのせんとうあどれすからきどうするわけですね。",
+        "en": "I see, so that is how it is. So the bootloader starts from the beginning address of flash memory.",
+        "fr": "Je vois, c'est donc ainsi. Donc le bootloader démarre depuis l'adresse de début de la mémoire flash."
+      }
+    ],
+    "tags": [
+      "meeting",
+      "comprehension",
+      "technical"
+    ]
+  },
+  {
+    "id": "keigo-062",
+    "kanji": "ご意見をお聞かせください",
+    "hiragana": "ごいけんをおきかせください",
+    "romaji": "Go-iken wo o-kikase kudasai",
+    "meaning_en": "Please share your opinion / I would like to hear your thoughts",
+    "meaning_fr": "Veuillez partager votre avis (formule respectueuse pour inviter un supérieur à donner son opinion — montre l'ouverture et le respect de la hiérarchie)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "meeting",
+    "example_sentences": [
+      {
+        "jp": "このアーキテクチャ案についてご意見をお聞かせください。",
+        "reading": "このあーきてくちゃあんについてごいけんをおきかせください。",
+        "en": "Please share your opinion on this architecture proposal.",
+        "fr": "Veuillez partager votre avis sur cette proposition d'architecture."
+      }
+    ],
+    "tags": [
+      "meeting",
+      "keigo",
+      "feedback"
+    ]
+  },
+  {
+    "id": "keigo-063",
+    "kanji": "おっしゃる通りです",
+    "hiragana": "おっしゃるとおりです",
+    "romaji": "Ossharu toori desu",
+    "meaning_en": "You are exactly right / As you say",
+    "meaning_fr": "Vous avez tout à fait raison / Comme vous le dites (formule pour approuver l'opinion d'un supérieur — montrer l'accord de façon respectueuse est important dans la culture de travail japonaise)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "meeting",
+    "example_sentences": [
+      {
+        "jp": "おっしゃる通りです。メモリ効率を優先すべきですね。",
+        "reading": "おっしゃるとおりです。めもりこうりつをゆうせんすべきですね。",
+        "en": "You are exactly right. We should prioritize memory efficiency.",
+        "fr": "Vous avez tout à fait raison. Nous devrions prioriser l'efficacité mémoire."
+      }
+    ],
+    "tags": [
+      "meeting",
+      "keigo",
+      "agreement"
+    ]
+  },
+  {
+    "id": "keigo-064",
+    "kanji": "〜はいかがでしょうか",
+    "hiragana": "〜はいかがでしょうか",
+    "romaji": "~ wa ikaga deshoo ka",
+    "meaning_en": "How about ~ / What do you think of ~? (polite suggestion)",
+    "meaning_fr": "Que pensez-vous de ~ / Et si ~ ? (formule polie pour faire une suggestion sans imposer — l'indirect est préférable à la proposition directe en japonais professionnel)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "meeting",
+    "example_sentences": [
+      {
+        "jp": "ログ出力をデバッグビルドに限定するのはいかがでしょうか。",
+        "reading": "ろぐしゅつりょくをでばっぐびるどにげんていするのはいかがでしょうか。",
+        "en": "How about limiting log output to debug builds?",
+        "fr": "Que diriez-vous de limiter la sortie des logs aux builds de débogage ?"
+      }
+    ],
+    "tags": [
+      "meeting",
+      "keigo",
+      "suggestion"
+    ]
+  },
+  {
+    "id": "keigo-065",
+    "kanji": "ご不明な点がございましたら",
+    "hiragana": "ごふめいなてんがございましたら",
+    "romaji": "Go-fumei na ten ga gozaimashitara",
+    "meaning_en": "If there is anything unclear / If you have any questions",
+    "meaning_fr": "Si quelque chose n'est pas clair / Si vous avez des questions (formule standard pour inviter les questions en fin de présentation ou d'email)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "closing",
+    "example_sentences": [
+      {
+        "jp": "ご不明な点がございましたら、いつでもお気軽にご連絡ください。",
+        "reading": "ごふめいなてんがございましたら、いつでもおきがるにごれんらくください。",
+        "en": "If there is anything unclear, please feel free to contact me at any time.",
+        "fr": "Si quelque chose n'est pas clair, n'hésitez pas à me contacter à tout moment."
+      }
+    ],
+    "tags": [
+      "closing",
+      "keigo",
+      "invitation"
+    ]
+  },
+  {
+    "id": "keigo-066",
+    "kanji": "ご確認のほどよろしくお願いいたします",
+    "hiragana": "ごかくにんのほどよろしくおねがいいたします",
+    "romaji": "Go-kakunin no hodo yoroshiku onegai itashimasu",
+    "meaning_en": "I kindly ask for your review / confirmation",
+    "meaning_fr": "Je vous demande aimablement de bien vouloir vérifier (formule de clôture pour les emails accompagnant un livrable — très utilisée pour soumettre du code ou des documents)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "email",
+    "example_sentences": [
+      {
+        "jp": "テスト結果レポートを添付いたしました。ご確認のほどよろしくお願いいたします。",
+        "reading": "てすとけっかれぽーとをてんぷいたしました。ごかくにんのほどよろしくおねがいいたします。",
+        "en": "I have attached the test results report. I kindly ask for your review.",
+        "fr": "J'ai joint le rapport de résultats de tests. Je vous demande aimablement de bien vouloir le vérifier."
+      }
+    ],
+    "tags": [
+      "email",
+      "keigo",
+      "closing",
+      "documents"
+    ]
+  },
+  {
+    "id": "keigo-067",
+    "kanji": "〜という理解でよろしいですか",
+    "hiragana": "〜というりかいでよろしいですか",
+    "romaji": "~ to iu rikai de yoroshii desu ka",
+    "meaning_en": "Is my understanding that ~ correct?",
+    "meaning_fr": "Est-ce que ma compréhension que ~ est correcte ? (formule pour reformuler et valider sa compréhension — indispensable pour éviter les erreurs de spécification)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "meeting",
+    "example_sentences": [
+      {
+        "jp": "割り込み優先度は0が最高という理解でよろしいですか？",
+        "reading": "わりこみゆうせんどはぜろがさいこうというりかいでよろしいですか？",
+        "en": "Is my understanding correct that interrupt priority 0 is the highest?",
+        "fr": "Est-ce que ma compréhension est correcte : la priorité d'interruption 0 est la plus haute ?"
+      }
+    ],
+    "tags": [
+      "meeting",
+      "confirmation",
+      "technical"
+    ]
+  },
+  {
+    "id": "keigo-068",
+    "kanji": "お時間をいただけますでしょうか",
+    "hiragana": "おじかんをいただけますでしょうか",
+    "romaji": "O-jikan wo itadakemasu deshoo ka",
+    "meaning_en": "Could I have some of your time?",
+    "meaning_fr": "Puis-je vous prendre un peu de votre temps ? (formule pour demander un rendez-vous ou une consultation à un supérieur — doublement polie car utilise 「いただく」 et 「でしょうか」)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "request",
+    "example_sentences": [
+      {
+        "jp": "設計の方向性について相談したいのですが、15分ほどお時間をいただけますでしょうか。",
+        "reading": "せっけいのほうこうせいについてそうだんしたいのですが、じゅうごふんほどおじかんをいただけますでしょうか。",
+        "en": "I would like to discuss the design direction — could I have about 15 minutes of your time?",
+        "fr": "Je souhaiterais discuter de la direction de la conception — puis-je vous prendre environ 15 minutes ?"
+      }
+    ],
+    "tags": [
+      "keigo",
+      "request",
+      "scheduling"
+    ]
+  },
+  {
+    "id": "keigo-069",
+    "kanji": "早速ですが",
+    "hiragana": "さっそくですが",
+    "romaji": "Sassoku desu ga",
+    "meaning_en": "Without further ado / Getting straight to the point",
+    "meaning_fr": "Sans plus tarder / Pour en venir au fait (transition pour aborder le sujet principal d'un email ou d'une réunion sans trop de détours)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "email",
+    "example_sentences": [
+      {
+        "jp": "お世話になっております。早速ですが、先日の設計レビューに関してご連絡いたします。",
+        "reading": "おせわになっております。さっそくですが、せんじつのせっけいれびゅーにかんしてごれんらくいたします。",
+        "en": "Thank you for your continued support. Without further ado, I am contacting you regarding the design review the other day.",
+        "fr": "Merci pour votre soutien continu. Sans plus tarder, je vous contacte concernant la revue de conception de l'autre jour."
+      }
+    ],
+    "tags": [
+      "email",
+      "transition",
+      "opening"
+    ]
+  },
+  {
+    "id": "keigo-070",
+    "kanji": "ご査収ください",
+    "hiragana": "ごさしゅうください",
+    "romaji": "Go-sashuu kudasai",
+    "meaning_en": "Please receive and examine the attached materials",
+    "meaning_fr": "Veuillez recevoir et examiner les documents joints (formule formelle spécifique aux emails avec pièces jointes — indique que le destinataire doit vérifier le contenu)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "email",
+    "example_sentences": [
+      {
+        "jp": "修正済みの仕様書を添付いたします。ご査収ください。",
+        "reading": "しゅうせいずみのしようしょをてんぷいたします。ごさしゅうください。",
+        "en": "I am attaching the revised specification document. Please receive and examine it.",
+        "fr": "Je joins le document de spécification révisé. Veuillez le recevoir et l'examiner."
+      }
+    ],
+    "tags": [
+      "email",
+      "keigo",
+      "documents",
+      "formal"
+    ]
+  },
+  {
+    "id": "keigo-071",
+    "kanji": "失礼いたしました",
+    "hiragana": "しつれいいたしました",
+    "romaji": "Shitsurei itashimashita",
+    "meaning_en": "I apologize for my rudeness / Excuse me (past formal)",
+    "meaning_fr": "Je vous prie de m'excuser (formule d'excuse formelle — plus soutenue que 「すみませんでした」, utilisée après une erreur professionnelle)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "workplace",
+    "example_sentences": [
+      {
+        "jp": "返信が遅くなり、失礼いたしました。",
+        "reading": "へんしんがおそくなり、しつれいいたしました。",
+        "en": "I apologize for the delay in my reply.",
+        "fr": "Je vous prie de m'excuser pour le retard dans ma réponse."
+      }
+    ],
+    "tags": [
+      "keigo",
+      "apology",
+      "email"
+    ]
+  },
+  {
+    "id": "keigo-072",
+    "kanji": "ご迷惑をおかけしました",
+    "hiragana": "ごめいわくをおかけしました",
+    "romaji": "Go-meiwaku wo o-kake shimashita",
+    "meaning_en": "I am sorry for the trouble I caused you",
+    "meaning_fr": "Je suis désolé(e) pour le désagrément causé (s'utilise après avoir causé un problème à un collègue ou client)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "workplace",
+    "example_sentences": [
+      {
+        "jp": "バグにより多大なご迷惑をおかけしました。",
+        "reading": "ばぐによりただいなごめいわくをおかけしました。",
+        "en": "I am very sorry for the trouble caused by the bug.",
+        "fr": "Je suis sincèrement désolé pour le désagrément causé par le bug."
+      }
+    ],
+    "tags": [
+      "keigo",
+      "apology",
+      "professional"
+    ]
+  },
+  {
+    "id": "keigo-073",
+    "kanji": "おかげさまで",
+    "hiragana": "おかげさまで",
+    "romaji": "O-kage sama de",
+    "meaning_en": "Thanks to you / Fortunately (humble gratitude expression)",
+    "meaning_fr": "Grâce à vous / Heureusement (expression de gratitude humble — répond à 「お元気ですか」 ou toute marque d'attention)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "workplace",
+    "example_sentences": [
+      {
+        "jp": "おかげさまで、プロジェクトは順調に進んでいます。",
+        "reading": "おかげさまで、ぷろじぇくとはじゅんちょうにすすんでいます。",
+        "en": "Thanks to your support, the project is progressing smoothly.",
+        "fr": "Grâce à votre soutien, le projet avance bien."
+      }
+    ],
+    "tags": [
+      "keigo",
+      "gratitude",
+      "social"
+    ]
+  },
+  {
+    "id": "keigo-074",
+    "kanji": "ご多忙のところ恐れ入りますが",
+    "hiragana": "ごたぼうのところおそれいりますが",
+    "romaji": "Go-taboo no tokoro osoreirimasu ga",
+    "meaning_en": "I apologize for bothering you when you are busy, but...",
+    "meaning_fr": "Je m'excuse de vous déranger alors que vous êtes occupé, mais... (précède une demande à un supérieur — formule très courtoise)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "email",
+    "example_sentences": [
+      {
+        "jp": "ご多忙のところ恐れ入りますが、ご確認いただけますでしょうか。",
+        "reading": "ごたぼうのところおそれいりますが、ごかくにんいただけますでしょうか。",
+        "en": "I apologize for bothering you when you are busy, but could you please confirm?",
+        "fr": "Je m'excuse de vous déranger alors que vous êtes occupé, mais pourriez-vous confirmer ?"
+      }
+    ],
+    "tags": [
+      "keigo",
+      "email",
+      "request",
+      "formal"
+    ]
+  },
+  {
+    "id": "keigo-075",
+    "kanji": "取り急ぎご連絡いたします",
+    "hiragana": "とりいそぎごれんらくいたします",
+    "romaji": "Toriisogi go-renraku itashimasu",
+    "meaning_en": "I am contacting you in haste (email closing for urgent messages)",
+    "meaning_fr": "Je vous contacte en urgence (formule de clôture d'email pour les messages urgents — indique qu'on écrira plus en détail ensuite)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "email",
+    "example_sentences": [
+      {
+        "jp": "詳細は後ほどお送りします。取り急ぎご連絡いたします。",
+        "reading": "しょうさいはのちほどおおくりします。とりいそぎごれんらくいたします。",
+        "en": "I will send the details later. I am contacting you in haste for now.",
+        "fr": "Je vous enverrai les détails plus tard. Je vous contacte rapidement pour l'instant."
+      }
+    ],
+    "tags": [
+      "keigo",
+      "email",
+      "closing",
+      "urgent"
+    ]
+  },
+  {
+    "id": "keigo-076",
+    "kanji": "以上、よろしくお願いいたします",
+    "hiragana": "いじょう、よろしくおねがいいたします",
+    "romaji": "Ijoo, yoroshiku onegai itashimasu",
+    "meaning_en": "That is all, thank you for your cooperation (email/meeting closing)",
+    "meaning_fr": "C'est tout, merci de votre coopération (clôture standard d'email ou de présentation en réunion)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "closing",
+    "example_sentences": [
+      {
+        "jp": "設計レビューの依頼は以上です。以上、よろしくお願いいたします。",
+        "reading": "せっけいれびゅーのいらいはいじょうです。いじょう、よろしくおねがいいたします。",
+        "en": "That concludes the design review request. That is all, thank you for your cooperation.",
+        "fr": "C'est tout pour la demande de revue de conception. C'est tout, merci de votre coopération."
+      }
+    ],
+    "tags": [
+      "email",
+      "closing",
+      "meeting",
+      "keigo"
+    ]
+  },
+  {
+    "id": "keigo-077",
+    "kanji": "ご不明な点がございましたら",
+    "hiragana": "ごふめいなてんがございましたら",
+    "romaji": "Go-fumei na ten ga gozaimashitara",
+    "meaning_en": "If you have any unclear points / If you have any questions",
+    "meaning_fr": "Si vous avez des points peu clairs / Si vous avez des questions (formule d'email pour inviter à poser des questions)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "email",
+    "example_sentences": [
+      {
+        "jp": "ご不明な点がございましたら、お気軽にご連絡ください。",
+        "reading": "ごふめいなてんがございましたら、おきがるにごれんらくください。",
+        "en": "If you have any questions, please feel free to contact us.",
+        "fr": "Si vous avez des questions, n'hésitez pas à nous contacter."
+      }
+    ],
+    "tags": [
+      "email",
+      "keigo",
+      "closing"
+    ]
+  },
+  {
+    "id": "keigo-078",
+    "kanji": "添付のとおりです",
+    "hiragana": "てんぷのとおりです",
+    "romaji": "Tenpu no toori desu",
+    "meaning_en": "As attached / Please see the attachment",
+    "meaning_fr": "Comme joint en pièce jointe (formule pour référencer les pièces jointes dans un email)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "email",
+    "example_sentences": [
+      {
+        "jp": "設計書は添付のとおりです。ご確認ください。",
+        "reading": "せっけいしょはてんぷのとおりです。ごかくにんください。",
+        "en": "The design document is as attached. Please check it.",
+        "fr": "Le document de conception est en pièce jointe. Veuillez le vérifier."
+      }
+    ],
+    "tags": [
+      "email",
+      "documents",
+      "keigo"
+    ]
+  },
+  {
+    "id": "keigo-079",
+    "kanji": "ご指摘ありがとうございます",
+    "hiragana": "ごしてきありがとうございます",
+    "romaji": "Go-shiteki arigatoo gozaimasu",
+    "meaning_en": "Thank you for pointing that out",
+    "meaning_fr": "Merci de me l'avoir signalé (réponse à une correction ou critique constructive — clé dans les revues de code au Japon)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "workplace",
+    "example_sentences": [
+      {
+        "jp": "コードレビューでのご指摘ありがとうございます。修正いたします。",
+        "reading": "こーどれびゅーでのごしてきありがとうございます。しゅうせいいたします。",
+        "en": "Thank you for pointing that out in the code review. I will fix it.",
+        "fr": "Merci de me l'avoir signalé lors de la revue de code. Je vais le corriger."
+      }
+    ],
+    "tags": [
+      "keigo",
+      "code-review",
+      "gratitude"
+    ]
+  },
+  {
+    "id": "keigo-080",
+    "kanji": "修正いたします",
+    "hiragana": "しゅうせいいたします",
+    "romaji": "Shuusei itashimasu",
+    "meaning_en": "I will fix / correct it (humble)",
+    "meaning_fr": "Je vais corriger cela (forme humble — utilisée après qu'on a signalé une erreur dans votre travail)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "workplace",
+    "example_sentences": [
+      {
+        "jp": "ご指摘の通り、バグを修正いたします。",
+        "reading": "ごしてきのとおり、ばぐをしゅうせいいたします。",
+        "en": "As you pointed out, I will fix the bug.",
+        "fr": "Comme vous l'avez indiqué, je vais corriger le bug."
+      }
+    ],
+    "tags": [
+      "keigo",
+      "correction",
+      "work"
+    ]
+  },
+  {
+    "id": "keigo-081",
+    "kanji": "確認いたしました",
+    "hiragana": "かくにんいたしました",
+    "romaji": "Kakunin itashimashita",
+    "meaning_en": "I have confirmed / I have checked (humble past)",
+    "meaning_fr": "J'ai vérifié (passé humble — acquittement standard pour signifier qu'on a bien lu/reçu quelque chose)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "workplace",
+    "example_sentences": [
+      {
+        "jp": "仕様書を確認いたしました。問題ございません。",
+        "reading": "しようしょをかくにんいたしました。もんだいございません。",
+        "en": "I have confirmed the specification. There are no issues.",
+        "fr": "J'ai vérifié la spécification. Il n'y a pas de problème."
+      }
+    ],
+    "tags": [
+      "keigo",
+      "acknowledgement",
+      "email"
+    ]
+  },
+  {
+    "id": "keigo-082",
+    "kanji": "検討いたします",
+    "hiragana": "けんとういたします",
+    "romaji": "Kentoo itashimasu",
+    "meaning_en": "I will consider it / I will look into it (humble)",
+    "meaning_fr": "Je vais y réfléchir / Je vais étudier la question (réponse diplomatique qui ne s'engage pas mais montre de bonne volonté)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "meeting",
+    "example_sentences": [
+      {
+        "jp": "そのご提案については社内で検討いたします。",
+        "reading": "そのごていあんについてはしゃないでけんとういたします。",
+        "en": "We will consider your proposal internally.",
+        "fr": "Nous allons étudier votre proposition en interne."
+      }
+    ],
+    "tags": [
+      "keigo",
+      "meeting",
+      "response"
+    ]
+  },
+  {
+    "id": "keigo-083",
+    "kanji": "対応いたします",
+    "hiragana": "たいおういたします",
+    "romaji": "Taioo itashimasu",
+    "meaning_en": "I will handle it / I will address it (humble)",
+    "meaning_fr": "Je vais m'en occuper / Je vais traiter cela (engagement d'action — très courant dans les emails de suivi)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "workplace",
+    "example_sentences": [
+      {
+        "jp": "ご報告いただいた不具合については、早急に対応いたします。",
+        "reading": "ごほうこくいただいたふぐあいについては、そうきゅうにたいおういたします。",
+        "en": "We will address the reported defect as soon as possible.",
+        "fr": "Nous allons traiter le défaut signalé dans les plus brefs délais."
+      }
+    ],
+    "tags": [
+      "keigo",
+      "action",
+      "email"
+    ]
+  },
+  {
+    "id": "keigo-084",
+    "kanji": "ご連絡お待ちしております",
+    "hiragana": "ごれんらくおまちしております",
+    "romaji": "Go-renraku o-machi shite orimasu",
+    "meaning_en": "I look forward to hearing from you (humble waiting expression)",
+    "meaning_fr": "J'attends votre réponse avec impatience (formule d'attente courtoise — clôture d'email quand on attend une réponse ou une décision)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "email",
+    "example_sentences": [
+      {
+        "jp": "ご都合のよい日程をお知らせください。ご連絡お待ちしております。",
+        "reading": "ごつごうのよいにってをおしらせください。ごれんらくおまちしております。",
+        "en": "Please let me know your available dates. I look forward to hearing from you.",
+        "fr": "Veuillez me faire savoir vos disponibilités. J'attends votre réponse."
+      }
+    ],
+    "tags": [
+      "keigo",
+      "email",
+      "closing"
+    ]
+  },
+  {
+    "id": "keigo-085",
+    "kanji": "何卒よろしくお願いいたします",
+    "hiragana": "なにとぞよろしくおねがいいたします",
+    "romaji": "Nanitozo yoroshiku onegai itashimasu",
+    "meaning_en": "I sincerely ask for your cooperation (most formal request closing)",
+    "meaning_fr": "Je vous sollicite sincèrement (formule la plus formelle de clôture — réservée aux demandes importantes ou aux premiers contacts)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "email",
+    "example_sentences": [
+      {
+        "jp": "ご多忙の中、誠に恐縮ではございますが、何卒よろしくお願いいたします。",
+        "reading": "ごたぼうのなか、まことにきょうしゅくではございますが、なにとぞよろしくおねがいいたします。",
+        "en": "I know you are very busy, and I am truly sorry to impose, but I sincerely ask for your cooperation.",
+        "fr": "Je sais que vous êtes très occupé, et je suis sincèrement désolé de vous déranger, mais je vous sollicite vraiment."
+      }
+    ],
+    "tags": [
+      "keigo",
+      "formal",
+      "email",
+      "closing"
+    ]
+  },
+  {
+    "id": "keigo-086",
+    "kanji": "よろしければ",
+    "hiragana": "よろしければ",
+    "romaji": "Yoroshikereba",
+    "meaning_en": "If it is alright with you / If you don't mind",
+    "meaning_fr": "Si cela vous convient / Si vous le souhaitez (formule pour proposer ou demander poliment sans imposer)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "request",
+    "example_sentences": [
+      {
+        "jp": "よろしければ、明日の朝に打ち合わせをお願いできますか？",
+        "reading": "よろしければ、あしたのあさにうちあわせをおねがいできますか？",
+        "en": "If it is alright with you, could we have a meeting tomorrow morning?",
+        "fr": "Si cela vous convient, pourrait-on se réunir demain matin ?"
+      }
+    ],
+    "tags": [
+      "keigo",
+      "request",
+      "meeting"
+    ]
+  },
+  {
+    "id": "keigo-087",
+    "kanji": "ご存知でしょうか",
+    "hiragana": "ごぞんじでしょうか",
+    "romaji": "Go-zonji deshoo ka",
+    "meaning_en": "Do you perhaps know? / Are you aware of...? (respectful inquiry)",
+    "meaning_fr": "Sauriez-vous par hasard ? (question respectueuse — élève le savoir de l'interlocuteur)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "meeting",
+    "example_sentences": [
+      {
+        "jp": "このCANフレームの仕様についてご存知でしょうか？",
+        "reading": "このCANふれーむのしようについてごぞんじでしょうか？",
+        "en": "Are you perhaps aware of the specification for this CAN frame?",
+        "fr": "Sauriez-vous par hasard quelle est la spécification de cette trame CAN ?"
+      }
+    ],
+    "tags": [
+      "keigo",
+      "inquiry",
+      "meeting"
+    ]
+  },
+  {
+    "id": "keigo-088",
+    "kanji": "お手数ですが",
+    "hiragana": "おてすうですが",
+    "romaji": "O-tesuu desu ga",
+    "meaning_en": "Sorry to trouble you, but... (request softener)",
+    "meaning_fr": "Désolé de vous déranger, mais... (adoucisseur de demande — précède une requête pour la rendre moins directe)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "request",
+    "example_sentences": [
+      {
+        "jp": "お手数ですが、こちらの書類にご署名いただけますか？",
+        "reading": "おてすうですが、こちらのしょるいにごしょめいいただけますか？",
+        "en": "Sorry to trouble you, but could you please sign these documents?",
+        "fr": "Désolé de vous déranger, mais pourriez-vous signer ces documents ?"
+      }
+    ],
+    "tags": [
+      "keigo",
+      "request",
+      "polite"
+    ]
+  },
+  {
+    "id": "keigo-089",
+    "kanji": "恐縮ですが",
+    "hiragana": "きょうしゅくですが",
+    "romaji": "Kyooshuku desu ga",
+    "meaning_en": "I am sorry to impose / I feel bad asking, but...",
+    "meaning_fr": "Je suis gêné de vous demander cela, mais... (plus fort que 「お手数ですが」 — exprime une humilité profonde avant une demande importante)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "request",
+    "example_sentences": [
+      {
+        "jp": "恐縮ですが、期限を1週間延ばしていただけませんでしょうか。",
+        "reading": "きょうしゅくですが、きげんを1しゅうかんのばしていただけませんでしょうか。",
+        "en": "I feel bad asking, but could you extend the deadline by one week?",
+        "fr": "Je suis gêné de vous demander cela, mais pourriez-vous prolonger la date limite d'une semaine ?"
+      }
+    ],
+    "tags": [
+      "keigo",
+      "request",
+      "formal"
+    ]
+  },
+  {
+    "id": "keigo-090",
+    "kanji": "ご提案させていただきます",
+    "hiragana": "ごていあんさせていただきます",
+    "romaji": "Go-teian sasete itadakimasu",
+    "meaning_en": "Allow me to make a suggestion (humble proposal)",
+    "meaning_fr": "Permettez-moi de faire une proposition (formule humble pour soumettre une idée — montre le respect de la hiérarchie)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "meeting",
+    "example_sentences": [
+      {
+        "jp": "アーキテクチャについてご提案させていただきます。",
+        "reading": "あーきてくちゃについてごていあんさせていただきます。",
+        "en": "Allow me to make a suggestion regarding the architecture.",
+        "fr": "Permettez-moi de faire une proposition concernant l'architecture."
+      }
+    ],
+    "tags": [
+      "keigo",
+      "proposal",
+      "meeting"
+    ]
+  },
+  {
+    "id": "keigo-091",
+    "kanji": "おっしゃる通りです",
+    "hiragana": "おっしゃるとおりです",
+    "romaji": "Ossharu toori desu",
+    "meaning_en": "You are absolutely right (respectful agreement)",
+    "meaning_fr": "Vous avez tout à fait raison (accord respectueux — élève la parole de l'interlocuteur avec 「おっしゃる」 forme honorifique de 言う)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "meeting",
+    "example_sentences": [
+      {
+        "jp": "おっしゃる通りです。設計を見直す必要があります。",
+        "reading": "おっしゃるとおりです。せっけいをみなおすひつようがあります。",
+        "en": "You are absolutely right. We need to review the design.",
+        "fr": "Vous avez tout à fait raison. Nous devons revoir la conception."
+      }
+    ],
+    "tags": [
+      "keigo",
+      "agreement",
+      "meeting"
+    ]
+  },
+  {
+    "id": "keigo-092",
+    "kanji": "努力いたします",
+    "hiragana": "どりょくいたします",
+    "romaji": "Doryoku itashimasu",
+    "meaning_en": "I will do my best / I will make efforts (humble)",
+    "meaning_fr": "Je ferai de mon mieux (humble) — réponse à un objectif ou une demande difficile sans garantie absolue",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "interview",
+    "example_sentences": [
+      {
+        "jp": "日本語能力を高めるため、日々努力いたします。",
+        "reading": "にほんごのうりょくをたかめるため、ひびどりょくいたします。",
+        "en": "I will make daily efforts to improve my Japanese language ability.",
+        "fr": "Je ferai des efforts quotidiens pour améliorer mes compétences en japonais."
+      }
+    ],
+    "tags": [
+      "keigo",
+      "interview",
+      "commitment"
+    ]
+  },
+  {
+    "id": "keigo-093",
+    "kanji": "精一杯取り組みます",
+    "hiragana": "せいいっぱいとりくみます",
+    "romaji": "Sei-ippai torikumimasu",
+    "meaning_en": "I will tackle it with all my effort",
+    "meaning_fr": "Je vais m'y consacrer pleinement (exprime une détermination sincère — plus fort que 「努力します」, très apprécié en entretien)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "interview",
+    "example_sentences": [
+      {
+        "jp": "チームに貢献できるよう、精一杯取り組みます。",
+        "reading": "ちーむにこうけんできるよう、せいいっぱいとりくみます。",
+        "en": "I will tackle my work with full effort to contribute to the team.",
+        "fr": "Je vais m'y consacrer pleinement pour contribuer à l'équipe."
+      }
+    ],
+    "tags": [
+      "keigo",
+      "interview",
+      "motivation"
+    ]
+  },
+  {
+    "id": "keigo-094",
+    "kanji": "貢献したいと思います",
+    "hiragana": "こうけんしたいとおもいます",
+    "romaji": "Koooken shitai to omoimasu",
+    "meaning_en": "I would like to contribute",
+    "meaning_fr": "Je souhaite contribuer (formule d'intention pour l'entretien — témoigne de la motivation sans paraître arrogant)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "interview",
+    "example_sentences": [
+      {
+        "jp": "自分の組み込み経験を活かして御社に貢献したいと思います。",
+        "reading": "じぶんのくみこみけいけんをいかしておんしゃにこうけんしたいとおもいます。",
+        "en": "I would like to contribute to your company using my embedded experience.",
+        "fr": "Je souhaite contribuer à votre entreprise en mettant à profit mon expérience embarquée."
+      }
+    ],
+    "tags": [
+      "keigo",
+      "interview",
+      "motivation"
+    ]
+  },
+  {
+    "id": "keigo-095",
+    "kanji": "御社を志望いたしました",
+    "hiragana": "おんしゃをしぼういたしました",
+    "romaji": "Onsha wo shiboo itashimashita",
+    "meaning_en": "I applied to your company (humble, used in interviews)",
+    "meaning_fr": "J'ai postulé dans votre entreprise (humble — 「御社」 est la forme respectueuse orale de 「貴社」 écrite)",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "interview",
+    "example_sentences": [
+      {
+        "jp": "車載ソフトウェアの最前線で働きたく、御社を志望いたしました。",
+        "reading": "しゃさいそふとうぇあのさいぜんせんではたらきたく、おんしゃをしぼういたしました。",
+        "en": "I applied to your company because I want to work at the forefront of automotive software.",
+        "fr": "J'ai postulé dans votre entreprise car je souhaite travailler à la pointe du logiciel automobile."
+      }
+    ],
+    "tags": [
+      "keigo",
+      "interview",
+      "motivation"
+    ]
+  },
+  {
+    "id": "keigo-096",
+    "kanji": "よろしいでしょうか",
+    "hiragana": "よろしいでしょうか",
+    "romaji": "Yoroshii deshoo ka",
+    "meaning_en": "Is that alright? / May I? (polite confirmation)",
+    "meaning_fr": "Est-ce que cela convient ? / Puis-je ? (confirmation polie — cherche l'approbation de l'interlocuteur)",
+    "audio_url": null,
+    "jlpt_level": "N3",
+    "domain": "business",
+    "subdomain": "meeting",
+    "example_sentences": [
+      {
+        "jp": "それでは始めてよろしいでしょうか。",
+        "reading": "それでははじめてよろしいでしょうか。",
+        "en": "Shall we begin then, if that is alright?",
+        "fr": "Pouvons-nous commencer alors, si cela vous convient ?"
+      }
+    ],
+    "tags": [
+      "keigo",
+      "meeting",
+      "confirmation"
+    ]
+  },
+  {
+    "id": "keigo-097",
+    "kanji": "いたします vs します",
+    "hiragana": "いたします vs します",
+    "romaji": "Itashimasu vs shimasu",
+    "meaning_en": "Humble form (itashimasu) vs polite form (shimasu) of 'to do'",
+    "meaning_fr": "Forme humble (いたします) vs forme polie (します) du verbe 'faire' — いたします abaisse le sujet, utile avec supérieurs ou clients",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "keigo-forms",
+    "example_sentences": [
+      {
+        "jp": "報告します（同僚へ）→ 報告いたします（上司・客先へ）",
+        "reading": "ほうこくします（どうりょうへ）→ ほうこくいたします（じょうし・きゃくさきへ）",
+        "en": "Report (to colleague) → Humbly report (to superior/client)",
+        "fr": "Rapporter (à un collègue) → Rapporter humblement (à un supérieur/client)"
+      }
+    ],
+    "tags": [
+      "keigo-forms",
+      "grammar",
+      "humble"
+    ]
+  },
+  {
+    "id": "keigo-098",
+    "kanji": "おります vs います",
+    "hiragana": "おります vs います",
+    "romaji": "Orimasu vs imasu",
+    "meaning_en": "Humble form (orimasu) vs polite form (imasu) of 'to be'",
+    "meaning_fr": "Forme humble (おります) vs forme polie (います) du verbe 'être' — おります pour soi-même dans un contexte formel",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "keigo-forms",
+    "example_sentences": [
+      {
+        "jp": "今、開発部におります。少々お待ちください。",
+        "reading": "いま、かいはつぶにおります。しょうしょうおまちください。",
+        "en": "I am currently in the development department. Please wait a moment.",
+        "fr": "Je suis actuellement dans le département de développement. Veuillez patienter un moment."
+      }
+    ],
+    "tags": [
+      "keigo-forms",
+      "grammar",
+      "humble"
+    ]
+  },
+  {
+    "id": "keigo-099",
+    "kanji": "参ります vs 行きます",
+    "hiragana": "まいります vs いきます",
+    "romaji": "Mairimasu vs ikimasu",
+    "meaning_en": "Humble form (mairimasu) vs polite form (ikimasu) of 'to go'",
+    "meaning_fr": "Forme humble (参ります) vs forme polie (行きます) de 'aller' — 参ります pour ses propres déplacements en contexte formel",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "keigo-forms",
+    "example_sentences": [
+      {
+        "jp": "明日、お客様のオフィスに参ります。",
+        "reading": "あした、おきゃくさまのおふぃすにまいります。",
+        "en": "I will go to the client's office tomorrow.",
+        "fr": "Je me rendrai au bureau du client demain."
+      }
+    ],
+    "tags": [
+      "keigo-forms",
+      "grammar",
+      "humble"
+    ]
+  },
+  {
+    "id": "keigo-100",
+    "kanji": "ただいま確認中でございます",
+    "hiragana": "ただいまかくにんちゅうでございます",
+    "romaji": "Tadaima kakunin-chuu de gozaimasu",
+    "meaning_en": "I am currently confirming / I am looking into it right now (most formal progressive)",
+    "meaning_fr": "Je suis en train de vérifier (en ce moment) — forme la plus formelle du progressif, idéale pour répondre à un client pendant qu'on recherche une information",
+    "audio_url": null,
+    "jlpt_level": "N2",
+    "domain": "business",
+    "subdomain": "workplace",
+    "example_sentences": [
+      {
+        "jp": "その件につきましては、ただいま確認中でございます。少々お待ちください。",
+        "reading": "そのけんにつきましては、ただいまかくにんちゅうでございます。しょうしょうおまちください。",
+        "en": "Regarding that matter, I am currently looking into it. Please wait a moment.",
+        "fr": "Concernant cette question, je suis en train de vérifier. Veuillez patienter un moment."
+      }
+    ],
+    "tags": [
+      "keigo",
+      "formal",
+      "customer",
+      "response"
+    ]
+  }
+]
