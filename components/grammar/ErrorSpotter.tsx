@@ -1,25 +1,29 @@
 'use client';
-import { useState, useRef, useEffect } from 'react';
+import { useState, useEffect } from 'react';
+import { Keyboard } from 'lucide-react';
 import { validateAnswer } from '@/lib/grammar-srs';
+import { useJapaneseInput } from '@/hooks/useJapaneseInput';
+import JapaneseKeyboard from './JapaneseKeyboard';
+import GrammarFurigana from './GrammarFurigana';
 import type { GrammarExercise, ErrorSpotterQuestion } from '@/lib/grammar-types';
 import type { Locale } from '@/lib/types';
 
-interface ErrorSpotterProps {
+interface Props {
   exercise: GrammarExercise;
   locale: Locale;
   onAnswer: (answer: string, isCorrect: boolean, attempts: number, usedHint: boolean) => void;
 }
 
-export default function ErrorSpotter({ exercise, locale, onAnswer }: ErrorSpotterProps) {
+export default function ErrorSpotter({ exercise, locale, onAnswer }: Props) {
   const question = exercise.question as ErrorSpotterQuestion;
+  const { value: correction, setValue: setCorrection, inputRef, keyboardVisible, toggleKeyboard, insertChar, deleteChar } = useJapaneseInput();
+
   const [errorSelected, setErrorSelected] = useState(false);
-  const [correction, setCorrection] = useState('');
   const [attempts, setAttempts] = useState(0);
   const [usedHint, setUsedHint] = useState(false);
   const [shownHintIndex, setShownHintIndex] = useState(-1);
-  const inputRef = useRef<HTMLInputElement>(null);
 
-  // Split sentence around error segment for tap highlighting
+  // Split sentence around the error segment
   const errorIdx = question.sentence.indexOf(question.error_segment);
   const before = errorIdx >= 0 ? question.sentence.slice(0, errorIdx) : question.sentence;
   const errorPart = errorIdx >= 0 ? question.error_segment : '';
@@ -28,7 +32,7 @@ export default function ErrorSpotter({ exercise, locale, onAnswer }: ErrorSpotte
   function selectError() {
     if (!errorSelected) {
       setErrorSelected(true);
-      setTimeout(() => inputRef.current?.focus(), 100);
+      setTimeout(() => (inputRef.current as HTMLInputElement | null)?.focus(), 100);
     }
   }
 
@@ -37,29 +41,24 @@ export default function ErrorSpotter({ exercise, locale, onAnswer }: ErrorSpotte
     const correct = validateAnswer(correction, exercise.answers);
     const newAttempts = attempts + 1;
     setAttempts(newAttempts);
-    if (correct || newAttempts >= 3) {
-      onAnswer(correction, correct, newAttempts, usedHint);
-    }
+    if (correct || newAttempts >= 3) onAnswer(correction, correct, newAttempts, usedHint);
   }
 
   return (
-    <div className="space-y-5">
-      {/* Instructions */}
+    <div className="space-y-4">
       <div className="bg-slate-800/60 rounded-2xl p-4 text-center space-y-2">
         <p className="text-xs text-slate-500 uppercase tracking-wide">
           {locale === 'fr' ? 'Trouvez et corrigez l\'erreur' : 'Find and fix the error'}
         </p>
         <p className="text-sm text-slate-400">
-          {locale === 'fr'
-            ? 'Appuyez sur la partie incorrecte, puis tapez la correction.'
-            : 'Tap the incorrect part, then type the correction.'}
+          {locale === 'fr' ? 'Appuyez sur la partie incorrecte.' : 'Tap the incorrect part.'}
         </p>
       </div>
 
-      {/* Sentence with tappable error segment */}
+      {/* Sentence with tappable error segment and furigana */}
       <div className="bg-slate-900/60 rounded-2xl p-5 text-center">
-        <p className="text-xl font-jp text-slate-100 leading-relaxed">
-          <span>{before}</span>
+        <p className="text-xl font-jp text-slate-100 leading-loose">
+          <GrammarFurigana text={before} />
           <button
             onClick={selectError}
             className={`inline mx-1 px-1 rounded transition-all ${
@@ -68,37 +67,43 @@ export default function ErrorSpotter({ exercise, locale, onAnswer }: ErrorSpotte
                 : 'bg-slate-700/60 border border-slate-600 text-slate-200 hover:bg-amber-900/30 hover:border-amber-500/50 hover:text-amber-300'
             }`}
           >
-            {errorPart}
+            <GrammarFurigana text={errorPart} />
           </button>
-          <span>{after}</span>
+          <GrammarFurigana text={after} />
         </p>
       </div>
 
-      {/* Correction input (shown after tapping) */}
+      {/* Correction input */}
       {errorSelected && (
-        <div className="space-y-3 animate-in slide-in-from-bottom-2">
+        <div className="space-y-2 animate-in slide-in-from-bottom-2">
           <div className="flex items-center gap-2">
             <div className="flex-1 h-px bg-slate-700" />
-            <span className="text-xs text-slate-500">
-              {locale === 'fr' ? 'Tapez la correction' : 'Type the correction'}
-            </span>
+            <span className="text-xs text-slate-500">{locale === 'fr' ? 'Tapez la correction' : 'Type the correction'}</span>
             <div className="flex-1 h-px bg-slate-700" />
           </div>
-          <input
-            ref={inputRef}
-            type="text"
-            value={correction}
-            onChange={(e) => setCorrection(e.target.value)}
-            onKeyDown={(e) => e.key === 'Enter' && submitCorrection()}
-            placeholder={locale === 'fr' ? 'Correction...' : 'Correction...'}
-            className="w-full bg-slate-800 border border-amber-500/40 rounded-xl px-4 py-3 text-lg font-jp text-slate-100 placeholder-slate-500 focus:outline-none focus:border-amber-400"
-            autoComplete="off"
-            autoCorrect="off"
-          />
+          <div className="flex gap-2">
+            <input
+              ref={inputRef as React.RefObject<HTMLInputElement>}
+              type="text"
+              value={correction}
+              onChange={(e) => setCorrection(e.target.value)}
+              onKeyDown={(e) => e.key === 'Enter' && submitCorrection()}
+              placeholder={locale === 'fr' ? 'Correction...' : 'Correction...'}
+              className="flex-1 bg-slate-800 border border-amber-500/40 rounded-xl px-4 py-3 text-lg font-jp text-slate-100 placeholder-slate-500 focus:outline-none focus:border-amber-400"
+              autoComplete="off" autoCorrect="off" autoCapitalize="off"
+            />
+            <button
+              type="button"
+              onClick={toggleKeyboard}
+              className={`px-3 rounded-xl border transition-colors ${keyboardVisible ? 'bg-cyan-700/30 border-cyan-500/50 text-cyan-300' : 'bg-slate-800 border-slate-600 text-slate-400 hover:text-slate-200'}`}
+              aria-label="Toggle Japanese keyboard"
+            >
+              <Keyboard className="w-5 h-5" />
+            </button>
+          </div>
         </div>
       )}
 
-      {/* Hints */}
       {shownHintIndex >= 0 && (
         <div className="space-y-2">
           {exercise.hints.slice(0, shownHintIndex + 1).map((hint, i) => (
@@ -109,21 +114,17 @@ export default function ErrorSpotter({ exercise, locale, onAnswer }: ErrorSpotte
         </div>
       )}
 
-      {/* Submit buttons */}
+      {keyboardVisible && errorSelected && (
+        <JapaneseKeyboard onChar={insertChar} onDelete={deleteChar} />
+      )}
+
       {errorSelected && (
         <div className="flex gap-3">
-          <button
-            onClick={submitCorrection}
-            disabled={!correction.trim()}
-            className="flex-1 py-3 rounded-xl bg-cyan-600 hover:bg-cyan-500 disabled:opacity-40 text-white font-semibold transition-colors"
-          >
+          <button onClick={submitCorrection} disabled={!correction.trim()} className="flex-1 py-3 rounded-xl bg-cyan-600 hover:bg-cyan-500 disabled:opacity-40 text-white font-semibold transition-colors">
             {locale === 'fr' ? 'Corriger' : 'Submit'}
           </button>
           {attempts > 0 && shownHintIndex < exercise.hints.length - 1 && (
-            <button
-              onClick={() => { setShownHintIndex((i) => i + 1); setUsedHint(true); }}
-              className="px-4 py-3 rounded-xl bg-slate-700 hover:bg-slate-600 text-slate-300 text-sm transition-colors"
-            >
+            <button onClick={() => { setShownHintIndex((i) => i + 1); setUsedHint(true); }} className="px-4 py-3 rounded-xl bg-slate-700 hover:bg-slate-600 text-slate-300 text-sm transition-colors">
               {locale === 'fr' ? 'Indice' : 'Hint'}
             </button>
           )}

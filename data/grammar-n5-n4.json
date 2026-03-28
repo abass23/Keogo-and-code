@@ -26,7 +26,7 @@
         "id": "wa_ga_ex1",
         "type": "mcq",
         "question": {
-          "sentence": "A:誰＿バグを見つけましたか？ B: 田中さん＿見つけました。",
+          "sentence": "A:{誰|だれ}＿バグを{見|み}つけましたか？ B: {田中|たなか}さん＿{見|み}つけました。",
           "options": [
             { "text": "が / が", "is_correct": true, "explanation_en": "が is used in questions with 誰 and to answer them with emphasis", "explanation_fr": "が est utilisé dans les questions avec 誰 et pour y répondre avec emphase" },
             { "text": "は / は", "is_correct": false, "explanation_en": "は cannot follow question words like 誰", "explanation_fr": "は ne peut pas suivre des mots interrogatifs comme 誰" },
@@ -47,7 +47,7 @@
         "id": "wa_ga_ex2",
         "type": "fill_blank",
         "question": {
-          "sentence": "私＿＿組込みエンジニアです。",
+          "sentence": "{私|わたし}＿＿{組込|くみこみ}みエンジニアです。",
           "blank_position": "inline",
           "hint_en": "topic marker — stating what you are",
           "hint_fr": "marqueur de thème — pour dire ce que vous êtes"
@@ -114,8 +114,8 @@
         "id": "te_form_ex3",
         "type": "sentence_builder",
         "question": {
-          "target": "バグを修正して、テストを実行します。",
-          "tiles": ["バグを", "修正して", "テストを", "実行します", "修正する", "が"]
+          "target": "バグを{修正|しゅうせい}して、テストを{実行|じっこう}します。",
+          "tiles": ["バグを", "{修正|しゅうせい}して", "テストを", "{実行|じっこう}します", "{修正|しゅうせい}する", "が"]
         },
         "answers": ["バグを修正して、テストを実行します。"],
         "distractors": ["修正する", "が"],
@@ -128,7 +128,7 @@
         "id": "te_form_ex4",
         "type": "error_spotter",
         "question": {
-          "sentence": "コードをレビューって、プルリクエストを送ります。",
+          "sentence": "コードをレビューって、プルリクエストを{送|おく}ります。",
           "error_segment": "レビューって"
         },
         "answers": ["レビューして"],
@@ -166,7 +166,7 @@
         "id": "te_iru_ex1",
         "type": "fill_blank",
         "question": {
-          "sentence": "今、タスクの優先度を変更＿＿＿＿。",
+          "sentence": "{今|いま}、コードを{変更|へんこう}＿＿＿＿。",
           "blank_position": "inline",
           "hint_en": "currently doing — ongoing action",
           "hint_fr": "en train de faire — action en cours"
@@ -185,9 +185,9 @@
           "situation_fr": "Vous voulez dire « Le système tourne actuellement » dans un rapport de statut",
           "sentence": "システムが＿＿＿。",
           "options": [
-            { "text": "動きます", "level": "polite", "is_correct": false, "explanation_en": "動きます = will move/work (future), not currently running", "explanation_fr": "動きます = va fonctionner (futur), pas actuellement" },
-            { "text": "動いています", "level": "polite", "is_correct": true, "explanation_en": "動いている = is running (ongoing state). 動く → 動いて + います", "explanation_fr": "動いている = est en marche (état en cours). 動く → 動いて + います" },
-            { "text": "動きました", "level": "polite", "is_correct": false, "explanation_en": "動きました = moved/worked (past tense)", "explanation_fr": "動きました = a fonctionné (passé)" }
+            { "text": "{動|うご}きます", "level": "polite", "is_correct": false, "explanation_en": "動きます = will move/work (future), not currently running", "explanation_fr": "動きます = va fonctionner (futur), pas actuellement" },
+            { "text": "{動|うご}いています", "level": "polite", "is_correct": true, "explanation_en": "動いている = is running (ongoing state). 動く → 動いて + います", "explanation_fr": "動いている = est en marche (état en cours). 動く → 動いて + います" },
+            { "text": "{動|うご}きました", "level": "polite", "is_correct": false, "explanation_en": "動きました = moved/worked (past tense)", "explanation_fr": "動きました = a fonctionné (passé)" }
           ]
         },
         "answers": ["動いています"],
@@ -226,7 +226,7 @@
         "id": "nakereba_ex1",
         "type": "fill_blank",
         "question": {
-          "sentence": "リリース前にすべてのテストケースを＿＿＿＿なりません。",
+          "sentence": "リリース{前|まえ}にすべてのテストケースを＿＿＿＿なりません。",
           "blank_position": "inline",
           "hint_en": "must / have to — obligation",
           "hint_fr": "devoir / il faut — obligation"
@@ -241,7 +241,7 @@
         "id": "nakereba_ex2",
         "type": "fill_blank",
         "question": {
-          "sentence": "会議の前に議事録を＿＿＿＿なりません。",
+          "sentence": "{会議|かいぎ}の{前|まえ}にメモを＿＿＿＿なりません。",
           "blank_position": "inline",
           "hint_en": "must prepare",
           "hint_fr": "doit préparer"
@@ -256,14 +256,14 @@
         "id": "nakereba_ex3",
         "type": "fill_blank",
         "question": {
-          "sentence": "ECUのソフトウェアは安全規格に＿＿＿＿なりません。",
+          "sentence": "ECUのソフトウェアは{安全|あんぜん}テストに＿＿＿＿なりません。",
           "blank_position": "inline",
-          "hint_en": "must comply with",
-          "hint_fr": "doit être conforme à"
+          "hint_en": "must pass",
+          "hint_fr": "doit passer"
         },
-        "answers": ["適合しなければ", "適合しなきゃ"],
-        "hints": ["適合する → ない-form first", "Drop ない then add なければ"],
-        "explanation": { "correct": "適合する → 適合しない → 適合しなければなりません", "wrong": {} },
+        "answers": ["合格しなければ", "合格しなきゃ", "パスしなければ", "パスしなきゃ"],
+        "hints": ["合格する → ない-form first", "Drop ない then add なければ"],
+        "explanation": { "correct": "合格する → 合格しない → 合格しなければなりません", "wrong": {} },
         "domain": "automotive",
         "difficulty": 2
       },
@@ -271,7 +271,7 @@
         "id": "nakereba_ex4",
         "type": "error_spotter",
         "question": {
-          "sentence": "毎日ログファイルを確認するなければなりません。",
+          "sentence": "{毎日|まいにち}ログファイルを{確認|かくにん}するなければなりません。",
           "error_segment": "確認するなければ"
         },
         "answers": ["確認しなければ"],
@@ -324,14 +324,14 @@
         "id": "te_wa_ikenai_ex1",
         "type": "fill_blank",
         "question": {
-          "sentence": "本番環境のコードを直接＿＿＿＿いけません。",
+          "sentence": "サーバーのコードを{直接|ちょくせつ}＿＿＿＿いけません。",
           "blank_position": "inline",
           "hint_en": "must not change / edit directly",
           "hint_fr": "il ne faut pas modifier directement"
         },
         "answers": ["変更してはいけません", "変更してはいけない", "編集してはいけません"],
         "hints": ["Use て-form of 変更する/編集する", "て-form + は + いけません"],
-        "explanation": { "correct": "変更する → 変更して + は + いけません = 変更してはいけません. Prohibition of direct production code changes.", "wrong": {} },
+        "explanation": { "correct": "変更する → 変更して + は + いけません = 変更してはいけません. Prohibition of direct server code changes.", "wrong": {} },
         "domain": "embedded",
         "difficulty": 1
       },
@@ -382,7 +382,7 @@
         "id": "te_mo_ii_ex1",
         "type": "fill_blank",
         "question": {
-          "sentence": "このブランチを削除＿＿＿ですか？",
+          "sentence": "このブランチを{削除|さくじょ}＿＿＿ですか？",
           "blank_position": "inline",
           "hint_en": "May I / Is it okay to — asking permission",
           "hint_fr": "Est-ce que je peux / Est-il permis de — demander la permission"
@@ -423,7 +423,7 @@
         "id": "tara_ex1",
         "type": "mcq",
         "question": {
-          "sentence": "デバッグが終わった＿＿＿、テストを実行します。",
+          "sentence": "デバッグが{終|お}わった＿＿＿、テストを{実行|じっこう}します。",
           "options": [
             { "text": "あとで", "is_correct": false, "explanation_en": "あとで = later, it's an adverb, not a conditional connector here", "explanation_fr": "あとで = plus tard, c'est un adverbe, pas un connecteur conditionnel ici" },
             { "text": "まえに", "is_correct": false, "explanation_en": "まえに = before, which reverses the sequence", "explanation_fr": "まえに = avant, ce qui inverse la séquence" },
@@ -441,7 +441,7 @@
         "id": "tara_ex2",
         "type": "fill_blank",
         "question": {
-          "sentence": "ビルドが成功＿＿＿、次のタスクに進みます。",
+          "sentence": "ビルドが{成功|せいこう}＿＿＿、{次|つぎ}のタスクに{進|すす}みます。",
           "blank_position": "inline",
           "hint_en": "if/when the build succeeds",
           "hint_fr": "si/quand le build réussit"
@@ -492,7 +492,7 @@
         "id": "ba_ex2",
         "type": "fill_blank",
         "question": {
-          "sentence": "このライブラリを使え＿、開発速度が上がります。",
+          "sentence": "このライブラリを{使|つか}え＿、{開発|かいはつ}{速度|そくど}が{上|あ}がります。",
           "blank_position": "inline",
           "hint_en": "if you use this library",
           "hint_fr": "si vous utilisez cette bibliothèque"
@@ -546,7 +546,7 @@
         "id": "sugiru_ex2",
         "type": "error_spotter",
         "question": {
-          "sentence": "このコードは複雑いすぎて、レビューしにくいです。",
+          "sentence": "このコードは{複雑|ふくざつ}いすぎて、レビューしにくいです。",
           "error_segment": "複雑いすぎて"
         },
         "answers": ["複雑すぎて"],
@@ -584,7 +584,7 @@
         "id": "koto_ga_dekiru_ex1",
         "type": "fill_blank",
         "question": {
-          "sentence": "C言語とC++でRTOSのプログラムを書く＿＿＿＿。",
+          "sentence": "C{言語|げんご}とC++でRTOSのプログラムを{書|か}く＿＿＿＿。",
           "blank_position": "inline",
           "hint_en": "I can write programs (ability statement for resume/interview)",
           "hint_fr": "Je suis capable d'écrire des programmes (déclaration de capacité pour CV/entretien)"
@@ -601,7 +601,7 @@
         "question": {
           "situation_en": "In a job interview, you want to say 'I can explain AUTOSAR architecture in Japanese'",
           "situation_fr": "Lors d'un entretien, vous voulez dire 'Je peux expliquer l'architecture AUTOSAR en japonais'",
-          "sentence": "日本語でAUTOSARのアーキテクチャを説明＿＿＿。",
+          "sentence": "{日本語|にほんご}でAUTOSARのアーキテクチャを{説明|せつめい}＿＿＿。",
           "options": [
             { "text": "することができます", "level": "polite", "is_correct": true, "explanation_en": "する + ことができます = can do. This is the standard polite form for ability statements in interviews.", "explanation_fr": "する + ことができます = pouvoir faire. C'est la forme polie standard pour exprimer une capacité en entretien." },
             { "text": "してもいいです", "level": "polite", "is_correct": false, "explanation_en": "してもいいです = I'm allowed to explain — about permission, not ability", "explanation_fr": "してもいいです = j'ai le droit d'expliquer — parle de permission, pas de capacité" },
@@ -652,7 +652,7 @@
         "id": "passive_ex2",
         "type": "fill_blank",
         "question": {
-          "sentence": "このバグは先週のリリースで＿＿＿＿た。",
+          "sentence": "このバグは{先週|せんしゅう}のリリースで＿＿＿＿た。",
           "blank_position": "inline",
           "hint_en": "was introduced / was added (passive — the bug appeared)",
           "hint_fr": "a été introduit (passif — le bug est apparu)"
@@ -692,7 +692,7 @@
         "question": {
           "situation_en": "You are reporting task completion to your team leader",
           "situation_fr": "Vous rapportez la fin d'une tâche à votre chef d'équipe",
-          "sentence": "タスクが完了＿＿＿。",
+          "sentence": "タスクが{完了|かんりょう}＿＿＿。",
           "options": [
             { "text": "したよ", "level": "casual", "is_correct": false, "explanation_en": "したよ is casual — inappropriate when speaking to a superior", "explanation_fr": "したよ est familier — inapproprié quand on parle à un supérieur" },
             { "text": "しました", "level": "polite", "is_correct": false, "explanation_en": "しました is polite but not humble enough when reporting UP the hierarchy", "explanation_fr": "しました est poli mais pas assez humble quand on rapporte à un supérieur hiérarchique" },

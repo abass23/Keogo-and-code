@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
 import { CheckCircle2, XCircle } from 'lucide-react';
+import GrammarFurigana from './GrammarFurigana';
 import type { GrammarExercise, MCQQuestion, MCQOption } from '@/lib/grammar-types';
 import type { Locale } from '@/lib/types';
 
@@ -42,7 +43,7 @@ export default function MCQExercise({ exercise, locale, onAnswer }: MCQExerciseP
         <p className="text-xs text-slate-500 uppercase tracking-wide">
           {locale === 'fr' ? 'Choisissez la bonne forme' : 'Choose the correct form'}
         </p>
-        <p className="text-xl font-jp text-slate-100">{question.sentence}</p>
+        <p className="text-xl font-jp text-slate-100"><GrammarFurigana text={question.sentence} /></p>
       </div>
 
       {/* Options */}

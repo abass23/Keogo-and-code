@@ -1,5 +1,6 @@
 'use client';
 import { CheckCircle2, XCircle, Lightbulb, ArrowRight, Volume2 } from 'lucide-react';
+import GrammarFurigana from './GrammarFurigana';
 import type { GrammarPoint, GrammarExercise } from '@/lib/grammar-types';
 import type { Locale } from '@/lib/types';
 
@@ -82,7 +83,7 @@ export default function FeedbackCard({
           <p className="text-xs text-slate-400 uppercase tracking-wide">
             {locale === 'fr' ? 'Réponse correcte' : 'Correct answer'}
           </p>
-          <p className="text-lg font-jp text-emerald-300">{correctAnswer}</p>
+          <p className="text-lg font-jp text-emerald-300"><GrammarFurigana text={correctAnswer} /></p>
         </div>
       )}
 
@@ -126,9 +127,9 @@ export default function FeedbackCard({
             {locale === 'fr' ? 'Erreur fréquente' : 'Common mistake'}
           </p>
           <div className="flex items-center gap-2 text-sm">
-            <span className="text-red-400 line-through font-jp">{grammarPoint.common_mistakes[0].wrong}</span>
+            <span className="text-red-400 line-through font-jp"><GrammarFurigana text={grammarPoint.common_mistakes[0].wrong} /></span>
             <ArrowRight className="w-3 h-3 text-slate-500" />
-            <span className="text-emerald-400 font-jp">{grammarPoint.common_mistakes[0].correct}</span>
+            <span className="text-emerald-400 font-jp"><GrammarFurigana text={grammarPoint.common_mistakes[0].correct} /></span>
           </div>
         </div>
       )}

@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
 import { CheckCircle2, XCircle } from 'lucide-react';
+import GrammarFurigana from './GrammarFurigana';
 import type { GrammarExercise, ContextMatchQuestion, ContextOption } from '@/lib/grammar-types';
 import type { Locale } from '@/lib/types';
 
@@ -55,7 +56,7 @@ export default function ContextMatch({ exercise, locale, onAnswer }: ContextMatc
 
       {/* Sentence with blank */}
       <div className="bg-slate-900/60 rounded-2xl p-4 text-center">
-        <p className="text-lg font-jp text-slate-100">{question.sentence}</p>
+        <p className="text-lg font-jp text-slate-100"><GrammarFurigana text={question.sentence} /></p>
         <p className="text-xs text-slate-500 mt-2">
           {locale === 'fr' ? 'Quel niveau de politesse ?' : 'Which politeness level?'}
         </p>
@@ -72,7 +73,7 @@ export default function ContextMatch({ exercise, locale, onAnswer }: ContextMatc
                   {locale === 'fr' ? levelInfo.fr : levelInfo.en}
                 </span>
                 <div className="flex-1 space-y-1">
-                  <p className="font-jp text-slate-200">{opt.text}</p>
+                  <p className="font-jp text-slate-200"><GrammarFurigana text={opt.text} /></p>
                   {revealed && (
                     <p className="text-xs text-slate-400">
                       {locale === 'fr' ? opt.explanation_fr : opt.explanation_en}
