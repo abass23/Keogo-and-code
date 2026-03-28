@@ -69,11 +69,16 @@ ${furiganaRule}`,
 };
 
 export async function POST(req: NextRequest) {
+  if (!process.env.ANTHROPIC_API_KEY) {
+    return new Response(JSON.stringify({ error: 'ANTHROPIC_API_KEY not configured' }), { status: 500 });
+  }
+
   const { mode, messages, userLevel = 'N4' } = await req.json();
 
   const buildPrompt = systemPrompts[mode] ?? systemPrompts.daily;
   const systemPrompt = buildPrompt(userLevel);
 
+  try {
   const stream = client.messages.stream({
     model: 'claude-sonnet-4-5',
     max_tokens: 1000,
@@ -105,4 +110,8 @@ export async function POST(req: NextRequest) {
       Connection: 'keep-alive',
     },
   });
+  } catch (err) {
+    console.error('[chat route] error:', err);
+    return new Response(JSON.stringify({ error: String(err) }), { status: 500 });
+  }
 }
