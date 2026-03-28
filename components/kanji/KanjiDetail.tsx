@@ -13,13 +13,18 @@ interface KanjiDetailProps {
 export default function KanjiDetail({ kanji, relatedVocab = [] }: KanjiDetailProps) {
   const locale = useAppStore((s) => s.locale);
 
-  function speak(text: string) {
-    if (!("speechSynthesis" in window)) return;
-    window.speechSynthesis.cancel();
-    const utter = new SpeechSynthesisUtterance(text);
-    utter.lang = "ja-JP";
-    utter.rate = 0.8;
-    window.speechSynthesis.speak(utter);
+  async function speak(text: string) {
+    try {
+      const res = await fetch('/api/tts', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text, voice: 'ja-JP-Neural2-B', speed: 0.8 }),
+      });
+      if (!res.ok) return;
+      const { audioContent } = await res.json();
+      const audio = new Audio(`data:audio/mp3;base64,${audioContent}`);
+      await audio.play();
+    } catch { /* silent fail */ }
   }
 
   return (
