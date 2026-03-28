@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState, useCallback, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { X, Ghost, CheckCircle2, RotateCcw } from 'lucide-react';
@@ -101,7 +101,7 @@ function SessionComplete({
 
 // ── Main session page ─────────────────────────────────────────
 
-export default function GrammarSessionPage() {
+function GrammarSessionContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
 
@@ -302,5 +302,17 @@ export default function GrammarSessionPage() {
         />
       </div>
     </div>
+  );
+}
+
+export default function GrammarSessionPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center">
+        <p className="text-slate-400">Loading session...</p>
+      </div>
+    }>
+      <GrammarSessionContent />
+    </Suspense>
   );
 }
