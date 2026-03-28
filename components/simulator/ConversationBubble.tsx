@@ -2,6 +2,7 @@
 
 import type { SimulatorMessage, ScenarioId } from '@/lib/simulatorTypes';
 import { SCENARIOS } from '@/lib/simulatorScenarios';
+import KanjiText from './KanjiText';
 
 interface ConversationBubbleProps {
   message: SimulatorMessage;
@@ -43,12 +44,12 @@ export default function ConversationBubble({ message, scenario }: ConversationBu
 
       <div className="flex flex-col gap-1 max-w-[85%]">
         <div className={`rounded-2xl rounded-tl-sm border px-4 py-3 ${c.border} bg-zinc-900`}>
-          <p className="font-jp text-base text-slate-100 leading-relaxed whitespace-pre-wrap">
-            {message.text}
+          <div className="font-jp text-base text-slate-100 leading-relaxed whitespace-pre-wrap">
+            <KanjiText text={message.text} isStreaming={message.isStreaming} />
             {message.isStreaming && (
               <span className="inline-block w-0.5 h-4 bg-slate-400 animate-pulse ml-0.5 align-middle" />
             )}
-          </p>
+          </div>
         </div>
         <span className="text-[10px] text-slate-600 pl-1">{meta.icon} AI Tutor</span>
       </div>

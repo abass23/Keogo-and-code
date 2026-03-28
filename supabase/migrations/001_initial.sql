@@ -36,8 +36,8 @@ CREATE TABLE IF NOT EXISTS vocabulary (
   created_at TIMESTAMPTZ NOT NULL DEFAULT now()
 );
 
-CREATE INDEX idx_vocabulary_jlpt ON vocabulary(jlpt_level);
-CREATE INDEX idx_vocabulary_domain ON vocabulary(domain);
+CREATE INDEX IF NOT EXISTS idx_vocabulary_jlpt ON vocabulary(jlpt_level);
+CREATE INDEX IF NOT EXISTS idx_vocabulary_domain ON vocabulary(domain);
 
 -- ── Kanji ─────────────────────────────────────────────────────
 CREATE TABLE IF NOT EXISTS kanji (
@@ -55,7 +55,7 @@ CREATE TABLE IF NOT EXISTS kanji (
   created_at TIMESTAMPTZ NOT NULL DEFAULT now()
 );
 
-CREATE INDEX idx_kanji_jlpt ON kanji(jlpt_level);
+CREATE INDEX IF NOT EXISTS idx_kanji_jlpt ON kanji(jlpt_level);
 
 -- ── User SRS card state ───────────────────────────────────────
 CREATE TABLE IF NOT EXISTS user_cards (
@@ -75,7 +75,7 @@ CREATE TABLE IF NOT EXISTS user_cards (
   UNIQUE (user_id, vocabulary_id, card_type)
 );
 
-CREATE INDEX idx_user_cards_user_review ON user_cards(user_id, next_review);
+CREATE INDEX IF NOT EXISTS idx_user_cards_user_review ON user_cards(user_id, next_review);
 
 -- ── Conversations (AI simulator) ──────────────────────────────
 CREATE TABLE IF NOT EXISTS conversations (
@@ -88,7 +88,7 @@ CREATE TABLE IF NOT EXISTS conversations (
   created_at TIMESTAMPTZ NOT NULL DEFAULT now()
 );
 
-CREATE INDEX idx_conversations_user ON conversations(user_id, created_at DESC);
+CREATE INDEX IF NOT EXISTS idx_conversations_user ON conversations(user_id, created_at DESC);
 
 -- ── Study sessions ────────────────────────────────────────────
 CREATE TABLE IF NOT EXISTS study_sessions (
@@ -102,7 +102,7 @@ CREATE TABLE IF NOT EXISTS study_sessions (
   created_at TIMESTAMPTZ NOT NULL DEFAULT now()
 );
 
-CREATE INDEX idx_study_sessions_user_date ON study_sessions(user_id, created_at DESC);
+CREATE INDEX IF NOT EXISTS idx_study_sessions_user_date ON study_sessions(user_id, created_at DESC);
 
 -- ── Gamification ──────────────────────────────────────────────
 CREATE TABLE IF NOT EXISTS user_xp (
@@ -129,7 +129,7 @@ CREATE TABLE IF NOT EXISTS review_log (
   xp_earned INTEGER NOT NULL DEFAULT 0
 );
 
-CREATE INDEX idx_review_log_user_date ON review_log(user_id, reviewed_at DESC);
+CREATE INDEX IF NOT EXISTS idx_review_log_user_date ON review_log(user_id, reviewed_at DESC);
 
 -- ── Row Level Security ────────────────────────────────────────
 ALTER TABLE profiles ENABLE ROW LEVEL SECURITY;

@@ -1,3 +1,4 @@
+// @ts-nocheck — Deno Edge Function, not compiled by Next.js TypeScript
 import Anthropic from 'npm:@anthropic-ai/sdk';
 
 const corsHeaders = {
@@ -6,42 +7,22 @@ const corsHeaders = {
   'Access-Control-Allow-Methods': 'POST, OPTIONS',
 };
 
-// Validate Supabase JWT from request header
-async function getUser(authHeader: string | null) {
-  if (!authHeader) return null;
-  const token = authHeader.replace('Bearer ', '');
-  // Supabase edge functions auto-validate via SUPABASE_ANON_KEY env
-  // Just decode the JWT payload to get user info
-  try {
-    const payload = JSON.parse(atob(token.split('.')[1]));
-    return payload;
-  } catch {
-    return null;
-  }
-}
-
 Deno.serve(async (req) => {
   if (req.method === 'OPTIONS') {
     return new Response('ok', { headers: corsHeaders });
   }
 
   try {
-    const user = await getUser(req.headers.get('Authorization'));
-    if (!user?.sub) {
-      return new Response(JSON.stringify({ error: 'Unauthorized' }), {
-        status: 401,
-        headers: { ...corsHeaders, 'Content-Type': 'application/json' },
-      });
-    }
-
     const { mode, messages, userLevel = 'N4' } = await req.json();
 
     const client = new Anthropic({
       apiKey: Deno.env.get('ANTHROPIC_API_KEY')!,
     });
 
+    const furiganaRule = `- IMPORTANT: Add furigana to ALL kanji using this format: {漢字|かんじ} — e.g., {日本語|にほんご}, {自己紹介|じこしょうかい}. Use the correct contextual reading.`;
+
     const systemPrompts: Record<string, string> = {
-      jikoshoukai: `You are a Japanese language tutor helping an embedded software engineer prepare their 自己紹介 (self-introduction) for Japanese job interviews.
+      jikoshoukai: `You are a Japanese language tutor helping an embedded software engineer prepare their {自己紹介|じこしょうかい} (self-introduction) for Japanese job interviews.
 
 The user is a French embedded software engineer with 8+ years of experience in C/C++, RTOS, AUTOSAR, and CAN protocols. Their Japanese level is ${userLevel}.
 
@@ -54,7 +35,8 @@ RULES:
   3. ➡️ Natural follow-up prompt to continue the self-introduction
 - Use keigo (丁寧語/敬語) appropriate for business interviews
 - If user is stuck, provide a hint in romaji
-- Keep responses under 200 words`,
+- Keep responses under 200 words
+${furiganaRule}`,
 
       interview: `You are a Japanese interviewer at a top automotive/embedded company (like Woven by Toyota or DENSO).
 
@@ -69,7 +51,8 @@ RULES:
   3. 📝 3 vocabulary items to remember
   4. ❓ Follow-up question or next standard question
 - Difficulty adapts to ${userLevel}: N4=basic polite, N3=business Japanese, N2=advanced keigo
-- Keep responses concise — this is a realistic interview simulation`,
+- Keep responses concise — this is a realistic interview simulation
+${furiganaRule}`,
 
       daily: `You are a friendly Japanese colleague (同僚) at an embedded software company in Japan.
 
@@ -82,7 +65,8 @@ RULES:
   1. 📝 2-3 useful phrases from the conversation (with reading + meaning)
   2. Optionally: gentle correction if user makes an error
 - Keep it natural and conversational — not too formal
-- If user is completely stuck, provide a romaji hint`,
+- If user is completely stuck, provide a romaji hint
+${furiganaRule}`,
 
       technical: `You are a senior embedded software engineer colleague who speaks Japanese.
 
@@ -96,14 +80,15 @@ RULES:
   2. ✅ Correction if the Japanese was unclear or unnatural
   3. ❓ Follow-up technical question
 - Use technical Japanese that would actually appear in Japanese embedded engineering teams
-- Level: ${userLevel} comprehension but include N2 technical terms with readings`,
+- Level: ${userLevel} comprehension but include N2 technical terms with readings
+${furiganaRule}`,
     };
 
     const systemPrompt = systemPrompts[mode] ?? systemPrompts.daily;
 
     // Stream response
     const stream = await client.messages.stream({
-      model: 'claude-sonnet-4-20250514',
+      model: 'claude-sonnet-4-5',
       max_tokens: 1000,
       temperature: 0.7,
       system: systemPrompt,

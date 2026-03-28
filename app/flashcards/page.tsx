@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import Header from '@/components/layout/Header';
 import FlashCardSession from '@/components/flashcard/FlashCardSession';
@@ -20,10 +20,9 @@ const ALL_CARDS = [
   ...businessData,
 ] as VocabCard[];
 
-export default function FlashcardsPage() {
+function FlashcardsContent() {
   const searchParams = useSearchParams();
 
-  // Parse initial filter from URL query params
   const initialFilter: DeckFilter = {};
   const level = searchParams.get('level');
   const domain = searchParams.get('domain');
@@ -33,14 +32,24 @@ export default function FlashcardsPage() {
   const [filter, setFilter] = useState<DeckFilter>(initialFilter);
 
   return (
-    <div className="min-h-screen flex flex-col">
-      <Header />
+    <>
       <div className="max-w-2xl mx-auto w-full px-4 py-4">
         <DeckSelector selected={filter} onChange={setFilter} />
       </div>
       <main className="flex-1">
         <FlashCardSession cards={ALL_CARDS} filter={filter} />
       </main>
+    </>
+  );
+}
+
+export default function FlashcardsPage() {
+  return (
+    <div className="min-h-screen flex flex-col">
+      <Header />
+      <Suspense fallback={<div className="flex-1 flex items-center justify-center text-slate-500">Loading...</div>}>
+        <FlashcardsContent />
+      </Suspense>
     </div>
   );
 }

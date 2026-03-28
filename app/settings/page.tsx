@@ -6,18 +6,9 @@ import StudyHeatmap from "@/components/gamification/StudyHeatmap";
 import XPBar from "@/components/gamification/XPBar";
 import { useAppStore } from "@/stores/app-store";
 import { t } from "@/lib/i18n/strings";
-import { createClient } from "@/lib/supabase/client";
-import { useRouter } from "next/navigation";
 
 export default function SettingsPage() {
   const { locale, setLocale, furiganaEnabled, toggleFurigana } = useAppStore();
-  const router = useRouter();
-
-  async function handleLogout() {
-    const supabase = createClient();
-    await supabase.auth.signOut();
-    router.push('/login');
-  }
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -76,17 +67,6 @@ export default function SettingsPage() {
         {/* Study heatmap */}
         <section className="bg-zinc-900 border border-zinc-800 rounded-2xl p-5">
           <StudyHeatmap />
-        </section>
-
-        {/* Account */}
-        <section className="bg-zinc-900 border border-zinc-800 rounded-2xl p-5 space-y-3">
-          <h2 className="text-sm font-semibold text-slate-400 uppercase tracking-wider">Account</h2>
-          <button
-            onClick={handleLogout}
-            className="px-4 py-2 rounded-lg border border-red-800/50 text-sm text-red-400 hover:bg-red-950/30 transition-colors"
-          >
-            {t('auth.logout', locale)}
-          </button>
         </section>
 
       </main>

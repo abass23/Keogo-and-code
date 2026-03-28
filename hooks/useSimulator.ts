@@ -3,7 +3,6 @@
 import { useState, useRef, useCallback } from 'react';
 import type { ScenarioId, SimulatorMessage } from '@/lib/simulatorTypes';
 import { OPENING_LINES } from '@/lib/simulatorScenarios';
-import { createClient } from '@/lib/supabase/client';
 import { useAppStore } from '@/stores/app-store';
 
 type Status = 'idle' | 'listening' | 'processing' | 'speaking' | 'error';
@@ -25,19 +24,19 @@ interface SpeechRecognitionInstance extends EventTarget {
   onend: (() => void) | null;
 }
 
+function stripForTTS(text: string): string {
+  return text
+    .replace(/\{([^|{}]+)\|[^}]+\}/g, '$1')
+    .replace(/[\p{Emoji_Presentation}\p{Extended_Pictographic}]/gu, '')
+    .replace(/[*_`#>]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 function getSpeechRecognition(): (new () => SpeechRecognitionInstance) | null {
   if (typeof window === 'undefined') return null;
   const w = window as unknown as Record<string, unknown>;
   return (w['SpeechRecognition'] as never) ?? (w['webkitSpeechRecognition'] as never) ?? null;
-}
-
-function pickJapaneseVoice(): SpeechSynthesisVoice | null {
-  if (typeof window === 'undefined') return null;
-  const voices = window.speechSynthesis.getVoices();
-  const japanese = voices.filter((v) => v.lang.startsWith('ja'));
-  if (!japanese.length) return null;
-  const preferred = ['kyoko', 'o-ren', 'haruka', 'google 日本語', 'google japanese'];
-  return japanese.find((v) => preferred.some((n) => v.name.toLowerCase().includes(n))) ?? japanese[0];
 }
 
 export function useSimulator() {
@@ -50,24 +49,39 @@ export function useSimulator() {
 
   const recognitionRef = useRef<SpeechRecognitionInstance | null>(null);
   const historyRef = useRef<{ role: 'user' | 'assistant'; content: string }[]>([]);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
 
-  const playTTS = useCallback((text: string) => {
-    if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
-    window.speechSynthesis.cancel();
-    const utter = new SpeechSynthesisUtterance(text);
-    utter.lang = 'ja-JP';
-    utter.rate = 0.9;
-    utter.pitch = 1.1;
-    const voice = pickJapaneseVoice();
-    if (voice) utter.voice = voice;
-    utter.onstart = () => setStatus('speaking');
-    utter.onend = () => setStatus('idle');
-    utter.onerror = () => setStatus('idle');
-    window.speechSynthesis.speak(utter);
+  const cancelAudio = useCallback(() => {
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current = null;
+    }
   }, []);
 
+  const playTTS = useCallback(async (text: string) => {
+    cancelAudio();
+    try {
+      setStatus('speaking');
+      const response = await fetch('/api/tts', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text: stripForTTS(text), voice: 'ja-JP-Neural2-B', speed: 0.9 }),
+      });
+      if (!response.ok) throw new Error('TTS error');
+      const { audioContent } = await response.json();
+      const audio = new Audio(`data:audio/mp3;base64,${audioContent}`);
+      audioRef.current = audio;
+      audio.onended = () => { setStatus('idle'); audioRef.current = null; };
+      audio.onerror = () => { setStatus('idle'); audioRef.current = null; };
+      await audio.play();
+    } catch (err) {
+      console.error('[TTS] failed:', err);
+      setStatus('idle');
+    }
+  }, [cancelAudio]);
+
   const startScenario = useCallback((id: ScenarioId) => {
-    window.speechSynthesis?.cancel();
+    cancelAudio();
     const opening = OPENING_LINES[id];
     const firstMsg: SimulatorMessage = {
       id: crypto.randomUUID(),
@@ -82,18 +96,18 @@ export function useSimulator() {
     setTranscript('');
     setErrorMsg(null);
     playTTS(opening);
-  }, [playTTS]);
+  }, [cancelAudio, playTTS]);
 
   const resetScenario = useCallback(() => {
     recognitionRef.current?.stop();
-    window.speechSynthesis?.cancel();
+    cancelAudio();
     historyRef.current = [];
     setScenario(null);
     setMessages([]);
     setStatus('idle');
     setTranscript('');
     setErrorMsg(null);
-  }, []);
+  }, [cancelAudio]);
 
   const startListening = useCallback(() => {
     const SpeechRecognition = getSpeechRecognition();
@@ -101,13 +115,13 @@ export function useSimulator() {
       setErrorMsg('Speech recognition not supported. Please use Chrome.');
       return;
     }
-    window.speechSynthesis?.cancel();
+    cancelAudio();
     setTranscript('');
     setErrorMsg(null);
 
     const recognition = new SpeechRecognition();
     recognition.lang = 'ja-JP';
-    recognition.continuous = false;
+    recognition.continuous = true;
     recognition.interimResults = true;
 
     recognition.onresult = (e: SpeechRecognitionEvent) => {
@@ -123,7 +137,7 @@ export function useSimulator() {
     recognitionRef.current = recognition;
     recognition.start();
     setStatus('listening');
-  }, []);
+  }, [cancelAudio]);
 
   const sendMessage = useCallback(async (text: string) => {
     if (!text.trim() || !scenario) return;
@@ -142,17 +156,9 @@ export function useSimulator() {
     setMessages((prev) => [...prev, { id: aiMsgId, role: 'ai', text: '', timestamp: Date.now(), isStreaming: true }]);
 
     try {
-      const supabase = createClient();
-      const { data: { session } } = await supabase.auth.getSession();
-      const token = session?.access_token;
-
-      const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
-      const response = await fetch(`${supabaseUrl}/functions/v1/chat`, {
+      const response = await fetch('/api/chat', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          ...(token ? { Authorization: `Bearer ${token}` } : {}),
-        },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           mode: scenario,
           messages: [

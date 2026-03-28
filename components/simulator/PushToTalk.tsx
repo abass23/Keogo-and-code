@@ -8,7 +8,7 @@ interface PushToTalkProps {
   status: Status;
   transcript: string;
   hasSpeechSupport: boolean;
-  accentColor: 'cyan' | 'amber';
+  accentColor: 'cyan' | 'amber' | 'violet' | 'blue';
   onStartListening: () => void;
   onStopListening: () => void;
 }
@@ -61,12 +61,9 @@ export default function PushToTalk({
 
       {/* Mic button */}
       <button
-        onMouseDown={!isDisabled && !isListening ? onStartListening : undefined}
-        onMouseUp={isListening ? onStopListening : undefined}
-        onTouchStart={!isDisabled && !isListening ? (e) => { e.preventDefault(); onStartListening(); } : undefined}
-        onTouchEnd={isListening ? (e) => { e.preventDefault(); onStopListening(); } : undefined}
+        onClick={!isDisabled ? (isListening ? onStopListening : onStartListening) : undefined}
         disabled={isDisabled}
-        aria-label={isListening ? 'Release to send' : 'Hold to speak'}
+        aria-label={isListening ? 'Tap to send' : 'Tap to speak'}
         className={`w-16 h-16 rounded-full border-2 flex items-center justify-center transition-all duration-200 select-none touch-none
           ${isListening ? `${btnActiveClass} ring-4 ${ringClass}` : btnIdleClass}
           ${isDisabled ? 'opacity-40 cursor-not-allowed' : 'cursor-pointer'}
@@ -85,10 +82,10 @@ export default function PushToTalk({
         {!hasSpeechSupport
           ? 'Speech not supported — use Chrome'
           : isListening
-          ? 'Release to send'
+          ? 'Tap to send'
           : isDisabled
           ? ''
-          : 'Hold to speak'}
+          : 'Tap to speak'}
       </p>
     </div>
   );

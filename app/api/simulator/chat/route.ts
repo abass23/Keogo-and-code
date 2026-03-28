@@ -1,41 +1,52 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { GoogleGenerativeAI } from '@google/generative-ai';
+import Anthropic from '@anthropic-ai/sdk';
 import { getSystemPrompt } from '@/lib/simulatorScenarios';
-import type { ChatRequest, ChatResponse } from '@/lib/simulatorTypes';
+import type { ChatRequest } from '@/lib/simulatorTypes';
 
-const genAI = new GoogleGenerativeAI(process.env.GOOGLE_GENERATIVE_AI_API_KEY!);
+const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
 export async function POST(req: NextRequest) {
   try {
     const body: ChatRequest = await req.json();
-    const { scenario, history, userMessage } = body;
+    const { mode, messages, userLevel } = body;
 
-    if (!scenario || !userMessage) {
-      return NextResponse.json({ error: 'Missing scenario or userMessage' }, { status: 400 });
+    if (!mode || !messages) {
+      return NextResponse.json({ error: 'Missing mode or messages' }, { status: 400 });
     }
 
-    const model = genAI.getGenerativeModel({
-      model: 'gemini-2.0-flash',
-      systemInstruction: getSystemPrompt(scenario),
-      generationConfig: {
-        responseMimeType: 'application/json',
-        temperature: 0.7,
-        maxOutputTokens: 600,
+    const encoder = new TextEncoder();
+    const stream = new ReadableStream({
+      async start(controller) {
+        const claudeStream = anthropic.messages.stream({
+          model: 'claude-sonnet-4-20250514',
+          max_tokens: 1000,
+          temperature: 0.7,
+          system: getSystemPrompt(mode, userLevel ?? 'N4'),
+          messages,
+        });
+
+        for await (const chunk of claudeStream) {
+          if (
+            chunk.type === 'content_block_delta' &&
+            chunk.delta.type === 'text_delta'
+          ) {
+            const data = `data: ${JSON.stringify({ text: chunk.delta.text })}\n\n`;
+            controller.enqueue(encoder.encode(data));
+          }
+        }
+
+        controller.enqueue(encoder.encode('data: [DONE]\n\n'));
+        controller.close();
       },
     });
 
-    // Gemini uses 'user' | 'model' roles (not 'assistant')
-    const geminiHistory = history.map((m) => ({
-      role: m.role === 'assistant' ? 'model' : 'user',
-      parts: [{ text: m.content }],
-    }));
-
-    const chat = model.startChat({ history: geminiHistory });
-    const result = await chat.sendMessage(userMessage);
-    const raw = result.response.text();
-    const parsed: ChatResponse = JSON.parse(raw);
-
-    return NextResponse.json(parsed);
+    return new NextResponse(stream, {
+      headers: {
+        'Content-Type': 'text/event-stream',
+        'Cache-Control': 'no-cache',
+        Connection: 'keep-alive',
+      },
+    });
   } catch (err) {
     console.error('[/api/simulator/chat]', err);
     return NextResponse.json({ error: 'AI request failed' }, { status: 500 });
