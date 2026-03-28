@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Cpu, Menu, X, BookOpen, Bot, BarChart2, Settings } from "lucide-react";
+import { Cpu, Menu, X, BookOpen, Bot, BarChart2, Settings, Sword } from "lucide-react";
 import { useState } from "react";
 import { useAppStore } from "@/stores/app-store";
 import { t } from "@/lib/i18n/strings";
@@ -12,6 +12,7 @@ const navLinks = [
   { href: "/flashcards", labelKey: "nav.flashcards", icon: BookOpen },
   { href: "/kanji", labelKey: "nav.kanji", icon: null },
   { href: "/simulator", labelKey: "nav.simulator", icon: Bot },
+  { href: "/grammar", labelKey: "nav.grammar", icon: Sword },
 ];
 
 export default function Header() {

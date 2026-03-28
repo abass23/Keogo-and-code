@@ -79,6 +79,37 @@ export default function Dashboard() {
         {/* Progress */}
         <ProgressDashboard allCards={allCards} />
 
+        {/* Grammar Dojo feature card */}
+        <div className="mb-6">
+          <a
+            href="/grammar"
+            className="block rounded-2xl bg-gradient-to-br from-violet-900/30 to-indigo-900/20 border border-violet-700/30 p-5 hover:border-violet-500/50 transition-colors group"
+          >
+            <div className="flex items-center justify-between mb-3">
+              <div className="flex items-center gap-3">
+                <span className="text-2xl">⛩️</span>
+                <div>
+                  <p className="font-semibold text-violet-300 group-hover:text-violet-200">
+                    文法道場 — Grammar Dojo
+                  </p>
+                  <p className="text-xs text-slate-400">Phase 5 · Feature 7</p>
+                </div>
+              </div>
+              <span className="text-xs bg-violet-700/30 text-violet-300 border border-violet-600/30 px-2 py-1 rounded-full">New</span>
+            </div>
+            <p className="text-sm text-slate-400">
+              7 exercise types · SM-2 SRS · Ghost grammar · N5→N4 seed loaded
+            </p>
+            <div className="flex flex-wrap gap-2 mt-3">
+              {['✏️ Fill Blank', '🎯 MCQ', '⚡ Conjugation', '🧩 Builder', '🔍 Error Spotter'].map((tag) => (
+                <span key={tag} className="text-xs text-slate-500 bg-slate-800/60 px-2 py-1 rounded">
+                  {tag}
+                </span>
+              ))}
+            </div>
+          </a>
+        </div>
+
         {/* Deck cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           {DECKS.map((deck) => (
