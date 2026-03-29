@@ -9,14 +9,31 @@ import n4Vocab from "@/data/n4-vocabulary.json";
 import type { KanjiEntry, VocabCard } from "@/lib/types";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import { existsSync } from "fs";
+import { join } from "path";
+
+// N3/N2 loaded at runtime if seed files exist
+function loadOptionalJson(filename: string): KanjiEntry[] {
+  const p = join(process.cwd(), "data", filename);
+  if (!existsSync(p)) return [];
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  return require(p) as KanjiEntry[];
+}
+
+const n3KanjiData = loadOptionalJson("n3-kanji.json");
+const n2KanjiData = loadOptionalJson("n2-kanji.json");
 
 // Allow dynamic rendering for kanji not pre-generated (N4, N3, N2, etc.)
 export const dynamicParams = true;
 
 export async function generateStaticParams() {
-  return (n5KanjiData as KanjiEntry[]).map((k) => ({
-    character: encodeURIComponent(k.character),
-  }));
+  // Return raw characters — Next.js handles URL-encoding internally.
+  // Using encodeURIComponent here causes double-encoding (%25XX) and 404s.
+  const n5 = (n5KanjiData as KanjiEntry[]).map((k) => ({ character: k.character }));
+  const n4 = (n4KanjiData as KanjiEntry[]).map((k) => ({ character: k.character }));
+  const n3 = n3KanjiData.map((k) => ({ character: k.character }));
+  const n2 = n2KanjiData.map((k) => ({ character: k.character }));
+  return [...n5, ...n4, ...n3, ...n2];
 }
 
 async function fetchKanjiFromApi(character: string): Promise<KanjiEntry | null> {
@@ -51,10 +68,12 @@ export default async function KanjiDetailPage({
   const { character } = await params;
   const decoded = decodeURIComponent(character);
 
-  // Search all local kanji data
+  // Search all local kanji data (N5 → N2)
   const allLocalKanji = [
     ...(n5KanjiData as KanjiEntry[]),
     ...(n4KanjiData as KanjiEntry[]),
+    ...n3KanjiData,
+    ...n2KanjiData,
   ];
   let kanji = allLocalKanji.find((k) => k.character === decoded);
 
