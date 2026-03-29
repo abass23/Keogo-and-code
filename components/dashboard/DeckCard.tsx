@@ -15,7 +15,7 @@ interface DeckCardProps {
   description_fr: string;
   cards: VocabCard[];
   href: string;
-  accent: "cyan" | "violet" | "emerald" | "amber";
+  accent: "cyan" | "violet" | "emerald" | "amber" | "blue";
   tags: string[];
 }
 
@@ -24,6 +24,7 @@ const ACCENT = {
   violet:  { border: "border-violet-500/20 hover:border-violet-500/50", badge: "bg-violet-400/10 text-violet-400 border-violet-400/30", tag: "bg-violet-950/50 text-violet-300 border-violet-800/50", btn: "bg-violet-400 hover:bg-violet-300 text-zinc-950", bar: "bg-violet-400" },
   emerald: { border: "border-emerald-500/20 hover:border-emerald-500/50", badge: "bg-emerald-400/10 text-emerald-400 border-emerald-400/30", tag: "bg-emerald-950/50 text-emerald-300 border-emerald-800/50", btn: "bg-emerald-400 hover:bg-emerald-300 text-zinc-950", bar: "bg-emerald-400" },
   amber:   { border: "border-amber-500/20 hover:border-amber-500/50",  badge: "bg-amber-400/10 text-amber-400 border-amber-400/30",   tag: "bg-amber-950/50 text-amber-300 border-amber-800/50",   btn: "bg-amber-400 hover:bg-amber-300 text-zinc-950",  bar: "bg-amber-400" },
+  blue:    { border: "border-blue-500/20 hover:border-blue-500/50",   badge: "bg-blue-400/10 text-blue-400 border-blue-400/30",     tag: "bg-blue-950/50 text-blue-300 border-blue-800/50",     btn: "bg-blue-400 hover:bg-blue-300 text-zinc-950",    bar: "bg-blue-400" },
 };
 
 export default function DeckCard({ title_en, title_fr, description_en, description_fr, cards, href, accent, tags }: DeckCardProps) {

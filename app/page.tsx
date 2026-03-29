@@ -1,11 +1,14 @@
 import Header from "@/components/layout/Header";
 import ProgressDashboard from "@/components/dashboard/ProgressDashboard";
 import DeckCard from "@/components/dashboard/DeckCard";
+import StudyHeatmap from "@/components/gamification/StudyHeatmap";
+import WelcomeOverlay from "@/components/onboarding/WelcomeOverlay";
 import techData from "@/data/tech-vocabulary.json";
 import lifeData from "@/data/life-vocabulary.json";
 import n5Data from "@/data/n5-vocabulary.json";
 import n4Data from "@/data/n4-vocabulary.json";
 import businessData from "@/data/business-vocabulary.json";
+import automotiveData from "@/data/automotive-vocabulary.json";
 import type { VocabCard } from "@/lib/types";
 
 const allCards = [
@@ -14,6 +17,7 @@ const allCards = [
   ...techData,
   ...lifeData,
   ...businessData,
+  ...automotiveData,
 ] as VocabCard[];
 
 const DECKS = [
@@ -26,6 +30,16 @@ const DECKS = [
     href: "/flashcards?domain=embedded",
     accent: "cyan" as const,
     tags: ["RTOS", "CAN", "HAL", "デバッグ"],
+  },
+  {
+    title_en: "Automotive 自動車",
+    title_fr: "Automobile 自動車",
+    description_en: "ECU, safety standards, validation, HIL testing — vocabulary for the Japanese automotive industry.",
+    description_fr: "ECU, normes de sécurité, validation, tests HIL — vocabulaire pour l'industrie automobile japonaise.",
+    cards: automotiveData as VocabCard[],
+    href: "/flashcards?domain=automotive",
+    accent: "blue" as const,
+    tags: ["ECU", "ISO 26262", "HIL", "検証"],
   },
   {
     title_en: "Business Keigo",
@@ -62,6 +76,7 @@ const DECKS = [
 export default function Dashboard() {
   return (
     <div className="min-h-screen flex flex-col">
+      <WelcomeOverlay />
       <Header />
 
       <main className="flex-1 mx-auto w-full max-w-6xl px-4 py-8">
@@ -115,6 +130,11 @@ export default function Dashboard() {
           {DECKS.map((deck) => (
             <DeckCard key={deck.href} {...deck} />
           ))}
+        </div>
+
+        {/* Study heatmap */}
+        <div className="mt-8 bg-zinc-900/50 border border-zinc-800 rounded-2xl p-5">
+          <StudyHeatmap />
         </div>
       </main>
     </div>

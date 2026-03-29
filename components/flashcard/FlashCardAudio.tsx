@@ -2,6 +2,7 @@
 
 import { useCallback, useRef, useState } from 'react';
 import { Volume2, Loader2 } from 'lucide-react';
+import { speakJapanese } from '@/lib/audio';
 
 interface FlashCardAudioProps {
   text: string;
@@ -48,6 +49,8 @@ export default function FlashCardAudio({ text, audioUrl }: FlashCardAudioProps) 
       audio.onerror = () => { setSpeaking(false); setActiveSpeed(null); audioRef.current = null; };
       await audio.play();
     } catch {
+      // TTS API unavailable — fall back to Web Speech API
+      speakJapanese(text, rate);
       setSpeaking(false);
       setActiveSpeed(null);
     }

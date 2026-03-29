@@ -1,10 +1,12 @@
 "use client";
 
+import { useEffect } from "react";
 import type { VocabCard } from "@/lib/types";
 import { Tag } from "lucide-react";
 import FlashCardAudio from "./FlashCardAudio";
 import FuriganaText from "./FuriganaText";
 import { useAppStore } from "@/stores/app-store";
+import { speakJapanese } from "@/lib/audio";
 
 interface FlashCardProps {
   card: VocabCard;
@@ -14,6 +16,13 @@ interface FlashCardProps {
 
 export default function FlashCard({ card, isRevealed, onReveal }: FlashCardProps) {
   const locale = useAppStore((s) => s.locale);
+
+  // Auto-play reading when card is revealed (no pre-recorded audio needed)
+  useEffect(() => {
+    if (isRevealed && !card.audio_url) {
+      speakJapanese(card.hiragana);
+    }
+  }, [isRevealed, card.audio_url, card.hiragana]);
 
   const domainColors: Record<string, { text: string; border: string; bg: string; btn: string }> = {
     embedded: {
