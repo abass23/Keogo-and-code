@@ -1,0 +1,999 @@
+[
+  {
+    "id": "hazu_da",
+    "pattern": "～はずだ",
+    "meaning_en": "Should be / expected to / ought to (logical expectation)",
+    "meaning_fr": "Devrait être / censé être / on s'attend à (attente logique)",
+    "jlpt_level": "N3",
+    "category": "modality",
+    "sort_order": 107,
+    "formation": [
+      {
+        "base": "Verb (plain form) / い-adj / な-adj + な / Noun + の",
+        "rule": "Plain form + はずだ",
+        "examples": [
+          { "input": "届く (V dict.)", "output": "もう届くはずだ (it should arrive by now)" },
+          { "input": "動いている (V て-form + いる)", "output": "システムは動いているはずです (the system should be running)" },
+          { "input": "正しい (い-adj)", "output": "この設定は正しいはずだ (this setting should be correct)" },
+          { "input": "安全 (な-adj)", "output": "安全なはずです (it should be safe)" }
+        ]
+      }
+    ],
+    "explanation_en": "～はずだ expresses a logical expectation or assumption based on known facts or reasoning. It conveys 'it should be the case that...' or 'I expect that...' — NOT a moral obligation (use べき for that). Negative: はずがない = there is no way that.",
+    "explanation_fr": "～はずだ exprime une attente logique ou une hypothèse basée sur des faits connus. Il exprime 'ça devrait être le cas que...' ou 'je m'attends à ce que...' — PAS une obligation morale (utilisez べき pour cela). Négatif : はずがない = il n'y a aucune chance que.",
+    "nuance": "はずだ = speaker's logical expectation. はずがない = logical impossibility. Compare with らしい (hearsay) and そうだ (appearance/hearsay). The expectation can be proven wrong; use はずだったのに when reality contradicts expectation.",
+    "related_points": ["rashii", "wake_da", "beki"],
+    "common_mistakes": [
+      {
+        "wrong": "彼は来るはずがあります",
+        "correct": "彼は来るはずです / 彼は来るはずがありません (if negative)",
+        "explanation_en": "はずがある is not standard. Use はずです (it should be) or はずがない/はずがありません (there is no way)",
+        "explanation_fr": "はずがある n'est pas standard. Utilisez はずです (ça devrait être) ou はずがない/はずがありません (il n'y a aucune chance)"
+      },
+      {
+        "wrong": "このテストは通るはずです (expressing obligation)",
+        "correct": "このテストは通るべきです (if you mean 'should pass' as obligation)",
+        "explanation_en": "はずです = logical expectation (I expect it to pass). べきです = obligation/what should happen morally or professionally.",
+        "explanation_fr": "はずです = attente logique (je m'attends à ce qu'il réussisse). べきです = obligation/ce qui devrait se passer moralement ou professionnellement."
+      }
+    ],
+    "audio_url": null,
+    "exercises": [
+      {
+        "id": "hazu_da_ex1",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "{昨日|きのう}のビルドは{成功|せいこう}した＿＿＿＿なのに、{今|いま}{動|うご}かない。",
+          "blank_position": "inline",
+          "hint_en": "should have been — expectation contradicted by reality",
+          "hint_fr": "aurait dû être — attente contredite par la réalité"
+        },
+        "answers": ["はず"],
+        "hints": ["The build succeeded yesterday, so it should work — but it doesn't", "はずだ = logical expectation; なのに = 'and yet / even though'"],
+        "explanation": {
+          "correct": "はずなのに — 'It should have worked (based on the successful build), and yet it doesn't.' This is はず + なのに expressing a contradicted expectation.",
+          "wrong": {
+            "つもり": "つもり expresses the speaker's personal intention, not a logical expectation about facts."
+          }
+        },
+        "domain": "embedded",
+        "difficulty": 2
+      },
+      {
+        "id": "hazu_da_ex2",
+        "type": "mcq",
+        "question": {
+          "sentence": "{田中|たなか}さんは{10年|じゅうねん}{以上|いじょう}{経験|けいけん}があるから、この{問題|もんだい}を{解|と}ける＿＿＿＿。",
+          "options": [
+            {
+              "text": "はずです",
+              "is_correct": true,
+              "explanation_en": "はずです = logical expectation — given 10+ years of experience, it is expected that Tanaka can solve this",
+              "explanation_fr": "はずです = attente logique — étant donné plus de 10 ans d'expérience, on s'attend à ce que Tanaka puisse résoudre ceci"
+            },
+            {
+              "text": "らしいです",
+              "is_correct": false,
+              "explanation_en": "らしいです = I hear that / it seems — based on indirect information, not logical deduction",
+              "explanation_fr": "らしいです = j'ai entendu dire que / il semble — basé sur des informations indirectes, pas une déduction logique"
+            },
+            {
+              "text": "わけです",
+              "is_correct": false,
+              "explanation_en": "わけです = that explains it / naturally — used to explain a known conclusion, not predict an expectation",
+              "explanation_fr": "わけです = ça explique / naturellement — utilisé pour expliquer une conclusion connue, pas prédire une attente"
+            },
+            {
+              "text": "べきです",
+              "is_correct": false,
+              "explanation_en": "べきです = should (obligation/moral) — implies Tanaka has an obligation to solve it, not just that we expect they can",
+              "explanation_fr": "べきです = devrait (obligation/moral) — implique que Tanaka a l'obligation de résoudre cela, pas seulement que nous nous y attendons"
+            }
+          ]
+        },
+        "answers": ["はずです"],
+        "hints": ["10+ years of experience is the logical basis for the expectation", "はずだ = expectation based on reasoning"],
+        "explanation": {
+          "correct": "はずです — the expectation (can solve this) is logically deduced from the known fact (10+ years of experience).",
+          "wrong": {}
+        },
+        "domain": "business",
+        "difficulty": 2
+      },
+      {
+        "id": "hazu_da_ex3",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "{安全|あんぜん}{基準|きじゅん}に{合格|ごうかく}した{製品|せいひん}だから、{問題|もんだい}はない＿＿＿＿。",
+          "blank_position": "inline",
+          "hint_en": "there should be no problems — logical deduction from passing safety standards",
+          "hint_fr": "il ne devrait pas y avoir de problèmes — déduction logique du passage des normes de sécurité"
+        },
+        "answers": ["はずです", "はずだ"],
+        "hints": ["Passed safety standards → logically no problems", "はずだ = expectation based on known facts"],
+        "explanation": {
+          "correct": "問題はないはずです — 'Since it passed the safety standards, there should be no problems.' Logical deduction using はずだ.",
+          "wrong": {}
+        },
+        "domain": "automotive",
+        "difficulty": 2
+      },
+      {
+        "id": "hazu_da_ex4",
+        "type": "transform",
+        "question": {
+          "original": "{彼女|かのじょ}はもう{帰|かえ}りました。",
+          "instruction_en": "Rewrite to express 'she should have gone home already' as a logical expectation (it's 9 PM)",
+          "instruction_fr": "Réécrivez pour exprimer 'elle devrait être déjà rentrée' comme attente logique (il est 21h)",
+          "pattern_hint": "～はずです"
+        },
+        "answers": ["彼女はもう帰ったはずです", "彼女はもう帰っているはずです"],
+        "hints": ["Use plain past (帰った) + はずです for 'should have done'", "Or use ている + はずです for expected resulting state"],
+        "explanation": {
+          "correct": "帰ったはずです or 帰っているはずです — 'She should have gone home already.' Both are natural; 帰ったはずです focuses on the completed action, 帰っているはずです on the resulting state.",
+          "wrong": {}
+        },
+        "domain": "daily",
+        "difficulty": 3
+      }
+    ]
+  },
+  {
+    "id": "wake_da",
+    "pattern": "～わけだ",
+    "meaning_en": "That explains it / it naturally follows that / so that means",
+    "meaning_fr": "Ça explique tout / il est naturel que / donc ça signifie que",
+    "jlpt_level": "N3",
+    "category": "modality",
+    "sort_order": 108,
+    "formation": [
+      {
+        "base": "Verb / い-adj / な-adj + な / Noun + の",
+        "rule": "Plain form + わけだ",
+        "examples": [
+          { "input": "V plain: 失敗した", "output": "テストが失敗したわけだ (so that's why the test failed — it follows logically)" },
+          { "input": "な-adj: 複雑な", "output": "複雑なわけだ (it is naturally complex — makes sense)" },
+          { "input": "Noun + の: 初めて", "output": "初めてなわけだ (well, it's their first time — that explains it)" }
+        ]
+      }
+    ],
+    "explanation_en": "～わけだ draws a logical conclusion from known facts or context — 'so naturally / that explains why / it makes sense that.' It is used to arrive at or present an inevitable conclusion. Compare with わけではない (partial negation: 'it's not that...') and わけがない (impossibility: 'there's no way that').",
+    "explanation_fr": "～わけだ tire une conclusion logique de faits ou du contexte — 'donc naturellement / ça explique pourquoi / il est logique que.' Utilisé pour arriver à ou présenter une conclusion inévitable. Comparer avec わけではない (négation partielle) et わけがない (impossibilité).",
+    "nuance": "わけだ is used when the conclusion is shared understanding or can be derived from the situation. It is different from はずだ (expectation) — わけだ explains/concludes, while はずだ predicts/expects.",
+    "related_points": ["hazu_da", "wake_dewa_nai", "rashii"],
+    "common_mistakes": [
+      {
+        "wrong": "毎日練習したわけで、上手になりました (using わけで as a cause connector)",
+        "correct": "毎日練習したので、上手になりました / 毎日練習したから上手になったわけだ",
+        "explanation_en": "わけだ is for drawing conclusions, not directly expressing cause-and-effect. Use ので or から for cause. Use わけだ at the end to state the logical conclusion.",
+        "explanation_fr": "わけだ sert à tirer des conclusions, pas à exprimer directement la cause et l'effet. Utilisez ので ou から pour la cause. Utilisez わけだ à la fin pour énoncer la conclusion logique."
+      }
+    ],
+    "audio_url": null,
+    "exercises": [
+      {
+        "id": "wake_da_ex1",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "メモリが{足|た}りなかったんですね。だから{クラッシュ|くらっしゅ}した＿＿＿＿。",
+          "blank_position": "inline",
+          "hint_en": "that explains why it crashed / so naturally it crashed",
+          "hint_fr": "ça explique pourquoi ça a planté / donc naturellement ça a planté"
+        },
+        "answers": ["わけですね", "わけだ", "わけです"],
+        "hints": ["The cause (insufficient memory) has just been identified", "わけだ = 'so that's why / it naturally follows'"],
+        "explanation": {
+          "correct": "クラッシュしたわけですね — 'So that's why it crashed (because of insufficient memory).' わけだ draws a logical conclusion from the newly discovered information.",
+          "wrong": {
+            "はずですね": "はずですね would mean 'it should have crashed' — a prediction, not a conclusion from discovered facts."
+          }
+        },
+        "domain": "embedded",
+        "difficulty": 2
+      },
+      {
+        "id": "wake_da_ex2",
+        "type": "mcq",
+        "question": {
+          "sentence": "A:{彼|かれ}はフランス{人|じん}なんですよ。B: だから{フランス語|ふらんすご}が{上手|じょうず}な＿＿＿＿。",
+          "options": [
+            {
+              "text": "わけですね",
+              "is_correct": true,
+              "explanation_en": "わけですね = so that's why (he's good at French — because he's French). Drawing a natural conclusion.",
+              "explanation_fr": "わけですね = donc c'est pour ça (il est bon en français — parce qu'il est français). Tirer une conclusion naturelle."
+            },
+            {
+              "text": "はずですね",
+              "is_correct": false,
+              "explanation_en": "はずですね = he should be good at French (expectation) — but here we already know it as a fact; わけだ is for concluding from facts",
+              "explanation_fr": "はずですね = il devrait être bon en français (attente) — mais ici on le sait déjà comme un fait ; わけだ sert à conclure à partir de faits"
+            },
+            {
+              "text": "らしいですね",
+              "is_correct": false,
+              "explanation_en": "らしいですね = it seems he's good at French (hearsay/appearance) — but the speaker is drawing a logical conclusion, not reporting hearsay",
+              "explanation_fr": "らしいですね = il semble qu'il soit bon en français (ouï-dire/apparence) — mais le locuteur tire une conclusion logique, pas un ouï-dire"
+            },
+            {
+              "text": "そうですね",
+              "is_correct": false,
+              "explanation_en": "そうですね = yes, that's right / it seems so — agreement or appearance, not a logical conclusion from facts",
+              "explanation_fr": "そうですね = oui, c'est ça / il semble que oui — accord ou apparence, pas une conclusion logique de faits"
+            }
+          ]
+        },
+        "answers": ["わけですね"],
+        "hints": ["B is drawing a conclusion from A's statement", "わけだ = 'so naturally / that explains it'"],
+        "explanation": {
+          "correct": "わけですね — 'Ah, so that's why he's good at French.' わけだ expresses the natural, logical conclusion drawn from the given information.",
+          "wrong": {}
+        },
+        "domain": "daily",
+        "difficulty": 2
+      },
+      {
+        "id": "wake_da_ex3",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "このECUは{旧型|きゅうがた}の{プロトコル|ぷろとこる}を{使|つか}っているんですね。だから{新|あたら}しいシステムと{通信|つうしん}できない＿＿＿＿。",
+          "blank_position": "inline",
+          "hint_en": "so that's why it can't communicate — logical conclusion from old protocol",
+          "hint_fr": "donc c'est pour ça qu'il ne peut pas communiquer — conclusion logique du protocole ancien"
+        },
+        "answers": ["わけですね", "わけです", "わけだ"],
+        "hints": ["Old protocol → can't talk to new system: logical conclusion", "わけだ = conclusion derived from context"],
+        "explanation": {
+          "correct": "通信できないわけですね — 'So that explains why it can't communicate with the new system.' The old protocol is the logical reason.",
+          "wrong": {}
+        },
+        "domain": "automotive",
+        "difficulty": 2
+      },
+      {
+        "id": "wake_da_ex4",
+        "type": "context_match",
+        "question": {
+          "situation_en": "A colleague explains they studied Japanese in Japan for 3 years. You respond acknowledging why their Japanese is so good.",
+          "situation_fr": "Un collègue explique qu'il a étudié le japonais au Japon pendant 3 ans. Vous répondez en reconnaissant pourquoi son japonais est si bon.",
+          "sentence": "3{年間|ねんかん}{日本|にほん}に{住|す}んでいたんですね。{日本語|にほんご}が{上手|じょうず}な＿＿＿＿。",
+          "options": [
+            {
+              "text": "わけですね",
+              "level": "neutral",
+              "is_correct": true,
+              "explanation_en": "わけですね = so that explains why your Japanese is so good — logical conclusion from knowing they lived in Japan",
+              "explanation_fr": "わけですね = donc c'est pour ça que votre japonais est si bon — conclusion logique de savoir qu'ils ont vécu au Japon"
+            },
+            {
+              "text": "はずですね",
+              "level": "neutral",
+              "is_correct": false,
+              "explanation_en": "はずですね = I expect your Japanese is good — but you can already see/hear it's good, so it's a conclusion, not a prediction",
+              "explanation_fr": "はずですね = je m'attends à ce que votre japonais soit bon — mais vous pouvez déjà le voir/l'entendre, donc c'est une conclusion, pas une prédiction"
+            },
+            {
+              "text": "らしいですね",
+              "level": "neutral",
+              "is_correct": false,
+              "explanation_en": "らしいですね = apparently your Japanese is good — but this is from direct observation, not hearsay",
+              "explanation_fr": "らしいですね = apparemment votre japonais est bon — mais c'est d'une observation directe, pas d'un ouï-dire"
+            }
+          ]
+        },
+        "answers": ["わけですね"],
+        "hints": ["You are concluding from a known fact (3 years in Japan)", "わけだ = natural conclusion/explanation"],
+        "explanation": {
+          "correct": "わけですね — 'Ah, that's why your Japanese is so good' — a natural conclusion from the known fact of living in Japan for 3 years.",
+          "wrong": {}
+        },
+        "domain": "business",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "id": "wake_dewa_nai",
+    "pattern": "～わけではない",
+    "meaning_en": "It's not that... / It doesn't mean that...",
+    "meaning_fr": "Ce n'est pas que... / Ça ne veut pas dire que...",
+    "jlpt_level": "N3",
+    "category": "modality",
+    "sort_order": 109,
+    "formation": [
+      {
+        "base": "Verb / い-adj / な-adj + な / Noun + の",
+        "rule": "Plain form + わけではない / わけじゃない (casual)",
+        "examples": [
+          { "input": "嫌い (な-adj)", "output": "嫌いなわけではない (it's not that I dislike it)" },
+          { "input": "できない (V neg)", "output": "できないわけではない (it's not that I can't do it)" },
+          { "input": "知らない (V neg)", "output": "知らないわけじゃない (it's not that I don't know — casual)" }
+        ]
+      }
+    ],
+    "explanation_en": "～わけではない partially negates a statement — it corrects a potential misunderstanding or extreme interpretation. It means 'I'm not saying / it doesn't necessarily mean / it's not that X is the case.' The casual form is わけじゃない. It is weaker than 全然〜ない (not at all) — it acknowledges some truth while rejecting the complete conclusion.",
+    "explanation_fr": "～わけではない nie partiellement une affirmation — il corrige une mauvaise compréhension potentielle. Cela signifie 'je ne dis pas / ça ne veut pas forcément dire / ce n'est pas que X est le cas.' La forme familière est わけじゃない. C'est moins fort que 全然〜ない — il reconnaît une certaine vérité tout en rejetant la conclusion complète.",
+    "nuance": "わけではない is often used to soften or clarify: 嫌いなわけじゃないけど... (It's not that I dislike it, but...). It acknowledges the nuance rather than flatly denying.",
+    "related_points": ["wake_da", "hazu_da", "to_iu_wake_dewa_nai"],
+    "common_mistakes": [
+      {
+        "wrong": "行きたくないわけじゃないですけど、時間がありません → treated as full denial",
+        "correct": "This partially admits wanting to go while explaining the constraint — do not use 全然 here",
+        "explanation_en": "わけではない is a partial negation — it doesn't mean 'not at all.' If you say 行きたくないわけじゃない, you're admitting you somewhat want to go, just explaining a constraint.",
+        "explanation_fr": "わけではない est une négation partielle — ça ne signifie pas 'pas du tout.' Si vous dites 行きたくないわけじゃない, vous admettez vouloir un peu y aller, tout en expliquant une contrainte."
+      }
+    ],
+    "audio_url": null,
+    "exercises": [
+      {
+        "id": "wake_dewa_nai_ex1",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "この{仕事|しごと}が{嫌|きら}いな＿＿＿＿、ただ{疲|つか}れているだけです。",
+          "blank_position": "inline",
+          "hint_en": "it's not that I dislike — partial negation to correct a misunderstanding",
+          "hint_fr": "ce n'est pas que je n'aime pas — négation partielle pour corriger une mauvaise compréhension"
+        },
+        "answers": ["わけではありません", "わけではない", "わけじゃない", "わけじゃありません"],
+        "hints": ["You're clarifying: it's not dislike, just tiredness", "わけではない = it's not that..."],
+        "explanation": {
+          "correct": "嫌いなわけではありません — 'It's not that I dislike the work; I'm just tired.' This softens a potential misunderstanding without denying everything.",
+          "wrong": {}
+        },
+        "domain": "business",
+        "difficulty": 2
+      },
+      {
+        "id": "wake_dewa_nai_ex2",
+        "type": "mcq",
+        "question": {
+          "sentence": "デバッグが{難|むずか}しい＿＿＿＿、{時間|じかん}がもっと{必要|ひつよう}なだけです。",
+          "options": [
+            {
+              "text": "わけではないが",
+              "is_correct": true,
+              "explanation_en": "わけではないが = it's not that it's difficult, but — partial negation followed by clarification",
+              "explanation_fr": "わけではないが = ce n'est pas que c'est difficile, mais — négation partielle suivie d'une clarification"
+            },
+            {
+              "text": "はずではないが",
+              "is_correct": false,
+              "explanation_en": "はずではないが = it shouldn't be difficult, but — this expresses an expectation, not a clarification",
+              "explanation_fr": "はずではないが = ça ne devrait pas être difficile, mais — cela exprime une attente, pas une clarification"
+            },
+            {
+              "text": "わけにはいかないが",
+              "is_correct": false,
+              "explanation_en": "わけにはいかない = cannot possibly do / it's not an option — different meaning entirely",
+              "explanation_fr": "わけにはいかない = ne peut absolument pas faire / ce n'est pas une option — signification complètement différente"
+            },
+            {
+              "text": "わけだが",
+              "is_correct": false,
+              "explanation_en": "わけだが = so that's why, but — expresses a conclusion, not a partial negation",
+              "explanation_fr": "わけだが = donc c'est pour ça, mais — exprime une conclusion, pas une négation partielle"
+            }
+          ]
+        },
+        "answers": ["わけではないが"],
+        "hints": ["You want to say 'it's not that it's hard, just needs more time'", "わけではない = partial negation / correction"],
+        "explanation": {
+          "correct": "わけではないが = 'It's not that debugging is difficult — I just need more time.' A partial negation clarifying the real issue.",
+          "wrong": {}
+        },
+        "domain": "embedded",
+        "difficulty": 2
+      },
+      {
+        "id": "wake_dewa_nai_ex3",
+        "type": "transform",
+        "question": {
+          "original": "{日本語|にほんご}が{話|はな}せません。",
+          "instruction_en": "Rewrite using わけではない to express 'It's not that I can't speak Japanese' (implying you can a little)",
+          "instruction_fr": "Réécrivez avec わけではない pour exprimer 'Ce n'est pas que je ne peux pas parler japonais' (impliquant que vous pouvez un peu)",
+          "pattern_hint": "～わけではない"
+        },
+        "answers": ["日本語が話せないわけではありません", "日本語が話せないわけではない", "日本語が話せないわけじゃない"],
+        "hints": ["Use the negative potential form: 話せない", "Attach わけではない to partially negate"],
+        "explanation": {
+          "correct": "話せないわけではありません — 'It's not that I can't speak Japanese' (implying I can, a little). This is a common humble expression.",
+          "wrong": {}
+        },
+        "domain": "daily",
+        "difficulty": 2
+      },
+      {
+        "id": "wake_dewa_nai_ex4",
+        "type": "error_spotter",
+        "question": {
+          "sentence": "この{製品|せいひん}が{危険|きけん}なわけじゃないです、ただ{追加|ついか}テストが{必要|ひつよう}です。",
+          "error_segment": "危険なわけじゃないです、"
+        },
+        "answers": ["危険なわけではありませんが、", "危険なわけじゃないですが、"],
+        "hints": ["The two clauses need a conjunctive — が or けど", "A comma alone does not connect contrasting clauses naturally"],
+        "explanation": {
+          "correct": "危険なわけではありませんが or わけじゃないですが — use が or けど to connect the partial negation with the following clarification clause.",
+          "wrong": {}
+        },
+        "domain": "automotive",
+        "difficulty": 3
+      }
+    ]
+  },
+  {
+    "id": "bakari",
+    "pattern": "～ばかり",
+    "meaning_en": "Just did / nothing but / only / keeps doing",
+    "meaning_fr": "Vient juste de faire / ne fait que / seulement / ne cesse de faire",
+    "jlpt_level": "N3",
+    "category": "tense_aspect",
+    "sort_order": 110,
+    "formation": [
+      {
+        "base": "Verb (た-form)",
+        "rule": "た-form + ばかり = just did (recently completed)",
+        "examples": [
+          { "input": "入社したばかり", "output": "入社したばかりです (I just joined the company)" },
+          { "input": "直したばかり", "output": "直したばかりなのにまた壊れた (I just fixed it and it broke again)" }
+        ]
+      },
+      {
+        "base": "Verb (て-form)",
+        "rule": "て-form + ばかりいる = keeps doing (habitually, often negative)",
+        "examples": [
+          { "input": "文句を言ってばかりいる", "output": "keeps complaining (doing nothing but complaining)" }
+        ]
+      },
+      {
+        "base": "Noun",
+        "rule": "Noun + ばかり = nothing but / only",
+        "examples": [
+          { "input": "お菓子ばかり食べる", "output": "eats nothing but snacks" }
+        ]
+      }
+    ],
+    "explanation_en": "ばかり has three main uses: (1) たばかり = just completed (recent past); (2) てばかりいる = does nothing but (repetitive/excessive); (3) Nounばかり = nothing but, only. All three carry a nuance of excess, limitation, or recency.",
+    "explanation_fr": "ばかり a trois usages principaux : (1) たばかり = vient juste de faire (passé récent) ; (2) てばかりいる = ne fait que (répétitif/excessif) ; (3) Nomばかり = rien que, seulement. Les trois portent une nuance d'excès, de limitation ou de récence.",
+    "nuance": "たばかり (just did) ≠ たところ (just at the moment of completion — more immediate). ばかり with てばかりいる often implies criticism or frustration.",
+    "related_points": ["tokoro", "dake", "shika"],
+    "common_mistakes": [
+      {
+        "wrong": "入社してばかりです",
+        "correct": "入社したばかりです",
+        "explanation_en": "For 'just joined,' use た-form + ばかり, not て-form + ばかり. てばかり means 'does nothing but.'",
+        "explanation_fr": "Pour 'vient juste de rejoindre,' utilisez la forme た + ばかり, pas la forme て + ばかり. てばかり signifie 'ne fait que.'"
+      }
+    ],
+    "audio_url": null,
+    "exercises": [
+      {
+        "id": "bakari_ex1",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "{彼女|かのじょ}は{今月|こんげつ}チームに{加|くわ}わった＿＿＿＿なので、まだ{環境|かんきょう}{設定|せってい}に{慣|な}れていません。",
+          "blank_position": "inline",
+          "hint_en": "just joined — recently completed action",
+          "hint_fr": "vient juste de rejoindre — action récemment accomplie"
+        },
+        "answers": ["ばかり"],
+        "hints": ["She just joined this month — very recent", "た-form + ばかり = just did (recently)"],
+        "explanation": {
+          "correct": "加わったばかりなので — 'Because she just joined the team, she's not yet used to the environment setup.' た-form + ばかり expresses recent completion.",
+          "wrong": {
+            "加わってばかり": "てばかり would mean 'does nothing but join,' which is unnatural in this context."
+          }
+        },
+        "domain": "embedded",
+        "difficulty": 2
+      },
+      {
+        "id": "bakari_ex2",
+        "type": "mcq",
+        "question": {
+          "sentence": "{あの|あの}{社員|しゃいん}は{会議|かいぎ}で{文句|もんく}を{言|い}って＿＿＿＿、{何|なに}も{提案|ていあん}しない。",
+          "options": [
+            {
+              "text": "ばかりいて",
+              "is_correct": true,
+              "explanation_en": "てばかりいる = does nothing but (complain) — habitual, excessive, often negative nuance",
+              "explanation_fr": "てばかりいる = ne fait que (se plaindre) — habituel, excessif, nuance souvent négative"
+            },
+            {
+              "text": "ばかりだ",
+              "is_correct": false,
+              "explanation_en": "言ってばかりだ would end the sentence — but here it connects to the second clause",
+              "explanation_fr": "言ってばかりだ terminerait la phrase — mais ici elle se connecte à la deuxième proposition"
+            },
+            {
+              "text": "たばかりで",
+              "is_correct": false,
+              "explanation_en": "言ったばかりで = just said (recent past) — but the context describes a habitual pattern, not a single recent action",
+              "explanation_fr": "言ったばかりで = vient juste de dire (passé récent) — mais le contexte décrit un schéma habituel, pas une action récente unique"
+            },
+            {
+              "text": "しかいなくて",
+              "is_correct": false,
+              "explanation_en": "しかいなくて = there are only (people who complain) — grammatically different structure",
+              "explanation_fr": "しかいなくて = il n'y a que (des gens qui se plaignent) — structure grammaticalement différente"
+            }
+          ]
+        },
+        "answers": ["ばかりいて"],
+        "hints": ["This describes a habitual, excessive behavior", "てばかりいる = keeps doing (nothing but)"],
+        "explanation": {
+          "correct": "言ってばかりいて — 'does nothing but complain in meetings.' て-form + ばかりいる expresses habitual excessive behavior.",
+          "wrong": {}
+        },
+        "domain": "business",
+        "difficulty": 2
+      },
+      {
+        "id": "bakari_ex3",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "このコードは{修正|しゅうせい}した＿＿＿＿なのに、また{同|おな}じエラーが{出|で}た。",
+          "blank_position": "inline",
+          "hint_en": "just fixed — recent past, followed by immediate problem",
+          "hint_fr": "vient juste de corriger — passé récent, suivi d'un problème immédiat"
+        },
+        "answers": ["ばかり"],
+        "hints": ["The fix was very recent", "た + ばかりなのに = just did, and yet..."],
+        "explanation": {
+          "correct": "修正したばかりなのに — 'I just fixed it, and yet the same error appeared again.' た-form + ばかり expresses the recency, and なのに adds the frustrated 'and yet.'",
+          "wrong": {}
+        },
+        "domain": "automotive",
+        "difficulty": 2
+      },
+      {
+        "id": "bakari_ex4",
+        "type": "error_spotter",
+        "question": {
+          "sentence": "{今月|こんげつ}{入社|にゅうしゃ}してばかりの{新入社員|しんにゅうしゃいん}に、{難|むずか}しい{仕事|しごと}を{任|まか}せないでください。",
+          "error_segment": "入社してばかりの"
+        },
+        "answers": ["入社したばかりの"],
+        "hints": ["The new employee just joined — use た-form + ばかり", "してばかり means 'does nothing but join,' which is unnatural"],
+        "explanation": {
+          "correct": "入社したばかりの — use た-form (入社した) + ばかり for 'just joined.' してばかり means 'doing nothing but (joining),' which is unnatural.",
+          "wrong": {}
+        },
+        "domain": "daily",
+        "difficulty": 3
+      }
+    ]
+  },
+  {
+    "id": "tokoro",
+    "pattern": "～ところ",
+    "meaning_en": "Just about to / in the middle of / just finished (depending on verb form)",
+    "meaning_fr": "Sur le point de / en train de / vient juste de (selon la forme verbale)",
+    "jlpt_level": "N3",
+    "category": "tense_aspect",
+    "sort_order": 111,
+    "formation": [
+      {
+        "base": "Verb (dictionary form)",
+        "rule": "dict. form + ところだ = just about to do",
+        "examples": [
+          { "input": "出かける + ところ", "output": "出かけるところです (I'm just about to go out)" }
+        ]
+      },
+      {
+        "base": "Verb (ている form)",
+        "rule": "ている + ところだ = in the middle of doing right now",
+        "examples": [
+          { "input": "デバッグしている + ところ", "output": "デバッグしているところです (I'm in the middle of debugging)" }
+        ]
+      },
+      {
+        "base": "Verb (た-form)",
+        "rule": "た-form + ところだ = just finished (very recent)",
+        "examples": [
+          { "input": "直した + ところ", "output": "直したところです (I just fixed it — just now)" }
+        ]
+      }
+    ],
+    "explanation_en": "ところ (place/point in time) with verbs describes a specific point relative to an action: (1) dictionary + ところ = just about to start; (2) ている + ところ = mid-action right now; (3) た + ところ = just this moment completed. It is more immediate/precise than たばかり.",
+    "explanation_fr": "ところ (lieu/point dans le temps) avec des verbes décrit un point précis par rapport à une action : (1) forme dictionnaire + ところ = sur le point de commencer ; (2) ている + ところ = en pleine action maintenant ; (3) た + ところ = vient juste de terminer à l'instant. C'est plus immédiat/précis que たばかり.",
+    "nuance": "たところ = right at this moment just finished (more immediate than たばかり). たばかり = recently completed (could be minutes or days ago). ているところ = currently in progress at this very moment.",
+    "related_points": ["bakari", "te_iru", "te_shimau"],
+    "common_mistakes": [
+      {
+        "wrong": "今出かけているところに行きます",
+        "correct": "今出かけるところです / 今出かけているところです",
+        "explanation_en": "ところ is a noun and ends a clause. Saying ところに行きます changes meaning entirely (going to 'where someone is going out'). Use ところです/ところだ to end the statement.",
+        "explanation_fr": "ところ est un nom et termine une proposition. Dire ところに行きます change complètement le sens. Utilisez ところです/ところだ pour terminer la déclaration."
+      }
+    ],
+    "audio_url": null,
+    "exercises": [
+      {
+        "id": "tokoro_ex1",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "{今|いま}ちょうどビルドを{実行|じっこう}している＿＿＿＿なので、5{分後|ごふんご}にお{知|し}らせします。",
+          "blank_position": "inline",
+          "hint_en": "in the middle of (running the build right now)",
+          "hint_fr": "en train de (exécuter le build en ce moment)"
+        },
+        "answers": ["ところ"],
+        "hints": ["ている + ところ = currently in the middle of an action", "This is happening right now"],
+        "explanation": {
+          "correct": "実行しているところなので — 'I'm in the middle of running the build right now, so I'll let you know in 5 minutes.' ているところ = mid-action at this very moment.",
+          "wrong": {}
+        },
+        "domain": "embedded",
+        "difficulty": 2
+      },
+      {
+        "id": "tokoro_ex2",
+        "type": "mcq",
+        "question": {
+          "sentence": "A:{田中|たなか}さん、{今|いま}{忙|いそが}しいですか？ B: ちょうど{報告書|ほうこくしょ}を{書|か}き{終|お}えた＿＿＿＿ですよ。",
+          "options": [
+            {
+              "text": "ところ",
+              "is_correct": true,
+              "explanation_en": "書き終えたところ = just this moment finished writing the report — very immediate recent completion",
+              "explanation_fr": "書き終えたところ = vient juste à l'instant de finir d'écrire le rapport — achèvement récent très immédiat"
+            },
+            {
+              "text": "ばかり",
+              "is_correct": false,
+              "explanation_en": "書き終えたばかり = just recently finished — slightly less immediate than ところ and more general",
+              "explanation_fr": "書き終えたばかり = vient récemment de finir — légèrement moins immédiat que ところ et plus général"
+            },
+            {
+              "text": "はず",
+              "is_correct": false,
+              "explanation_en": "書き終えたはず = should have finished — an expectation, not a statement of fact",
+              "explanation_fr": "書き終えたはず = devrait avoir fini — une attente, pas une affirmation de fait"
+            },
+            {
+              "text": "わけ",
+              "is_correct": false,
+              "explanation_en": "書き終えたわけ = that explains why (you finished) — a logical conclusion, not a time expression",
+              "explanation_fr": "書き終えたわけ = c'est pour ça que (vous avez fini) — une conclusion logique, pas une expression temporelle"
+            }
+          ]
+        },
+        "answers": ["ところ"],
+        "hints": ["B just finished at this very moment", "た + ところ = just now completed (very immediate)"],
+        "explanation": {
+          "correct": "書き終えたところです — 'I just finished writing the report (this very moment).' た-form + ところ expresses immediate completion.",
+          "wrong": {}
+        },
+        "domain": "business",
+        "difficulty": 2
+      },
+      {
+        "id": "tokoro_ex3",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "{会議|かいぎ}が{始|はじ}まる＿＿＿＿なので、{今|いま}は{電話|でんわ}に{出|で}られません。",
+          "blank_position": "inline",
+          "hint_en": "just about to start — dictionary form + ところ",
+          "hint_fr": "sur le point de commencer — forme dictionnaire + ところ"
+        },
+        "answers": ["ところ"],
+        "hints": ["The meeting hasn't started yet but is about to", "dict. form + ところ = just about to do"],
+        "explanation": {
+          "correct": "始まるところなので — 'The meeting is just about to start, so I can't answer the phone right now.' Dictionary form + ところ = imminent future.",
+          "wrong": {}
+        },
+        "domain": "daily",
+        "difficulty": 2
+      },
+      {
+        "id": "tokoro_ex4",
+        "type": "context_match",
+        "question": {
+          "situation_en": "An automotive engineer's colleague calls. The engineer just finished running a validation test seconds ago.",
+          "situation_fr": "Le collègue d'un ingénieur automobile appelle. L'ingénieur vient juste de terminer un test de validation il y a quelques secondes.",
+          "sentence": "バリデーションテストを{実行|じっこう}し{終|お}えた＿＿＿＿ですよ。",
+          "options": [
+            {
+              "text": "ところ",
+              "level": "neutral",
+              "is_correct": true,
+              "explanation_en": "ところ = just this very moment finished — extremely fresh/immediate completion",
+              "explanation_fr": "ところ = vient juste à l'instant de terminer — achèvement extrêmement récent/immédiat"
+            },
+            {
+              "text": "ばかり",
+              "level": "neutral",
+              "is_correct": false,
+              "explanation_en": "ばかり = recently finished — less immediate than ところ; could be hours ago",
+              "explanation_fr": "ばかり = récemment terminé — moins immédiat que ところ ; pourrait être il y a des heures"
+            },
+            {
+              "text": "はず",
+              "level": "neutral",
+              "is_correct": false,
+              "explanation_en": "はず = should have finished — conveys expectation, not the actual just-completed fact",
+              "explanation_fr": "はず = devrait avoir terminé — exprime une attente, pas le fait d'avoir effectivement terminé"
+            }
+          ]
+        },
+        "answers": ["ところ"],
+        "hints": ["Seconds ago — this is maximally immediate", "た + ところ = just now, this very second"],
+        "explanation": {
+          "correct": "実行し終えたところです — the validation test was completed just seconds ago. ところ expresses the most immediate recent completion.",
+          "wrong": {}
+        },
+        "domain": "automotive",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "id": "nagara",
+    "pattern": "～ながら",
+    "meaning_en": "While doing (simultaneous actions by the same subject)",
+    "meaning_fr": "Tout en faisant (actions simultanées par le même sujet)",
+    "jlpt_level": "N3",
+    "category": "conjunction",
+    "sort_order": 112,
+    "formation": [
+      {
+        "base": "Verb (ます-stem)",
+        "rule": "ます-stem + ながら + main action",
+        "examples": [
+          { "input": "聞く → 聞き", "output": "音楽を聞きながら勉強する (study while listening to music)" },
+          { "input": "考える → 考え", "output": "考えながら話す (speak while thinking)" },
+          { "input": "確認する → 確認し", "output": "ログを確認しながら修正する (fix while checking the log)" }
+        ]
+      }
+    ],
+    "explanation_en": "～ながら expresses two simultaneous actions performed by the same subject. The ながら verb is the secondary/background action; the final verb is the primary action. IMPORTANT: both actions must be performed by the same subject. ながら cannot connect two different subjects.",
+    "explanation_fr": "～ながら exprime deux actions simultanées effectuées par le même sujet. Le verbe avec ながら est l'action secondaire/de fond ; le verbe final est l'action principale. IMPORTANT : les deux actions doivent être effectuées par le même sujet.",
+    "nuance": "ながら can also express a concessive meaning with adjectives/nouns: 残念ながら (unfortunately / while being unfortunate), 少ないながらも (even though small). This is a different, more formal usage.",
+    "related_points": ["tama_ma", "te_iru", "aida"],
+    "common_mistakes": [
+      {
+        "wrong": "私が働きながら、田中さんは休んでいた",
+        "correct": "私が働いている間、田中さんは休んでいた",
+        "explanation_en": "ながら requires the same subject for both actions. When subjects differ, use 間 or 一方 instead.",
+        "explanation_fr": "ながら exige le même sujet pour les deux actions. Quand les sujets diffèrent, utilisez 間 ou 一方 à la place."
+      }
+    ],
+    "audio_url": null,
+    "exercises": [
+      {
+        "id": "nagara_ex1",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "エラーログを{確認|かくにん}し＿＿＿＿、コードを{修正|しゅうせい}していきます。",
+          "blank_position": "inline",
+          "hint_en": "while checking the error log — simultaneous action",
+          "hint_fr": "tout en vérifiant le journal d'erreurs — action simultanée"
+        },
+        "answers": ["ながら"],
+        "hints": ["確認する → ます-stem: 確認し", "ながら = while doing (same subject)"],
+        "explanation": {
+          "correct": "確認しながら — 'I will fix the code while checking the error log.' The same person is doing both simultaneously. ます-stem + ながら.",
+          "wrong": {}
+        },
+        "domain": "embedded",
+        "difficulty": 1
+      },
+      {
+        "id": "nagara_ex2",
+        "type": "mcq",
+        "question": {
+          "sentence": "{山田|やまだ}さんは{スマートフォン|すまーとふぉん}を{見|み}＿＿＿＿{歩|ある}いていて、{危|あぶ}ないです。",
+          "options": [
+            {
+              "text": "ながら",
+              "is_correct": true,
+              "explanation_en": "ながら = while looking at the phone AND walking — same subject (Yamada-san) doing both simultaneously",
+              "explanation_fr": "ながら = tout en regardant le téléphone ET en marchant — même sujet (Yamada-san) faisant les deux simultanément"
+            },
+            {
+              "text": "たまま",
+              "is_correct": false,
+              "explanation_en": "たまま = left in a state (e.g., looking at the phone while something else changed) — different nuance from simultaneous action",
+              "explanation_fr": "たまま = laissé dans un état — nuance différente de l'action simultanée"
+            },
+            {
+              "text": "てから",
+              "is_correct": false,
+              "explanation_en": "てから = after doing — sequential, not simultaneous",
+              "explanation_fr": "てから = après avoir fait — séquentiel, pas simultané"
+            },
+            {
+              "text": "ているうちに",
+              "is_correct": false,
+              "explanation_en": "ているうちに = while/during a period (something else happens) — different structure",
+              "explanation_fr": "ているうちに = pendant que/durant (quelque chose d'autre se passe) — structure différente"
+            }
+          ]
+        },
+        "answers": ["ながら"],
+        "hints": ["Walking AND looking at the phone — same person, at the same time", "ながら = simultaneous actions by the same subject"],
+        "explanation": {
+          "correct": "見ながら歩いていて — 'Yamada-san is walking while looking at their phone.' Both actions are simultaneous and by the same person.",
+          "wrong": {}
+        },
+        "domain": "daily",
+        "difficulty": 1
+      },
+      {
+        "id": "nagara_ex3",
+        "type": "error_spotter",
+        "question": {
+          "sentence": "{私|わたし}がテストしながら、{田中|たなか}さんは{新機能|しんきのう}を{開発|かいはつ}していました。",
+          "error_segment": "私がテストしながら"
+        },
+        "answers": ["私がテストしている間", "私がテストしている間に"],
+        "hints": ["ながら requires the same subject for both actions", "Different subjects (私 and 田中さん) → use 間 or 間に"],
+        "explanation": {
+          "correct": "私がテストしている間 — when two different subjects act simultaneously, use 間(に), not ながら. ながら can only connect same-subject simultaneous actions.",
+          "wrong": {}
+        },
+        "domain": "business",
+        "difficulty": 3
+      },
+      {
+        "id": "nagara_ex4",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "ECUの{動作|どうさ}データを{記録|きろく}し＿＿＿＿、{走行|そうこう}テストを{実施|じっし}しました。",
+          "blank_position": "inline",
+          "hint_en": "while recording data — simultaneous engineering action",
+          "hint_fr": "tout en enregistrant les données — action d'ingénierie simultanée"
+        },
+        "answers": ["ながら"],
+        "hints": ["記録する → ます-stem: 記録し", "Both recording and testing done simultaneously by same team"],
+        "explanation": {
+          "correct": "記録しながら — 'We conducted the driving test while recording ECU operational data.' Same subject performing both actions simultaneously.",
+          "wrong": {}
+        },
+        "domain": "automotive",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "id": "tama_ma",
+    "pattern": "～たまま",
+    "meaning_en": "Left in a state / while remaining in a state (unchanged condition)",
+    "meaning_fr": "Laissé dans un état / tout en restant dans un état (condition inchangée)",
+    "jlpt_level": "N3",
+    "category": "tense_aspect",
+    "sort_order": 113,
+    "formation": [
+      {
+        "base": "Verb (た-form)",
+        "rule": "た-form + まま = left in the state of having done",
+        "examples": [
+          { "input": "電源を入れたまま", "output": "電源を入れたまま放置した (left it with the power on)" },
+          { "input": "窓を開けたまま", "output": "窓を開けたまま出かけた (went out leaving the window open)" }
+        ]
+      },
+      {
+        "base": "Verb (ない-form)",
+        "rule": "ない-form + まま = without doing (unchanged from not having done)",
+        "examples": [
+          { "input": "確認しないまま", "output": "確認しないまま提出した (submitted without checking)" }
+        ]
+      },
+      {
+        "base": "Noun + の / な-adj + な",
+        "rule": "Noun + のまま / な-adj + なまま",
+        "examples": [
+          { "input": "子供のまま", "output": "子供のまま大人になった (grew up while remaining childlike)" }
+        ]
+      }
+    ],
+    "explanation_en": "～たまま describes a state that persists unchanged from the point of a completed action. The action happened, and the resulting state is maintained (intentionally or negligently). ないまま means the expected action did not occur and the situation continued without it.",
+    "explanation_fr": "～たまま décrit un état qui persiste inchangé depuis le point d'une action accomplie. L'action s'est produite et l'état résultant est maintenu (intentionnellement ou par négligence). ないまま signifie que l'action attendue ne s'est pas produite et la situation a continué sans elle.",
+    "nuance": "たまま often implies the state was left unintentionally or carelessly. Compare with てある (deliberately left in a state) vs たまま (often negligent or simply unchanged).",
+    "related_points": ["nagara", "te_aru", "te_oku"],
+    "common_mistakes": [
+      {
+        "wrong": "靴を履いてまま家に入った",
+        "correct": "靴を履いたまま家に入った",
+        "explanation_en": "Use た-form (履いた) + まま, not て-form + まま. The た-form describes the completed state that persists.",
+        "explanation_fr": "Utilisez la forme た (履いた) + まま, pas la forme て + まま. La forme た décrit l'état accompli qui persiste."
+      }
+    ],
+    "audio_url": null,
+    "exercises": [
+      {
+        "id": "tama_ma_ex1",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "{電源|でんげん}を{入|い}れた＿＿＿＿{一晩中|ひとばんじゅう}コンピューターを{放置|ほうち}してしまった。",
+          "blank_position": "inline",
+          "hint_en": "left with the power on — unchanged state persisting",
+          "hint_fr": "laissé avec l'alimentation allumée — état inchangé persistant"
+        },
+        "answers": ["まま"],
+        "hints": ["入れた = turned on (completed action)", "たまま = left in that state"],
+        "explanation": {
+          "correct": "電源を入れたまま — 'I accidentally left the computer on all night.' た-form + まま describes the persisting state of having the power on.",
+          "wrong": {}
+        },
+        "domain": "embedded",
+        "difficulty": 2
+      },
+      {
+        "id": "tama_ma_ex2",
+        "type": "mcq",
+        "question": {
+          "sentence": "{コードを|こーどを}{確認|かくにん}しない＿＿＿＿、テストに{提出|ていしゅつ}してしまいました。",
+          "options": [
+            {
+              "text": "まま",
+              "is_correct": true,
+              "explanation_en": "確認しないまま = without having checked / while leaving it unchecked — the expected review didn't happen",
+              "explanation_fr": "確認しないまま = sans avoir vérifié / en laissant non vérifié — la révision attendue n'a pas eu lieu"
+            },
+            {
+              "text": "ながら",
+              "is_correct": false,
+              "explanation_en": "ながら = while simultaneously doing — but you can't submit while simultaneously not checking; the states are sequential",
+              "explanation_fr": "ながら = tout en faisant simultanément — mais on ne peut pas soumettre tout en ne vérifiant pas simultanément"
+            },
+            {
+              "text": "ところで",
+              "is_correct": false,
+              "explanation_en": "ところで = by the way / even so — a conjunctive particle, not a state-maintenance expression",
+              "explanation_fr": "ところで = à propos / malgré tout — une particule conjonctive, pas une expression de maintien d'état"
+            },
+            {
+              "text": "ばかりで",
+              "is_correct": false,
+              "explanation_en": "確認しないばかりで would mean 'merely not checking' — awkward and unnatural in this context",
+              "explanation_fr": "確認しないばかりで signifierait 'en ne faisant que ne pas vérifier' — maladroit et non naturel dans ce contexte"
+            }
+          ]
+        },
+        "answers": ["まま"],
+        "hints": ["The code was submitted without being checked", "ない + まま = without doing (action omitted, state persisting)"],
+        "explanation": {
+          "correct": "確認しないまま — 'I submitted it to the test without checking the code.' ない-form + まま = the expected action (checking) did not happen, and the situation proceeded unchanged.",
+          "wrong": {}
+        },
+        "domain": "business",
+        "difficulty": 2
+      },
+      {
+        "id": "tama_ma_ex3",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "エンジンを{動|うご}かした＿＿＿＿、{長時間|ちょうじかん}{放置|ほうち}するのは{危険|きけん}です。",
+          "blank_position": "inline",
+          "hint_en": "while keeping the engine running — state persisting from the completed action of starting it",
+          "hint_fr": "tout en maintenant le moteur en marche — état persistant de l'action accomplie de le démarrer"
+        },
+        "answers": ["まま"],
+        "hints": ["動かした = started/ran (completed action)", "たまま = remaining in that state"],
+        "explanation": {
+          "correct": "動かしたまま — 'Leaving the engine running for a long time is dangerous.' The engine was started (動かした) and that state was left unchanged (まま).",
+          "wrong": {}
+        },
+        "domain": "automotive",
+        "difficulty": 2
+      },
+      {
+        "id": "tama_ma_ex4",
+        "type": "error_spotter",
+        "question": {
+          "sentence": "{服|ふく}を{着|き}てまま{寝|ね}てしまった。",
+          "error_segment": "着てまま"
+        },
+        "answers": ["着たまま"],
+        "hints": ["Use た-form (着た), not て-form", "た + まま = left in the state of having worn"],
+        "explanation": {
+          "correct": "着たまま — 'I fell asleep still wearing my clothes.' You need the た-form (着た) + まま. て-form + まま is not standard.",
+          "wrong": {}
+        },
+        "domain": "daily",
+        "difficulty": 2
+      }
+    ]
+  }
+]

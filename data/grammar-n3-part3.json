@@ -1,0 +1,853 @@
+[
+  {
+    "id": "kuse_ni",
+    "pattern": "～くせに",
+    "meaning_en": "Even though / despite (with criticism or reproach)",
+    "meaning_fr": "Même si / malgré (avec critique ou reproche)",
+    "jlpt_level": "N3",
+    "category": "conjunction",
+    "sort_order": 114,
+    "formation": [
+      {
+        "base": "Verb (plain form) / い-adj / な-adj + な / Noun + の",
+        "rule": "Plain form + くせに",
+        "examples": [
+          { "input": "知っているくせに", "output": "知っているくせに教えてくれない (even though you know, you won't tell me)" },
+          { "input": "できないくせに", "output": "できないくせに偉そうにする (acts arrogant despite not being able to do it)" },
+          { "input": "新人なのに → 新人のくせに", "output": "新人のくせに口を出す (a newbie who butts in despite being new)" }
+        ]
+      }
+    ],
+    "explanation_en": "～くせに expresses criticism, reproach, or frustration — 'despite the fact that / even though (and you should know better).' It carries a negative, judgmental tone and implies a contradiction between what someone is and what they do. It is more emotionally charged than のに.",
+    "explanation_fr": "～くせに exprime une critique, un reproche ou de la frustration — 'malgré le fait que / même si (et tu devrais savoir mieux).' Il porte un ton négatif et implique une contradiction entre ce qu'est quelqu'un et ce qu'il fait. C'est plus chargé émotionnellement que のに.",
+    "nuance": "くせに is ruder and more accusatory than のに. It is typically used toward people close to you or beneath you in social hierarchy. Using it toward superiors is inappropriate.",
+    "related_points": ["noni", "nagara", "te_iru"],
+    "common_mistakes": [
+      {
+        "wrong": "部長はわかっているくせに、何も言いませんでした (to describe a superior critically)",
+        "correct": "Use のに instead when referring to superiors: 部長はわかっているのに、何も言いませんでした",
+        "explanation_en": "くせに is accusatory and inappropriate for superiors. Use のに (even though) which is neutral.",
+        "explanation_fr": "くせに est accusateur et inapproprié pour les supérieurs. Utilisez のに (même si) qui est neutre."
+      }
+    ],
+    "audio_url": null,
+    "exercises": [
+      {
+        "id": "kuse_ni_ex1",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "{彼|かれ}はバグの{原因|げんいん}を{知|し}っている＿＿＿＿、チームに{報告|ほうこく}しなかった。",
+          "blank_position": "inline",
+          "hint_en": "even though he knows / despite knowing — with criticism",
+          "hint_fr": "même s'il sait / malgré le fait de savoir — avec critique"
+        },
+        "answers": ["くせに"],
+        "hints": ["The speaker is frustrated/critical", "くせに = despite (accusatory/reproachful tone)"],
+        "explanation": {
+          "correct": "知っているくせに — 'Even though he knows the cause of the bug, he didn't report it to the team.' くせに carries a critical, reproachful tone.",
+          "wrong": {
+            "のに": "のに is also grammatically correct but is more neutral. くせに is more emotionally charged and accusatory."
+          }
+        },
+        "domain": "business",
+        "difficulty": 2
+      },
+      {
+        "id": "kuse_ni_ex2",
+        "type": "mcq",
+        "question": {
+          "sentence": "{新人|しんにゅう}の＿＿＿＿、{先輩|せんぱい}に{偉|えら}そうな{態度|たいど}を{取|と}る。",
+          "options": [
+            {
+              "text": "くせに",
+              "is_correct": true,
+              "explanation_en": "新人のくせに = despite being a newcomer (critical/reproachful) — fits criticism of attitude",
+              "explanation_fr": "新人のくせに = malgré le fait d'être un nouveau (critique/réprobateur) — correspond à la critique de l'attitude"
+            },
+            {
+              "text": "のに",
+              "is_correct": false,
+              "explanation_en": "のに = even though (neutral/surprised/sad) — grammatically possible but lacks the accusatory punch of くせに here",
+              "explanation_fr": "のに = même si (neutre/surpris/triste) — grammaticalement possible mais manque le punch accusateur de くせに ici"
+            },
+            {
+              "text": "ながら",
+              "is_correct": false,
+              "explanation_en": "ながら = while doing simultaneously — does not express the contradictory/critical meaning needed here",
+              "explanation_fr": "ながら = tout en faisant simultanément — n'exprime pas le sens contradictoire/critique nécessaire ici"
+            },
+            {
+              "text": "なので",
+              "is_correct": false,
+              "explanation_en": "なので = because — expresses cause, not contradiction or criticism",
+              "explanation_fr": "なので = parce que — exprime la cause, pas la contradiction ou la critique"
+            }
+          ]
+        },
+        "answers": ["くせに"],
+        "hints": ["The speaker is critical of a newcomer acting arrogant", "くせに = reproachful despite"],
+        "explanation": {
+          "correct": "新人のくせに — 'Despite being a newcomer, acts arrogantly toward seniors.' The くせに carries frustration and reproach.",
+          "wrong": {}
+        },
+        "domain": "daily",
+        "difficulty": 2
+      },
+      {
+        "id": "kuse_ni_ex3",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "{何年|なんねん}も{組込|くみこみ}みエンジニアをやっている＿＿＿＿、こんな{基本的|きほんてき}なことも{知|し}らないのか。",
+          "blank_position": "inline",
+          "hint_en": "even though you've been an embedded engineer for years — critical tone",
+          "hint_fr": "même si tu es ingénieur embarqué depuis des années — ton critique"
+        },
+        "answers": ["くせに"],
+        "hints": ["Years of experience yet doesn't know basics — frustration/criticism", "くせに = despite (with reproach)"],
+        "explanation": {
+          "correct": "やっているくせに — 'Despite having been an embedded engineer for years, you don't even know this basic thing?' A critical, reproachful expression.",
+          "wrong": {}
+        },
+        "domain": "embedded",
+        "difficulty": 2
+      },
+      {
+        "id": "kuse_ni_ex4",
+        "type": "error_spotter",
+        "question": {
+          "sentence": "{部長|ぶちょう}はもう{知|し}っているくせに、{何|なに}も{言|い}いませんでした。",
+          "error_segment": "部長はもう知っているくせに"
+        },
+        "answers": ["部長はもう知っているのに"],
+        "hints": ["くせに toward a superior is socially inappropriate", "Use のに for neutral 'even though' with superiors"],
+        "explanation": {
+          "correct": "部長はもう知っているのに — くせに is too accusatory for use toward a superior (部長). The neutral のに is appropriate here.",
+          "wrong": {}
+        },
+        "domain": "business",
+        "difficulty": 3
+      }
+    ]
+  },
+  {
+    "id": "tame_ni",
+    "pattern": "～ために",
+    "meaning_en": "In order to (purpose) / because of (cause with negative result)",
+    "meaning_fr": "Afin de (but) / à cause de (cause avec résultat négatif)",
+    "jlpt_level": "N3",
+    "category": "conjunction",
+    "sort_order": 115,
+    "formation": [
+      {
+        "base": "Verb (dictionary form) — purpose",
+        "rule": "dict. form + ために = in order to do",
+        "examples": [
+          { "input": "合格する + ために", "output": "合格するために勉強する (study in order to pass)" },
+          { "input": "安全を確保する + ために", "output": "安全を確保するために検査する (inspect in order to ensure safety)" }
+        ]
+      },
+      {
+        "base": "Verb (た-form / plain form) — cause",
+        "rule": "plain form + ために = because of / due to (often negative cause)",
+        "examples": [
+          { "input": "嵐が来た + ために", "output": "嵐が来たために試験が中止になった (the exam was canceled because a storm came)" }
+        ]
+      },
+      {
+        "base": "Noun + の",
+        "rule": "Noun + のために = for the sake of / for the purpose of",
+        "examples": [
+          { "input": "会社のために", "output": "会社のために働く (work for the company)" }
+        ]
+      }
+    ],
+    "explanation_en": "ために has two main uses: (1) Purpose — V dictionary + ために = in order to do X. The subject of both clauses is usually the same. (2) Cause — plain form + ために = because of X (often unavoidable or uncontrollable causes). The purpose use requires a volitional verb.",
+    "explanation_fr": "ために a deux usages principaux : (1) But — V dictionnaire + ために = afin de faire X. Le sujet des deux propositions est généralement le même. (2) Cause — forme plain + ために = à cause de X (souvent des causes inévitables). L'usage de but nécessite un verbe volitif.",
+    "nuance": "Purpose ために requires a volitional verb in the first clause (you can choose to do it). You cannot say 雨が降るために (to rain) as a purpose since rain is not volitional. For purposes with non-volitional meanings, use ように instead.",
+    "related_points": ["you_ni", "node", "kara"],
+    "common_mistakes": [
+      {
+        "wrong": "聞こえるために、マイクを使います",
+        "correct": "聞こえるように、マイクを使います",
+        "explanation_en": "聞こえる (to be audible) is non-volitional — you can't choose to be audible. Use ように for non-volitional purposes.",
+        "explanation_fr": "聞こえる (être audible) est non volitif — on ne peut pas choisir d'être audible. Utilisez ように pour les buts non volitifs."
+      }
+    ],
+    "audio_url": null,
+    "exercises": [
+      {
+        "id": "tame_ni_ex1",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "{品質|ひんしつ}を{向上|こうじょう}させる＿＿＿＿、{自動|じどう}テストを{導入|どうにゅう}しました。",
+          "blank_position": "inline",
+          "hint_en": "in order to improve quality — purpose",
+          "hint_fr": "afin d'améliorer la qualité — but"
+        },
+        "answers": ["ために"],
+        "hints": ["Purpose: in order to do X", "Volitional verb (向上させる) + ために"],
+        "explanation": {
+          "correct": "向上させるために — 'We introduced automated testing in order to improve quality.' Dictionary form + ために expresses purpose.",
+          "wrong": {
+            "ように": "ように is used for non-volitional goals. 向上させる is volitional, so ために is the natural choice."
+          }
+        },
+        "domain": "embedded",
+        "difficulty": 2
+      },
+      {
+        "id": "tame_ni_ex2",
+        "type": "mcq",
+        "question": {
+          "sentence": "{大雪|おおゆき}が{降|ふ}った＿＿＿＿、{納品|のうひん}が{遅|おく}れてしまいました。",
+          "options": [
+            {
+              "text": "ために",
+              "is_correct": true,
+              "explanation_en": "大雪が降ったために = because heavy snow fell (cause — unavoidable natural event leading to negative outcome)",
+              "explanation_fr": "大雪が降ったために = parce qu'il a beaucoup neigé (cause — événement naturel inévitable menant à un résultat négatif)"
+            },
+            {
+              "text": "ように",
+              "is_correct": false,
+              "explanation_en": "ように expresses purpose or manner — heavy snow 'in order to' delay is nonsensical",
+              "explanation_fr": "ように exprime le but ou la manière — la neige 'afin de' retarder n'a pas de sens"
+            },
+            {
+              "text": "ながら",
+              "is_correct": false,
+              "explanation_en": "ながら = while doing simultaneously — does not fit as a cause-effect connector",
+              "explanation_fr": "ながら = tout en faisant simultanément — ne convient pas comme connecteur cause-effet"
+            },
+            {
+              "text": "のに",
+              "is_correct": false,
+              "explanation_en": "のに = even though (contrastive) — but here the snow DID cause the delay, so there's no contradiction",
+              "explanation_fr": "のに = même si (contrastif) — mais ici la neige A causé le retard, donc il n'y a pas de contradiction"
+            }
+          ]
+        },
+        "answers": ["ために"],
+        "hints": ["Heavy snow is an external cause — use cause ために", "た-form + ために = because of (past cause)"],
+        "explanation": {
+          "correct": "降ったために — 'Because heavy snow fell, the delivery was delayed.' Past form + ために = because of (unavoidable cause).",
+          "wrong": {}
+        },
+        "domain": "business",
+        "difficulty": 2
+      },
+      {
+        "id": "tame_ni_ex3",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "ECUの{安全性|あんぜんせい}を{確認|かくにん}する＿＿＿＿、{第三者|だいさんしゃ}{機関|きかん}による{評価|ひょうか}が{必要|ひつよう}です。",
+          "blank_position": "inline",
+          "hint_en": "in order to verify safety — purpose",
+          "hint_fr": "afin de vérifier la sécurité — but"
+        },
+        "answers": ["ために"],
+        "hints": ["確認する is volitional — use ために for purpose", "Dictionary form + ために = in order to"],
+        "explanation": {
+          "correct": "確認するために — 'In order to verify the safety of the ECU, a third-party evaluation is necessary.' Volitional dictionary form + ために.",
+          "wrong": {}
+        },
+        "domain": "automotive",
+        "difficulty": 2
+      },
+      {
+        "id": "tame_ni_ex4",
+        "type": "error_spotter",
+        "question": {
+          "sentence": "{日本語|にほんご}が{上手|じょうず}になるために、{毎日|まいにち}{練習|れんしゅう}しています。",
+          "error_segment": "上手になるために"
+        },
+        "answers": ["上手になるように"],
+        "hints": ["上手になる (to become good) is a non-volitional change of state", "Non-volitional goal → use ように, not ために"],
+        "explanation": {
+          "correct": "上手になるように — 'becoming good at Japanese' is a non-volitional state change. Use ように for non-volitional goals. ために requires a volitional action in the first clause.",
+          "wrong": {}
+        },
+        "domain": "daily",
+        "difficulty": 3
+      }
+    ]
+  },
+  {
+    "id": "you_ni",
+    "pattern": "～ように",
+    "meaning_en": "So that / in order that / in such a way that (non-volitional or indirect purpose)",
+    "meaning_fr": "De sorte que / afin que / de manière à ce que (but non volitif ou indirect)",
+    "jlpt_level": "N3",
+    "category": "conjunction",
+    "sort_order": 116,
+    "formation": [
+      {
+        "base": "Verb (dictionary or ない-form)",
+        "rule": "dict./ない-form + ように + main clause",
+        "examples": [
+          { "input": "忘れないように", "output": "忘れないようにメモを取る (take notes so as not to forget)" },
+          { "input": "動くように", "output": "正しく動くように設定した (configured so that it works correctly)" },
+          { "input": "聞こえるように", "output": "聞こえるようにマイクを使う (use a microphone so that it can be heard)" }
+        ]
+      }
+    ],
+    "explanation_en": "ように expresses an indirect or non-volitional purpose — the goal in the second clause is something that happens, not something directly willed. It is used when: (1) the goal clause is non-volitional (聞こえる, わかる, できる); (2) the subjects of the two clauses differ; (3) you want to express manner/condition.",
+    "explanation_fr": "ように exprime un but indirect ou non volitif — l'objectif dans la deuxième proposition est quelque chose qui se produit, pas quelque chose directement voulu. Il est utilisé quand : (1) la proposition but est non volitive ; (2) les sujets des deux propositions diffèrent ; (3) on veut exprimer la manière/condition.",
+    "nuance": "ように (purpose) vs ために (purpose): ように = non-volitional or different-subject goals; ために = volitional, same-subject goals. ように also expresses manner/appearance (like) and the ようにする/ようになる patterns.",
+    "related_points": ["tame_ni", "you_ni_suru", "you_ni_naru"],
+    "common_mistakes": [
+      {
+        "wrong": "試験に合格するように毎日勉強します",
+        "correct": "試験に合格するために毎日勉強します",
+        "explanation_en": "合格する is volitional and the subject is the same — use ために. ように is used when the goal is non-volitional or involves different subjects.",
+        "explanation_fr": "合格する est volitif et le sujet est le même — utilisez ために. ように est utilisé quand l'objectif est non volitif ou implique des sujets différents."
+      }
+    ],
+    "audio_url": null,
+    "exercises": [
+      {
+        "id": "you_ni_ex1",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "バグが{再発|さいはつ}しない＿＿＿＿、テストケースを{追加|ついか}しました。",
+          "blank_position": "inline",
+          "hint_en": "so that the bug does not recur — non-volitional goal",
+          "hint_fr": "de sorte que le bogue ne réapparaisse pas — but non volitif"
+        },
+        "answers": ["ように"],
+        "hints": ["再発しない = not recur — this is non-volitional (bugs don't 'choose' to recur)", "ない-form + ように for non-volitional negative goals"],
+        "explanation": {
+          "correct": "再発しないように — 'We added test cases so that the bug would not recur.' Non-volitional goal + ように.",
+          "wrong": {
+            "ために": "ために requires a volitional action. 再発しない (not recurring) is non-volitional — use ように."
+          }
+        },
+        "domain": "embedded",
+        "difficulty": 2
+      },
+      {
+        "id": "you_ni_ex2",
+        "type": "mcq",
+        "question": {
+          "sentence": "{全員|ぜんいん}に{内容|ないよう}が{伝|つた}わる＿＿＿＿、{図|ず}を{使|つか}って{説明|せつめい}しました。",
+          "options": [
+            {
+              "text": "ように",
+              "is_correct": true,
+              "explanation_en": "伝わる (to be communicated) is non-volitional — use ように for non-volitional goals",
+              "explanation_fr": "伝わる (être communiqué) est non volitif — utilisez ように pour les buts non volitifs"
+            },
+            {
+              "text": "ために",
+              "is_correct": false,
+              "explanation_en": "ために requires a volitional first-clause verb — 伝わる is intransitive and non-volitional",
+              "explanation_fr": "ために nécessite un verbe volitif dans la première proposition — 伝わる est intransitif et non volitif"
+            },
+            {
+              "text": "ながら",
+              "is_correct": false,
+              "explanation_en": "ながら = while simultaneously — does not express purpose",
+              "explanation_fr": "ながら = tout en faisant simultanément — n'exprime pas le but"
+            },
+            {
+              "text": "くせに",
+              "is_correct": false,
+              "explanation_en": "くせに = despite / even though (reproachful) — completely wrong nuance",
+              "explanation_fr": "くせに = malgré / même si (réprobateur) — nuance complètement erronée"
+            }
+          ]
+        },
+        "answers": ["ように"],
+        "hints": ["伝わる = to be communicated — non-volitional", "ように for non-volitional goals"],
+        "explanation": {
+          "correct": "伝わるように — 'I explained with diagrams so that the content would be communicated to everyone.' Non-volitional result + ように.",
+          "wrong": {}
+        },
+        "domain": "business",
+        "difficulty": 2
+      },
+      {
+        "id": "you_ni_ex3",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "{誰|だれ}でも{操作|そうさ}できる＿＿＿＿、インターフェースをシンプルに{設計|せっけい}しました。",
+          "blank_position": "inline",
+          "hint_en": "so that anyone can operate it — non-volitional potential",
+          "hint_fr": "de sorte que n'importe qui puisse l'utiliser — potentiel non volitif"
+        },
+        "answers": ["ように"],
+        "hints": ["できる = can do (potential) — non-volitional potential form", "ように for goals expressed with potential forms"],
+        "explanation": {
+          "correct": "操作できるように — 'We designed the interface simply so that anyone could operate it.' Potential form + ように.",
+          "wrong": {}
+        },
+        "domain": "automotive",
+        "difficulty": 2
+      },
+      {
+        "id": "you_ni_ex4",
+        "type": "transform",
+        "question": {
+          "original": "{遅刻|ちこく}しません。",
+          "instruction_en": "Rewrite using ように as a goal/purpose: 'I set an alarm so that I won't be late'",
+          "instruction_fr": "Réécrivez avec ように comme but/objectif : 'J'ai mis une alarme pour ne pas être en retard'",
+          "pattern_hint": "ない-form + ように + action"
+        },
+        "answers": ["遅刻しないように、アラームをセットしました", "遅刻しないようにアラームをセットした"],
+        "hints": ["遅刻しない = won't be late (ない-form)", "Add ように then the action taken"],
+        "explanation": {
+          "correct": "遅刻しないように、アラームをセットしました — 'I set an alarm so as not to be late.' ない-form + ように expresses a non-volitional prevention goal.",
+          "wrong": {}
+        },
+        "domain": "daily",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "id": "saseru",
+    "pattern": "～させる",
+    "meaning_en": "Causative — make someone do / let someone do",
+    "meaning_fr": "Causatif — faire faire à quelqu'un / laisser quelqu'un faire",
+    "jlpt_level": "N3",
+    "category": "verb_form",
+    "sort_order": 117,
+    "formation": [
+      {
+        "base": "う-verb",
+        "rule": "ない-stem + せる",
+        "examples": [
+          { "input": "書く → 書か", "output": "書かせる (make/let write)" },
+          { "input": "待つ → 待た", "output": "待たせる (make/let wait)" },
+          { "input": "飲む → 飲ま", "output": "飲ませる (make/let drink)" }
+        ]
+      },
+      {
+        "base": "る-verb",
+        "rule": "drop る + させる",
+        "examples": [
+          { "input": "食べる → 食べ", "output": "食べさせる (make/let eat)" },
+          { "input": "確認する → させる", "output": "確認させる (make/let confirm)" }
+        ]
+      },
+      {
+        "base": "irregular",
+        "rule": "する → させる / くる → こさせる",
+        "examples": [
+          { "input": "する", "output": "させる" },
+          { "input": "くる", "output": "こさせる" }
+        ]
+      }
+    ],
+    "explanation_en": "The causative form (させる/せる) expresses: (1) forcing someone to do something — often with を marking the person forced; (2) allowing/letting someone do something — often with に marking the person allowed. Context and the person's status determine whether it is 'make' or 'let.' In humble speech, させていただく = humbly asking permission to do.",
+    "explanation_fr": "La forme causative (させる/せる) exprime : (1) forcer quelqu'un à faire quelque chose — souvent avec を marquant la personne forcée ; (2) permettre/laisser quelqu'un faire quelque chose — souvent avec に. Dans le discours humble, させていただく = demander humblement la permission de faire.",
+    "nuance": "を + causative = coercive (make). に + causative = permissive (let/allow). In keigo, させていただきます is extremely common: 確認させていただきます (allow me to confirm).",
+    "related_points": ["saserareru", "te_morau", "te_ageru"],
+    "common_mistakes": [
+      {
+        "wrong": "部下に仕事をさせます → using を for both the task and the person",
+        "correct": "部下に仕事をさせます (correct — に for the person, を for the object)",
+        "explanation_en": "に marks the person being made/allowed to do. を marks the object of the action. Don't use を for both.",
+        "explanation_fr": "に marque la personne qui doit faire. を marque l'objet de l'action. N'utilisez pas を pour les deux."
+      },
+      {
+        "wrong": "確認さしていただきます",
+        "correct": "確認させていただきます",
+        "explanation_en": "させていただく not さしていただく. The causative of する is させる, not さしる.",
+        "explanation_fr": "させていただく et non さしていただく. Le causatif de する est させる, pas さしる."
+      }
+    ],
+    "audio_url": null,
+    "exercises": [
+      {
+        "id": "saseru_ex1",
+        "type": "conjugation",
+        "question": {
+          "base_form": "確認する",
+          "base_type": "irregular (する)",
+          "target_form": "causative — humble business form (させていただく)"
+        },
+        "answers": ["確認させていただきます", "確認させていただく"],
+        "hints": ["する → させる (causative)", "Add ていただく for humble permission nuance"],
+        "explanation": {
+          "correct": "確認させていただきます. する → させる → させていただく (humble: allow me to). This is standard formal/business Japanese.",
+          "wrong": {
+            "確認さしていただきます": "さしていただく is incorrect. する causative is させる not さしる."
+          }
+        },
+        "domain": "business",
+        "difficulty": 2
+      },
+      {
+        "id": "saseru_ex2",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "{部長|ぶちょう}は{新入社員|しんにゅうしゃいん}に{議事録|ぎじろく}を{書|か}か＿＿＿＿。",
+          "blank_position": "inline",
+          "hint_en": "made the new employee write the minutes",
+          "hint_fr": "a fait écrire le compte-rendu au nouvel employé"
+        },
+        "answers": ["せました", "せた"],
+        "hints": ["書く (う-verb) causative: 書か + せる", "Past polite: せました"],
+        "explanation": {
+          "correct": "書かせました — 'The manager made the new employee write the minutes.' 書く → 書か + せる = 書かせる → 書かせました.",
+          "wrong": {
+            "させました": "させる is for る-verbs and する. 書く is an う-verb: 書か + せる = 書かせる."
+          }
+        },
+        "domain": "business",
+        "difficulty": 2
+      },
+      {
+        "id": "saseru_ex3",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "{資料|しりょう}を{確認|かくにん}＿＿＿＿{いただけ|いただけ}ますか？",
+          "blank_position": "inline",
+          "hint_en": "allow me to confirm — humble causative request",
+          "hint_fr": "permettez-moi de vérifier — demande causative humble"
+        },
+        "answers": ["させて"],
+        "hints": ["確認させていただく = allow me to confirm", "させて + いただけますか = may I be allowed to...?"],
+        "explanation": {
+          "correct": "確認させていただけますか — 'May I be allowed to confirm the documents?' The causative させる + ていただく is the standard humble request form.",
+          "wrong": {}
+        },
+        "domain": "embedded",
+        "difficulty": 3
+      },
+      {
+        "id": "saseru_ex4",
+        "type": "mcq",
+        "question": {
+          "sentence": "{子供|こども}に{野菜|やさい}を食べ＿＿＿＿のは{大変|たいへん}です。",
+          "options": [
+            {
+              "text": "させる",
+              "is_correct": true,
+              "explanation_en": "食べさせる = make the child eat vegetables (る-verb: 食べ + させる)",
+              "explanation_fr": "食べさせる = faire manger des légumes à l'enfant (verbe en る : 食べ + させる)"
+            },
+            {
+              "text": "せる",
+              "is_correct": false,
+              "explanation_en": "せる is for う-verbs. 食べる is a る-verb — use させる",
+              "explanation_fr": "せる est pour les verbes en う. 食べる est un verbe en る — utilisez させる"
+            },
+            {
+              "text": "させられる",
+              "is_correct": false,
+              "explanation_en": "させられる is causative-passive (being made to eat) — but the parent is making the child eat, not the reverse",
+              "explanation_fr": "させられる est le causatif-passif (être forcé de manger) — mais c'est le parent qui fait manger l'enfant, pas l'inverse"
+            },
+            {
+              "text": "させている",
+              "is_correct": false,
+              "explanation_en": "食べさせている = is currently making (ongoing) — but the sentence describes the difficulty in general, not an ongoing action",
+              "explanation_fr": "食べさせている = est en train de faire manger (en cours) — mais la phrase décrit la difficulté en général, pas une action en cours"
+            }
+          ]
+        },
+        "answers": ["させる"],
+        "hints": ["食べる is a る-verb: drop る → 食べ + させる", "Making the child eat — causative"],
+        "explanation": {
+          "correct": "食べさせる — 'It is hard to make children eat vegetables.' る-verb 食べる → 食べ + させる = 食べさせる.",
+          "wrong": {}
+        },
+        "domain": "daily",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "id": "saserareru",
+    "pattern": "～させられる",
+    "meaning_en": "Causative-passive — be made to do (against one's will)",
+    "meaning_fr": "Causatif-passif — être forcé de faire (contre sa volonté)",
+    "jlpt_level": "N3",
+    "category": "verb_form",
+    "sort_order": 118,
+    "formation": [
+      {
+        "base": "う-verb",
+        "rule": "ない-stem + せられる (short: される for some verbs)",
+        "examples": [
+          { "input": "書く → 書か", "output": "書かせられる (be made to write)" },
+          { "input": "待つ → 待た", "output": "待たせられる / 待たされる (be made to wait)" },
+          { "input": "飲む → 飲ま", "output": "飲まされる (be made to drink — short form)" }
+        ]
+      },
+      {
+        "base": "る-verb",
+        "rule": "drop る + させられる",
+        "examples": [
+          { "input": "食べる → 食べ", "output": "食べさせられる (be made to eat)" }
+        ]
+      },
+      {
+        "base": "irregular",
+        "rule": "する → させられる / くる → こさせられる",
+        "examples": [
+          { "input": "する", "output": "させられる (be made to do)" },
+          { "input": "残業する", "output": "残業させられる (be made to do overtime)" }
+        ]
+      }
+    ],
+    "explanation_en": "The causative-passive combines causative + passive: someone is caused (by another) to do something they did not want to do. The person forced is the grammatical subject (marked は/が). The person forcing often takes に. It carries a strong sense of compulsion or being put upon.",
+    "explanation_fr": "Le causatif-passif combine causatif + passif : quelqu'un est amené (par un autre) à faire quelque chose qu'il ne voulait pas faire. La personne forcée est le sujet grammatical. La personne qui force prend souvent に. Il exprime une forte contrainte.",
+    "nuance": "Short form: 飲まされる (from 飲ませられる). The short form is more colloquial and applies to う-verbs ending in す excluded: 話させられる, NOT 話させられる → no short form for す-verbs. This is tested on JLPT N3.",
+    "related_points": ["saseru", "passive_form", "te_morau"],
+    "common_mistakes": [
+      {
+        "wrong": "残業させる (when the speaker is the one being forced)",
+        "correct": "残業させられる",
+        "explanation_en": "させる = you make someone do it (you are in control). させられる = you are made to do it (someone else forces you).",
+        "explanation_fr": "させる = vous faites faire à quelqu'un (vous êtes en contrôle). させられる = vous êtes forcé de faire (quelqu'un d'autre vous force)."
+      },
+      {
+        "wrong": "話させられる → 話させられる (short form attempt: 話さされる)",
+        "correct": "話させられる (no short form for す-verbs)",
+        "explanation_en": "す-verbs do not have a short causative-passive form. 話す → 話させられる only (not 話さされる).",
+        "explanation_fr": "Les verbes en す n'ont pas de forme courte causatif-passif. 話す → 話させられる uniquement (pas 話さされる)."
+      }
+    ],
+    "audio_url": null,
+    "exercises": [
+      {
+        "id": "saserareru_ex1",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "{新入社員|しんにゅうしゃいん}のころ、{毎日|まいにち}{残業|ざんぎょう}＿＿＿＿のは{辛|つら}かった。",
+          "blank_position": "inline",
+          "hint_en": "was made to do overtime every day — causative-passive",
+          "hint_fr": "était forcé de faire des heures supplémentaires chaque jour — causatif-passif"
+        },
+        "answers": ["させられた", "させられたこと"],
+        "hints": ["残業する → causative: 残業させる → causative-passive: 残業させられる", "Past form: させられた"],
+        "explanation": {
+          "correct": "残業させられた — 'When I was a new employee, being made to do overtime every day was hard.' する → させる → させられる.",
+          "wrong": {
+            "させた": "させた means 'I made someone do overtime' — but here you were the one forced to do it."
+          }
+        },
+        "domain": "business",
+        "difficulty": 3
+      },
+      {
+        "id": "saserareru_ex2",
+        "type": "mcq",
+        "question": {
+          "sentence": "{デバッグ|でばっぐ}チームは{リーダー|りーだー}に{深夜|しんや}まで{作業|さぎょう}＿＿＿＿。",
+          "options": [
+            {
+              "text": "させられました",
+              "is_correct": true,
+              "explanation_en": "させられました = was made to work (by the leader) — the team is the subject being forced (causative-passive)",
+              "explanation_fr": "させられました = a été forcé de travailler (par le leader) — l'équipe est le sujet forcé (causatif-passif)"
+            },
+            {
+              "text": "させました",
+              "is_correct": false,
+              "explanation_en": "させました = made (someone) do — implies the team forced someone else, not that the team was forced",
+              "explanation_fr": "させました = a fait faire (à quelqu'un) — implique que l'équipe a forcé quelqu'un d'autre, pas que l'équipe a été forcée"
+            },
+            {
+              "text": "されました",
+              "is_correct": false,
+              "explanation_en": "されました = was done (passive of する) — not the causative-passive form needed here",
+              "explanation_fr": "されました = a été fait (passif de する) — pas la forme causatif-passif nécessaire ici"
+            },
+            {
+              "text": "しました",
+              "is_correct": false,
+              "explanation_en": "しました = did (neutral past) — no compulsion nuance at all",
+              "explanation_fr": "しました = a fait (passé neutre) — aucune nuance de contrainte"
+            }
+          ]
+        },
+        "answers": ["させられました"],
+        "hints": ["The debug team was forced by the leader", "Causative-passive = be made to do (compulsion)"],
+        "explanation": {
+          "correct": "させられました — 'The debug team was made to work until late at night by the leader.' The team is the subject being forced: causative-passive.",
+          "wrong": {}
+        },
+        "domain": "embedded",
+        "difficulty": 3
+      },
+      {
+        "id": "saserareru_ex3",
+        "type": "conjugation",
+        "question": {
+          "base_form": "飲む",
+          "base_type": "う-verb",
+          "target_form": "causative-passive (both long and short forms)"
+        },
+        "answers": ["飲まされる", "飲ませられる"],
+        "hints": ["飲む → ない-stem: 飲ま", "Long form: 飲ま + せられる = 飲ませられる", "Short form (む verbs): 飲ま + される = 飲まされる"],
+        "explanation": {
+          "correct": "飲まされる (short, colloquial) / 飲ませられる (long form). For む verbs, the short causative-passive drops せ: 飲ま + される = 飲まされる.",
+          "wrong": {
+            "飲まれさせる": "The order is causative first, then passive: ～させられる, not ～られさせる."
+          }
+        },
+        "domain": "daily",
+        "difficulty": 3
+      },
+      {
+        "id": "saserareru_ex4",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "{安全|あんぜん}{訓練|くんれん}で、{全員|ぜんいん}が{緊急|きんきゅう}{手順|てじゅん}を{暗記|あんき}＿＿＿＿。",
+          "blank_position": "inline",
+          "hint_en": "were made to memorize — all staff required to do so",
+          "hint_fr": "ont été obligés de mémoriser — tout le personnel requis de le faire"
+        },
+        "answers": ["させられました", "させられた"],
+        "hints": ["暗記する → causative: 暗記させる → causative-passive: 暗記させられる", "Everyone was required (forced) to memorize"],
+        "explanation": {
+          "correct": "暗記させられました — 'In the safety training, everyone was made to memorize the emergency procedures.' する → させる → させられる.",
+          "wrong": {}
+        },
+        "domain": "automotive",
+        "difficulty": 3
+      }
+    ]
+  },
+  {
+    "id": "rashii",
+    "pattern": "～らしい",
+    "meaning_en": "Seems like / I hear that / apparently (inference from information heard or observed)",
+    "meaning_fr": "Il semble que / j'ai entendu dire que / apparemment (inférence d'informations entendues ou observées)",
+    "jlpt_level": "N3",
+    "category": "modality",
+    "sort_order": 119,
+    "formation": [
+      {
+        "base": "Verb (plain form) / い-adj / な-adj (no な) / Noun",
+        "rule": "Plain form / Noun + らしい",
+        "examples": [
+          { "input": "雨が降る + らしい", "output": "雨が降るらしい (it seems it will rain — heard/observed evidence)" },
+          { "input": "忙しい + らしい", "output": "忙しいらしい (seems to be busy — from what I hear)" },
+          { "input": "有名 (な-adj) + らしい", "output": "有名らしい (apparently famous — no な before らしい)" },
+          { "input": "エンジニア (Noun) + らしい", "output": "エンジニアらしい (seems to be an engineer)" }
+        ]
+      }
+    ],
+    "explanation_en": "らしい expresses inference based on evidence, rumors, or indirect information — 'I hear that / apparently / it seems (from what I know).' It is different from: そうだ (hearsay — I heard directly; or appearance), ようだ (direct observation-based inference), and みたいだ (casual direct inference).",
+    "explanation_fr": "らしい exprime une inférence basée sur des preuves, des rumeurs ou des informations indirectes. Il est différent de : そうだ (ouï-dire ou apparence), ようだ (inférence basée sur observation directe) et みたいだ (inférence directe familière).",
+    "nuance": "らしい also has a second meaning as a suffix: エンジニアらしいエンジニア = an engineer who really acts like an engineer (typicality). Context separates the two uses. For JLPT N3, focus on the inference meaning.",
+    "related_points": ["hazu_da", "wake_da", "sou_da", "you_da"],
+    "common_mistakes": [
+      {
+        "wrong": "有名ならしい",
+        "correct": "有名らしい",
+        "explanation_en": "な-adjectives drop な before らしい. Use 有名らしい, not 有名ならしい.",
+        "explanation_fr": "Les adjectifs en な suppriment な avant らしい. Utilisez 有名らしい et non 有名ならしい."
+      },
+      {
+        "wrong": "Confusing らしい with そうだ (hearsay)",
+        "correct": "雨が降るらしい (inference/evidence) vs 雨が降るそうだ (hearsay — someone told you directly)",
+        "explanation_en": "らしい = speaker infers from indirect evidence or atmosphere. そうだ (hearsay) = someone directly told you. Both are 'I hear that' but the source differs.",
+        "explanation_fr": "らしい = le locuteur infère à partir de preuves indirectes. そうだ (ouï-dire) = quelqu'un vous l'a dit directement."
+      }
+    ],
+    "audio_url": null,
+    "exercises": [
+      {
+        "id": "rashii_ex1",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "{山田|やまだ}さんは{来月|らいげつ}{転職|てんしょく}する＿＿＿＿。{誰|だれ}かから{聞|き}いたよ。",
+          "blank_position": "inline",
+          "hint_en": "apparently / I hear that — inference from indirect information",
+          "hint_fr": "apparemment / j'ai entendu dire que — inférence d'informations indirectes"
+        },
+        "answers": ["らしい", "らしいよ"],
+        "hints": ["Heard from someone else — indirect information", "らしい = seems / apparently (from hearsay/evidence)"],
+        "explanation": {
+          "correct": "転職するらしい — 'Apparently Yamada-san is changing jobs next month. I heard it from someone.' らしい expresses inference from indirect information.",
+          "wrong": {
+            "はずです": "はずです = logical expectation based on reasoning, not hearsay. らしい is used for information gathered from others or indirect evidence."
+          }
+        },
+        "domain": "daily",
+        "difficulty": 2
+      },
+      {
+        "id": "rashii_ex2",
+        "type": "mcq",
+        "question": {
+          "sentence": "あのプロジェクトは{問題|もんだい}が{多|おお}い＿＿＿＿。{社内|しゃない}でよく{話題|わだい}になっています。",
+          "options": [
+            {
+              "text": "らしい",
+              "is_correct": true,
+              "explanation_en": "らしい = apparently / seems — based on what's circulating as talk within the company (indirect evidence)",
+              "explanation_fr": "らしい = apparemment / semble — basé sur ce qui circule comme discussion dans l'entreprise (preuves indirectes)"
+            },
+            {
+              "text": "はずだ",
+              "is_correct": false,
+              "explanation_en": "はずだ = logically expected — but this is based on office gossip/hearsay, not a logical deduction",
+              "explanation_fr": "はずだ = attendu logiquement — mais c'est basé sur des ragots/ouï-dire, pas une déduction logique"
+            },
+            {
+              "text": "わけだ",
+              "is_correct": false,
+              "explanation_en": "わけだ = so that explains it / it naturally follows — used to draw conclusions, not report hearsay",
+              "explanation_fr": "わけだ = donc ça explique / il est naturel que — utilisé pour tirer des conclusions, pas rapporter des ouï-dire"
+            },
+            {
+              "text": "ようだ",
+              "is_correct": false,
+              "explanation_en": "ようだ = it seems (based on direct observation) — but here the speaker is relying on office talk, not direct observation",
+              "explanation_fr": "ようだ = il semble (basé sur observation directe) — mais ici le locuteur se base sur les conversations du bureau, pas une observation directe"
+            }
+          ]
+        },
+        "answers": ["らしい"],
+        "hints": ["Information comes from office discussions — indirect source", "らしい = inference from hearsay/indirect evidence"],
+        "explanation": {
+          "correct": "らしい — 'That project apparently has many problems — it's often talked about in the company.' らしい fits indirect, socially-circulated information.",
+          "wrong": {}
+        },
+        "domain": "business",
+        "difficulty": 2
+      },
+      {
+        "id": "rashii_ex3",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "このECUは{旧型|きゅうがた}で、{部品|ぶひん}の{調達|ちょうたつ}が{難|むずか}しい＿＿＿＿。{サプライヤー|さぷらいやー}に{確認|かくにん}してみます。",
+          "blank_position": "inline",
+          "hint_en": "apparently it's difficult — heard from indirect sources before confirming",
+          "hint_fr": "apparemment c'est difficile — entendu de sources indirectes avant confirmation"
+        },
+        "answers": ["らしい", "らしいです"],
+        "hints": ["The speaker hasn't confirmed directly yet", "らしい = apparently / I hear (indirect inference)"],
+        "explanation": {
+          "correct": "難しいらしい — 'Apparently it's difficult to procure parts for this old ECU. I'll check with the supplier.' らしい signals the speaker hasn't verified this directly.",
+          "wrong": {}
+        },
+        "domain": "automotive",
+        "difficulty": 2
+      },
+      {
+        "id": "rashii_ex4",
+        "type": "error_spotter",
+        "question": {
+          "sentence": "{新|あたら}しいシステムは{複雑|ふくざつ}ならしい。",
+          "error_segment": "複雑ならしい"
+        },
+        "answers": ["複雑らしい"],
+        "hints": ["な-adjectives drop な before らしい", "複雑 (な-adj) + らしい — no な needed"],
+        "explanation": {
+          "correct": "複雑らしい — な-adjectives drop the な before らしい. Correct: 複雑らしい, not 複雑ならしい.",
+          "wrong": {}
+        },
+        "domain": "embedded",
+        "difficulty": 2
+      }
+    ]
+  }
+]

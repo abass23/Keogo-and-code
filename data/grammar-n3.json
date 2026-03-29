@@ -1,0 +1,976 @@
+[
+  {
+    "id": "te_shimau",
+    "pattern": "～てしまう",
+    "meaning_en": "Completed action (often with regret or unexpectedness)",
+    "meaning_fr": "Action accomplie (souvent avec regret ou de manière inattendue)",
+    "jlpt_level": "N3",
+    "category": "tense_aspect",
+    "sort_order": 100,
+    "formation": [
+      {
+        "base": "Verb (て-form)",
+        "rule": "て-form + しまう (casual: ちゃう / じゃう)",
+        "examples": [
+          { "input": "食べる → 食べて", "output": "食べてしまった (ended up eating / ate it all)" },
+          { "input": "壊す → 壊して", "output": "壊してしまった (accidentally broke it)" },
+          { "input": "忘れる → 忘れて", "output": "忘れてしまう → 忘れちゃう (casual)" }
+        ]
+      }
+    ],
+    "explanation_en": "～てしまう expresses: (1) completion of an action, often implying finality; (2) an unintended or regrettable outcome. The casual contractions ちゃう (from てしまう) and じゃう (from でしまう) are common in speech.",
+    "explanation_fr": "～てしまう exprime : (1) l'achèvement d'une action, souvent avec une notion de finalité ; (2) un résultat non intentionnel ou regrettable. Les contractions familières ちゃう et じゃう sont courantes à l'oral.",
+    "nuance": "Context determines whether the nuance is regret (バグを消してしまった) or mere completion (もう読んでしまった). Pitch and context matter more than the form itself.",
+    "related_points": ["te_oku", "te_aru", "te_iru"],
+    "common_mistakes": [
+      {
+        "wrong": "バグを消してしまいます (reporting a past mistake formally)",
+        "correct": "バグを消してしまいました",
+        "explanation_en": "Use past tense ～てしまいました for completed/regrettable past actions in formal speech",
+        "explanation_fr": "Utilisez le passé ～てしまいました pour des actions passées accomplies ou regrettables dans un discours formel"
+      },
+      {
+        "wrong": "忘れてしまった → 忘れじゃった",
+        "correct": "忘れちゃった",
+        "explanation_en": "忘れる uses て-form 忘れて, so the contraction is ちゃう, not じゃう. じゃう only follows で-form verbs.",
+        "explanation_fr": "忘れる utilise la forme て 忘れて, donc la contraction est ちゃう et non じゃう. じゃう ne suit que les verbes à forme で."
+      }
+    ],
+    "audio_url": null,
+    "exercises": [
+      {
+        "id": "te_shimau_ex1",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "{大切|たいせつ}なファイルを{削除|さくじょ}＿＿＿＿。{確認|かくにん}してから{作業|さぎょう}すべきでした。",
+          "blank_position": "inline",
+          "hint_en": "accidentally deleted — regrettable completion",
+          "hint_fr": "supprimé par accident — achèvement regrettable"
+        },
+        "answers": ["してしまいました", "してしまった", "しちゃった"],
+        "hints": ["削除する → して (て-form)", "Use てしまう for an accidental or regrettable action"],
+        "explanation": {
+          "correct": "削除してしまいました expresses that the file was accidentally deleted — a completed action with regret.",
+          "wrong": {
+            "削除しました": "削除しました is neutral past tense. てしまいました adds the nuance of regret or finality."
+          }
+        },
+        "domain": "embedded",
+        "difficulty": 2
+      },
+      {
+        "id": "te_shimau_ex2",
+        "type": "mcq",
+        "question": {
+          "sentence": "{会議|かいぎ}の{時間|じかん}を＿＿＿＿、{部長|ぶちょう}に{怒|おこ}られました。",
+          "options": [
+            {
+              "text": "{忘|わす}れてしまって",
+              "is_correct": true,
+              "explanation_en": "忘れてしまって = having forgotten (regrettably), which explains why you were scolded",
+              "explanation_fr": "忘れてしまって = ayant oublié (avec regret), ce qui explique pourquoi vous avez été réprimandé"
+            },
+            {
+              "text": "{忘|わす}れておいて",
+              "is_correct": false,
+              "explanation_en": "ておく means to do something in advance for a purpose — unnatural here",
+              "explanation_fr": "ておく signifie faire quelque chose à l'avance dans un but — non naturel ici"
+            },
+            {
+              "text": "{忘|わす}れてあって",
+              "is_correct": false,
+              "explanation_en": "てある describes a resultant state of a transitive verb done intentionally — forgetting is not intentional",
+              "explanation_fr": "てある décrit un état résultant d'un verbe transitif fait intentionnellement — oublier n'est pas intentionnel"
+            },
+            {
+              "text": "{忘|わす}れながら",
+              "is_correct": false,
+              "explanation_en": "ながら means while doing simultaneously — you cannot forget while doing something else here",
+              "explanation_fr": "ながら signifie faire simultanément — vous ne pouvez pas oublier tout en faisant autre chose ici"
+            }
+          ]
+        },
+        "answers": ["忘れてしまって"],
+        "hints": ["The speaker was scolded — this implies regret", "てしまう connects to the consequence"],
+        "explanation": {
+          "correct": "忘れてしまって uses てしまう (te-form) to link the regrettable action (forgetting) to its consequence (being scolded).",
+          "wrong": {}
+        },
+        "domain": "business",
+        "difficulty": 2
+      },
+      {
+        "id": "te_shimau_ex3",
+        "type": "transform",
+        "question": {
+          "original": "{電池|でんち}が{切|き}れました。",
+          "instruction_en": "Rewrite using ～てしまう to express that the battery running out was an unwanted/inconvenient event",
+          "instruction_fr": "Réécrivez avec ～てしまう pour exprimer que l'épuisement de la batterie était un événement indésirable",
+          "pattern_hint": "～てしまった"
+        },
+        "answers": ["電池が切れてしまいました", "電池が切れてしまった", "電池が切れちゃった"],
+        "hints": ["切れる is a る-verb: 切れて", "Add しまいました for formal regret"],
+        "explanation": {
+          "correct": "切れてしまいました expresses that the battery dying was unwanted and inconvenient, not just a neutral past event.",
+          "wrong": {}
+        },
+        "domain": "automotive",
+        "difficulty": 2
+      },
+      {
+        "id": "te_shimau_ex4",
+        "type": "error_spotter",
+        "question": {
+          "sentence": "{昨日|きのう}、{大事|だいじ}なデータを{送|おく}るじゃった。",
+          "error_segment": "送るじゃった"
+        },
+        "answers": ["送ってしまった", "送っちゃった"],
+        "hints": ["送る → て-form is 送って, not 送る", "じゃう follows で-form verbs, not て-form verbs"],
+        "explanation": {
+          "correct": "送る → 送って (て-form). The casual contraction is 送っちゃった or the formal form 送ってしまった.",
+          "wrong": {}
+        },
+        "domain": "daily",
+        "difficulty": 3
+      }
+    ]
+  },
+  {
+    "id": "te_oku",
+    "pattern": "～ておく",
+    "meaning_en": "Do something in advance / leave something done (for a future purpose)",
+    "meaning_fr": "Faire quelque chose à l'avance / laisser quelque chose fait (dans un but futur)",
+    "jlpt_level": "N3",
+    "category": "tense_aspect",
+    "sort_order": 101,
+    "formation": [
+      {
+        "base": "Verb (て-form)",
+        "rule": "て-form + おく (casual: とく / どく)",
+        "examples": [
+          { "input": "準備する → 準備して", "output": "準備しておく (prepare in advance)" },
+          { "input": "読む → 読んで", "output": "読んでおく (read beforehand)" },
+          { "input": "確認する → 確認して", "output": "確認しておく → 確認しとく (casual)" }
+        ]
+      }
+    ],
+    "explanation_en": "～ておく means to perform an action in advance with a future purpose in mind, or to leave a state as it is intentionally. The casual contraction is とく (from ておく) or どく (from でおく).",
+    "explanation_fr": "～ておく signifie effectuer une action à l'avance avec un but futur, ou laisser un état tel quel intentionnellement. La contraction familière est とく (de ておく) ou どく (de でおく).",
+    "nuance": "ておく implies deliberate preparation for a future need. It is distinct from てしまう (accidental/completion) and てある (the resulting state itself).",
+    "related_points": ["te_shimau", "te_aru", "you_ni_suru"],
+    "common_mistakes": [
+      {
+        "wrong": "会議の前にメモを書いてある (meaning: I wrote notes in advance for the meeting)",
+        "correct": "会議の前にメモを書いておいた",
+        "explanation_en": "ておく emphasizes preparation intent; てある describes the state left by someone (often used by a third party noticing the result)",
+        "explanation_fr": "ておく souligne l'intention de préparation ; てある décrit l'état laissé par quelqu'un (souvent utilisé par une tierce partie remarquant le résultat)"
+      }
+    ],
+    "audio_url": null,
+    "exercises": [
+      {
+        "id": "te_oku_ex1",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "{出張|しゅっちょう}の{前|まえ}に、ホテルを{予約|よやく}＿＿＿＿ください。",
+          "blank_position": "inline",
+          "hint_en": "book in advance — preparation for a future event",
+          "hint_fr": "réserver à l'avance — préparation pour un événement futur"
+        },
+        "answers": ["しておいて", "しておいてください"],
+        "hints": ["予約する → 予約して (て-form)", "ておく + て-form of おく for a request = ておいて"],
+        "explanation": {
+          "correct": "予約しておいてください means 'please book in advance.' ておく = do something now for a future purpose.",
+          "wrong": {
+            "予約してください": "This just means 'please book' without the nuance of doing it in advance for preparation."
+          }
+        },
+        "domain": "business",
+        "difficulty": 2
+      },
+      {
+        "id": "te_oku_ex2",
+        "type": "mcq",
+        "question": {
+          "sentence": "テストの{前|まえ}に、{環境|かんきょう}を＿＿＿＿のは{重要|じゅうよう}です。",
+          "options": [
+            {
+              "text": "{設定|せってい}しておく",
+              "is_correct": true,
+              "explanation_en": "設定しておく = set up (the environment) in advance — exactly the nuance needed before running tests",
+              "explanation_fr": "設定しておく = configurer (l'environnement) à l'avance — exactement la nuance nécessaire avant les tests"
+            },
+            {
+              "text": "{設定|せってい}してしまう",
+              "is_correct": false,
+              "explanation_en": "してしまう implies accidental or fully-completed action, not intentional preparation",
+              "explanation_fr": "してしまう implique une action accidentelle ou entièrement accomplie, pas une préparation intentionnelle"
+            },
+            {
+              "text": "{設定|せってい}してある",
+              "is_correct": false,
+              "explanation_en": "してある describes the current state (it has been set), not the act of preparing in advance",
+              "explanation_fr": "してある décrit l'état actuel (c'est configuré), pas l'acte de préparer à l'avance"
+            },
+            {
+              "text": "{設定|せってい}している",
+              "is_correct": false,
+              "explanation_en": "している = currently setting up (ongoing), not the concept of preparing beforehand",
+              "explanation_fr": "している = en train de configurer (en cours), pas le concept de préparer à l'avance"
+            }
+          ]
+        },
+        "answers": ["設定しておく"],
+        "hints": ["The test hasn't started yet — this is preparation", "ておく = do in advance for future use"],
+        "explanation": {
+          "correct": "設定しておく means to set up the environment in advance so that testing can proceed smoothly.",
+          "wrong": {}
+        },
+        "domain": "embedded",
+        "difficulty": 2
+      },
+      {
+        "id": "te_oku_ex3",
+        "type": "conjugation",
+        "question": {
+          "base_form": "読む + ておく",
+          "base_type": "う-verb",
+          "target_form": "casual past (spoken)"
+        },
+        "answers": ["読んどいた", "読んでおいた"],
+        "hints": ["読む → 読んで (て-form for む verbs)", "ておいた → casual contraction: とおいた → どいた"],
+        "explanation": {
+          "correct": "読む → 読んで + おいた = 読んでおいた. Casual: 読んどいた.",
+          "wrong": {
+            "読んておいた": "読む uses で not て after ん: 読んで not 読んて"
+          }
+        },
+        "domain": "daily",
+        "difficulty": 2
+      },
+      {
+        "id": "te_oku_ex4",
+        "type": "context_match",
+        "question": {
+          "situation_en": "Your manager asks you to make sure the test report is ready before tomorrow's client meeting.",
+          "situation_fr": "Votre responsable vous demande de s'assurer que le rapport de test est prêt avant la réunion client de demain.",
+          "sentence": "{明日|あした}の{会議|かいぎ}までに、テストレポートを＿＿＿＿。",
+          "options": [
+            {
+              "text": "{作成|さくせい}しておいてください",
+              "level": "polite",
+              "is_correct": true,
+              "explanation_en": "作成しておいてください = please prepare/create it in advance — correct nuance for advance preparation",
+              "explanation_fr": "作成しておいてください = veuillez le préparer/créer à l'avance — nuance correcte pour la préparation anticipée"
+            },
+            {
+              "text": "{作成|さくせい}してください",
+              "level": "polite",
+              "is_correct": false,
+              "explanation_en": "作成してください = please create it — lacks the 'in advance / in preparation' nuance",
+              "explanation_fr": "作成してください = veuillez le créer — manque la nuance 'd'à l'avance / en préparation'"
+            },
+            {
+              "text": "{作成|さくせい}してしまってください",
+              "level": "polite",
+              "is_correct": false,
+              "explanation_en": "してしまってください is unnatural — てしまう is not used for requests of this type",
+              "explanation_fr": "してしまってください est non naturel — てしまう n'est pas utilisé pour des demandes de ce type"
+            }
+          ]
+        },
+        "answers": ["作成しておいてください"],
+        "hints": ["The report needs to be ready before the meeting — this is advance preparation", "ておく is used for preparing something for a future purpose"],
+        "explanation": {
+          "correct": "作成しておいてください uses ておく to make clear this should be prepared ahead of time, not just done at any point.",
+          "wrong": {}
+        },
+        "domain": "automotive",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "id": "te_aru",
+    "pattern": "～てある",
+    "meaning_en": "Resultant state — something has been done (transitive verb, intentional)",
+    "meaning_fr": "État résultant — quelque chose a été fait (verbe transitif, intentionnel)",
+    "jlpt_level": "N3",
+    "category": "tense_aspect",
+    "sort_order": 102,
+    "formation": [
+      {
+        "base": "Transitive Verb (て-form)",
+        "rule": "transitive て-form + ある",
+        "examples": [
+          { "input": "書く → 書いて", "output": "書いてある (has been written — state)" },
+          { "input": "設定する → 設定して", "output": "設定してある (has been configured — state)" },
+          { "input": "開ける → 開けて", "output": "開けてある (has been opened — state)" }
+        ]
+      }
+    ],
+    "explanation_en": "～てある describes the current state resulting from a deliberate transitive action by someone. It focuses on the result/state, not the actor. Use it with transitive verbs only. Compare: 窓が開いている (intransitive — the window is open) vs 窓が開けてある (transitive — the window has been (intentionally) opened).",
+    "explanation_fr": "～てある décrit l'état actuel résultant d'une action transitive délibérée. Il met l'accent sur le résultat/l'état, pas sur l'acteur. Utilisez-le uniquement avec des verbes transitifs. Comparer : 窓が開いている (intransitif) vs 窓が開けてある (transitif — intentionnel).",
+    "nuance": "てある implies someone deliberately did the action. It cannot be used with intransitive verbs (e.g., 落ちる, 壊れる). The object usually takes が rather than を.",
+    "related_points": ["te_iru", "te_oku", "te_shimau"],
+    "common_mistakes": [
+      {
+        "wrong": "窓が開いてある",
+        "correct": "窓が開けてある",
+        "explanation_en": "開く is intransitive — use the transitive 開ける → 開けてある to express someone intentionally left the window open",
+        "explanation_fr": "開く est intransitif — utilisez le transitif 開ける → 開けてある pour exprimer que quelqu'un a intentionnellement laissé la fenêtre ouverte"
+      },
+      {
+        "wrong": "データが保存してある (incorrect particle usage)",
+        "correct": "データが保存してある (correct — object takes が with てある)",
+        "explanation_en": "With てある, the object of the transitive action takes が, not を: データが保存してある, not データを保存してある",
+        "explanation_fr": "Avec てある, l'objet de l'action transitive prend が et non を : データが保存してある, pas データを保存してある"
+      }
+    ],
+    "audio_url": null,
+    "exercises": [
+      {
+        "id": "te_aru_ex1",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "{会議室|かいぎしつ}の{ホワイトボード|ほわいとぼーど}に{議題|ぎだい}が＿＿＿＿。",
+          "blank_position": "inline",
+          "hint_en": "the agenda has been written (resultant state — someone wrote it)",
+          "hint_fr": "l'ordre du jour a été écrit (état résultant — quelqu'un l'a écrit)"
+        },
+        "answers": ["書いてあります", "書いてある"],
+        "hints": ["書く (transitive) → 書いて + ある", "The focus is on the current state: it is written there"],
+        "explanation": {
+          "correct": "書いてあります — the agenda is currently written on the board (someone wrote it intentionally). This uses てある with transitive 書く.",
+          "wrong": {
+            "書かれています": "書かれています is the passive form — possible but changes the nuance to passive voice rather than focusing on the resulting state."
+          }
+        },
+        "domain": "business",
+        "difficulty": 2
+      },
+      {
+        "id": "te_aru_ex2",
+        "type": "mcq",
+        "question": {
+          "sentence": "テスト{環境|かんきょう}は{既|すで}に＿＿＿＿から、すぐに{使|つか}えます。",
+          "options": [
+            {
+              "text": "{設定|せってい}してあります",
+              "is_correct": true,
+              "explanation_en": "設定してあります = has been set up (resultant state — someone configured it intentionally)",
+              "explanation_fr": "設定してあります = a été configuré (état résultant — quelqu'un l'a configuré intentionnellement)"
+            },
+            {
+              "text": "{設定|せってい}しています",
+              "is_correct": false,
+              "explanation_en": "設定しています = is currently being configured (ongoing action) — but the sentence says you can use it now, implying it's done",
+              "explanation_fr": "設定しています = est en train d'être configuré (action en cours) — mais la phrase dit que vous pouvez l'utiliser maintenant, impliquant que c'est terminé"
+            },
+            {
+              "text": "{設定|せってい}してしまいます",
+              "is_correct": false,
+              "explanation_en": "設定してしまいます = will end up configuring (future completion/regret) — wrong tense and nuance",
+              "explanation_fr": "設定してしまいます = va finir par configurer (achèvement futur/regret) — mauvais temps et nuance"
+            },
+            {
+              "text": "{設定|せってい}しておきます",
+              "is_correct": false,
+              "explanation_en": "設定しておきます = will set up in advance (future preparation) — but the context states it is already done",
+              "explanation_fr": "設定しておきます = va configurer à l'avance (préparation future) — mais le contexte indique que c'est déjà fait"
+            }
+          ]
+        },
+        "answers": ["設定してあります"],
+        "hints": ["The environment is ready now — focus on the current state", "てある = the result of a deliberate action"],
+        "explanation": {
+          "correct": "設定してあります describes the current state: the environment is configured and ready, as a result of someone's deliberate action.",
+          "wrong": {}
+        },
+        "domain": "embedded",
+        "difficulty": 2
+      },
+      {
+        "id": "te_aru_ex3",
+        "type": "error_spotter",
+        "question": {
+          "sentence": "{安全|あんぜん}{機能|きのう}のテストケースが{作|つく}られてある。",
+          "error_segment": "作られてある"
+        },
+        "answers": ["作ってある", "作成してある"],
+        "hints": ["てある uses the active transitive form, not the passive", "作る → 作って (active transitive) + ある"],
+        "explanation": {
+          "correct": "作ってある uses the transitive active form. てある never combines with passive ～られる. Use 作ってある or 作成してある.",
+          "wrong": {}
+        },
+        "domain": "automotive",
+        "difficulty": 3
+      },
+      {
+        "id": "te_aru_ex4",
+        "type": "context_match",
+        "question": {
+          "situation_en": "You arrive at the office and notice someone has already set up the projector for the presentation.",
+          "situation_fr": "Vous arrivez au bureau et remarquez que quelqu'un a déjà installé le projecteur pour la présentation.",
+          "sentence": "プロジェクターが＿＿＿＿。",
+          "options": [
+            {
+              "text": "{準備|じゅんび}してあります",
+              "level": "polite",
+              "is_correct": true,
+              "explanation_en": "準備してある = has been prepared (resultant state, transitive, deliberate) — perfect for noticing someone set it up",
+              "explanation_fr": "準備してある = a été préparé (état résultant, transitif, délibéré) — parfait pour remarquer que quelqu'un l'a installé"
+            },
+            {
+              "text": "{準備|じゅんび}しています",
+              "level": "polite",
+              "is_correct": false,
+              "explanation_en": "準備しています = is preparing (ongoing) — but the projector is already set up",
+              "explanation_fr": "準備しています = est en train de préparer (en cours) — mais le projecteur est déjà installé"
+            },
+            {
+              "text": "{準備|じゅんび}されています",
+              "level": "polite",
+              "is_correct": false,
+              "explanation_en": "準備されています is grammatically possible (passive) but less natural than てある for noticing a purposefully arranged state",
+              "explanation_fr": "準備されています est grammaticalement possible (passif) mais moins naturel que てある pour remarquer un état délibérément arrangé"
+            }
+          ]
+        },
+        "answers": ["準備してあります"],
+        "hints": ["Someone deliberately set it up — focus on the resulting state", "てある = transitive action's result is visible now"],
+        "explanation": {
+          "correct": "準備してあります describes the projector's current state as the result of someone's deliberate setup. This is the core use of てある.",
+          "wrong": {}
+        },
+        "domain": "daily",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "id": "you_ni_suru",
+    "pattern": "～ようにする",
+    "meaning_en": "Make an effort to / try to (ongoing habit or goal)",
+    "meaning_fr": "Faire des efforts pour / essayer de (habitude ou objectif en cours)",
+    "jlpt_level": "N3",
+    "category": "intention_effort",
+    "sort_order": 103,
+    "formation": [
+      {
+        "base": "Verb (dictionary or ない-form)",
+        "rule": "Verb (dict.) + ようにする / Verb (ない) + ようにする",
+        "examples": [
+          { "input": "食べる", "output": "野菜を食べるようにしている (I make an effort to eat vegetables)" },
+          { "input": "遅刻しない", "output": "遅刻しないようにしている (I try not to be late)" },
+          { "input": "確認する", "output": "毎回確認するようにします (I will make it a point to check every time)" }
+        ]
+      }
+    ],
+    "explanation_en": "～ようにする expresses a conscious, ongoing effort or intention to do/not do something. It implies habit-building or rule-setting for oneself. Use the dictionary form for positive goals and the ない-form for negative ones.",
+    "explanation_fr": "～ようにする exprime un effort conscient et continu pour faire ou ne pas faire quelque chose. Cela implique de créer une habitude ou de se fixer une règle. Utilisez la forme dictionnaire pour les objectifs positifs et la forme ない pour les objectifs négatifs.",
+    "nuance": "ようにする implies effort/intent — you are not there yet or it is a deliberate habit. Compare with ようになる (natural change over time, no effort implied) and ことにする (a one-time decision).",
+    "related_points": ["you_ni_naru", "koto_ni_suru", "you_ni"],
+    "common_mistakes": [
+      {
+        "wrong": "毎日運動するようになっています (I am making an effort to exercise every day)",
+        "correct": "毎日運動するようにしています",
+        "explanation_en": "ようにしている = making an ongoing effort; ようになっている = a change has naturally occurred. Use ようにしている for deliberate effort.",
+        "explanation_fr": "ようにしている = faire un effort continu ; ようになっている = un changement s'est produit naturellement. Utilisez ようにしている pour un effort délibéré."
+      }
+    ],
+    "audio_url": null,
+    "exercises": [
+      {
+        "id": "you_ni_suru_ex1",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "{コードレビュー|こーどれびゅー}の{前|まえ}に、{必|かなら}ず{自分|じぶん}でテストを{実行|じっこう}する＿＿＿＿。",
+          "blank_position": "inline",
+          "hint_en": "I make it a point to / I try to — ongoing personal rule",
+          "hint_fr": "Je fais en sorte de / j'essaie de — règle personnelle en cours"
+        },
+        "answers": ["ようにしています", "ようにしている"],
+        "hints": ["This is a habit/rule you set for yourself", "ようにする = make an ongoing effort"],
+        "explanation": {
+          "correct": "ようにしています expresses an ongoing personal rule or habit: 'I make it a point to run my own tests before code review.'",
+          "wrong": {
+            "ことにしています": "ことにしている can also express a personal rule, but ようにする emphasizes the effort to maintain a habit, while ことにする emphasizes the decision itself."
+          }
+        },
+        "domain": "embedded",
+        "difficulty": 2
+      },
+      {
+        "id": "you_ni_suru_ex2",
+        "type": "mcq",
+        "question": {
+          "sentence": "{健康|けんこう}のために、{毎日|まいにち}7{時間|じかん}{以上|いじょう}{眠|ねむ}る＿＿＿。",
+          "options": [
+            {
+              "text": "ようにしている",
+              "is_correct": true,
+              "explanation_en": "ようにしている = making an ongoing effort to sleep 7 hours — a conscious health goal",
+              "explanation_fr": "ようにしている = faire un effort continu pour dormir 7 heures — un objectif de santé conscient"
+            },
+            {
+              "text": "ようになっている",
+              "is_correct": false,
+              "explanation_en": "ようになっている = has naturally come to sleep 7 hours — implies a change happened without deliberate effort",
+              "explanation_fr": "ようになっている = en est venu naturellement à dormir 7 heures — implique un changement sans effort délibéré"
+            },
+            {
+              "text": "ことにしている",
+              "is_correct": false,
+              "explanation_en": "ことにしている = have decided to sleep 7 hours (decision-focused); ようにしている is more natural for an ongoing health habit",
+              "explanation_fr": "ことにしている = avoir décidé de dormir 7 heures (axé sur la décision) ; ようにしている est plus naturel pour une habitude de santé en cours"
+            },
+            {
+              "text": "はずにしている",
+              "is_correct": false,
+              "explanation_en": "はずにしている is not a valid grammar pattern",
+              "explanation_fr": "はずにしている n'est pas un modèle grammatical valide"
+            }
+          ]
+        },
+        "answers": ["ようにしている"],
+        "hints": ["This is a deliberate, ongoing health habit", "ようにする = conscious ongoing effort"],
+        "explanation": {
+          "correct": "ようにしている is correct for a deliberate ongoing effort or personal rule, such as trying to sleep 7 hours for health.",
+          "wrong": {}
+        },
+        "domain": "daily",
+        "difficulty": 2
+      },
+      {
+        "id": "you_ni_suru_ex3",
+        "type": "transform",
+        "question": {
+          "original": "{残業|ざんぎょう}をしません。({from now on, as a rule})",
+          "instruction_en": "Rewrite using ようにする to express a new personal rule going forward",
+          "instruction_fr": "Réécrivez avec ようにする pour exprimer une nouvelle règle personnelle à partir de maintenant",
+          "pattern_hint": "ない-form + ようにする"
+        },
+        "answers": ["残業をしないようにします", "残業をしないようにする"],
+        "hints": ["Use the ない-form of する: しない", "Attach ようにします to express the new rule"],
+        "explanation": {
+          "correct": "残業をしないようにします — 'I will make it a point not to do overtime.' The ない-form + ようにする expresses an effort to avoid something.",
+          "wrong": {}
+        },
+        "domain": "business",
+        "difficulty": 2
+      },
+      {
+        "id": "you_ni_suru_ex4",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "ECUのファームウェアは{更新|こうしん}する{前|まえ}に{必|かなら}ずバックアップを{取|と}る＿＿＿＿。",
+          "blank_position": "inline",
+          "hint_en": "We make it a rule to — ongoing engineering practice",
+          "hint_fr": "Nous faisons en sorte de — pratique d'ingénierie en cours"
+        },
+        "answers": ["ようにしています", "ようにしている"],
+        "hints": ["This is a standard practice the team follows", "ようにする = make it a rule / ongoing effort"],
+        "explanation": {
+          "correct": "ようにしています expresses that backing up before updating ECU firmware is a standing practice or rule the team makes an effort to follow.",
+          "wrong": {}
+        },
+        "domain": "automotive",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "id": "you_ni_naru",
+    "pattern": "～ようになる",
+    "meaning_en": "Come to / reach the point where (change over time)",
+    "meaning_fr": "En venir à / arriver au point où (changement progressif)",
+    "jlpt_level": "N3",
+    "category": "change_state",
+    "sort_order": 104,
+    "formation": [
+      {
+        "base": "Verb (dictionary or potential or ない-form)",
+        "rule": "Verb (dict./potential/ない) + ようになる",
+        "examples": [
+          { "input": "話せる", "output": "日本語が話せるようになった (came to be able to speak Japanese)" },
+          { "input": "食べない", "output": "魚を食べないようになった (came to not eat fish)" },
+          { "input": "わかる", "output": "コードがわかるようになってきた (is gradually coming to understand code)" }
+        ]
+      }
+    ],
+    "explanation_en": "～ようになる describes a natural change over time — reaching a new state or ability that was not there before. It is often used with potential verbs (できるようになる = came to be able to) or dictionary-form verbs. It implies the change happened gradually or naturally.",
+    "explanation_fr": "～ようになる décrit un changement naturel au fil du temps — atteindre un nouvel état ou une nouvelle capacité qui n'existait pas auparavant. Souvent utilisé avec des verbes au potentiel (できるようになる). Le changement s'est produit progressivement ou naturellement.",
+    "nuance": "ようになる = natural/gradual change (no deliberate effort). ようにする = deliberate ongoing effort. できるようになる is an extremely common pattern for skill acquisition.",
+    "related_points": ["you_ni_suru", "koto_ni_naru", "you_ni"],
+    "common_mistakes": [
+      {
+        "wrong": "日本語が話すようになりました",
+        "correct": "日本語が話せるようになりました",
+        "explanation_en": "With ようになる for skill/ability, use the potential form (話せる) not the plain form (話す). 話すようになる is grammatically possible but means 'came to speak' as a habit, not gaining the ability.",
+        "explanation_fr": "Avec ようになる pour une compétence/capacité, utilisez la forme potentielle (話せる) et non la forme simple (話す). 話すようになる est grammaticalement possible mais signifie 'en est venu à parler' comme habitude."
+      }
+    ],
+    "audio_url": null,
+    "exercises": [
+      {
+        "id": "you_ni_naru_ex1",
+        "type": "fill_blank",
+        "question": {
+          "sentence":" {入社|にゅうしゃ}して{半年|はんとし}で、RTOSのコードが{読|よ}める＿＿＿＿。",
+          "blank_position": "inline",
+          "hint_en": "came to be able to read — a gradual change in ability",
+          "hint_fr": "en est venu à pouvoir lire — un changement progressif de capacité"
+        },
+        "answers": ["ようになりました", "ようになった"],
+        "hints": ["This describes a skill gained over 6 months", "Use ようになる with the potential form 読める"],
+        "explanation": {
+          "correct": "読めるようになりました — came to be able to read RTOS code after 6 months. Potential verb + ようになる = acquired ability.",
+          "wrong": {
+            "ようにしました": "ようにしました implies you made an effort/decision, not that you naturally reached this point."
+          }
+        },
+        "domain": "embedded",
+        "difficulty": 2
+      },
+      {
+        "id": "you_ni_naru_ex2",
+        "type": "mcq",
+        "question": {
+          "sentence": "{最近|さいきん}、{朝|あさ}{早|はや}く{起|お}きる＿＿＿＿。",
+          "options": [
+            {
+              "text": "ようになりました",
+              "is_correct": true,
+              "explanation_en": "ようになりました = has come to wake up early (a natural change in habit over time)",
+              "explanation_fr": "ようになりました = en est venu à se lever tôt (un changement naturel d'habitude au fil du temps)"
+            },
+            {
+              "text": "ようにしました",
+              "is_correct": false,
+              "explanation_en": "ようにしました = made a decision/effort to wake up early (emphasizes deliberate intent, not the resulting change)",
+              "explanation_fr": "ようにしました = a décidé/fait l'effort de se lever tôt (souligne l'intention délibérée, pas le changement résultant)"
+            },
+            {
+              "text": "ことになりました",
+              "is_correct": false,
+              "explanation_en": "ことになりました = it has been decided/arranged that — used for external decisions, not personal habit changes",
+              "explanation_fr": "ことになりました = il a été décidé/arrangé que — utilisé pour des décisions externes, pas des changements d'habitudes personnelles"
+            },
+            {
+              "text": "はずになりました",
+              "is_correct": false,
+              "explanation_en": "はずになりました is not a standard grammar pattern",
+              "explanation_fr": "はずになりました n'est pas un modèle grammatical standard"
+            }
+          ]
+        },
+        "answers": ["ようになりました"],
+        "hints": ["Recently — this implies a gradual change", "ようになる = a change has occurred over time"],
+        "explanation": {
+          "correct": "ようになりました describes a natural change: recently, they have come to wake up early — not by a one-time decision but as a gradual shift.",
+          "wrong": {}
+        },
+        "domain": "daily",
+        "difficulty": 2
+      },
+      {
+        "id": "you_ni_naru_ex3",
+        "type": "conjugation",
+        "question": {
+          "base_form": "できる + ようになる",
+          "base_type": "potential verb",
+          "target_form": "polite past"
+        },
+        "answers": ["できるようになりました"],
+        "hints": ["できる is already in potential form — attach ようになる", "Polite past: なる → なりました"],
+        "explanation": {
+          "correct": "できるようになりました. できる (potential) + ようになる → ようになります (polite present) / ようになりました (polite past).",
+          "wrong": {
+            "できてようになりました": "Do not use て-form here. Attach ようになる directly to the dictionary/potential form: できる + ようになる."
+          }
+        },
+        "domain": "business",
+        "difficulty": 2
+      },
+      {
+        "id": "you_ni_naru_ex4",
+        "type": "error_spotter",
+        "question": {
+          "sentence": "{日本語|にほんご}の{敬語|けいご}が{使|つか}うようになってきました。",
+          "error_segment": "使うようになってきました"
+        },
+        "answers": ["使えるようになってきました"],
+        "hints": ["The sentence means 'has gradually come to be able to use keigo'", "Use the potential form 使える, not the plain form 使う, for skill acquisition"],
+        "explanation": {
+          "correct": "使えるようになってきました — use the potential form 使える to express acquiring the ability to use keigo. 使うようになる is possible but means 'came to use (as a habit)' not 'gained the ability to use.'",
+          "wrong": {}
+        },
+        "domain": "business",
+        "difficulty": 3
+      }
+    ]
+  },
+  {
+    "id": "koto_ni_suru",
+    "pattern": "～ことにする",
+    "meaning_en": "Decide to (personal decision)",
+    "meaning_fr": "Décider de (décision personnelle)",
+    "jlpt_level": "N3",
+    "category": "intention_effort",
+    "sort_order": 105,
+    "formation": [
+      {
+        "base": "Verb (dictionary or ない-form)",
+        "rule": "Verb (dict./ない) + ことにする",
+        "examples": [
+          { "input": "転職する", "output": "転職することにした (decided to change jobs)" },
+          { "input": "食べない", "output": "甘いものを食べないことにした (decided not to eat sweets)" },
+          { "input": "早く起きる", "output": "早く起きることにしています (have made a rule to wake up early)" }
+        ]
+      }
+    ],
+    "explanation_en": "～ことにする expresses a personal decision or choice. It focuses on the act of deciding. ことにしている means you have made it a standing personal rule. Use the dictionary form for positive decisions and the ない-form for decisions not to do something.",
+    "explanation_fr": "～ことにする exprime une décision ou un choix personnel. L'accent est mis sur l'acte de décider. ことにしている signifie que vous en avez fait une règle personnelle permanente. Utilisez la forme dictionnaire pour les décisions positives et la forme ない pour les décisions de ne pas faire quelque chose.",
+    "nuance": "ことにする = I decide (my own choice). ことになる = it has been decided (by circumstance or others). ようにする = I make an ongoing effort (habit focus, not decision focus).",
+    "related_points": ["koto_ni_naru", "you_ni_suru", "you_ni_naru"],
+    "common_mistakes": [
+      {
+        "wrong": "来月、日本に行くことになりました (I decided to go to Japan next month)",
+        "correct": "来月、日本に行くことにしました",
+        "explanation_en": "ことにしました = I decided (my choice). ことになりました = it was decided / it turned out (implying external factors, not your choice).",
+        "explanation_fr": "ことにしました = j'ai décidé (mon choix). ことになりました = il a été décidé / il s'est avéré (impliquant des facteurs externes, pas votre choix)."
+      }
+    ],
+    "audio_url": null,
+    "exercises": [
+      {
+        "id": "koto_ni_suru_ex1",
+        "type": "fill_blank",
+        "question": {
+          "sentence":" {来月|らいげつ}から、{毎朝|まいあさ}コードのレビューを{30分|さんじゅっぷん}{行|おこな}う＿＿＿＿。",
+          "blank_position": "inline",
+          "hint_en": "I decided to — my own personal rule going forward",
+          "hint_fr": "J'ai décidé de — ma propre règle personnelle à l'avenir"
+        },
+        "answers": ["ことにしました", "ことにした"],
+        "hints": ["This is a personal decision starting next month", "ことにする = to decide to do"],
+        "explanation": {
+          "correct": "ことにしました — 'I decided to do a 30-minute code review every morning from next month.' This expresses a personal decision.",
+          "wrong": {
+            "ことになりました": "ことになりました implies the decision came from external circumstances or others, not from yourself."
+          }
+        },
+        "domain": "embedded",
+        "difficulty": 2
+      },
+      {
+        "id": "koto_ni_suru_ex2",
+        "type": "mcq",
+        "question": {
+          "sentence": "{健康|けんこう}のために、{お酒|おさけ}を{飲|の}まない＿＿＿＿。",
+          "options": [
+            {
+              "text": "ことにしました",
+              "is_correct": true,
+              "explanation_en": "ことにしました = I decided not to drink alcohol (personal decision, negative form)",
+              "explanation_fr": "ことにしました = j'ai décidé de ne pas boire d'alcool (décision personnelle, forme négative)"
+            },
+            {
+              "text": "ようにしました",
+              "is_correct": false,
+              "explanation_en": "ようにしました = I started making an effort not to drink — emphasizes ongoing effort, not the decision itself",
+              "explanation_fr": "ようにしました = j'ai commencé à faire l'effort de ne pas boire — souligne l'effort continu, pas la décision elle-même"
+            },
+            {
+              "text": "ことになりました",
+              "is_correct": false,
+              "explanation_en": "ことになりました = it was decided / it turned out (external decision) — doesn't fit a personal health choice",
+              "explanation_fr": "ことになりました = il a été décidé / il s'est avéré (décision externe) — ne convient pas à un choix de santé personnel"
+            },
+            {
+              "text": "はずにしました",
+              "is_correct": false,
+              "explanation_en": "はずにしました is not a valid Japanese grammar pattern",
+              "explanation_fr": "はずにしました n'est pas un modèle grammatical japonais valide"
+            }
+          ]
+        },
+        "answers": ["ことにしました"],
+        "hints": ["This is your own personal health decision", "Negative decision: ない-form + ことにする"],
+        "explanation": {
+          "correct": "飲まないことにしました = I decided not to drink. ない-form + ことにする expresses a personal decision to avoid something.",
+          "wrong": {}
+        },
+        "domain": "daily",
+        "difficulty": 2
+      },
+      {
+        "id": "koto_ni_suru_ex3",
+        "type": "transform",
+        "question": {
+          "original": "{次|つぎ}のプロジェクトから{自動|じどう}テストを{導入|どうにゅう}します。(personal decision made now)",
+          "instruction_en": "Rewrite using ことにする to express this as a personal/team decision just made",
+          "instruction_fr": "Réécrivez avec ことにする pour exprimer cela comme une décision personnelle/d'équipe prise maintenant",
+          "pattern_hint": "～ことにしました"
+        },
+        "answers": ["次のプロジェクトから自動テストを導入することにしました", "次のプロジェクトから自動テストを導入することにした"],
+        "hints": ["導入する (to introduce/implement) → 導入する + ことにする", "Use past tense to show the decision has just been made"],
+        "explanation": {
+          "correct": "導入することにしました — 'We have decided to introduce automated testing from the next project.' This expresses a deliberate decision.",
+          "wrong": {}
+        },
+        "domain": "business",
+        "difficulty": 2
+      },
+      {
+        "id": "koto_ni_suru_ex4",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "リスクが{高|たか}いので、このバージョンはリリースしない＿＿＿＿。",
+          "blank_position": "inline",
+          "hint_en": "we decided not to release — negative personal/team decision",
+          "hint_fr": "nous avons décidé de ne pas publier — décision négative personnelle/d'équipe"
+        },
+        "answers": ["ことにしました", "ことにした"],
+        "hints": ["ない-form + ことにする for negative decisions", "リリースしない = will not release"],
+        "explanation": {
+          "correct": "リリースしないことにしました — 'We decided not to release this version.' ない-form + ことにした expresses a decision to refrain from an action.",
+          "wrong": {}
+        },
+        "domain": "automotive",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "id": "koto_ni_naru",
+    "pattern": "～ことになる",
+    "meaning_en": "It has been decided that / it turns out that (external or natural outcome)",
+    "meaning_fr": "Il a été décidé que / il s'avère que (résultat externe ou naturel)",
+    "jlpt_level": "N3",
+    "category": "change_state",
+    "sort_order": 106,
+    "formation": [
+      {
+        "base": "Verb (dictionary or ない-form)",
+        "rule": "Verb (dict./ない) + ことになる/ことになった",
+        "examples": [
+          { "input": "転勤する", "output": "大阪に転勤することになりました (I ended up being transferred to Osaka)" },
+          { "input": "参加しない", "output": "会議に参加しないことになりました (it was decided I would not attend the meeting)" },
+          { "input": "担当する", "output": "この案件を担当することになっています (it has been arranged that I handle this)" }
+        ]
+      }
+    ],
+    "explanation_en": "～ことになる expresses an outcome or decision that results from external circumstances, company decisions, or natural flow of events — not the speaker's personal choice. ことになっている expresses a pre-arranged rule or schedule.",
+    "explanation_fr": "～ことになる exprime un résultat ou une décision qui découle de circonstances externes, de décisions de l'entreprise ou du cours naturel des événements — pas le choix personnel du locuteur. ことになっている exprime une règle ou un calendrier préétabli.",
+    "nuance": "The distinction between ことにする (my decision) and ことになる (external/natural outcome) is critical. When announcing outcomes at work — especially transfers, assignments, policy changes — ことになる is preferred as it sounds less self-assertive.",
+    "related_points": ["koto_ni_suru", "you_ni_naru", "hazu_da"],
+    "common_mistakes": [
+      {
+        "wrong": "来月、東京支社に転勤することにしました (when the transfer was decided by the company)",
+        "correct": "来月、東京支社に転勤することになりました",
+        "explanation_en": "When the transfer was decided by the company (not your own choice), use ことになりました. ことにしました would imply you chose it yourself.",
+        "explanation_fr": "Lorsque la mutation a été décidée par l'entreprise (pas votre propre choix), utilisez ことになりました. ことにしました impliquerait que vous l'avez choisi vous-même."
+      }
+    ],
+    "audio_url": null,
+    "exercises": [
+      {
+        "id": "koto_ni_naru_ex1",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "{来月|らいげつ}から、{新|あたら}しいチームで{働|はたら}く＿＿＿＿。",
+          "blank_position": "inline",
+          "hint_en": "it has been decided / it turned out — company decision",
+          "hint_fr": "il a été décidé / il s'est avéré — décision de l'entreprise"
+        },
+        "answers": ["ことになりました", "ことになった"],
+        "hints": ["The speaker did not decide this themselves", "ことになる = external decision or natural outcome"],
+        "explanation": {
+          "correct": "ことになりました — 'It has been decided that I will work on a new team from next month.' The company or circumstances brought about this change.",
+          "wrong": {
+            "ことにしました": "ことにしました = I decided (my own choice). Since this is a company assignment, ことになりました is correct."
+          }
+        },
+        "domain": "business",
+        "difficulty": 2
+      },
+      {
+        "id": "koto_ni_naru_ex2",
+        "type": "mcq",
+        "question": {
+          "sentence": "{社内|しゃない}{規則|きそく}により、{残業|ざんぎょう}は{事前|じぜん}に{申請|しんせい}する＿＿＿＿。",
+          "options": [
+            {
+              "text": "ことになっています",
+              "is_correct": true,
+              "explanation_en": "ことになっています = it has been arranged / it is the rule that — used for pre-established company rules",
+              "explanation_fr": "ことになっています = il a été décidé / c'est la règle que — utilisé pour les règles d'entreprise préétablies"
+            },
+            {
+              "text": "ことにしています",
+              "is_correct": false,
+              "explanation_en": "ことにしています = I have made it my personal rule — but this is a company regulation, not a personal decision",
+              "explanation_fr": "ことにしています = j'en ai fait ma règle personnelle — mais c'est un règlement d'entreprise, pas une décision personnelle"
+            },
+            {
+              "text": "ようになっています",
+              "is_correct": false,
+              "explanation_en": "ようになっています = has come to be — describes a change over time, not a fixed company rule",
+              "explanation_fr": "ようになっています = en est venu à — décrit un changement au fil du temps, pas une règle d'entreprise fixe"
+            },
+            {
+              "text": "はずになっています",
+              "is_correct": false,
+              "explanation_en": "はずになっています is not a standard grammar pattern",
+              "explanation_fr": "はずになっています n'est pas un modèle grammatical standard"
+            }
+          ]
+        },
+        "answers": ["ことになっています"],
+        "hints": ["Company regulation — not a personal choice", "ことになっている = pre-arranged rule or policy"],
+        "explanation": {
+          "correct": "ことになっています expresses a pre-established rule or arrangement: company policy requires pre-approval for overtime.",
+          "wrong": {}
+        },
+        "domain": "business",
+        "difficulty": 2
+      },
+      {
+        "id": "koto_ni_naru_ex3",
+        "type": "fill_blank",
+        "question": {
+          "sentence": "{品質|ひんしつ}{問題|もんだい}が{発見|はっけん}されたため、{製品|せいひん}の{出荷|しゅっか}を{延期|えんき}する＿＿＿＿。",
+          "blank_position": "inline",
+          "hint_en": "it has been decided to postpone — external/team decision due to quality issue",
+          "hint_fr": "il a été décidé de reporter — décision externe/d'équipe due à un problème de qualité"
+        },
+        "answers": ["ことになりました", "ことになった"],
+        "hints": ["A quality problem caused this outcome — external trigger", "ことになる for outcomes driven by circumstances"],
+        "explanation": {
+          "correct": "ことになりました — the shipment delay was decided as a result of the quality problem (external cause), not a personal choice.",
+          "wrong": {}
+        },
+        "domain": "automotive",
+        "difficulty": 2
+      },
+      {
+        "id": "koto_ni_naru_ex4",
+        "type": "error_spotter",
+        "question": {
+          "sentence": "{会社|かいしゃ}の{方針|ほうしん}で、{全員|ぜんいん}がテレワークすることにしました。",
+          "error_segment": "することにしました"
+        },
+        "answers": ["することになりました"],
+        "hints": ["This is a company policy decision, not an individual choice", "ことになる = decision from external source"],
+        "explanation": {
+          "correct": "することになりました — company policy is an external decision, so ことになる is correct. ことにしました would wrongly imply the speaker personally decided the policy.",
+          "wrong": {}
+        },
+        "domain": "daily",
+        "difficulty": 3
+      }
+    ]
+  }
+]
