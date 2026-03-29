@@ -1,6 +1,9 @@
 import Link from 'next/link';
 import Header from '@/components/layout/Header';
-import grammarData from '@/data/grammar-n5-n4.json';
+import grammarN5N4 from '@/data/grammar-n5-n4.json';
+import grammarN3 from '@/data/grammar-n3.json';
+import grammarN3Part2 from '@/data/grammar-n3-part2.json';
+import grammarN3Part3 from '@/data/grammar-n3-part3.json';
 import type { GrammarPoint, JlptLevel, GrammarCategory } from '@/lib/grammar-types';
 
 const LEVELS: JlptLevel[] = ['N5', 'N4', 'N3', 'N2'];
@@ -40,8 +43,15 @@ const LEVEL_BADGE: Record<JlptLevel, string> = {
   N2: 'bg-rose-700/30 text-rose-300 border-rose-600/30',
 };
 
+const allGrammarData: GrammarPoint[] = [
+  ...(grammarN5N4 as GrammarPoint[]),
+  ...(grammarN3 as GrammarPoint[]),
+  ...(grammarN3Part2 as GrammarPoint[]),
+  ...(grammarN3Part3 as GrammarPoint[]),
+];
+
 export default function GrammarDojoPage() {
-  const allPoints = grammarData as GrammarPoint[];
+  const allPoints = allGrammarData;
 
   // Group by level
   const byLevel = LEVELS.reduce(
@@ -102,12 +112,12 @@ export default function GrammarDojoPage() {
             <p className="text-xs text-slate-400 mt-1">No SRS impact — rapid drill</p>
           </Link>
           <Link
-            href="/grammar/session?mode=cram&level=N5"
-            className="bg-slate-800/60 border border-slate-700/30 rounded-2xl p-4 hover:border-slate-500/50 transition-colors group"
+            href="/grammar/session?mode=cram&level=N3"
+            className="bg-violet-950/30 border border-violet-700/30 rounded-2xl p-4 hover:border-violet-500/50 transition-colors group"
           >
-            <p className="text-2xl mb-2">🔄</p>
-            <p className="font-semibold text-slate-300 group-hover:text-slate-200">Cram N5</p>
-            <p className="text-xs text-slate-400 mt-1">Foundation review</p>
+            <p className="text-2xl mb-2">🏯</p>
+            <p className="font-semibold text-violet-300 group-hover:text-violet-200">Cram N3</p>
+            <p className="text-xs text-slate-400 mt-1">Intermediate grammar drill</p>
           </Link>
         </div>
 
@@ -175,22 +185,20 @@ export default function GrammarDojoPage() {
           );
         })}
 
-        {/* Coming soon: N3 + N2 */}
-        {[{ level: 'N3', count: '~180 points' }, { level: 'N2', count: '~195 points' }].map(({ level, count }) => (
-          <section key={level} className="opacity-50">
-            <div className="flex items-center gap-3 mb-3">
-              <span className={`text-sm font-bold px-3 py-1 rounded-full border ${LEVEL_BADGE[level as JlptLevel]}`}>
-                {level}
-              </span>
-              <span className="text-slate-500 text-sm">Coming soon — {count}</span>
-            </div>
-            <div className="rounded-2xl border border-slate-700/30 p-6 text-center">
-              <p className="text-slate-600 text-sm">
-                {level} grammar points will be added in the next seed batch
-              </p>
-            </div>
-          </section>
-        ))}
+        {/* Coming soon: N2 */}
+        <section className="opacity-50">
+          <div className="flex items-center gap-3 mb-3">
+            <span className={`text-sm font-bold px-3 py-1 rounded-full border ${LEVEL_BADGE['N2']}`}>
+              N2
+            </span>
+            <span className="text-slate-500 text-sm">Coming soon — ~195 points</span>
+          </div>
+          <div className="rounded-2xl border border-slate-700/30 p-6 text-center">
+            <p className="text-slate-600 text-sm">
+              N2 grammar points will be added in the next seed batch
+            </p>
+          </div>
+        </section>
       </main>
     </div>
   );

@@ -7,8 +7,18 @@ import GrammarExerciseRunner from '@/components/grammar/GrammarExerciseRunner';
 import { useGrammarStore, buildSessionItems } from '@/stores/grammar-store';
 import { useAppStore } from '@/stores/app-store';
 import { useGamificationStore } from '@/stores/gamification-store';
-import grammarData from '@/data/grammar-n5-n4.json';
+import grammarN5N4 from '@/data/grammar-n5-n4.json';
+import grammarN3 from '@/data/grammar-n3.json';
+import grammarN3Part2 from '@/data/grammar-n3-part2.json';
+import grammarN3Part3 from '@/data/grammar-n3-part3.json';
 import type { GrammarPoint, GrammarSessionItem, SessionMode, JlptLevel } from '@/lib/grammar-types';
+
+const grammarData = [
+  ...(grammarN5N4 as GrammarPoint[]),
+  ...(grammarN3 as GrammarPoint[]),
+  ...(grammarN3Part2 as GrammarPoint[]),
+  ...(grammarN3Part3 as GrammarPoint[]),
+];
 
 // ── Session complete screen ───────────────────────────────────
 
@@ -120,7 +130,7 @@ function GrammarSessionContent() {
 
   // Build and start session
   useEffect(() => {
-    let points = grammarData as GrammarPoint[];
+    let points = grammarData;
 
     if (pointId) {
       points = points.filter((p) => p.id === pointId);
