@@ -2,10 +2,11 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Cpu, Menu, X, BookOpen, Bot, BarChart2, Settings, Sword } from "lucide-react";
-import { useState } from "react";
+import { Cpu, Menu, X, BookOpen, Bot, BarChart2, Settings, Sword, Search } from "lucide-react";
+import { useState, useEffect } from "react";
 import { useAppStore } from "@/stores/app-store";
 import { t } from "@/lib/i18n/strings";
+import SearchModal from "@/components/search/SearchModal";
 
 const navLinks = [
   { href: "/", labelKey: "nav.home", icon: BarChart2 },
@@ -18,9 +19,23 @@ const navLinks = [
 export default function Header() {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
   const { locale, setLocale, furiganaEnabled, toggleFurigana } = useAppStore();
 
+  // Global Cmd+K / Ctrl+K shortcut
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => {
+      if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+        e.preventDefault();
+        setSearchOpen((o) => !o);
+      }
+    };
+    window.addEventListener('keydown', handler);
+    return () => window.removeEventListener('keydown', handler);
+  }, []);
+
   return (
+    <>
     <header className="sticky top-0 z-50 border-b border-zinc-800 bg-zinc-950/80 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 gap-4">
         {/* Logo */}
@@ -53,6 +68,17 @@ export default function Header() {
 
         {/* Right controls */}
         <div className="hidden md:flex items-center gap-2">
+          {/* Search button */}
+          <button
+            onClick={() => setSearchOpen(true)}
+            title={locale === 'fr' ? 'Rechercher (⌘K)' : 'Search (⌘K)'}
+            className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-md text-sm text-slate-400 border border-zinc-700 hover:text-slate-200 hover:border-zinc-600 transition-colors"
+          >
+            <Search size={14} />
+            <span className="text-xs hidden lg:inline">{locale === 'fr' ? 'Rechercher' : 'Search'}</span>
+            <kbd className="hidden lg:inline-block text-[10px] text-slate-600 border border-zinc-700 rounded px-1 ml-1">⌘K</kbd>
+          </button>
+
           {/* Furigana toggle */}
           <button
             onClick={toggleFurigana}
@@ -113,6 +139,14 @@ export default function Header() {
             );
           })}
           <div className="flex gap-2 pt-2 border-t border-zinc-800 mt-1">
+            {/* Search — mobile */}
+            <button
+              onClick={() => { setSearchOpen(true); setMobileOpen(false); }}
+              className="flex items-center gap-1.5 rounded-md px-3 py-1.5 text-xs font-semibold border border-zinc-700 text-slate-400"
+            >
+              <Search size={13} />
+              {locale === 'fr' ? 'Chercher' : 'Search'}
+            </button>
             <button
               onClick={toggleFurigana}
               className={`rounded-md px-3 py-1.5 text-xs font-semibold border transition-colors ${
@@ -133,5 +167,8 @@ export default function Header() {
         </div>
       )}
     </header>
+
+    <SearchModal open={searchOpen} onClose={() => setSearchOpen(false)} />
+    </>
   );
 }
