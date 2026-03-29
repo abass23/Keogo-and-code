@@ -1,24 +1,25 @@
 import { NextRequest, NextResponse } from 'next/server';
-import kanjiData from '@/data/n5-kanji.json';
+import n5KanjiData from '@/data/n5-kanji.json';
+import n4KanjiData from '@/data/n4-kanji.json';
 
 type LocalEntry = {
   character: string;
   onyomi: string[];
   kunyomi: string[];
+  meaning_en: string;
   meaning_fr: string;
   jlpt_level: string;
   stroke_count: number;
 };
 
-const localMap = new Map<string, LocalEntry>(
-  (kanjiData as LocalEntry[]).map((k) => [k.character, k]),
-);
+const allLocalKanji = [...(n5KanjiData as LocalEntry[]), ...(n4KanjiData as LocalEntry[])];
+const localMap = new Map<string, LocalEntry>(allLocalKanji.map((k) => [k.character, k]));
 
 export async function GET(_req: NextRequest, { params }: { params: Promise<{ char: string }> }) {
   const { char } = await params;
   const decoded = decodeURIComponent(char);
 
-  // Local first
+  // Local first (N5 + N4)
   const local = localMap.get(decoded);
   if (local) {
     return NextResponse.json({
@@ -32,7 +33,7 @@ export async function GET(_req: NextRequest, { params }: { params: Promise<{ cha
     });
   }
 
-  // Fallback: kanjiapi.dev
+  // Fallback: kanjiapi.dev for N3/N2 and beyond
   try {
     const res = await fetch(`https://kanjiapi.dev/v1/kanji/${encodeURIComponent(decoded)}`, {
       next: { revalidate: 86400 },

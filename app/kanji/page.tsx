@@ -1,10 +1,12 @@
 import Header from "@/components/layout/Header";
 import KanjiCard from "@/components/kanji/KanjiCard";
 import n5KanjiData from "@/data/n5-kanji.json";
+import n4KanjiData from "@/data/n4-kanji.json";
 import type { KanjiEntry } from "@/lib/types";
 
 export default function KanjiPage() {
   const n5Kanji = n5KanjiData as KanjiEntry[];
+  const n4Kanji = n4KanjiData as KanjiEntry[];
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -13,7 +15,7 @@ export default function KanjiPage() {
         <div className="mb-8">
           <h1 className="text-2xl font-bold text-slate-100 mb-1">Kanji</h1>
           <p className="text-slate-400 text-sm">
-            N5 kanji with readings, mnemonics, and example vocabulary.
+            N5 and N4 kanji with readings, mnemonics, and example vocabulary.
           </p>
         </div>
 
@@ -30,14 +32,27 @@ export default function KanjiPage() {
           </div>
         </section>
 
-        {/* Placeholder for N4 */}
+        {/* N4 grid */}
+        <section className="mb-10">
+          <div className="flex items-center gap-3 mb-4">
+            <h2 className="text-sm font-semibold text-slate-300 uppercase tracking-wider">N4</h2>
+            <span className="text-xs text-slate-600">{n4Kanji.length} characters</span>
+          </div>
+          <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10 gap-2">
+            {n4Kanji.map((k) => (
+              <KanjiCard key={k.id} kanji={k} size="sm" />
+            ))}
+          </div>
+        </section>
+
+        {/* N3 placeholder */}
         <section>
           <div className="flex items-center gap-3 mb-4">
-            <h2 className="text-sm font-semibold text-slate-500 uppercase tracking-wider">N4</h2>
+            <h2 className="text-sm font-semibold text-slate-500 uppercase tracking-wider">N3</h2>
             <span className="text-xs text-slate-600">Coming soon</span>
           </div>
           <div className="rounded-xl border border-zinc-800 border-dashed p-8 text-center text-slate-600 text-sm">
-            N4 kanji will be available in the next update.
+            N3 kanji will be available in the next update.
           </div>
         </section>
       </main>
