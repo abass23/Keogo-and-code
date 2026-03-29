@@ -35,26 +35,64 @@ export interface SearchResult {
   audio_url?: string | null;
 }
 
+/** Split a meaning string into individual lowercase words, stripping punctuation */
+function words(s: string): string[] {
+  return s.toLowerCase().split(/[\s,\/\-\(\)\.·]+/).filter(Boolean);
+}
+
+/** True if the query matches at least one whole word in the string */
+function wordMatch(s: string, q: string): boolean {
+  return words(s).some((w) => w === q);
+}
+
+/** True if the query is a prefix of at least one whole word in the string */
+function wordStartsWith(s: string, q: string): boolean {
+  return words(s).some((w) => w.startsWith(q) && w !== q);
+}
+
 function searchLocal(q: string): SearchResult[] {
   const lower = q.toLowerCase().trim();
   if (!lower) return [];
 
-  // Score-based ranking: exact match > starts with > contains
   const scored: Array<{ score: number; item: VocabCard }> = [];
 
   for (const item of ALL_LOCAL) {
-    const en = item.meaning_en.toLowerCase();
-    const fr = item.meaning_fr.toLowerCase();
-    const kj = item.kanji.toLowerCase();
+    const en  = item.meaning_en.toLowerCase();
+    const fr  = item.meaning_fr.toLowerCase();
+    const kj  = item.kanji.toLowerCase();
     const hira = item.hiragana.toLowerCase();
-    const rom = item.romaji.toLowerCase();
+    const rom  = item.romaji.toLowerCase();
 
     let score = 0;
-    if (en === lower || fr === lower || kj === lower || hira === lower || rom === lower) score = 100;
-    else if (en.startsWith(lower) || fr.startsWith(lower)) score = 60;
-    else if (kj.startsWith(lower) || hira.startsWith(lower) || rom.startsWith(lower)) score = 55;
-    else if (en.includes(lower) || fr.includes(lower)) score = 30;
-    else if (kj.includes(lower) || hira.includes(lower) || rom.includes(lower)) score = 25;
+
+    // Tier 1 — exact full-field match (e.g. meaning_en === "water")
+    if (en === lower || fr === lower || kj === lower || hira === lower || rom === lower) {
+      score = 100;
+    }
+    // Tier 2 — whole-word match inside meaning (e.g. "eau" matches "eau" in "l'eau")
+    else if (wordMatch(en, lower) || wordMatch(fr, lower)) {
+      score = 80;
+    }
+    // Tier 3 — whole-word match on kanji/hiragana/romaji
+    else if (wordMatch(rom, lower) || hira.startsWith(lower) || kj.startsWith(lower)) {
+      score = 70;
+    }
+    // Tier 4 — prefix of a whole word in meaning (e.g. "wat" matches "water")
+    else if (wordStartsWith(en, lower) || wordStartsWith(fr, lower)) {
+      score = 50;
+    }
+    // Tier 5 — romaji prefix (e.g. "mizu" matches "mizuumi")
+    else if (rom.startsWith(lower)) {
+      score = 40;
+    }
+    // Tier 6 — substring of kanji/hiragana only (NOT meanings — avoids "eau" in "nouveau")
+    else if (kj.includes(lower) || hira.includes(lower)) {
+      score = 20;
+    }
+    // Tier 7 — substring inside romaji (last resort, low score)
+    else if (rom.includes(lower) && lower.length >= 3) {
+      score = 10;
+    }
 
     if (score > 0) scored.push({ score, item });
   }
