@@ -176,6 +176,15 @@ function GrammarSessionContent() {
     const srs = getSRS(currentItem.grammarPoint.id);
     if (srs.is_ghost) setGhostCount((c) => c + 1);
 
+    // Log to heatmap
+    try {
+      const today = new Date().toDateString();
+      const raw = localStorage.getItem('keogo-review-log');
+      const log: Record<string, number> = raw ? JSON.parse(raw) : {};
+      log[today] = (log[today] ?? 0) + 1;
+      localStorage.setItem('keogo-review-log', JSON.stringify(log));
+    } catch { /* ignore */ }
+
     // Sync to API (fire and forget — offline store handles locally)
     if (mode !== 'cram') {
       fetch('/api/grammar/review', {

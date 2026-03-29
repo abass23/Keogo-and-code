@@ -56,7 +56,10 @@ export default function Header() {
           {/* Furigana toggle */}
           <button
             onClick={toggleFurigana}
-            title={furiganaEnabled ? "Hide furigana" : "Show furigana"}
+            title={furiganaEnabled
+              ? "ふりがな表示中 — クリックで非表示 (Furigana ON — click to hide)"
+              : "ふりがな非表示 — クリックで表示 (Furigana OFF — click to show)"}
+            aria-label={furiganaEnabled ? "Hide furigana" : "Show furigana"}
             className={`rounded-md px-2.5 py-1 text-xs font-semibold border transition-colors ${
               furiganaEnabled
                 ? "bg-cyan-400/10 border-cyan-400/30 text-cyan-400"
