@@ -56,10 +56,10 @@ export function useFlashcards(
 
   // Load progress from IDB/localStorage
   useEffect(() => {
-    getAllCardProgress(userId).then((p) => {
-      setProgress(p);
-      setLoading(false);
-    });
+    getAllCardProgress(userId)
+      .then((p) => { setProgress(p); })
+      .catch(() => { /* IDB unavailable — start with empty progress */ })
+      .finally(() => { setLoading(false); });
   }, [userId]);
 
   const filteredCards = useMemo(() => applyFilter(cards, filter), [cards, filter]);
@@ -111,6 +111,15 @@ export function useFlashcards(
       setSessionXP((prev) => prev + xp);
       addXP(xp);
       if (q >= 3) setCorrectCount((prev) => prev + 1);
+
+      // Log review to localStorage for heatmap
+      try {
+        const today = new Date().toDateString();
+        const raw = localStorage.getItem('keogo-review-log');
+        const log: Record<string, number> = raw ? JSON.parse(raw) : {};
+        log[today] = (log[today] ?? 0) + 1;
+        localStorage.setItem('keogo-review-log', JSON.stringify(log));
+      } catch { /* ignore */ }
 
       const nextIndex = currentIndex + 1;
       if (nextIndex >= queue.length) {

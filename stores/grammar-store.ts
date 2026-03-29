@@ -80,6 +80,7 @@ export const useGrammarStore = create<GrammarState>()(
           type: exerciseType,
           attempts,
           used_hint: usedHint,
+          is_correct: isCorrect,
           is_cram: get().sessionMode === 'cram',
         });
         set((s) => ({
