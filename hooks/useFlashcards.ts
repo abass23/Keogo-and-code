@@ -47,7 +47,7 @@ export function useFlashcards(
   const unlockBadge = useGamificationStore((s) => s.unlockBadge);
 
   const [progress, setProgress] = useState<Record<string, SRSState>>({});
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isRevealed, setIsRevealed] = useState(false);
   const [isSessionComplete, setIsSessionComplete] = useState(false);

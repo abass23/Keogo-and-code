@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useState, useCallback, Suspense } from 'react';
+import { useState, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { X, Ghost, CheckCircle2, RotateCcw } from 'lucide-react';
@@ -121,53 +121,40 @@ function GrammarSessionContent() {
 
   const { locale } = useAppStore();
   const { addXP } = useGamificationStore();
-  const { session, sessionIndex, sessionXP, sessionCorrect, sessionTotal,
-          startSession, advanceSession, endSession, recordAttempt, getSRS } = useGrammarStore();
+  const { recordAttempt, getSRS } = useGrammarStore();
 
-  const [ghostCount, setGhostCount] = useState(0);
-  const [sessionComplete, setSessionComplete] = useState(false);
-  const [timerMode, setTimerMode] = useState(false);
-
-  // Build and start session
-  useEffect(() => {
+  // Compute session synchronously on first render — no loading state
+  const [session] = useState<GrammarSessionItem[]>(() => {
     let points = grammarData;
-
     if (pointId) {
       points = points.filter((p) => p.id === pointId);
-    } else {
-      if (level) points = points.filter((p) => p.jlpt_level === level);
+    } else if (level) {
+      points = points.filter((p) => p.jlpt_level === level);
     }
 
     const items = buildSessionItems(points, getSRS);
-    if (items.length === 0) {
-      setSessionComplete(true);
-      return;
-    }
-
-    // For review mode: only include points that are due or new
-    const filteredItems =
+    const filtered =
       mode === 'review'
         ? items.filter((item) => {
             const srs = getSRS(item.grammarPoint.id);
             return srs.is_learned && new Date(srs.nextReview) <= new Date();
           })
         : mode === 'learn'
-        ? items.filter((item) => {
-            const srs = getSRS(item.grammarPoint.id);
-            return srs.total_reviews === 0;
-          })
-        : items; // cram: all
+        ? items.filter((item) => getSRS(item.grammarPoint.id).total_reviews === 0)
+        : items;
 
-    if (filteredItems.length === 0) {
-      setSessionComplete(true);
-      return;
-    }
+    return filtered.slice(0, 10);
+  });
 
-    // Cap to 10 items per session
-    startSession(filteredItems.slice(0, 10), mode);
-  }, []);
+  const [sessionIndex, setSessionIndex] = useState(0);
+  const [sessionXP, setSessionXP] = useState(0);
+  const [sessionCorrect, setSessionCorrect] = useState(0);
+  const [sessionTotal, setSessionTotal] = useState(0);
+  const [ghostCount, setGhostCount] = useState(0);
+  const [sessionComplete, setSessionComplete] = useState(() => session.length === 0);
+  const [timerMode, setTimerMode] = useState(false);
 
-  const currentItem = session?.[sessionIndex] ?? null;
+  const currentItem = session[sessionIndex] ?? null;
 
   function handleComplete(isCorrect: boolean, attempts: number, usedHint: boolean, xp: number) {
     if (!currentItem) return;
@@ -211,18 +198,24 @@ function GrammarSessionContent() {
       }).catch(() => {});
     }
 
-    // Advance or complete
-    if (session && sessionIndex + 1 >= session.length) {
+    setSessionTotal((t) => t + 1);
+    setSessionCorrect((c) => c + (isCorrect ? 1 : 0));
+    setSessionXP((x) => x + xp);
+
+    if (sessionIndex + 1 >= session.length) {
       setSessionComplete(true);
     } else {
-      advanceSession();
+      setSessionIndex((i) => i + 1);
     }
   }
 
   function handleRestart() {
-    endSession();
     setSessionComplete(false);
+    setSessionIndex(0);
     setGhostCount(0);
+    setSessionXP(0);
+    setSessionCorrect(0);
+    setSessionTotal(0);
     router.refresh();
   }
 
@@ -240,19 +233,7 @@ function GrammarSessionContent() {
     );
   }
 
-  if (!session || !currentItem) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-center space-y-4">
-          <p className="text-slate-400">
-            {locale === 'fr' ? 'Chargement...' : 'Loading...'}
-          </p>
-        </div>
-      </div>
-    );
-  }
-
-  const progress = session.length > 0 ? ((sessionIndex) / session.length) * 100 : 0;
+  const progress = session.length > 0 ? (sessionIndex / session.length) * 100 : 0;
 
   return (
     <div className="min-h-screen flex flex-col max-w-xl mx-auto px-4 py-4">
