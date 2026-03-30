@@ -1,5 +1,6 @@
 'use client';
-import { CheckCircle2, XCircle, Lightbulb, ArrowRight, Volume2 } from 'lucide-react';
+import Link from 'next/link';
+import { CheckCircle2, XCircle, Lightbulb, ArrowRight, Volume2, BookOpen } from 'lucide-react';
 import GrammarFurigana from './GrammarFurigana';
 import type { GrammarPoint, GrammarExercise } from '@/lib/grammar-types';
 import type { Locale } from '@/lib/types';
@@ -132,6 +133,17 @@ export default function FeedbackCard({
             <span className="text-emerald-400 font-jp"><GrammarFurigana text={grammarPoint.common_mistakes[0].correct} /></span>
           </div>
         </div>
+      )}
+
+      {/* Review lesson link (shown on wrong answer) */}
+      {!isCorrect && (
+        <Link
+          href={`/grammar/lesson/${grammarPoint.id}`}
+          className="w-full py-2.5 rounded-xl border border-slate-600/50 bg-slate-800/40 text-slate-300 hover:text-cyan-300 hover:border-cyan-600/40 text-sm font-medium flex items-center justify-center gap-2 transition-colors"
+        >
+          <BookOpen className="w-4 h-4" />
+          {locale === 'fr' ? '📖 Revoir la leçon' : '📖 Review Lesson'}
+        </Link>
       )}
 
       {/* Next button */}

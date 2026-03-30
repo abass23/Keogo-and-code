@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Header from '@/components/layout/Header';
+import LearnNewButton from '@/components/grammar/LearnNewButton';
 import grammarN5N4 from '@/data/grammar-n5-n4.json';
 import grammarN3 from '@/data/grammar-n3.json';
 import grammarN3Part2 from '@/data/grammar-n3-part2.json';
@@ -95,14 +96,7 @@ export default function GrammarDojoPage() {
             <p className="font-semibold text-cyan-300 group-hover:text-cyan-200">SRS Review</p>
             <p className="text-xs text-slate-400 mt-1">Points due for review</p>
           </Link>
-          <Link
-            href="/grammar/session?mode=learn"
-            className="bg-emerald-950/30 border border-emerald-700/30 rounded-2xl p-4 hover:border-emerald-500/50 transition-colors group"
-          >
-            <p className="text-2xl mb-2">✨</p>
-            <p className="font-semibold text-emerald-300 group-hover:text-emerald-200">Learn New</p>
-            <p className="text-xs text-slate-400 mt-1">Introduce new grammar points</p>
-          </Link>
+          <LearnNewButton />
           <Link
             href="/grammar/session?mode=cram&level=N4"
             className="bg-amber-950/30 border border-amber-700/30 rounded-2xl p-4 hover:border-amber-500/50 transition-colors group"
@@ -168,13 +162,26 @@ export default function GrammarDojoPage() {
                       </div>
                       <div className="flex flex-wrap gap-2 pl-5">
                         {catPoints.map((point) => (
-                          <Link
+                          <div
                             key={point.id}
-                            href={`/grammar/session?mode=cram&point=${point.id}`}
-                            className="font-jp text-sm bg-slate-900/60 border border-slate-700/50 text-slate-300 px-3 py-1.5 rounded-lg hover:border-cyan-500/40 hover:text-cyan-300 transition-colors"
+                            className="bg-slate-900/60 border border-slate-700/50 rounded-lg px-3 py-2 flex flex-col gap-1.5"
                           >
-                            {point.pattern}
-                          </Link>
+                            <span className="font-jp text-sm text-slate-300">{point.pattern}</span>
+                            <div className="flex gap-1.5">
+                              <Link
+                                href={`/grammar/lesson/${point.id}`}
+                                className="text-[11px] px-2 py-0.5 rounded bg-slate-800 border border-slate-600/50 text-slate-400 hover:text-cyan-300 hover:border-cyan-600/40 transition-colors flex items-center gap-1"
+                              >
+                                📖 Lesson
+                              </Link>
+                              <Link
+                                href={`/grammar/session?mode=cram&point=${point.id}`}
+                                className="text-[11px] px-2 py-0.5 rounded bg-slate-800 border border-slate-600/50 text-slate-400 hover:text-amber-300 hover:border-amber-600/40 transition-colors flex items-center gap-1"
+                              >
+                                ⚡ Practice
+                              </Link>
+                            </div>
+                          </div>
                         ))}
                       </div>
                     </div>
